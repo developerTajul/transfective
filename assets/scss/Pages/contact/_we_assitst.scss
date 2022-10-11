@@ -1,0 +1,104 @@
+.we-assist {
+    background: #faf7f0;
+
+    .we-assist-list-area {
+
+        .list-item {
+            background: rgba(142, 11, 244, 0.1);
+
+            .icon-area {
+                a {
+                    display: inline-block;
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 50%;
+                    background: $primary_2;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 20px;
+                }
+            }
+
+            .list-details {
+                h4 {
+                    font-size: 28px;
+                    line-height: 34px;
+                    font-weight: 500;
+                    color: $black;
+
+                }
+
+                .list-desc {
+                    p {
+                        font-size: 18px;
+                        line-height: 32px;
+                        color: $textcolor;
+                    }
+                }
+            }
+
+            &.card-style-two {
+                background: rgba(0, 204, 255, 0.1);
+
+                .icon-area {
+                    a {
+                        background: #00CCFF;
+                    }
+                }
+            }
+        }
+
+    }
+
+    // right area
+
+    .we-assitst-right-area {
+        .section-heading {
+            padding-right: 250px;
+
+            h2 {
+                font-size: 40px;
+                line-height: 51px;
+                font-weight: 500;
+                color: $black;
+                text-transform: capitalize;
+            }
+        }
+
+        .form-area {
+
+            input,
+            textarea {
+                border: none;
+                border-bottom: 1px solid #88888823;
+                background: transparent;
+                width: 100%;
+                padding-top: 25px;
+                padding-bottom: 20px;
+
+                &::placeholder {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #CCCCCC;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .we-assist .we-assist-list-area .list-item .list-details h4 {
+        font-size: 22px;
+        line-height: 32px;
+
+    }
+}
+@media screen and (max-width:1200px) {
+    .we-assist .we-assitst-right-area .section-heading {
+        padding-right: 0px;
+    }
+}

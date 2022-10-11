@@ -1,19 +1,21 @@
-.btn {  
-    color: $black;
+.theme-btn{
+    border: none;
+    background:transparent;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
     font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    font-family: $pop;
+    line-height: 27px;
+    padding: 18px 60px;
     border-radius: 10px;
-    transition: all .3s ease;
-    padding: 18.5px 56.12px; 
-    background-color: #FDFCF8; 
-    box-shadow: 3px 4px 0 $dark_black;
-    border: 2px solid $dark_black !important;
-
-    &:hover, &:focus {
-        box-shadow: none;
-        color: $white !important;
-        background-color: $dark_black !important;
+    transition: all ease-in-out 0.3s;
+}
+.theme-shadow-btn{
+    color: #000000;
+    box-shadow: 2px 1px 4px 5px #000e2817,
+    0px 2px 0px 1px #000e2851;
+    &:hover{
+        background: #000000;
+        color: #fff;
     }
 }

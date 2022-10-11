@@ -1,25 +1,42 @@
-.bannar-area__contact{
+.bannar-area__contact {
     background: $coral1;
-    .hero-left-area{
-        h1{
+
+    .hero-left-area {
+        h1 {
             font-weight: 500;
             font-size: 65px;
             line-height: 91px;
             color: $black;
         }
     }
-    .hero-right-area{
+
+    .hero-right-area {
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        .arrow-img{
+
+        .arrow-img {
             transform: translateX(-80px);
         }
-        .star-img{
+
+        .star-img {
             position: absolute;
             top: 0px;
             right: 40%;
         }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .bannar-area__contact .hero-left-area h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+    .bannar-area__contact .hero-left-area h1 {
+        font-size: 45px;
+        line-height: 60px;
     }
 }

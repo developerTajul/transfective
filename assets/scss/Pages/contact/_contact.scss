@@ -1,8 +1,11 @@
 .contact-area {
     background: $coral1;
 
-    .card-style-one-wrapper {
-        border: 3px solid $black;
+    .card-style-one-wrapper,
+    .card-style-two-wrapper {
+        border-left: 3px solid $black;
+        border-top: 3px solid $black;
+        border-bottom: 3px solid $black;
     }
 
     .bordered-card {
@@ -10,6 +13,12 @@
         padding: 16px 20px;
         min-height: 710px;
         position: relative;
+
+        .card-img-top {
+            img {
+                min-height: 300px;
+            }
+        }
 
         .contact-card-body {
             .contact-card-title {
@@ -30,14 +39,16 @@
 
             .contact-card-list {
                 position: absolute;
-                left: 0px;
+                left: 18px;
                 width: 100%;
                 bottom: 30px;
+
                 ul {
                     li {
                         a {
                             text-decoration: none;
                             color: $black;
+                            display: inline-block;
                         }
 
                         &:nth-child(2) {
@@ -52,5 +63,22 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .contact-area .bordered-card {
+        min-height: 677px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .contact-area .bordered-card {
+        min-height: 677px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1004px) {
+    .contact-area .bordered-card {
+        min-height: 650px;
     }
 }
