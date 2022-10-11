@@ -1,29 +1,22 @@
-/*
-  Theme Name: Construction - Clean Construction HTML5 Template
-  Author: nilartstudio
-  Description: Construction  HTML5 Bootstrap 4 template.
+/***
+  Theme Name: transfective | HTML5 Template
+  Author: Spellon
+  Description: transfective | HTML5 Template
   Version: 1.0
 */
 
-/* CSS Index
+/*** CSS Index
 -----------------------------------
 1. Theme default css
-2. header
-3. slider-area
+2. Variable
+3. Mixin - Browser Support 
+4. Common - Global Style
+5. Header 
+6. Footer
 */
+@import 'custom-font'; 
 @import 'variable';
 @import 'common';
+@import 'button';
 @import 'header';
-@import 'slider';
-@import 'heading';
-@import 'about-us';
-@import 'contact';
-@import 'services';
-@import 'portfolio';
-@import 'counter';
-@import 'member';
-@import 'promotion';
-@import 'latest-blog';
-@import 'feature';
-@import 'widgets';
 @import 'footer';

@@ -1,2 +1,22 @@
-$headingFontFamily: 'Nunito Sans', sans-serif;
-$headingFontSize : 40px;
+/*** COLOR */
+$white:#FFF;
+$black:#000; 
+$dark_white:#DDDDDD;
+$dark_black:#000E28; 
+$primary:#0000FF; 
+$primary_1:#00CCFF;
+$primary_2:#EB00FF;
+$primary_3:#8E0BF4;
+$textcolor:#888888;
+
+/*** FONT SIZE */
+$pop: 'Poppins', sans-serif;
+$hel: 'Helvetica Neue LT Std', sans-serif;
+
+/* Custom Class */
+.color-white { color: #fff !important; }
+.color-black { color: #000 !important; }
+.font-pop { font-family: $pop !important; }
+.font-hel { font-family: $hel !important; }
+.fw-500 { font-weight: 500 !important; }
+.fw-600 { font-weight: 600 !important; }
