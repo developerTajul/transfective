@@ -1,0 +1,25 @@
+.bannar-area__contact{
+    background: $coral1;
+    .hero-left-area{
+        h1{
+            font-weight: 500;
+            font-size: 65px;
+            line-height: 91px;
+            color: $black;
+        }
+    }
+    .hero-right-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .arrow-img{
+            transform: translateX(-80px);
+        }
+        .star-img{
+            position: absolute;
+            top: 0px;
+            right: 40%;
+        }
+    }
+}
