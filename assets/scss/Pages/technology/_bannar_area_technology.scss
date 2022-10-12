@@ -1,0 +1,25 @@
+.bannar-area.bannar-area__technology {
+    background: #faf7f0;
+    .hero-left-area {
+        position: relative;
+
+        .stretch-rope {
+            position: absolute;
+            top: 98px;
+            left: 38%;
+        }
+
+    }
+
+    .hero-contents {
+        p {
+            color: #727272 !important;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+        }
+
+        border-left: 4px solid #8E0BF4;
+  
+    }
+}
