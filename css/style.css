@@ -616,16 +616,20 @@ label {
 .integration-area .image-area {
   position: relative;
 }
-.integration-area .image-area .postion-img {
+.integration-area .image-area .position-img {
   position: absolute;
 }
-.integration-area .image-area .postion-img.globe {
-  bottom: 259px;
+.integration-area .image-area .position-img.globe {
+  bottom: 4px;
   left: -118px;
 }
-.integration-area .image-area .postion-img.arrow {
-  bottom: 300px;
-  left: -50px;
+.integration-area .image-area .position-img.arrow {
+  bottom: 195px;
+  left: -20px;
+}
+.integration-area .image-area .position-img.star {
+  right: -54px;
+  top: 54px;
 }
 
 .scroll-down .header:not(.sticky) {

@@ -10,16 +10,22 @@
     .image-area {
         position: relative;
 
-        .postion-img {
+        .position-img {
             position: absolute;
 
             &.globe {
-                bottom: 259px;
+                bottom: 4px;
                 left: -118px;
             }
-            &.arrow{
-                bottom: 300px;
-                left: -50px;
+
+            &.arrow {
+                bottom: 195px;
+                left: -20px;
+            }
+
+            &.star {
+                right: -54px;
+                top: 54px;
             }
         }
     }
