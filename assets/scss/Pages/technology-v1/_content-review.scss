@@ -1,0 +1,59 @@
+.content-review {
+    background: $content-review;
+
+    .content-card {
+        border: 3px solid #000000;
+
+        .content-title {
+            h5 {
+                font-size: 26px;
+                line-height: 36px;
+            }
+        }
+
+        .content-desc {
+            p {
+                color: #2B3240;
+            }
+        }
+
+
+    }
+
+    .content-review-right {
+        .content-review-title {
+            h2 {
+                font-weight: 500;
+                font-size: 54px;
+                line-height: 110px;
+                color: #000e28;
+            }
+        }
+
+        .content-review-desc {
+            p {
+                font-size: 18px;
+                line-height: 32px;
+                color: #2B3240;
+            }
+        }
+
+    }
+
+}
+
+.content-review-cards {
+    .content-card-one {
+        background: $content-review-card-one;
+
+        .content-title {
+            color: $black;
+        }
+
+        .content-desc {
+            p {
+                color: $textcolor;
+            }
+        }
+    }
+}

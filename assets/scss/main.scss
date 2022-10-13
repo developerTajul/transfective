@@ -27,5 +27,14 @@
 // technology page
 @import './pages/technology/bannar_area_technology';
 @import './pages/technology/our_solutions';
+
+// technology page version 1
+
+@import './Pages/technology-v1/technology-bannar';
+@import './Pages/technology-v1/our_solution_1';
+@import './Pages/technology-v1/machine_area';
+@import './pages/technology-v1/content-review';
+@import './Pages/technology-v1/integration';
+
 @import 'header';
 @import 'footer';

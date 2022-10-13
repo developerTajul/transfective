@@ -1,0 +1,15 @@
+.technology-bannar-style-1 {
+    background: $technology-v1-bg !important;
+
+    .bannar-area.bannar-area__technology .hero-contents {
+        margin-left: 48px;
+    }
+    .hero-right-area{
+        position: relative;
+        .arrow-img{
+            position: absolute;
+            top: 0px;
+            right: 100px;
+        }
+    }
+}

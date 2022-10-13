@@ -1,0 +1,29 @@
+.machine-area {
+    background: $primary_1;
+    border-top: 4px solid #000e28;
+    border-bottom: 4px solid #000e28;
+
+    .machine-left-area {
+        position: relative;
+
+        .machine-title {
+            h2 {
+                font-weight: 500;
+                font-size: 54px;
+
+            }
+        }
+
+        .machine-desc {
+            p {
+                color: #2B3240 !important;
+            }
+        }
+
+        .machine-arrow {
+            position: absolute;
+            top: 125px;
+            left: -93px;
+        }
+    }
+}

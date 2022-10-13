@@ -1,0 +1,26 @@
+.integration-area {
+    background: $integration-area;
+
+    .section-title {
+        h2 {
+            font-size: 56px;
+        }
+    }
+
+    .image-area {
+        position: relative;
+
+        .postion-img {
+            position: absolute;
+
+            &.globe {
+                bottom: 259px;
+                left: -118px;
+            }
+            &.arrow{
+                bottom: 300px;
+                left: -50px;
+            }
+        }
+    }
+}
