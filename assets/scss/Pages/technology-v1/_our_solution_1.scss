@@ -88,9 +88,152 @@
                 position: absolute;
                 bottom: 47px;
                 left: -29px;
-                .star-area{
+
+                .star-area {
                     margin-top: -100px;
                 }
+            }
+        }
+    }
+}
+
+// our solution start
+@media screen and (min-width:320px) and (max-width:575px) {
+    .our-solutions .our-solutions-heading h2 {
+        font-size: 41px;
+        line-height: 54px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .our-solutions.our-solution-style-1 {
+        .left-vector-img {
+            display: none;
+        }
+
+        .right-vector-img {
+            display: none;
+        }
+    }
+
+    .our-solutions.our-solution-style-1 .translation-memory .img-area .vector-img {
+        top: 218px;
+        left: -28px;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .glossary-management {
+        .vector-img-one {
+            margin-left: 40px;
+
+            img {
+                width: 150px;
+            }
+        }
+
+        .vector-image-two {
+
+            img {
+                width: 150px;
+            }
+
+
+        }
+
+
+    }
+
+    .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-image-two {
+        position: absolute;
+        top: 20px;
+        right: -120px;
+    }
+
+    .cat-tools {
+        .vector-img {
+            margin-top: 50px;
+
+            img {
+                width: 160px;
+            }
+
+            .star-area {
+                img {
+                    width: 80px;
+                }
+            }
+        }
+    }
+
+    .our-solutions.our-solution-style-1 .cat-tools .img-area .vector-img {
+        left: 0px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .our-solutions .our-solutions-heading h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .our-solutions.our-solution-style-1 .translation-memory .img-area {
+        margin-top: 50px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .left-vector-img {
+        display: none;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .right-vector-img {
+        display: none;
+    }
+
+    .our-solutions.our-solution-style-1 h3 {
+        font-size: 29px;
+        line-height: 40px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:992px) {
+    .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .left-vector-img {
+        display: none;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .right-vector-img {
+        display: none;
+    }
+
+    .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-img-one {
+        left: -106px;
+
+        img {
+            width: 150px;
+        }
+    }
+
+    .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-image-two {
+        right: -85px;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .our-solutions.our-solution-style-1 .cat-tools .img-area .vector-img {
+        img{
+            width: 170px;
+        }
+        left: 0px;
+        .star-area{
+            img{
+                width: 80px;
             }
         }
     }

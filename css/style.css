@@ -61,7 +61,8 @@ body {
 }
 
 a,
-.button, button {
+.button,
+button {
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -216,6 +217,32 @@ label {
   background-color: #133460;
 }
 
+@media all and (min-width: 320px) and (max-width: 575px) {
+  h3 {
+    font-size: 29px;
+    line-height: 20px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media all and (min-width: 576px) and (max-width: 767px) {
+  h3 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  h3 {
+    font-size: 37px;
+    line-height: 47px;
+  }
+}
 .theme-btn {
   border: none;
   background: transparent;
@@ -468,6 +495,7 @@ label {
 }
 .technology-bannar-style-1 {
   background: #EFDFF0 !important;
+  border-bottom: 4px solid #000E28;
 }
 .technology-bannar-style-1 .bannar-area.bannar-area__technology .hero-contents {
   margin-left: 48px;
@@ -481,6 +509,67 @@ label {
   right: 100px;
 }
 
+@media all and (min-width: 320px) and (max-width: 575px) {
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-contents p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-left-area h1 {
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-left-area .stretch-rope {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-right-area .arrow-img {
+    display: none;
+  }
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-right-area .star-img {
+    display: none;
+  }
+}
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-left-area h1 {
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-left-area .stretch-rope {
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-right-area .arrow-img {
+    display: none;
+  }
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-right-area .star-img {
+    display: none;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-left-area .stretch-rope {
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-right-area .arrow-img {
+    top: -74px;
+    right: 7px;
+  }
+  .bannar-area.bannar-area__technology.technology-bannar-style-1 .hero-right-area .star-img {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .technology-bannar-style-1 .hero-right-area .arrow-img {
+    top: 22px;
+    right: 49px;
+  }
+}
 .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
   font-size: 18px;
   margin-left: 10px;
@@ -551,6 +640,104 @@ label {
   margin-top: -100px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .our-solutions .our-solutions-heading h2 {
+    font-size: 41px;
+    line-height: 54px;
+  }
+  .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .our-solutions.our-solution-style-1 .left-vector-img {
+    display: none;
+  }
+  .our-solutions.our-solution-style-1 .right-vector-img {
+    display: none;
+  }
+  .our-solutions.our-solution-style-1 .translation-memory .img-area .vector-img {
+    top: 218px;
+    left: -28px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 43px;
+  }
+  .glossary-management .vector-img-one {
+    margin-left: 40px;
+  }
+  .glossary-management .vector-img-one img {
+    width: 150px;
+  }
+  .glossary-management .vector-image-two img {
+    width: 150px;
+  }
+  .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-image-two {
+    position: absolute;
+    top: 20px;
+    right: -120px;
+  }
+  .cat-tools .vector-img {
+    margin-top: 50px;
+  }
+  .cat-tools .vector-img img {
+    width: 160px;
+  }
+  .cat-tools .vector-img .star-area img {
+    width: 80px;
+  }
+  .our-solutions.our-solution-style-1 .cat-tools .img-area .vector-img {
+    left: 0px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .our-solutions .our-solutions-heading h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .our-solutions.our-solution-style-1 .translation-memory .img-area {
+    margin-top: 50px;
+  }
+  .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .left-vector-img {
+    display: none;
+  }
+  .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .right-vector-img {
+    display: none;
+  }
+  .our-solutions.our-solution-style-1 h3 {
+    font-size: 29px;
+    line-height: 40px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .left-vector-img {
+    display: none;
+  }
+  .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .right-vector-img {
+    display: none;
+  }
+  .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-img-one {
+    left: -106px;
+  }
+  .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-img-one img {
+    width: 150px;
+  }
+  .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-image-two {
+    right: -85px;
+  }
+  .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-image-two img {
+    width: 100px;
+  }
+  .our-solutions.our-solution-style-1 .cat-tools .img-area .vector-img {
+    left: 0px;
+  }
+  .our-solutions.our-solution-style-1 .cat-tools .img-area .vector-img img {
+    width: 170px;
+  }
+  .our-solutions.our-solution-style-1 .cat-tools .img-area .vector-img .star-area img {
+    width: 80px;
+  }
+}
 .machine-area {
   background: #00CCFF;
   border-top: 4px solid #000e28;
