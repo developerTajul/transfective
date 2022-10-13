@@ -14,6 +14,7 @@ mr: margin-right
 mb: margin-bottom
 
 */
+
 .mt-5 {
   margin-top: 5px;
 }
@@ -1428,6 +1429,9 @@ responsive css
 sm device
 */
 @media all and (min-width: 576px) and (max-width: 767px) {
+  .pl-sm-0{
+    padding-left: 0px !important;
+  }
   .mt-sm-5 {
     margin-top: 5px;
   }
@@ -2842,6 +2846,9 @@ responsive css
 md device
 */
 @media all and (min-width: 768px) and (max-width: 991px) {
+  .pl-md-0{
+    padding-left: 0px !important;
+  }
   .mt-md-5 {
     margin-top: 5px;
   }
@@ -4255,6 +4262,9 @@ responsive css
 lg device
 */
 @media all and (min-width: 992px) and (max-width: 1199px) {
+  .pl-lg-0{
+    padding-left: 0px !important;
+  }
   .mt-lg-5 {
     margin-top: 5px;
   }
@@ -8489,6 +8499,10 @@ xs device
   .pr-xs-220 {
     padding-right: 220px;
   }
+  .pl-xs-0{
+    padding-left: 0px !important;
+  }
+  
 }
 /*
 

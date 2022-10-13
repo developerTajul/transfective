@@ -57,3 +57,48 @@
         }
     }
 }
+
+@media screen and (max-width:575px) {
+    .content-review .content-review-right .content-review-title h2 {
+
+        font-size: 25px;
+        line-height: 35px;
+
+    }
+
+    .content-review .content-card .content-title h5 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .content-review .content-card .content-title h5 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .content-review .content-review-right .content-review-title h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .content-review .content-review-right .content-review-title h2 {
+        font-size: 28px;
+        line-height: 54px;
+    }
+
+    .content-review .content-review-right .content-review-title h2 {
+        font-size: 45px;
+        line-height: 82px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .content-review .content-review-right .content-review-title h2 {
+    
+        font-size: 35px;
+        line-height: 66px;
+   
+    }
+}
