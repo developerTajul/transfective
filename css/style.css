@@ -372,6 +372,47 @@ label {
   color: #fff;
 }
 
+.our-process .our-process-title h2 {
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 78px;
+  color: #000E28;
+}
+.our-process .our-process-subtitle p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #888888;
+}
+
+.bg-need-project {
+  background: #00CCFF;
+}
+
+.need-project .need-project-title h3 {
+  font-size: 48px;
+  line-height: 64px;
+  color: #000E28;
+}
+.need-project .need-project-desc p {
+  color: #555555;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.core-value .core-value-top .core-value-title h2 {
+  font-size: 65px;
+  line-height: 78px;
+  font-weight: 500;
+  color: #000E28;
+}
+.core-value .core-value-top .core-value-subtitle p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #888888;
+}
+
 .bannar-area__contact {
   background: #faf7f0;
 }
