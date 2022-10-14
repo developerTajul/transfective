@@ -4,6 +4,8 @@
 
 
 		// slick slider
+
+		// industrial hero tab slider
 		$('#industriesTab').slick({
 			dots: false,
 			infinite: false,
@@ -14,6 +16,17 @@
 
 		});
 
+		// services hero tab slider
+
+		$('#servicesTab').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 3,
+			arrows: false,
+			variableWidth: true,
+
+		});
 
 		/*** Sticky header */
 		$(window).scroll(function () {

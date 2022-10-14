@@ -1018,6 +1018,56 @@ label {
   color: #8E0BF4;
 }
 
+.services-tab-content .tab-content-title h2 {
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 91px;
+  color: #000E28;
+}
+.services-tab-content .tab-content-right {
+  position: relative;
+}
+.services-tab-content .tab-content-right .arrow {
+  margin-left: 250px;
+}
+.services-tab-content .tab-content-right .star {
+  position: absolute;
+  top: -50px;
+  left: 60%;
+}
+.services-tab-content .tab-content-desc p {
+  color: #727272;
+}
+.services-tab-content .tab-content-list ul li {
+  padding-left: 40px;
+  position: relative;
+}
+.services-tab-content .tab-content-list ul li::before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: "Font Awesome 6 Free";
+  content: "\f061";
+  font-weight: 700;
+  color: #8E0BF4;
+}
+.services-tab-content .tab-content-img {
+  position: relative;
+}
+.services-tab-content .tab-content-img .globe-1 {
+  position: absolute;
+  bottom: 25%;
+  left: -40px;
+}
+.services-tab-content .tab-content-right-area {
+  position: relative;
+}
+.services-tab-content .tab-content-right-area .globe-img {
+  position: absolute;
+  bottom: 10%;
+  right: 30%;
+}
+
 .scroll-down .header:not(.sticky) {
   transform: translate3d(0, -100%, 0);
 }
