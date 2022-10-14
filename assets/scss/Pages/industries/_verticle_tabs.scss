@@ -1,0 +1,40 @@
+.insdustries-verticle-tabs-area{
+    .tabs-area{
+        border: 4px solid #000E28;
+        .tab-btn-area{
+            background: #00CCFF;
+            padding: 48px 30px;
+            .nav-link{
+                text-align: left;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 46px;
+                text-transform: capitalize;
+                color: rgba(0, 0, 0, 0.7);
+                border: 2px solid #000E28;
+                margin-bottom: 40px;
+                background: #b1eefa;
+            }
+        }
+    }
+    .verticle-tab-content{
+        padding: 0px 50px;
+        .tab-content-list{
+            ul{
+                li{
+                    padding-left: 40px;
+                    position: relative;
+                    &::before{
+                        position: absolute;
+                        top:0px;
+                        left: 0px;
+                        font-family: 'Font Awesome 6 Free';
+                        content: '\f061';
+                        font-weight: 700;
+                        color: #8E0BF4;
+                    }
+                }
+            }
+        }
+    }
+}
