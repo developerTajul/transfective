@@ -1,0 +1,56 @@
+.who-we{
+
+    .section-top{
+            background-color: $dark-black;
+        h2{
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 65px;
+            line-height: 78px;
+            position: relative;
+            &::before{
+                position: absolute;
+                top: 0px;
+                left: 20%;
+                content: "\f005";
+                font-family: 'Font Awesome 6 Free';
+                font-weight: 700;
+                color: #00CCFF;
+            }
+            &::after{
+                position: absolute;
+                top: 0px;
+                right: 20%;
+                content: "\f005";
+                font-family: 'Font Awesome 6 Free';
+                font-weight: 700;
+                color: #00CCFF;
+            }
+        }
+    }
+}
+
+.main-area{
+    background: #8E0BF4;
+    .main-area-subtitle{
+        padding: 0px 60px;
+        text-align: center;
+        p{
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 63px;
+            color: #fff;
+        }
+    }
+    .main-area-img{
+        background: #fff;
+    }
+    .main-area-desc{
+        padding: 0px 20px;
+        p{
+            font-size: 24px;
+            line-height: 40px;
+            color: #fff;
+        }
+    }
+}

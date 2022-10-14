@@ -18,6 +18,10 @@
 @import 'variable';
 @import 'common';
 @import 'button';
+
+// home page
+@import './Pages/home/bannar';
+@import './Pages/home/whoWe';
 // contact page start
 @import './Pages/contact/bannar_area_contact';
 @import './Pages/contact/contact';

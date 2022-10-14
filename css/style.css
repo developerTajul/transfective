@@ -271,6 +271,107 @@ label {
   color: #fff;
 }
 
+.home-bannar-area {
+  padding-top: 115px;
+}
+.home-bannar-area .bannar-area-title h1 {
+  text-transform: capitalize;
+  font-size: 66px;
+  line-height: 86px;
+}
+.home-bannar-area .bannar-area-right {
+  position: relative;
+}
+.home-bannar-area .bannar-area-right .arrow {
+  position: absolute;
+  top: -50px;
+  left: 0px;
+}
+.home-bannar-area .bannar-area-right .star {
+  position: absolute;
+  top: -140px;
+  left: 100px;
+}
+.home-bannar-area .bannar-bottom-area .circle-img {
+  position: relative;
+}
+.home-bannar-area .bannar-bottom-area .circle-img img {
+  position: absolute;
+  top: -80px;
+  left: -70px;
+}
+.home-bannar-area .bannar-bottom-area .hero-content {
+  border-left: 5px solid #8E0BF4;
+  padding-left: 10px;
+}
+.home-bannar-area .bannar-bottom-area .right-img {
+  position: relative;
+}
+.home-bannar-area .bannar-bottom-area .right-img .circle-img {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+}
+.home-bannar-area .bannar-bottom-area .right-img .down-icon {
+  position: absolute;
+  right: 0px;
+  top: -10px;
+}
+
+.who-we .section-top {
+  background-color: #000E28;
+}
+.who-we .section-top h2 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 65px;
+  line-height: 78px;
+  position: relative;
+}
+.who-we .section-top h2::before {
+  position: absolute;
+  top: 0px;
+  left: 20%;
+  content: "\f005";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 700;
+  color: #00CCFF;
+}
+.who-we .section-top h2::after {
+  position: absolute;
+  top: 0px;
+  right: 20%;
+  content: "\f005";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 700;
+  color: #00CCFF;
+}
+
+.main-area {
+  background: #8E0BF4;
+}
+.main-area .main-area-subtitle {
+  padding: 0px 60px;
+  text-align: center;
+}
+.main-area .main-area-subtitle p {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 63px;
+  color: #fff;
+}
+.main-area .main-area-img {
+  background: #fff;
+}
+.main-area .main-area-desc {
+  padding: 0px 20px;
+}
+.main-area .main-area-desc p {
+  font-size: 24px;
+  line-height: 40px;
+  color: #fff;
+}
+
 .bannar-area__contact {
   background: #faf7f0;
 }
@@ -1110,7 +1211,7 @@ label {
   font-size: 18px;
 }
 .header-area .main-menu-area .primary-menu ul li a:hover {
-  color: #fff;
+  color: #000E28;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown {
   position: relative;
@@ -1251,6 +1352,9 @@ label {
   border-bottom: 1px solid rgba(255, 255, 255, 0.045);
   margin-left: 0px;
   padding: 10px 20px;
+}
+.header-area .mobile-menu-area .primary-menu ul li a:hover {
+  color: white;
 }
 .header-area .mobile-menu-area .primary-menu ul li ul {
   margin-left: 10px;
