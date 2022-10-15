@@ -1592,11 +1592,6 @@ label {
 .footer-area {
   background-color: #000E28;
 }
-@media screen and (max-width: 480px) {
-  .footer-area .row > [class*=col-6] {
-    width: 100% !important;
-  }
-}
 .footer-area__widget {
   margin-bottom: 40px;
 }
@@ -1607,7 +1602,7 @@ label {
 }
 .footer-area__widget.widget_nav_menu ul li a {
   font-size: 16px;
-  color: #BCBCBC;
+  color: #DDDDDD;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
   position: relative;
@@ -1622,104 +1617,27 @@ label {
   height: 3px;
   content: "";
   position: absolute;
-  background-color: #BCBCBC;
   transform: scaleX(0);
   transition: all 0.3s ease;
+  background-color: #DDDDDD;
 }
 .footer-area__widget.widget_nav_menu ul li a:hover:before, .footer-area__widget.widget_nav_menu ul li a:focus:before {
   transform: scaleX(1);
 }
-@media screen and (min-width: 481px) {
-  .footer-area__widget.widget_nav_menu.max-menu {
-    max-width: 230px;
-    margin-left: auto;
-  }
-}
-.footer-area__widget-info .logo {
-  max-width: 135px;
-}
 .footer-area__widget-info .description p {
-  color: #BCBCBC;
-}
-@media screen and (max-width: 767px) {
-  .footer-area__widget-info .form {
-    width: 100%;
-  }
+  color: #DDDDDD;
 }
 .footer-area__widget-info .form-group {
-  width: 381px;
-  max-width: 100%;
   position: relative;
 }
-@media screen and (max-width: 900px) {
-  .footer-area__widget-info .form-group {
-    width: 311px;
-  }
+.footer-area__widget-info .form-group input {
+  width: 100%;
 }
-@media screen and (max-width: 767px) {
-  .footer-area__widget-info .form-group {
-    width: 100%;
-  }
-}
-.footer-area__widget-info .form-group input[type=email] {
-  padding-right: 145px !important;
-}
-@media screen and (max-width: 991px) {
-  .footer-area__widget-info .form-group input[type=email] {
-    padding-right: 130px !important;
-  }
-}
-.footer-area__widget-info .form-group input[type=submit], .footer-area__widget-info .form-group .btn {
+.footer-area__widget-info .form-group input[type=submit],
+.footer-area__widget-info .form-group .btn {
   right: 6px;
   position: absolute;
   top: calc(50% - 25px);
-}
-.footer-area__bottom-wrapper {
-  gap: 10px;
-  border-top: 1px solid #FFF;
-}
-.footer-area__bottom-copy p {
-  color: #9C9C9C;
-}
-.footer-area__bottom-copy p a {
-  color: #FFF;
-}
-.footer-area__bottom-copy p a:hover {
-  color: #9C9C9C;
-  text-decoration: underline;
-}
-
-.social-profile ul {
-  gap: 15px;
-  flex-wrap: wrap;
-  display: inline-flex;
-  justify-content: center;
-}
-@media screen and (max-width: 575px) {
-  .social-profile ul {
-    padding: 5px 0;
-  }
-}
-.social-profile ul li {
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  border-radius: 4px;
-  background-color: #130E10;
-  transition: all 0.3s ease;
-}
-.social-profile ul li a {
-  color: #FFF;
-  display: block;
-  font-size: 20px;
-}
-.social-profile ul li:hover, .social-profile ul li:focus {
-  background: #FFF;
-  transform: translate(0, -5px);
-}
-.social-profile ul li:hover a, .social-profile ul li:focus a {
-  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
