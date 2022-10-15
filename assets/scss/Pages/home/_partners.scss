@@ -1,0 +1,32 @@
+.partner-area{
+    background: $primary_1;
+    .partner-title{
+        h2{
+            font-weight: 500;
+            font-size: 65px;
+            line-height: 84px;
+            color: #000000;
+        }
+    }
+    .partner-desc{
+        p{
+            color: #000000;
+        }
+    }
+    .brands-area{
+        ul{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            li{
+                margin: 10px 0px;
+                a{
+                    img{
+                        width: 180px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
