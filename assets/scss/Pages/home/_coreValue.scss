@@ -1,18 +1,20 @@
-.bg-core-value{
+.bg-core-value {
     background: #faf7f0;
 }
-.core-value{
-    .core-value-top{
-        .core-value-title{
-            h2{
+
+.core-value {
+    .core-value-top {
+        .core-value-title {
+            h2 {
                 font-size: 65px;
                 line-height: 78px;
                 font-weight: 500;
                 color: #000E28;
             }
         }
-        .core-value-subtitle{
-            p{
+
+        .core-value-subtitle {
+            p {
                 font-weight: 400;
                 font-size: 24px;
                 line-height: 36px;
@@ -21,9 +23,10 @@
         }
     }
 }
-.core-text-content{
-    .core-text-content-title{
-        h4{
+
+.core-text-content {
+    .core-text-content-title {
+        h4 {
             font-weight: 500;
             font-size: 52px;
             line-height: 72px;
@@ -31,8 +34,9 @@
             text-transform: capitalize;
         }
     }
-    .core-text-content-desc{
-        p{
+
+    .core-text-content-desc {
+        p {
             font-weight: 400;
             font-size: 18px;
             line-height: 36px;
@@ -41,11 +45,14 @@
     }
 }
 
-.bordered-card{
+.bordered-card {
     border: 2px solid $black;
-    padding: 32px 25px ;
-    .bordered-card-top{
-        h5{
+    padding: 32px 25px;
+    min-height: 400px;
+    position: relative;
+
+    .bordered-card-top {
+        h5 {
             font-weight: 500;
             font-size: 28px;
             line-height: 33px;
@@ -53,16 +60,21 @@
             text-transform: capitalize;
         }
     }
-    .bordered-card-body{
-        p{
+
+    .bordered-card-body {
+        p {
             font-size: 18px;
             font-weight: 400;
             line-height: 32px;
             color: #888888;
         }
     }
-    .author{
-        a{
+
+    .author {
+        position: absolute;
+        bottom: 30px;
+
+        a {
             text-decoration: none;
             font-weight: 500;
             font-size: 18px;
@@ -71,26 +83,119 @@
             color: #000E28;
             display: block;
             position: relative;
-            &::before{
+
+            &::before {
                 position: absolute;
                 content: "";
                 top: 17px;
                 height: 6px;
-                width:110px;
-                background:#00ccff81;
-                z-index: -1
-                ;
+                width: 150px;
+                background: #00ccff81;
+                z-index: 1;
             }
         }
     }
 }
 
-.top-border-card{
-    .col-6{
-        &:nth-child(2){
-            .bordered-card{
-                border-left:none;
+.top-border-card {
+    .col-6 {
+        &:nth-child(2) {
+            .bordered-card {
+                border-left: none;
             }
         }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .core-value .core-value-top .core-value-title h2 {
+        font-size: 36px;
+        line-height: 43px;
+        text-align: left;
+    }
+
+    .core-value .core-value-top .core-value-subtitle p {
+        font-size: 22px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .core-text-content .core-text-content-title h4 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .bordered-card {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .core-value .core-value-top .core-value-title h2 {
+        font-size: 36px;
+        line-height: 43px;
+        text-align: left;
+    }
+
+    .core-value .core-value-top .core-value-subtitle p {
+        font-size: 22px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .core-text-content .core-text-content-title h4 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .bordered-card {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .core-value .core-value-top .core-value-title h2 {
+        font-size: 42px;
+        line-height: 37px;
+
+    }
+
+    .core-text-content .core-text-content-title h4 {
+
+        font-size: 24px;
+        line-height: 34px;
+
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .core-text-content .core-text-content-title h4 {
+        font-size: 36px;
+        line-height: 46px;
+
+    }
+
+    .core-text-content .core-text-content-desc p {
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+    .bordered-card .bordered-card-body p {
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+    .bordered-card .bordered-card-top h5 {
+
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+
+    .bordered-card {
+        min-height: 440px;
+
     }
 }

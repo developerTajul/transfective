@@ -1,19 +1,33 @@
-.bg-need-project{
+.bg-need-project {
     background: #00CCFF;
 }
-.need-project{
-    .need-project-title{
-        h3{
+
+.need-project {
+    .need-project-title {
+        h3 {
             font-size: 48px;
             line-height: 64px;
             color: #000E28;
         }
     }
-    .need-project-desc{
-        p{
+
+    .need-project-desc {
+        p {
             color: #555555;
             font-size: 18px;
             line-height: 32px;
         }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .need-project .need-project-title h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .need-project .need-project-desc p {
+        font-size: 16px;
+        line-height: 26px;
     }
 }

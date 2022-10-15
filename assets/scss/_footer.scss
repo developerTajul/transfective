@@ -2,13 +2,6 @@
 .footer-area {
     background-color: $dark_black;
 
-    // .row >[class*="col-6"] {
-
-    //     @media screen  and (max-width: 480px) { 
-    //         width: 100% !important;
-    //     }
-    // }
-
     &__widget {
         margin-bottom: 40px;
 
@@ -65,84 +58,88 @@
             }
 
             .form {
-               
+
                 &-group {
                     position: relative;
-                    input{
+
+                    input {
                         width: 100%;
+                        height: 50px;
+                        padding-left: 10px;
+                        border-radius: 10px;
+                        border: none;
+                        outline: none;
+
+                        &::placeholder {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 27px;
+                            color: #cccccc;
+                            text-transform: capitalize;
+                        }
                     }
-                 
-                    input[type="submit"],
-                    .btn {
-                        right: 6px;
+
+                    button {
                         position: absolute;
-                        top: calc(50% - 25px);
+                        right: 0px;
+                        top: 0px;
+                        background: #8E0BF4;
+                        color: #fff;
+                        height: 50px;
+                        padding: 0px 30px;
+                        font-size: 18px;
+                        border-top-left-radius: 0px;
+                        border-bottom-left-radius: 0px;
+
+                        &:hover {
+                            background: #8E0BF4;
+                            opacity: 0.6;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    // socila profile
+
+    .social-profile {
+        ul {
+            display: flex;
+
+            li {
+                a {
+                    height: 44px;
+                    width: 44px;
+                    border-radius: 50%;
+                    color: #fff;
+                    border: 1px solid #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    margin-right: 40px;
+                    &:hover{
+                        background: #fff;
+                        color: #8E0BF4;
                     }
                 }
             }
         }
     }
 
-    // &__bottom {
-
-    //     &-wrapper {
-    //         gap: 10px;
-    //         border-top: 1px solid $white;
-    //     }
-
-    //     &-copy {
-
-    //         p {
-    //             color: #9C9C9C;
-
-    //             a {
-    //                 color: $white;
-
-    //                 &:hover {
-    //                     color: #9C9C9C;
-    //                     text-decoration: underline;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background:rgba(128, 128, 128, 0.116)
 }
 
-// .social-profile { 
-
-//     ul {
-//         gap: 15px;
-//         flex-wrap: wrap;
-//         display: inline-flex;
-//         justify-content: center;
-
-//         @media screen and (max-width: 575px) { 
-//             padding: 5px 0;
-//         }
-
-//         li {  
-//             width: 35px;
-//             height: 35px;
-//             line-height: 35px;
-//             text-align: center;
-//             border-radius: 4px;
-//             background-color: #130E10;
-//             transition: all .3s ease;
-
-//             a { 
-//                 color: $white; 
-//                 display: block;
-//                 font-size: 20px;    
-//             }
-
-//             &:hover, &:focus {
-//                 background: $white;
-//                transform: translate(0, -5px);
-
-//                 a {
-//                     color: $black;
-//                 }
-//             }
-//         }
-//     }
-// }
+@media screen and (max-width:575px) {
+    .footer-area__widget{
+        .title{
+            margin-bottom: 20px;
+        }
+    }
+}

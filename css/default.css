@@ -7092,6 +7092,9 @@ responsive css
 xs device
 */
 @media all and (max-width: 575px) {
+  .mt-xs-0{
+    margin-top: 0px !important;
+  }
   .mt-xs-5 {
     margin-top: 5px;
   }

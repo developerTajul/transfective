@@ -1,18 +1,41 @@
-.our-process{
-    .our-process-title{
-        h2{
+.our-process {
+    .our-process-title {
+        h2 {
             font-weight: 500;
             font-size: 65px;
             line-height: 78px;
             color: #000E28;
         }
     }
-    .our-process-subtitle{
-        p{
+
+    .our-process-subtitle {
+        p {
             font-weight: 400;
             font-size: 24px;
             line-height: 36px;
             color: #888888;
         }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .our-process .our-process-title h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .our-process-right {
+        display: none;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .our-process .our-process-title h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .our-process-right {
+        display: none;
     }
 }
