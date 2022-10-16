@@ -7,6 +7,14 @@
             font-size: 66px;
             line-height: 86px;
         }
+
+        position: relative;
+
+        .arrow-shape {
+            position: absolute;
+            top: 166px;
+            left: 0px;
+        }
     }
 
     .bannar-area-right {
@@ -14,15 +22,22 @@
 
         .arrow {
             position: absolute;
-            top: -50px;
-            left: 0px;
+            top: -32px;
+            left: 27px;
         }
 
         .star {
             position: absolute;
-            top: -140px;
-            left: 100px;
+            top: -107px;
+            left: 182px;
         }
+
+        .small-star {
+            position: absolute;
+            top: -150px;
+            left: -90px;
+        }
+
     }
 
     .bannar-bottom-area {

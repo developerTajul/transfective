@@ -127,8 +127,10 @@ h6 a {
 }
 
 h1 {
+  font-weight: 500;
   font-size: 76px;
-  line-height: 86px;
+  line-height: 110px;
+  color: #000E28;
 }
 
 h2 {
@@ -286,23 +288,36 @@ label {
 .home-bannar-area {
   padding-top: 115px;
 }
+.home-bannar-area .bannar-area-title {
+  position: relative;
+}
 .home-bannar-area .bannar-area-title h1 {
   text-transform: capitalize;
   font-size: 66px;
   line-height: 86px;
+}
+.home-bannar-area .bannar-area-title .arrow-shape {
+  position: absolute;
+  top: 166px;
+  left: 0px;
 }
 .home-bannar-area .bannar-area-right {
   position: relative;
 }
 .home-bannar-area .bannar-area-right .arrow {
   position: absolute;
-  top: -50px;
-  left: 0px;
+  top: -32px;
+  left: 27px;
 }
 .home-bannar-area .bannar-area-right .star {
   position: absolute;
-  top: -140px;
-  left: 100px;
+  top: -107px;
+  left: 182px;
+}
+.home-bannar-area .bannar-area-right .small-star {
+  position: absolute;
+  top: -150px;
+  left: -90px;
 }
 .home-bannar-area .bannar-bottom-area .circle-img {
   position: relative;
