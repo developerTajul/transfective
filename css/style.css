@@ -1697,6 +1697,10 @@ label {
   display: flex;
   align-items: center;
 }
+.services-nav nav ul li.active a {
+  background: #fff;
+  box-shadow: 14px 5px 1px 8px #000000;
+}
 .services-nav nav ul li a {
   display: flex;
   justify-content: center;
@@ -1983,21 +1987,21 @@ label {
   align-items: center;
   color: #666666;
   text-transform: capitalize;
-  margin-left: 40px;
-  min-height: 90px;
+  margin: 0px 20px;
+  min-height: 115px;
   padding: 0px 5px;
   font-size: 18px;
 }
 .header-area .main-menu-area .primary-menu ul li a:hover {
-  color: #000E28;
+  color: #8E0BF4;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown {
   position: relative;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown::before {
   position: absolute;
-  top: 38px;
-  right: -22px;
+  top: 50px;
+  right: -2px;
   content: "\f078";
   font-size: 16px;
   line-height: 20px;
@@ -2008,8 +2012,6 @@ label {
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown:hover::before {
   transform: rotate(180deg);
-  font-size: 20px;
-  line-height: 20px;
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown ul {
   position: absolute;
@@ -2079,12 +2081,41 @@ label {
 }
 .header-area .nav-btn-list .languages-list::before {
   position: absolute;
-  top: 2px;
+  top: 1px;
   right: -20px;
   content: "\f078";
   font-family: "Font Awesome 6 Free";
   font-weight: 600;
-  font-size: 12px;
+  font-size: 16px;
+}
+.header-area .nav-btn-list .languages-list ul li:hover ul {
+  height: fit-content;
+  opacity: 1;
+  visibility: visible;
+}
+.header-area .nav-btn-list .languages-list ul li ul {
+  height: 0px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 80%;
+  left: -50%;
+  background: #222;
+  width: 150px;
+  z-index: 1;
+  border-radius: 2px;
+  box-shadow: 2px 1px 3px 5px rgba(128, 128, 128, 0.034);
+}
+.header-area .nav-btn-list .languages-list ul li ul li {
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.136);
+  box-shadow: 2px 1px 3px 5px rgba(128, 128, 128, 0.034);
+  transition: all ease-in-out 0.3s;
+}
+.header-area .nav-btn-list .languages-list ul li ul li:hover {
+  background: #fff;
+  color: #222;
 }
 .header-area .nav-btn-list .languages-list select {
   height: 0px;
@@ -2133,7 +2164,7 @@ label {
   padding: 10px 20px;
 }
 .header-area .mobile-menu-area .primary-menu ul li a:hover {
-  color: white;
+  color: #8E0BF4;
 }
 .header-area .mobile-menu-area .primary-menu ul li ul {
   margin-left: 10px;
@@ -2199,6 +2230,24 @@ label {
   border: none;
   font-size: 22px;
   color: #222;
+}
+
+.nav-button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  background: #8E0BF4;
+  padding: 23px 42px;
+  border-radius: 10px;
+  border: 1px solid #000E28;
+  box-shadow: 1px 2px 1px 2px #000E28;
+}
+.nav-button:hover {
+  background: #000E28;
+  color: #fff;
 }
 
 @media all and (max-width: 991px) {

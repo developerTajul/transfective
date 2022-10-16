@@ -5,6 +5,13 @@
             align-items: center;
 
             li {
+                &.active {
+                    a {
+                        background: #fff;
+                        box-shadow: 14px 5px 1px 8px #000000;
+                    }
+                }
+
                 a {
                     display: flex;
                     justify-content: center;
@@ -12,7 +19,6 @@
                     text-decoration: none;
                     font-weight: 400;
                     font-size: 24px;
-
                     color: #0000008f;
                     text-transform: capitalize;
                     width: 416px;
@@ -37,6 +43,7 @@
         min-height: fit-content;
     }
 }
+
 @media screen and (min-width:576px) and (max-width:768px) {
     .services-nav nav ul li a {
         font-size: 19px;
@@ -46,6 +53,7 @@
         min-height: fit-content;
     }
 }
+
 @media screen and (min-width:768px) and (max-width:992px) {
     .services-nav nav ul li a {
         font-size: 19px;
