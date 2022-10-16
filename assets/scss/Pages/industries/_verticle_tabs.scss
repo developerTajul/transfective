@@ -1,10 +1,13 @@
-.insdustries-verticle-tabs-area{
-    .tabs-area{
+.insdustries-verticle-tabs-area {
+    .tabs-area {
         border: 4px solid #000E28;
-        .tab-btn-area{
+
+
+        .tab-btn-area {
             background: #00CCFF;
             padding: 48px 30px;
-            .nav-link{
+
+            .nav-link {
                 text-align: left;
                 font-weight: 400;
                 font-size: 32px;
@@ -17,16 +20,19 @@
             }
         }
     }
-    .verticle-tab-content{
-        padding: 0px 50px;
-        .tab-content-list{
-            ul{
-                li{
+
+    .verticle-tab-content {
+        padding-left: 50px;
+
+        .tab-content-list {
+            ul {
+                li {
                     padding-left: 40px;
                     position: relative;
-                    &::before{
+
+                    &::before {
                         position: absolute;
-                        top:0px;
+                        top: 0px;
                         left: 0px;
                         font-family: 'Font Awesome 6 Free';
                         content: '\f061';
@@ -36,5 +42,31 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
+        font-size: 18px;
+        line-height: 39px;
+        margin-bottom: 19px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
+
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 23px;
+
+    }
+
+    .insdustries-verticle-tabs-area .verticle-tab-content {
+        padding: 0px 0px;
+    }
+
+    .insdustries-verticle-tabs-area .verticle-tab-content p {
+        font-size: 14px;
     }
 }

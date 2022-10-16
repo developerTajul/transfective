@@ -23,750 +23,598 @@
 </head>
 
 <body>
-    <section class="nav-tabs-area">
-        <div class="theme-bg-purple pt-100 pb-90">
-            <ul class="nav nav-tabs" id="servicesTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="translationLanguages-tab" data-bs-toggle="tab"
-                        data-bs-target="#translationLanguages" type="button" role="tab" aria-controls="home"
-                        aria-selected="true">
-                        Translation languages
-                    </button>
+    <header class="header-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-xl-2 col-6">
+                    <!-- logo area -->
+                    <div class="logo-area">
+                        <a href="index.html">
+                            <img src="images/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-xl-7 d-none d-lg-flex justify-content-center">
+                    <!-- menu area -->
+                    <div class="main-menu-area">
+                        <nav class="primary-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="has-dropdown"><a href="services.html">Services</a>
+                                    <ul>
+                                        <li><a href="#">Translations</a></li>
+                                        <li><a href="#">Software Localization & Testing</a></li>
+                                        <li><a href="#">Desktop Publishing</a></li>
+                                        <li><a href="#">Training & E-Learning</a></li>
+                                        <li><a href="#">Website Localization</a></li>
+                                        <li><a href="#">Multimedia</a></li>
+                                        <li><a href="#">Multicultural Marketing</a></li>
+                                        <li><a href="#">Legal</a></li>
+                                        <li><a href="#">Call Center Support Services</a></li>
+                                        <li><a href="#">Interpretation Services</a></li>
+                                    </ul>
+
+                                </li>
+                                <li><a href="industries.html">Industries</a></li>
+                                <li class="has-dropdown"><a href="technology.html">Technology</a>
+                                    <ul>
+                                        <li><a href="technology-v1.html">technology v1</a></li>
+                                        <li><a href="#">Practice areas</a>
+                                            <ul>
+                                                <li><a href="#">About us</a></li>
+                                                <li><a href="#">Practice areas</a></li>
+                                                <li><a href="#">Practice areas</a></li>
+                                                <li><a href="#">Case results</a></li>
+                                                <li><a href="#">Contact Sales</a></li>
+                                                <li><a href="#">About us</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Case results</a></li>
+                                        <li><a href="#">Contact Sales</a></li>
+                                        <li><a href="#">About us</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">contact us</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- button area -->
+                <div class="col-lg-3 col-xl-3 d-none d-xl-block">
+                    <ul class="nav-btn-list">
+                        <li>
+                            <div class="d-flex  align-items-center">
+                                <div class="img-area">
+                                    <img src="images/hero/us.png" alt="">
+                                </div>
+                                <div class="languages-list">
+                                    English
+
+                                    <select>
+                                        <option value="bangla">Bangla</option>
+                                        <option value="bangla">English</option>
+                                        <option value="bangla">HIndi</option>
+                                        <option value="bangla">French</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#" class="theme-btn theme-btn-bordered">contact us </a></li>
+                    </ul>
+                </div>
+                <div class="open-menu-btn d-flex justify-content-end d-lg-none col-6">
+                    <button type="button"><i class="fa-solid fa-bars"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="main-menu-area mobile-menu-area">
+            <div class="d-flex justify-content-between mobile-menu-top">
+                <div class="logo-area">
+                    <a href="#">
+                        <img src="images/logo/footer-logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="close-btn">
+                    <button type="button"><i class="fa fa-close"></i></button>
+                </div>
+            </div>
+            <nav class="primary-menu">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Practice areas</a></li>
+                    <li class="has-dropdown"><a href="#">dropdown menu</a>
+                        <ul>
+                            <li><a href="#">About us</a>
+                                <ul>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Practice areas</a></li>
+                                    <li><a href="#">Practice areas</a></li>
+                                    <li><a href="#">Case results</a></li>
+                                    <li><a href="#">Contact Sales</a></li>
+                                    <li><a href="#">About us</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Practice areas</a></li>
+                            <li><a href="#">Case results</a></li>
+                            <li><a href="#">Contact Sales</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Practice areas</a></li>
+                            <li><a href="#">Practice areas</a></li>
+                            <li><a href="#">Case results</a></li>
+                            <li><a href="#">Contact Sales</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"><a href="#">Case results</a>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Practice areas</a></li>
+                            <li><a href="#">Practice areas</a></li>
+                            <li><a href="#">Case results</a></li>
+                            <li><a href="#">Contact Sales</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Practice areas</a></li>
+                            <li><a href="#">Practice areas</a></li>
+                            <li><a href="#">Case results</a></li>
+                            <li><a href="#">Contact Sales</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact Sales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="services-nav">
+        <nav class="theme-bg-purple pt-100 pb-90 pt-xs-50 pb-xs-50 pt-sm-50 pb-sm-50 pt-md-50 pb-md-50">
+            <ul>
+                <li>
+                    <a href="translation.html">Translation languages</a>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link " id="software-tab" data-bs-toggle="tab" data-bs-target="#software"
-                        type="button" role="tab" aria-controls="home" aria-selected="true">
-                        Software Localization & Testing
-                    </button>
+                <li>
+                    <a href="software.html">Software Localization & Testing</a>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="ecommerce-tab" data-bs-toggle="tab" data-bs-target="#ecommerce"
-                        type="button" role="tab" aria-controls="ecommerce" aria-selected="false">
-                        E commerce retail
-                    </button>
+                <li>
+                    <a href="e-commerce.html">E commerce retail</a>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="lifeScience-tab" data-bs-toggle="tab" data-bs-target="#lifeScience"
-                        type="button" role="tab" aria-controls="life Science" aria-selected="false">
-                        Life Science
-                    </button>
+                <li>
+                    <a href="life-science.html">Life Science</a>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="desktopPublishingService-tab" data-bs-toggle="tab"
-                        data-bs-target="#desktopPublishingService" type="button" role="tab"
-                        aria-controls="desktop Publishing Service" aria-selected="false">
-                        Desktop Publishing
-                        Service
-                    </button>
+                <li>
+                    <a href="desktop.html">Desktop Publishing
+                        Service</a>
                 </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="training-tab" data-bs-toggle="tab" data-bs-target="#training"
-                        type="button" role="tab" aria-controls="training" aria-selected="false">
-                        Training & E-
-                        Learning Service
-                    </button>
+                <li class="nav-item">
+                    <a href="training.html">Training & E-
+                        Learning Service</a>
                 </li>
             </ul>
-        </div>
-        <!-- tab content area -->
-        <div class="services-tab-content pt-120 pb-80">
-            <div class="container">
-                <div class="tab-content" id="servicesTabContent">
-                    <!-- translation languages tab -->
-                    <div class="tab-pane fade show active " id="translationLanguages" role="tabpanel"
-                        aria-labelledby="home-tab">
-                        <div class="tab-content-single ">
-                            <div class="row align-items-center">
-                                <div class="col-lg-5">
-                                    <div class="tab-content-title">
-                                        <h2>Translation
-                                            Services</h2>
-                                        <div class="tab-title-arrow">
-                                            <img src="images/industries/industries.png" alt="industries">
-                                        </div>
-                                    </div>
+        </nav>
+    </div>
+    <!-- tab content area -->
+    <div class="services-content pt-xs-50 pb-xs-50
+    pt-sm-50 pb-sm-50 pt-md-60 pb-md-60
+    pt-120 pb-80">
+        <div class="container">
+            <div class="content-wrapper">
 
-                                </div>
-                                <div class="col-lg-7 pl-100">
-                                    <div class="tab-content-right">
-                                        <div class="arrow">
-                                            <img src="images/services/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="star">
-                                            <img src="images/services/star.png" alt="star">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 pt-120">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="tab-content-img">
-                                            <img src="images/services/services.png" class="img-fluid" alt="">
-                                            <div class="globe-1">
-                                                <img src="images/services/globe-1.png" alt="globe" class="globe one">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7 pl-100 pt-120">
-                                    <div class="tab-content-right-area ">
-                                        <div class="globe-img">
-                                            <img src="images/services/globe-2.png" alt="">
-                                        </div>
-                                        <div class="tab-content-desc">
-                                            <p>Transfective initially started out as a document translation company. It
-                                                has
-                                                now evolved into a diversified business
-                                                solutions organization that provides complete content management
-                                                services.
-                                                Transfective has tackled various challenging
-                                                multilingual projects that were:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Required on a rush basis</li>
-                                                <li>High volume requests</li>
-                                                <li>Highly technical</li>
-                                                <li>Required Certification</li>
-                                            </ul>
-                                        </div>
-                                        <div class="tab-content-desc mt-20">
-                                            <p>Familiarity with a language is just one of the components of providing
-                                                the
-                                                best possible translation. Our team comprises
-                                                of language and subject-area specialists with the ability to create
-                                                superior
-                                                content because of their expertise. Our
-                                                linguistic panel hosts linguists with advanced degrees in fields like:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Biology</li>
-                                                <li>Chemistry</li>
-                                                <li>Engineering</li>
-                                                <li>Physics</li>
-                                                <li>Computer Sciences</li>
-                                                <li>Legal</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-5">
+                        <div class="services-content-title">
+                            <h2>Translation
+                                Services</h2>
+                            <div class="services-title-arrow mt-xs-10 mt-sm-10 mt-md-15">
+                                <img src="images/industries/industries.png" alt="industries">
                             </div>
+                        </div>
 
+                    </div>
+                    <div class="col-12 col-lg-7 pl-xs-0 pl-100">
+                        <div class="services-content-right">
+                            <div class="arrow">
+                                <img src="images/services/arrow.png" alt="arrow">
+                            </div>
+                            <div class="star">
+                                <img src="images/services/star.png" alt="star">
+                            </div>
                         </div>
                     </div>
-                    <!-- software -->
-                    <div class="tab-pane fade " id="software" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="tab-content-single ">
-                            <div class="row align-items-center">
-                                <div class="col-lg-5">
-                                    <div class="tab-content-title">
-                                        <h2>Software Localization & Testing</h2>
-                                        <div class="tab-title-arrow">
-                                            <img src="images/industries/industries.png" alt="industries">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-7 pl-100">
-                                    <div class="tab-content-right">
-                                        <div class="arrow">
-                                            <img src="images/services/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="star">
-                                            <img src="images/services/star.png" alt="star">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 pt-120">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="tab-content-img">
-                                            <img src="images/services/services.png" class="img-fluid" alt="">
-                                            <div class="globe-1">
-                                                <img src="images/services/globe-1.png" alt="globe" class="globe one">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7 pl-100 pt-120">
-                                    <div class="tab-content-right-area ">
-                                        <div class="globe-img">
-                                            <img src="images/services/globe-2.png" alt="">
-                                        </div>
-                                        <div class="tab-content-desc">
-                                            <p>Transfective initially started out as a document translation company. It
-                                                has
-                                                now evolved into a diversified business
-                                                solutions organization that provides complete content management
-                                                services.
-                                                Transfective has tackled various challenging
-                                                multilingual projects that were:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Required on a rush basis</li>
-                                                <li>High volume requests</li>
-                                                <li>Highly technical</li>
-                                                <li>Required Certification</li>
-                                            </ul>
-                                        </div>
-                                        <div class="tab-content-desc mt-20">
-                                            <p>Familiarity with a language is just one of the components of providing
-                                                the
-                                                best possible translation. Our team comprises
-                                                of language and subject-area specialists with the ability to create
-                                                superior
-                                                content because of their expertise. Our
-                                                linguistic panel hosts linguists with advanced degrees in fields like:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Biology</li>
-                                                <li>Chemistry</li>
-                                                <li>Engineering</li>
-                                                <li>Physics</li>
-                                                <li>Computer Sciences</li>
-                                                <li>Legal</li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                    <div class="col-lg-5 pt-xs-40 pt-sm-50 pt-md-50 pt-120">
+                        <div class="d-flex justify-content-center">
+                            <div class="services-content-img">
+                                <img src="images/services/services.png" class="img-fluid" alt="">
+                                <div class="globe-1">
+                                    <img src="images/services/globe-1.png" alt="globe" class="globe one">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- ecommerce tab -->
-                    <div class="tab-pane fade" id="ecommerce" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="tab-content-single ">
-                            <div class="row align-items-center">
-                                <div class="col-lg-5">
-                                    <div class="tab-content-title">
-                                        <h2>E commerce retail</h2>
-                                        <div class="tab-title-arrow">
-                                            <img src="images/industries/industries.png" alt="industries">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-7 pl-100">
-                                    <div class="tab-content-right">
-                                        <div class="arrow">
-                                            <img src="images/services/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="star">
-                                            <img src="images/services/star.png" alt="star">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 pt-120">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="tab-content-img">
-                                            <img src="images/services/services.png" class="img-fluid" alt="">
-                                            <div class="globe-1">
-                                                <img src="images/services/globe-1.png" alt="globe" class="globe one">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7 pl-100 pt-120">
-                                    <div class="tab-content-right-area ">
-                                        <div class="globe-img">
-                                            <img src="images/services/globe-2.png" alt="">
-                                        </div>
-                                        <div class="tab-content-desc">
-                                            <p>Transfective initially started out as a document translation company.
-                                                It
-                                                has
-                                                now evolved into a diversified business
-                                                solutions organization that provides complete content management
-                                                services.
-                                                Transfective has tackled various challenging
-                                                multilingual projects that were:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Required on a rush basis</li>
-                                                <li>High volume requests</li>
-                                                <li>Highly technical</li>
-                                                <li>Required Certification</li>
-                                            </ul>
-                                        </div>
-                                        <div class="tab-content-desc mt-20">
-                                            <p>Familiarity with a language is just one of the components of
-                                                providing
-                                                the
-                                                best possible translation. Our team comprises
-                                                of language and subject-area specialists with the ability to create
-                                                superior
-                                                content because of their expertise. Our
-                                                linguistic panel hosts linguists with advanced degrees in fields
-                                                like:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Biology</li>
-                                                <li>Chemistry</li>
-                                                <li>Engineering</li>
-                                                <li>Physics</li>
-                                                <li>Computer Sciences</li>
-                                                <li>Legal</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-lg-7 pl-100 pt-120 pl-xs-20 pt-xs-40 pl-sm-20 pt-sm-40 
+                    pt-md-40 pl-md-10
+                    ">
+                        <div class="tab-content-right-area ">
+                            <div class="globe-img">
+                                <img src="images/services/globe-2.png" alt="">
                             </div>
-                        </div>
-                    </div>
-                    <!-- life science -->
-                    <div class="tab-pane fade" id="lifeScience" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="tab-content-single ">
-                            <div class="row align-items-center">
-                                <div class="col-lg-5">
-                                    <div class="tab-content-title">
-                                        <h2>Life Science</h2>
-                                        <div class="tab-title-arrow">
-                                            <img src="images/industries/industries.png" alt="industries">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-7 pl-100">
-                                    <div class="tab-content-right">
-                                        <div class="arrow">
-                                            <img src="images/services/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="star">
-                                            <img src="images/services/star.png" alt="star">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 pt-120">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="tab-content-img">
-                                            <img src="images/services/services.png" class="img-fluid" alt="">
-                                            <div class="globe-1">
-                                                <img src="images/services/globe-1.png" alt="globe" class="globe one">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7 pl-100 pt-120">
-                                    <div class="tab-content-right-area ">
-                                        <div class="globe-img">
-                                            <img src="images/services/globe-2.png" alt="">
-                                        </div>
-                                        <div class="tab-content-desc">
-                                            <p>Transfective initially started out as a document translation company.
-                                                It
-                                                has
-                                                now evolved into a diversified business
-                                                solutions organization that provides complete content management
-                                                services.
-                                                Transfective has tackled various challenging
-                                                multilingual projects that were:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Required on a rush basis</li>
-                                                <li>High volume requests</li>
-                                                <li>Highly technical</li>
-                                                <li>Required Certification</li>
-                                            </ul>
-                                        </div>
-                                        <div class="tab-content-desc mt-20">
-                                            <p>Familiarity with a language is just one of the components of
-                                                providing
-                                                the
-                                                best possible translation. Our team comprises
-                                                of language and subject-area specialists with the ability to create
-                                                superior
-                                                content because of their expertise. Our
-                                                linguistic panel hosts linguists with advanced degrees in fields
-                                                like:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Biology</li>
-                                                <li>Chemistry</li>
-                                                <li>Engineering</li>
-                                                <li>Physics</li>
-                                                <li>Computer Sciences</li>
-                                                <li>Legal</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="services-content-desc">
+                                <p>Transfective initially started out as a document translation company. It
+                                    has
+                                    now evolved into a diversified business
+                                    solutions organization that provides complete content management
+                                    services.
+                                    Transfective has tackled various challenging
+                                    multilingual projects that were:
+                                </p>
                             </div>
-                        </div>
-                    </div>
-                    <!-- desktop publishing service -->
-                    <div class="tab-pane fade " id="desktopPublishingService" role="tabpanel"
-                        aria-labelledby="home-tab">
-                        <div class="tab-content-single ">
-                            <div class="row align-items-center">
-                                <div class="col-lg-5">
-                                    <div class="tab-content-title">
-                                        <h2>Desktop Publishing
-                                        Service</h2>
-                                        <div class="tab-title-arrow">
-                                            <img src="images/industries/industries.png" alt="industries">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-7 pl-100">
-                                    <div class="tab-content-right">
-                                        <div class="arrow">
-                                            <img src="images/services/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="star">
-                                            <img src="images/services/star.png" alt="star">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 pt-120">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="tab-content-img">
-                                            <img src="images/services/services.png" class="img-fluid" alt="">
-                                            <div class="globe-1">
-                                                <img src="images/services/globe-1.png" alt="globe" class="globe one">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7 pl-100 pt-120">
-                                    <div class="tab-content-right-area ">
-                                        <div class="globe-img">
-                                            <img src="images/services/globe-2.png" alt="">
-                                        </div>
-                                        <div class="tab-content-desc">
-                                            <p>Transfective initially started out as a document translation company. It
-                                                has
-                                                now evolved into a diversified business
-                                                solutions organization that provides complete content management
-                                                services.
-                                                Transfective has tackled various challenging
-                                                multilingual projects that were:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Required on a rush basis</li>
-                                                <li>High volume requests</li>
-                                                <li>Highly technical</li>
-                                                <li>Required Certification</li>
-                                            </ul>
-                                        </div>
-                                        <div class="tab-content-desc mt-20">
-                                            <p>Familiarity with a language is just one of the components of providing
-                                                the
-                                                best possible translation. Our team comprises
-                                                of language and subject-area specialists with the ability to create
-                                                superior
-                                                content because of their expertise. Our
-                                                linguistic panel hosts linguists with advanced degrees in fields like:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Biology</li>
-                                                <li>Chemistry</li>
-                                                <li>Engineering</li>
-                                                <li>Physics</li>
-                                                <li>Computer Sciences</li>
-                                                <li>Legal</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="services-list mt-20">
+                                <ul>
+                                    <li>Required on a rush basis</li>
+                                    <li>High volume requests</li>
+                                    <li>Highly technical</li>
+                                    <li>Required Certification</li>
+                                </ul>
                             </div>
-
-                        </div>
-                    </div>
-                    <!-- training and e lerning services -->
-                    <div class="tab-pane fade " id="training" role="tabpanel"
-                        aria-labelledby="home-tab">
-                        <div class="tab-content-single ">
-                            <div class="row align-items-center">
-                                <div class="col-lg-5">
-                                    <div class="tab-content-title">
-                                        <h2>Training & E-
-                                        Learning Service</h2>
-                                        <div class="tab-title-arrow">
-                                            <img src="images/industries/industries.png" alt="industries">
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-7 pl-100">
-                                    <div class="tab-content-right">
-                                        <div class="arrow">
-                                            <img src="images/services/arrow.png" alt="arrow">
-                                        </div>
-                                        <div class="star">
-                                            <img src="images/services/star.png" alt="star">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 pt-120">
-                                    <div class="d-flex justify-content-center">
-                                        <div class="tab-content-img">
-                                            <img src="images/services/services.png" class="img-fluid" alt="">
-                                            <div class="globe-1">
-                                                <img src="images/services/globe-1.png" alt="globe" class="globe one">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7 pl-100 pt-120">
-                                    <div class="tab-content-right-area ">
-                                        <div class="globe-img">
-                                            <img src="images/services/globe-2.png" alt="">
-                                        </div>
-                                        <div class="tab-content-desc">
-                                            <p>Transfective initially started out as a document translation company. It
-                                                has
-                                                now evolved into a diversified business
-                                                solutions organization that provides complete content management
-                                                services.
-                                                Transfective has tackled various challenging
-                                                multilingual projects that were:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Required on a rush basis</li>
-                                                <li>High volume requests</li>
-                                                <li>Highly technical</li>
-                                                <li>Required Certification</li>
-                                            </ul>
-                                        </div>
-                                        <div class="tab-content-desc mt-20">
-                                            <p>Familiarity with a language is just one of the components of providing
-                                                the
-                                                best possible translation. Our team comprises
-                                                of language and subject-area specialists with the ability to create
-                                                superior
-                                                content because of their expertise. Our
-                                                linguistic panel hosts linguists with advanced degrees in fields like:
-                                            </p>
-                                        </div>
-                                        <div class="tab-content-list mt-20">
-                                            <ul>
-                                                <li>Biology</li>
-                                                <li>Chemistry</li>
-                                                <li>Engineering</li>
-                                                <li>Physics</li>
-                                                <li>Computer Sciences</li>
-                                                <li>Legal</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="services-content-desc mt-20">
+                                <p>Familiarity with a language is just one of the components of providing
+                                    the
+                                    best possible translation. Our team comprises
+                                    of language and subject-area specialists with the ability to create
+                                    superior
+                                    content because of their expertise. Our
+                                    linguistic panel hosts linguists with advanced degrees in fields like:
+                                </p>
                             </div>
-
+                            <div class="services-list mt-20">
+                                <ul>
+                                    <li>Biology</li>
+                                    <li>Chemistry</li>
+                                    <li>Engineering</li>
+                                    <li>Physics</li>
+                                    <li>Computer Sciences</li>
+                                    <li>Legal</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-    </section>
-    <!-- verticle tabs  -->
-    <section class="insdustries-verticle-tabs-area services-verticle-tab-area mt-80 mb-80">
-        <div class="container">
-            <div class="tabs-area">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <!-- tab button -->
-                        <div class="tab-btn-area">
-                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical">
-                                <button class="nav-link active" id="v-pills-life-science-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-life-science" type="button" role="tab"
-                                    aria-controls="v-pills-life-science" aria-selected="true">Certified Quality Assurance</button>
-                                <button class="nav-link" id="v-pills-language-service-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-language-service" type="button" role="tab"
-                                    aria-controls="v-pills-language-service" aria-selected="false">Language
-                                    Service</button>
-                                <button class="nav-link" id="v-pills-cat-tools-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-cat-tools" type="button" role="tab"
-                                    aria-controls="v-pills-cat-tools" aria-selected="false">Cat Tools</button>
-                                <button class="nav-link" id="v-pills-tma-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-tma" type="button" role="tab"
-                                    aria-controls="v-pills-settings" aria-selected="false">Tma</button>
-                                <button class="nav-link" id="v-pills-tma-two-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-tma-two" type="button" role="tab"
-                                    aria-controls="v-pills-tma-two" aria-selected="false">Tma</button>
+
+            </div>
+        </div>
+
+
+
+        <!-- verticle tabs  -->
+        <section class="insdustries-verticle-tabs-area services-verticle-tab-area
+        pt-xs-40 pb-xs-40
+        pt-150 mb-80
+        d-none d-md-block
+        ">
+            <div class="container">
+                <div class="tabs-area">
+                    <div class="row align-items-center">
+                        <div class="col-md-5 col-lg-5">
+                            <!-- tab button -->
+                            <div class="tab-btn-area">
+                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <button class="nav-link active" id="v-pills-life-science-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-life-science" type="button" role="tab"
+                                        aria-controls="v-pills-life-science" aria-selected="true">Certified Quality
+                                        Assurance</button>
+                                    <button class="nav-link" id="v-pills-language-service-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-language-service" type="button" role="tab"
+                                        aria-controls="v-pills-language-service" aria-selected="false">Language
+                                        Service</button>
+                                    <button class="nav-link" id="v-pills-cat-tools-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-cat-tools" type="button" role="tab"
+                                        aria-controls="v-pills-cat-tools" aria-selected="false">Cat Tools</button>
+                                    <button class="nav-link" id="v-pills-tma-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-tma" type="button" role="tab"
+                                        aria-controls="v-pills-settings" aria-selected="false">Tma</button>
+                                    <button class="nav-link" id="v-pills-tma-two-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-tma-two" type="button" role="tab"
+                                        aria-controls="v-pills-tma-two" aria-selected="false">Tma</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- tab content -->
-                    <div class="col-lg-7">
-                        <div class="tab-content mt-20" id="v-pills-tabContent">
-                            <!-- life science -->
-                            <div class="tab-pane fade show active" id="v-pills-life-science" role="tabpanel"
-                                aria-labelledby="v-pills-life-science">
-                                <div class="verticle-tab-content">
-                                    <div class="tab-conent-top">
-                                        <p>Where multilingual components are involved, Transfective is a company that
-                                            you can trust and turn to. We are amongst the
-                                            world’s most trusted technical/legal translation and interpretation service
-                                            providers. We offer other language services
-                                            which includes:
-                                        </p>
-                                    </div>
-                                    <div class="tab-content-list">
-                                        <ul>
-                                            <li>Draft Translation
-                                            <li>
-                                            <li>Certified Translation</li>
-                                            <li>Summary Translation</li>
-                                            <li>Patent Translation</li>
-                                            <li>Machine Translation</li>
-                                            <li>Deposition Interpretation</li>
-                                            <li>Over-the-Phone Interpretation</li>
-                                            <li>Transcription</li>
-                                            <li>Trial Interpretation</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- language service -->
-                            <div class="tab-pane fade" id="v-pills-language-service" role="tabpanel"
-                                aria-labelledby="v-pills-language-service">
-                                <div class="verticle-tab-content">
-                                    <div class="tab-conent-top">
-                                        <p>Where multilingual components are involved, Transfective is a company that
-                                            you can trust and turn to. We are amongst the
-                                            world’s most trusted technical/legal translation and interpretation service
-                                            providers. We offer other language services
-                                            which includes:
-                                        </p>
-                                    </div>
-                                    <div class="tab-content-list">
-                                        <ul>
-                                            <li>Draft Translation
-                                            <li>
-                                            <li>Certified Translation</li>
-                                            <li>Summary Translation</li>
-                                            <li>Patent Translation</li>
-                                            <li>Machine Translation</li>
-                                            <li>Deposition Interpretation</li>
-                                            <li>Over-the-Phone Interpretation</li>
-                                            <li>Transcription</li>
-                                            <li>Trial Interpretation</li>
-                                        </ul>
+                        <!-- tab content -->
+                        <div class="col-md-7 col-lg-7 ">
+                            <div class="tab-content pr-40 mt-20" id="v-pills-tabContent">
+                                <!-- life science -->
+                                <div class="tab-pane fade show active" id="v-pills-life-science" role="tabpanel"
+                                    aria-labelledby="v-pills-life-science">
+                                    <div class="verticle-tab-content">
+                                        <div class="tab-conent-top">
+                                            <p>Where multilingual components are involved, Transfective is a company
+                                                that
+                                                you can trust and turn to. We are amongst the
+                                                world’s most trusted technical/legal translation and interpretation
+                                                service
+                                                providers. We offer other language services
+                                                which includes:
+                                            </p>
+                                        </div>
+                                        <div class="tab-content-list">
+                                            <ul>
+                                                <li>Draft Translation
+                                                <li>
+                                                <li>Certified Translation</li>
+                                                <li>Summary Translation</li>
+                                                <li>Patent Translation</li>
+                                                <li>Machine Translation</li>
+                                                <li>Deposition Interpretation</li>
+                                                <li>Over-the-Phone Interpretation</li>
+                                                <li>Transcription</li>
+                                                <li>Trial Interpretation</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- cat tools -->
+                                <!-- language service -->
+                                <div class="tab-pane fade" id="v-pills-language-service" role="tabpanel"
+                                    aria-labelledby="v-pills-language-service">
+                                    <div class="verticle-tab-content">
+                                        <div class="tab-conent-top">
+                                            <p>Where multilingual components are involved, Transfective is a company
+                                                that
+                                                you can trust and turn to. We are amongst the
+                                                world’s most trusted technical/legal translation and interpretation
+                                                service
+                                                providers. We offer other language services
+                                                which includes:
+                                            </p>
+                                        </div>
+                                        <div class="tab-content-list">
+                                            <ul>
+                                                <li>Draft Translation
+                                                <li>
+                                                <li>Certified Translation</li>
+                                                <li>Summary Translation</li>
+                                                <li>Patent Translation</li>
+                                                <li>Machine Translation</li>
+                                                <li>Deposition Interpretation</li>
+                                                <li>Over-the-Phone Interpretation</li>
+                                                <li>Transcription</li>
+                                                <li>Trial Interpretation</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- cat tools -->
 
-                            <div class="tab-pane fade" id="v-pills-cat-tools" role="tabpanel"
-                                aria-labelledby="v-pills-cat-tools">
-                                <div class="verticle-tab-content">
-                                    <div class="tab-conent-top">
-                                        <p>Where multilingual components are involved, Transfective is a company that
-                                            you can trust and turn to. We are amongst the
-                                            world’s most trusted technical/legal translation and interpretation service
-                                            providers. We offer other language services
-                                            which includes:
-                                        </p>
-                                    </div>
-                                    <div class="tab-content-list">
-                                        <ul>
-                                            <li>Draft Translation
-                                            <li>
-                                            <li>Certified Translation</li>
-                                            <li>Summary Translation</li>
-                                            <li>Patent Translation</li>
-                                            <li>Machine Translation</li>
-                                            <li>Deposition Interpretation</li>
-                                            <li>Over-the-Phone Interpretation</li>
-                                            <li>Transcription</li>
-                                            <li>Trial Interpretation</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- tma -->
-                            <div class="tab-pane fade" id="v-pills-tma" role="tabpanel"
-                                aria-labelledby="v-pills-cat-tools">
-                                <div class="verticle-tab-content">
-                                    <div class="tab-conent-top">
-                                        <p>Where multilingual components are involved, Transfective is a company that
-                                            you can trust and turn to. We are amongst the
-                                            world’s most trusted technical/legal translation and interpretation service
-                                            providers. We offer other language services
-                                            which includes:
-                                        </p>
-                                    </div>
-                                    <div class="tab-content-list">
-                                        <ul>
-                                            <li>Draft Translation
-                                            <li>
-                                            <li>Certified Translation</li>
-                                            <li>Summary Translation</li>
-                                            <li>Patent Translation</li>
-                                            <li>Machine Translation</li>
-                                            <li>Deposition Interpretation</li>
-                                            <li>Over-the-Phone Interpretation</li>
-                                            <li>Transcription</li>
-                                            <li>Trial Interpretation</li>
-                                        </ul>
+                                <div class="tab-pane fade" id="v-pills-cat-tools" role="tabpanel"
+                                    aria-labelledby="v-pills-cat-tools">
+                                    <div class="verticle-tab-content">
+                                        <div class="tab-conent-top">
+                                            <p>Where multilingual components are involved, Transfective is a company
+                                                that
+                                                you can trust and turn to. We are amongst the
+                                                world’s most trusted technical/legal translation and interpretation
+                                                service
+                                                providers. We offer other language services
+                                                which includes:
+                                            </p>
+                                        </div>
+                                        <div class="tab-content-list">
+                                            <ul>
+                                                <li>Draft Translation
+                                                <li>
+                                                <li>Certified Translation</li>
+                                                <li>Summary Translation</li>
+                                                <li>Patent Translation</li>
+                                                <li>Machine Translation</li>
+                                                <li>Deposition Interpretation</li>
+                                                <li>Over-the-Phone Interpretation</li>
+                                                <li>Transcription</li>
+                                                <li>Trial Interpretation</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <!-- tma -->
-                            <div class="tab-pane fade" id="v-pills-tma-two" role="tabpanel"
-                                aria-labelledby="v-pills-cat-tools">
-                                <div class="verticle-tab-content">
-                                    <div class="tab-conent-top">
-                                        <p>Where multilingual components are involved, Transfective is a company that
-                                            you can trust and turn to. We are amongst the
-                                            world’s most trusted technical/legal translation and interpretation service
-                                            providers. We offer other language services
-                                            which includes:
-                                        </p>
-                                    </div>
-                                    <div class="tab-content-list">
-                                        <ul>
-                                            <li>Draft Translation
-                                            <li>
-                                            <li>Certified Translation</li>
-                                            <li>Summary Translation</li>
-                                            <li>Patent Translation</li>
-                                            <li>Machine Translation</li>
-                                            <li>Deposition Interpretation</li>
-                                            <li>Over-the-Phone Interpretation</li>
-                                            <li>Transcription</li>
-                                            <li>Trial Interpretation</li>
-                                        </ul>
+                                <!-- tma -->
+                                <div class="tab-pane fade" id="v-pills-tma" role="tabpanel"
+                                    aria-labelledby="v-pills-cat-tools">
+                                    <div class="verticle-tab-content">
+                                        <div class="tab-conent-top">
+                                            <p>Where multilingual components are involved, Transfective is a company
+                                                that
+                                                you can trust and turn to. We are amongst the
+                                                world’s most trusted technical/legal translation and interpretation
+                                                service
+                                                providers. We offer other language services
+                                                which includes:
+                                            </p>
+                                        </div>
+                                        <div class="tab-content-list">
+                                            <ul>
+                                                <li>Draft Translation
+                                                <li>
+                                                <li>Certified Translation</li>
+                                                <li>Summary Translation</li>
+                                                <li>Patent Translation</li>
+                                                <li>Machine Translation</li>
+                                                <li>Deposition Interpretation</li>
+                                                <li>Over-the-Phone Interpretation</li>
+                                                <li>Transcription</li>
+                                                <li>Trial Interpretation</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
+
+                                <!-- tma -->
+                                <div class="tab-pane fade" id="v-pills-tma-two" role="tabpanel"
+                                    aria-labelledby="v-pills-cat-tools">
+                                    <div class="verticle-tab-content">
+                                        <div class="tab-conent-top">
+                                            <p>Where multilingual components are involved, Transfective is a company
+                                                that
+                                                you can trust and turn to. We are amongst the
+                                                world’s most trusted technical/legal translation and interpretation
+                                                service
+                                                providers. We offer other language services
+                                                which includes:
+                                            </p>
+                                        </div>
+                                        <div class="tab-content-list">
+                                            <ul>
+                                                <li>Draft Translation
+                                                <li>
+                                                <li>Certified Translation</li>
+                                                <li>Summary Translation</li>
+                                                <li>Patent Translation</li>
+                                                <li>Machine Translation</li>
+                                                <li>Deposition Interpretation</li>
+                                                <li>Over-the-Phone Interpretation</li>
+                                                <li>Transcription</li>
+                                                <li>Trial Interpretation</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
-
-
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- all js files -->
-    <script src="js/modernizr-3.11.2.min.js"></script>
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+        </section>
+        <!-- all js files -->
+        <!-- footer-area start -->
+        <footer class="footer-area overflow-hidden">
+            <div class="footer-area__top pt-xs-50 pb-xs-10 pt-sm-50 pb-sm-10 
+            pt-md-50 pb-md-10
+            pt-155 pb-95
+            ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <div class="footer-area__widget-logo mb-xs-50
+                             mb-sm-40 mb-md-30 mb-100">
+                                <img src="images/logo/footer-logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between">
+                        <div class="col-sm-12 col-md-7 col-lg-4">
+                            <div class="footer-area__widget">
+                                <div class="footer-area__widget-info">
+                                    <h6 class="title color-white text-capitalize font-pop fw-600">newsletter</h6>
+                                    <div class="description mt-10">
+                                        <p>subscribe to get tips and Grow the Way you want</p>
+                                    </div>
+
+                                    <div class="form">
+                                        <form action="">
+                                            <div class="form-group">
+                                                <input type="email" placeholder="Your email...">
+                                                <!-- <input type="submit" class="btn btn-sm"> -->
+                                                <button type="submit" class="btn btn-sm"><i
+                                                        class="fa-solid fa-arrow-right"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="social-profile mt-40">
+                                        <ul>
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-5 col-lg-3">
+                            <div class="footer-area__widget widget_nav_menu">
+                                <h6 class="title color-white text-capitalize font-pop fw-600">Our Services</h6>
+
+                                <ul>
+                                    <li><a href="#">Translations</a></li>
+                                    <li><a href="#">Software Localization & Testing</a></li>
+                                    <li><a href="#">Desktop Publishing</a></li>
+                                    <li><a href="#">Training & E-Learning</a></li>
+                                    <li><a href="#">Website Localization</a></li>
+                                    <li><a href="#">Multimedia</a></li>
+                                    <li><a href="#">Multicultural Marketing</a></li>
+                                    <li><a href="#">Legal</a></li>
+                                    <li><a href="#">Call Center Support Services</a></li>
+                                    <li><a href="#">Interpretation Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="footer-area__widget widget_nav_menu">
+                                <h6 class="title color-white text-capitalize font-pop fw-600">industries</h6>
+
+                                <ul>
+                                    <li><a href="#">E-Commerce & Retail</a></li>
+                                    <li><a href="#">Life Sciences</a></li>
+                                    <li><a href="#">Legal</a></li>
+                                    <li><a href="#">Multimedia & Entertainment</a></li>
+                                    <li><a href="#">Banking & Finance</a></li>
+                                    <li><a href="#">Advertising, Marketing & PR</a></li>
+                                    <li><a href="#">Government</a></li>
+                                    <li><a href="#">Hardware, Software & Technology</a></li>
+                                    <li><a href="#">Energy & Mining</a></li>
+                                    <li><a href="#">Travel & Hospitality</a></li>
+                                    <li><a href="#">Industrial & Manufacturing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-2">
+                            <div class="footer-area__widget widget_nav_menu">
+                                <h6 class="title color-white text-capitalize">useful links</h6>
+
+                                <ul>
+                                    <li><a href="#">Technology</a></li>
+                                    <li><a href="#">Terms of Services</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Why Us</a></li>
+                                    <li><a href="#">OUR TRANSLATION PROCESS</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Get A Quote</a></li>
+                                    <li><a href="#">Partners</a></li>
+                                    <li><a href="#">Talent Registration</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="footer-area__bottom  pt-35 pb-35">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="footer-area__bottom-copy text-center">
+                                <p>Copyright &copy; 2021 Transfective Inc. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-area end -->
+        <script src="js/modernizr-3.11.2.min.js"></script>
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>

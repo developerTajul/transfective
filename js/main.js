@@ -21,7 +21,7 @@
 
 		// services hero tab slider
 
-		$('#servicesTab').slick({
+		$('.services-nav nav ul').slick({
 			dots: false,
 			infinite: false,
 			speed: 300,

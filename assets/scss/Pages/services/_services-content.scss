@@ -1,0 +1,146 @@
+.services-content {
+    .services-content-title {
+        h2 {
+            font-weight: 500;
+            font-size: 65px;
+            line-height: 91px;
+            color: #000E28;
+        }
+    }
+
+    .services-content-right {
+        position: relative;
+
+        .arrow {
+            margin-left: 250px;
+        }
+
+        .star {
+            position: absolute;
+            top: -50px;
+            left: 60%;
+        }
+    }
+
+    .services-content-desc {
+        p {
+            color: #727272;
+        }
+    }
+
+    .services-list {
+        ul {
+            li {
+                padding-left: 40px;
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    font-family: 'Font Awesome 6 Free';
+                    content: '\f061';
+                    font-weight: 700;
+                    color: #8E0BF4;
+                }
+            }
+        }
+    }
+
+    .services-content-img {
+        position: relative;
+
+        .globe-1 {
+            position: absolute;
+            bottom: 25%;
+            left: -40px;
+        }
+    }
+
+    .tab-content-right-area {
+        position: relative;
+
+        .globe-img {
+            position: absolute;
+            bottom: 10%;
+            right: 30%;
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .services-content .services-content-title h2 {
+
+        font-size: 29px;
+        line-height: 48px;
+
+    }
+
+    .services-content .services-content-right .arrow {
+
+        display: none;
+    }
+
+    .services-content .services-content-right .star {
+
+        display: none;
+    }
+
+    .services-content .services-content-img .globe-1 {
+
+        left: -7px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .services-content .services-content-title h2 {
+
+        font-size: 29px;
+        line-height: 48px;
+
+    }
+
+    .services-content .services-content-right .arrow {
+
+        display: none;
+    }
+
+    .services-content .services-content-right .star {
+
+        display: none;
+    }
+
+    .services-content .services-content-img .globe-1 {
+
+        left: -7px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .services-content .services-content-title h2 {
+
+        font-size: 36px;
+        line-height: 46px;
+
+    }
+
+    .services-content .services-content-right .arrow {
+        display: none;
+    }
+
+    .services-content .services-content-right .star {
+        display: none;
+    }
+
+    .services-content .services-content-img .globe-1 {
+
+        bottom: 37%;
+        left: -40px;
+    }
+
+    .services-content .tab-content-right-area .globe-img {
+
+        bottom: 15%;
+        right: 10%;
+    }
+}

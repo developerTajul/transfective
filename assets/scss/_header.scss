@@ -81,8 +81,8 @@
                         ul {
                             position: absolute;
                             top: 100%;
-                            left: 4px;
-                            min-width: 250px;
+                            left: 0px;
+                            min-width: 300px;
                             background: #222;
                             display: block;
                             border-top: 5px solid #0671640a;
@@ -211,7 +211,7 @@
         background: #222;
         padding-top: 20px;
         min-width: 340px;
-
+        z-index: 9999;
         .primary-menu {
             ul {
                 display: block;
@@ -241,8 +241,11 @@
                             position: absolute;
                             top: 10px;
                             right: 20px;
-                            content: "+";
+                            content: "\f078";
+                            font-family: 'Font Awesome 6 Free';
+                            font-weight: 700;
                             color: #fff;
+                            font-size: 14px;
                         }
 
                         ul {
@@ -260,12 +263,16 @@
                                         color: #fff;
                                     }
                                 }
+                                ul{
+                                    left: 50px;
+                                }
                             }
                         }
                     }
                 }
             }
         }
+               
 
         .mobile-menu-top {
             border-bottom: 1px solid rgba(255, 255, 255, 0.092);
