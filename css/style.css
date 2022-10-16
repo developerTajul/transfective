@@ -286,7 +286,7 @@ label {
 }
 
 .home-bannar-area {
-  padding-top: 115px;
+  padding-top: 80px;
 }
 .home-bannar-area .bannar-area-title {
   position: relative;
@@ -319,30 +319,43 @@ label {
   top: -150px;
   left: -90px;
 }
-.home-bannar-area .bannar-bottom-area .circle-img {
-  position: relative;
-}
-.home-bannar-area .bannar-bottom-area .circle-img img {
-  position: absolute;
-  top: -80px;
-  left: -70px;
-}
 .home-bannar-area .bannar-bottom-area .hero-content {
-  border-left: 5px solid #8E0BF4;
+  position: relative;
   padding-left: 10px;
+}
+.home-bannar-area .bannar-bottom-area .hero-content::before {
+  position: absolute;
+  content: "";
+  height: 90%;
+  width: 12px;
+  background: #000E28;
+  left: -28px;
+  top: 7%;
+}
+.home-bannar-area .bannar-bottom-area .hero-content p {
+  font-size: 18px;
+  line-height: 32px;
 }
 .home-bannar-area .bannar-bottom-area .right-img {
   position: relative;
 }
 .home-bannar-area .bannar-bottom-area .right-img .circle-img {
   position: absolute;
-  top: 100px;
-  right: 0px;
+  top: 17px;
+  right: -53px;
 }
 .home-bannar-area .bannar-bottom-area .right-img .down-icon {
   position: absolute;
-  right: 0px;
-  top: -10px;
+  right: -6px;
+  top: -11px;
+}
+.home-bannar-area .hero-world-image {
+  position: relative;
+}
+.home-bannar-area .hero-world-image .light-circle-img {
+  position: absolute;
+  left: -100px;
+  top: 164px;
 }
 
 @media screen and (max-width: 575px) {
@@ -417,7 +430,8 @@ label {
   color: #fff;
   text-transform: capitalize;
   font-size: 65px;
-  line-height: 78px;
+  line-height: 80px;
+  font-weight: 500;
   position: relative;
 }
 .who-we .section-top h2::before {
@@ -445,12 +459,18 @@ label {
 .main-area .main-area-subtitle {
   padding: 0px 60px;
   text-align: center;
+  position: relative;
 }
 .main-area .main-area-subtitle p {
   font-weight: 500;
   font-size: 40px;
   line-height: 63px;
   color: #fff;
+}
+.main-area .main-area-subtitle .arrow-shape {
+  position: absolute;
+  left: 0px;
+  top: 152px;
 }
 .main-area .main-area-img {
   background: #fff;

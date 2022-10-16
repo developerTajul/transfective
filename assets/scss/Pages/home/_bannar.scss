@@ -1,5 +1,5 @@
 .home-bannar-area {
-    padding-top: 115px;
+    padding-top: 80px;
 
     .bannar-area-title {
         h1 {
@@ -41,19 +41,28 @@
     }
 
     .bannar-bottom-area {
-        .circle-img {
-            position: relative;
 
-            img {
-                position: absolute;
-                top: -80px;
-                left: -70px;
-            }
-        }
 
         .hero-content {
-            border-left: 5px solid #8E0BF4;
+            // border-left: 5px solid #8E0BF4;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: "";
+                height: 90%;
+                width: 12px;
+                background: #000E28;
+                left: -28px;
+                top: 7%;
+            }
+
             padding-left: 10px;
+
+            p {
+                font-size: 18px;
+                line-height: 32px;
+            }
         }
 
         .right-img {
@@ -61,15 +70,25 @@
 
             .circle-img {
                 position: absolute;
-                top: 100px;
-                right: 0px;
+                top: 17px;
+                right: -53px;
             }
 
             .down-icon {
                 position: absolute;
-                right: 0px;
-                top: -10px;
+                right: -6px;
+                top: -11px;
             }
+        }
+    }
+
+    .hero-world-image {
+        position: relative;
+
+        .light-circle-img {
+            position: absolute;
+            left: -100px;
+            top: 164px;
         }
     }
 }
