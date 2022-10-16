@@ -20,3 +20,14 @@
         color: #fff;
     }
 }
+.theme-shadow-btn{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px 58px;
+    color: #000000;
+    box-shadow: 2px 3px 8px #000000;
+    &:hover{
+        background:#000000;
+        color: #fff;
+    }
+}
