@@ -136,6 +136,7 @@ h1 {
 h2 {
   font-size: 76px;
   line-height: 86px;
+  font-weight: 500;
 }
 
 h3 {
@@ -577,7 +578,14 @@ label {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
-  color: #888888;
+  color: #6D6D6D;
+}
+.our-process .our-process-right {
+  position: relative;
+}
+.our-process .our-process-right .star-img {
+  position: absolute;
+  right: 0px;
 }
 
 @media screen and (max-width: 575px) {
@@ -606,6 +614,7 @@ label {
   font-size: 48px;
   line-height: 64px;
   color: #000E28;
+  font-weight: 500;
 }
 .need-project .need-project-desc p {
   color: #555555;
@@ -624,7 +633,7 @@ label {
   }
 }
 .bg-core-value {
-  background: #faf7f0;
+  background: #F8F4FB;
 }
 
 .core-value .core-value-top .core-value-title h2 {
@@ -637,7 +646,7 @@ label {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
-  color: #888888;
+  color: #6D6D6D;
 }
 
 .core-text-content .core-text-content-title h4 {
@@ -655,9 +664,11 @@ label {
 }
 
 .bordered-card {
-  border: 2px solid #000;
+  border: 3px solid #000000;
+  background: #ffffff;
+  border-radius: 20px;
   padding: 32px 25px;
-  min-height: 400px;
+  min-height: 417px;
   position: relative;
 }
 .bordered-card .bordered-card-top h5 {
@@ -681,20 +692,12 @@ label {
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 26px;
   text-transform: capitalize;
   color: #000E28;
   display: block;
-  position: relative;
-}
-.bordered-card .author a::before {
-  position: absolute;
-  content: "";
-  top: 17px;
-  height: 6px;
-  width: 150px;
-  background: rgba(0, 204, 255, 0.5058823529);
-  z-index: 1;
+  border-bottom: 6px solid rgba(0, 204, 255, 0.5058823529);
+  border-radius: 4px;
 }
 
 .top-border-card .col-6:nth-child(2) .bordered-card {
@@ -770,29 +773,34 @@ label {
     min-height: 440px;
   }
 }
+.prefered-choice {
+  background: #ffffff;
+}
 .prefered-choice .prefered-choice-title {
   padding: 0px 300px;
 }
 .prefered-choice h2 {
   font-size: 65px;
-  line-height: 1;
+  line-height: 78px;
   color: #000E28;
 }
 .prefered-choice .prefered-card-wrapper .single-card {
   background: #ffffff;
   border: 3px solid #000E28;
-  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 320px;
+  border-bottom-left-radius: 320px;
+  margin-bottom: 50px;
 }
 .prefered-choice .prefered-card-wrapper .single-card .left-card {
-  position: relative;
+  border-right: 3px solid #000000;
 }
 .prefered-choice .prefered-card-wrapper .single-card .left-card .icon {
-  position: absolute;
-  top: -50px;
-  left: -90px;
+  margin-left: -20px;
 }
 .prefered-choice .prefered-card-wrapper .single-card .icon-title {
-  margin-left: 100px;
+  margin-left: 31px;
 }
 .prefered-choice .prefered-card-wrapper .single-card .icon-title h5 {
   font-weight: 500;
@@ -801,12 +809,8 @@ label {
   color: #000000;
   text-transform: capitalize;
 }
-.prefered-choice .prefered-card-wrapper .single-card .right-card {
-  border-left: 3px solid #000000;
-  padding: 25px 0px;
-}
 .prefered-choice .prefered-card-wrapper .single-card .right-card .right-card-desc p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
   font-weight: 400;
   color: #888888;
@@ -927,51 +931,28 @@ label {
     text-align: center;
   }
 }
-.partner-area {
-  background: #00CCFF;
-}
-.partner-area .partner-title h2 {
+.partner-area .section-top .section-title h2 {
+  font-size: 52px;
   font-weight: 500;
-  font-size: 65px;
-  line-height: 84px;
+  line-height: 62px;
   color: #000000;
 }
-.partner-area .partner-desc p {
+.partner-area .section-top .section-subtitle p {
+  font-weight: 4000;
+  font-size: 18px;
+  line-height: 32px;
   color: #000000;
 }
-.partner-area .brands-area ul {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+.partner-area .brands-slider-wrapper .brands-slider {
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 40px 0px;
 }
-.partner-area .brands-area ul li {
-  margin: 10px 0px;
-}
-.partner-area .brands-area ul li a img {
-  width: 180px;
-  height: auto;
+.partner-area .brands-slider-wrapper .brands-slider li a img {
+  width: 140px;
+  max-height: 50px;
 }
 
-@media screen and (max-width: 575px) {
-  .partner-area .partner-title h2 {
-    font-size: 28px;
-    line-height: 38px;
-  }
-  .partner-area .brands-area ul li a img {
-    width: 120px;
-    height: auto;
-  }
-}
-@media screen and (min-width: 575px) and (max-width: 768px) {
-  .partner-area .partner-title h2 {
-    font-size: 34px;
-    line-height: 48px;
-  }
-  .partner-area .brands-area ul li a img {
-    width: 120px;
-    height: auto;
-  }
-}
 .world-wide-area {
   background: #F2FCFF;
   border: 4px solid #000000;
@@ -979,6 +960,12 @@ label {
 }
 .world-wide-area .section-top {
   padding: 0px 250px;
+  position: relative;
+}
+.world-wide-area .section-top .arrow-shape {
+  position: absolute;
+  top: 116px;
+  left: 266px;
 }
 .world-wide-area .card-wrapper {
   position: relative;
@@ -998,8 +985,8 @@ label {
 .world-wide-area .card-wrapper .hidden-text-content .content-area {
   padding-top: 170px;
   background: #fff;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 296px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -1036,6 +1023,37 @@ label {
   font-size: 18px;
   line-height: 27px;
   color: #6d6d6d;
+}
+
+.success-stories {
+  background: #F8F4FB;
+}
+.success-stories .testimonial-card-area .testimonial-slider .single-slide {
+  background: white;
+  padding: 20px 30px;
+  margin: 0px 20px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  width: 520px;
+}
+.success-stories .testimonial-card-area .testimonial-slider .single-slide .slide-brands-area {
+  display: flex;
+}
+.success-stories .testimonial-card-area .testimonial-slider .single-slide .slide-brands-area .brands img {
+  width: 218px;
+}
+.success-stories .testimonial-card-area .testimonial-slider .single-slide .quote {
+  margin-left: 155px;
+}
+.success-stories .testimonial-card-area .testimonial-slider .single-slide .slide-text-area {
+  padding-top: 40px;
+}
+.success-stories .testimonial-card-area .testimonial-slider .single-slide:nth-child(even) .slide-text-area {
+  padding-bottom: 40px;
+}
+
+.single-slide.slick-slide.slick-current.slick-active {
+  box-shadow: 2px 2px 1px 2px #000000;
 }
 
 .bannar-area__contact {

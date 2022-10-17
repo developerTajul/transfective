@@ -1,11 +1,13 @@
 .prefered-choice {
+    background: #ffffff;
+
     .prefered-choice-title {
         padding: 0px 300px;
     }
 
     h2 {
         font-size: 65px;
-        line-height: 1;
+        line-height: 78px;
         color: #000E28;
     }
 
@@ -13,21 +15,21 @@
         .single-card {
             background: #ffffff;
             border: 3px solid #000E28;
-            border-radius: 20px;
-
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 320px;
+            border-bottom-left-radius: 320px;
+            margin-bottom: 50px;
             .left-card {
-                position: relative;
-
                 .icon {
-                    position: absolute;
-                    top: -50px;
-                    left: -90px;
+                    margin-left: -20px;
                 }
+
+                border-right: 3px solid #000000;
             }
 
             .icon-title {
-                margin-left: 100px;
-
+                margin-left: 31px;
                 h5 {
                     font-weight: 500;
                     font-size: 40px;
@@ -38,12 +40,11 @@
             }
 
             .right-card {
-                border-left: 3px solid #000000;
-                padding: 25px 0px;
+
 
                 .right-card-desc {
                     p {
-                        font-size: 18px;
+                        font-size: 16px;
                         line-height: 32px;
                         font-weight: 400;
                         color: #888888;

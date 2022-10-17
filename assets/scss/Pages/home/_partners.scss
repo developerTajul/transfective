@@ -1,59 +1,37 @@
 .partner-area {
-    background: $primary_1;
+    .section-top {
+        .section-title {
+            h2 {
+                font-size: 52px;
+                font-weight: 500;
+                line-height: 62px;
+                color: #000000;
+            }
+        }
 
-    .partner-title {
-        h2 {
-            font-weight: 500;
-            font-size: 65px;
-            line-height: 84px;
-            color: #000000;
+        .section-subtitle {
+            p {
+                font-weight: 4000;
+                font-size: 18px;
+                line-height: 32px;
+                color: #000000;
+            }
         }
     }
 
-    .partner-desc {
-        p {
-            color: #000000;
-        }
-    }
-
-    .brands-area {
-        ul {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-
+    .brands-slider-wrapper {
+        .brands-slider {
+            border-top: 4px solid #000000;
+            border-bottom: 4px solid #000000;
+            padding: 40px 0px;
             li {
-                margin: 10px 0px;
-
                 a {
                     img {
-                        width: 180px;
-                        height: auto;
+                        width: 140px;
+                        max-height: 50px;
                     }
                 }
             }
         }
-    }
-}
-
-@media screen and (max-width:575px) {
-    .partner-area .partner-title h2 {
-        font-size: 28px;
-        line-height: 38px;
-    }
-    .partner-area .brands-area ul li a img {
-        width: 120px;
-        height: auto;
-    }
-}
-@media screen and (min-width:575px) and (max-width:768px) {
-    .partner-area .partner-title h2 {
-        font-size: 34px;
-        line-height: 48px;
-    }
-
-    .partner-area .brands-area ul li a img {
-        width: 120px;
-        height: auto;
     }
 }

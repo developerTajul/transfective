@@ -5,6 +5,13 @@
 
     .section-top {
         padding: 0px 250px;
+        position: relative;
+
+        .arrow-shape {
+            position: absolute;
+            top: 116px;
+            left: 266px;
+        }
     }
 
 
@@ -16,23 +23,24 @@
 
         .card-elements {
             position: relative;
+
             .circle-elements {
                 position: absolute;
                 z-index: 9999;
-               
+
             }
         }
 
         .hidden-text-content {
             position: absolute;
-            z-index:1;
+            z-index: 1;
             top: 40%;
 
             .content-area {
                 padding-top: 170px;
                 background: #fff;
-                padding-left: 25px;
-                padding-right: 25px;
+                padding-left: 15px;
+                padding-right: 15px;
                 width: 296px;
                 border-bottom-left-radius: 20px;
                 border-bottom-right-radius: 20px;

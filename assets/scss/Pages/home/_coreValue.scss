@@ -1,5 +1,5 @@
 .bg-core-value {
-    background: #faf7f0;
+    background: #F8F4FB;
 }
 
 .core-value {
@@ -18,7 +18,7 @@
                 font-weight: 400;
                 font-size: 24px;
                 line-height: 36px;
-                color: #888888;
+                color: #6D6D6D;
             }
         }
     }
@@ -46,9 +46,11 @@
 }
 
 .bordered-card {
-    border: 2px solid $black;
+    border: 3px solid #000000;
+    background: #ffffff;
+    border-radius: 20px;
     padding: 32px 25px;
-    min-height: 400px;
+    min-height: 417px;
     position: relative;
 
     .bordered-card-top {
@@ -68,31 +70,24 @@
             line-height: 32px;
             color: #888888;
         }
+     
     }
 
     .author {
         position: absolute;
         bottom: 30px;
-
+       
         a {
             text-decoration: none;
             font-weight: 500;
+         
             font-size: 18px;
-            line-height: 27px;
+            line-height: 26px;
             text-transform: capitalize;
             color: #000E28;
             display: block;
-            position: relative;
-
-            &::before {
-                position: absolute;
-                content: "";
-                top: 17px;
-                height: 6px;
-                width: 150px;
-                background: #00ccff81;
-                z-index: 1;
-            }
+            border-bottom: 6px solid #00ccff81;
+            border-radius: 4px;
         }
     }
 }

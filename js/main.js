@@ -31,6 +31,26 @@
 
 		});
 
+		$('.brands-slider').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 10,
+			slidesToScroll: 1,
+			arrows: false,
+		});
+
+		$('.testimonial-slider').slick({
+			dots: false,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			arrows: false,
+			variableWidth: true
+		});
+
+
 		/*** Sticky header */
 		$(window).scroll(function () {
 			if ($("body").scrollTop() > 0 || $("html").scrollTop() > 0) {
