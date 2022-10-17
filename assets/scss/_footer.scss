@@ -1,145 +1,127 @@
-/** footer-area  **/
 .footer-area {
-    background-color: $dark_black;
+    background: #000E28;
 
-    &__widget {
-        margin-bottom: 40px;
-
-        &.widget_nav_menu {
-
-            ul {
-                gap: 10px;
-                display: flex;
-                flex-direction: column;
-
-                li {
-
-                    a {
-                        font-size: 16px;
-                        color: $dark_white;
-                        font-family: $pop;
-                        line-height: 24px;
-                        position: relative;
-                        display: inline-block;
-                        text-decoration: none;
-
-                        &:before {
-                            left: 0;
-                            right: 0;
-                            bottom: 0;
-                            width: 100%;
-                            height: 3px;
-                            content: '';
-                            position: absolute;
-                            transform: scaleX(0);
-                            transition: all .3s ease;
-                            background-color: $dark_white;
-                        }
-
-                        &:hover,
-                        &:focus {
-
-                            &:before {
-                                transform: scaleX(1);
-                            }
-                        }
-                    }
-                }
+    .subscribe-widget {
+        .widget-title {
+            h2 {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                color: #fff;
+                text-transform: capitalize;
             }
         }
 
-        &-info {
+        .widget-desc {
+            margin-top: 10px;
 
-            .description {
-
-                p {
-                    color: $dark_white;
-                }
-            }
-
-            .form {
-
-                &-group {
-                    position: relative;
-
-                    input {
-                        width: 100%;
-                        height: 50px;
-                        padding-left: 10px;
-                        border-radius: 10px;
-                        border: none;
-                        outline: none;
-
-                        &::placeholder {
-                            font-weight: 400;
-                            font-size: 18px;
-                            line-height: 27px;
-                            color: #cccccc;
-                            text-transform: capitalize;
-                        }
-                    }
-
-                    button {
-                        position: absolute;
-                        right: 0px;
-                        top: 0px;
-                        background: #8E0BF4;
-                        color: #fff;
-                        height: 50px;
-                        padding: 0px 30px;
-                        font-size: 18px;
-                        border-top-left-radius: 0px;
-                        border-bottom-left-radius: 0px;
-
-                        &:hover {
-                            background: #8E0BF4;
-                            opacity: 0.6;
-                        }
-                    }
-
-                }
+            p {
+                text-transform: capitalize;
+                color: #dddddd;
+                font-size: 18px;
+                line-height: 30px;
             }
         }
     }
 
-    // socila profile
+    .form-area {
+        position: relative;
 
-    .social-profile {
-        ul {
+        input {
+            width: 100%;
+            font-size: 18px;
+            line-height: 27px;
+            padding: 14px 10px;
+            border-radius: 5px;
+            border: none;
+            &::placeholder {
+                font-size: 18px;
+                line-height: 27px;
+                font-weight: 400;
+                color: #cccccc;
+            }
+        }
+        button{
+            position: absolute;
+            right: -4px;
+            top: -1px;
+            height: 59px;
+            border: none;
+            width: 85px;
+            background: #8E0BF4;
+            color: #fff;
+            border-radius: 10px;
+            border: 2px solid #000000;
+            i{
+                transform: rotate(90deg);
+            }
+        }
+    }
+    .social-widget{
+        ul{
             display: flex;
-
-            li {
-                a {
-                    height: 44px;
-                    width: 44px;
-                    border-radius: 50%;
-                    color: #fff;
-                    border: 1px solid #fff;
-                    display: flex;
+            li{
+                a{
+                    display: inline-flex;
                     justify-content: center;
                     align-items: center;
-                    text-decoration: none;
+                    height: 44px;
+                    width: 44px;
+                    color: #fff;
+                    border: 1px solid #fff;
                     margin-right: 40px;
+                    border-radius: 50%;
+                    text-decoration: none;
                     &:hover{
                         background: #fff;
-                        color: #8E0BF4;
+                        color: #000000;
                     }
                 }
             }
         }
     }
-
+    .footer-heading{
+        margin-bottom: 25px;
+        h2{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            color: #fff;
+            text-transform: capitalize;
+        }
+    }
+    .footer-nav{
+        nav{
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #DDDDDD;
+                        text-transform: capitalize;
+                        margin-bottom: 16px;
+                        display:block;
+                    }
+                }
+            }
+        }
+    }
 }
 .line{
+    height: 2px;
     width: 100%;
-    height: 1px;
-    background:rgba(128, 128, 128, 0.116)
+    background: #fff;
 }
-
-@media screen and (max-width:575px) {
-    .footer-area__widget{
-        .title{
-            margin-bottom: 20px;
-        }
+.copyright-area{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    p{
+        color: #fff;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
     }
 }
