@@ -138,6 +138,17 @@
         color: #6d6d6d;
         margin-top: 10px;
     }
+
+    .world-wide-area .section-top .arrow-shape {
+        top: 50px;
+        left: -21px;
+
+        img {
+            width: 100px;
+
+            transform: rotate(-41deg);
+        }
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -186,10 +197,11 @@
         padding: 0px 0px;
     }
 
-   .section-top .section-title h2 {
-       font-size: 46px;
-       line-height: 66px;
-   }
+    .section-top .section-title h2 {
+        font-size: 46px;
+        line-height: 66px;
+    }
+
     .world-wide-area .section-top .arrow-shape {
         top: 70px;
         left: -30px;
@@ -201,19 +213,67 @@
     }
 
     .world-wide-area .card-wrapper .card-elements {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
 
     .world-wide-area .card-wrapper .card-elements .circle-elements .icon-area img {
-        width: 60px;
+        width: 70px;
         height: auto;
     }
 
     .world-wide-area .card-wrapper .card-elements .elements-title h4 {
-        font-size: 30px;
-        line-height: 30px;
-        margin-top: 10px;
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    .world-wide-area .card-wrapper .card-elements .elements-desc {
+        margin-top: 12px;
+    }
+
+    .world-wide-area .card-wrapper .card-elements .elements-desc {
+        padding: 0px 12px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .world-wide-area .section-top {
+        padding: 0px 200px;
+    }
+
+    .section-top .section-title h2 {
+        font-size: 34px;
+        line-height: 59px;
+    }
+
+
+
+    .world-wide-area .section-top .arrow-shape {
+        top: 56px;
+        left: 100px;
+
+
+    }
+
+    .world-wide-area .card-wrapper .card-elements {
+        width: 250px;
+        height: 250px;
+    }
+
+    .world-wide-area .card-wrapper .card-elements .circle-elements .icon-area img {
+        width: 70px;
+        height: auto;
+    }
+
+    .world-wide-area .card-wrapper .card-elements .elements-title h4 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    .world-wide-area .card-wrapper .card-elements .elements-desc {
+        margin-top: 12px;
     }
 
     .world-wide-area .card-wrapper .card-elements .elements-desc {

@@ -16,9 +16,11 @@
             color: #6D6D6D;
         }
     }
-    .our-process-right{
+
+    .our-process-right {
         position: relative;
-        .star-img{
+
+        .star-img {
             position: absolute;
             right: 0px;
         }
@@ -32,7 +34,9 @@
     }
 
     .our-process-right {
-        display: none;
+        img {
+            width: 147px;
+        }
     }
 }
 
@@ -43,8 +47,13 @@
     }
 
     .our-process-right {
-        display: none;
+        img {
+            width: 200px;
+        }
     }
+
+
+
 }
 
 
@@ -82,5 +91,12 @@
     .need-project .need-project-desc p {
         font-size: 16px;
         line-height: 26px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .need-project .need-project-title h3 {
+        font-size: 40px;
+        line-height: 54px;
     }
 }
