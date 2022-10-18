@@ -1187,6 +1187,16 @@ label {
   max-height: 50px;
 }
 
+@media screen and (max-width: 575px) {
+  .partner-area .section-top .section-title h2 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .partner-area .section-top .section-subtitle p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
 .world-wide-area {
   background: #F2FCFF;
   border: 4px solid #000000;
