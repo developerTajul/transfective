@@ -1445,6 +1445,21 @@ label {
   box-shadow: 2px 2px 1px 2px #000000;
 }
 
+@media screen and (max-width: 575px) {
+  .success-stories .section-top .section-title h2 {
+    font-size: 28px;
+    line-height: 52px;
+  }
+  .success-stories .section-top .section-subtitle {
+    padding: 0px 40px;
+  }
+  .success-stories .testimonial-card-area .testimonial-slider .single-slide {
+    width: calc(100vw - 20px);
+  }
+  .success-stories .testimonial-card-area .testimonial-slider .single-slide .slide-brands-area .brands img {
+    width: 150px;
+  }
+}
 .bannar-area__contact {
   background: #faf7f0;
 }
@@ -2883,6 +2898,38 @@ label {
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 575px) {
+  .footer-area .footer-heading {
+    margin-top: 30px;
+  }
+  .copyright-area {
+    padding-top: 15px;
+    padding-bottom: 1px;
+  }
+  .copyright-area p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .footer-area .footer-heading {
+    margin-top: 30px;
+  }
+  .copyright-area {
+    padding-top: 15px;
+    padding-bottom: 1px;
+  }
+  .copyright-area p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-area .footer-heading {
+    margin-top: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

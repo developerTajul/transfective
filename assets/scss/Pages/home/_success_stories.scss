@@ -41,5 +41,24 @@
 }
 
 .single-slide.slick-slide.slick-current.slick-active {
-   box-shadow: 2px 2px 1px 2px #000000;
+    box-shadow: 2px 2px 1px 2px #000000;
+}
+
+@media screen and (max-width:575px) {
+    .success-stories .section-top .section-title h2 {
+        font-size: 28px;
+        line-height: 52px;
+    }
+
+    .success-stories .section-top .section-subtitle {
+        padding: 0px 40px;
+    }
+
+    .success-stories .testimonial-card-area .testimonial-slider .single-slide {
+        width: calc(100vw - 20px);
+    }
+
+    .success-stories .testimonial-card-area .testimonial-slider .single-slide .slide-brands-area .brands img {
+        width: 150px;
+    }
 }
