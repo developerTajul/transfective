@@ -7123,6 +7123,9 @@ xs device
     padding-left: 5px;
   }
 
+  .pr-xs-0{
+    padding-right: 0px !important;
+  }
   .pr-xs-5 {
     padding-right: 5px;
   }

@@ -807,12 +807,14 @@ label {
   .core-value .core-value-top .core-value-title h2 {
     font-size: 36px;
     line-height: 43px;
-    text-align: left;
   }
   .core-value .core-value-top .core-value-subtitle p {
     font-size: 22px;
     line-height: 25px;
-    text-align: left;
+  }
+  .core-text-content .core-text-content-desc p {
+    font-size: 16px;
+    line-height: 26px;
   }
   .core-text-content .core-text-content-title h4 {
     font-size: 26px;
@@ -826,12 +828,10 @@ label {
   .core-value .core-value-top .core-value-title h2 {
     font-size: 36px;
     line-height: 43px;
-    text-align: left;
   }
   .core-value .core-value-top .core-value-subtitle p {
     font-size: 22px;
     line-height: 25px;
-    text-align: left;
   }
   .core-text-content .core-text-content-title h4 {
     font-size: 26px;
@@ -852,6 +852,9 @@ label {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+  .bordered-card {
+    padding: 32px 10px;
+  }
   .core-text-content .core-text-content-title h4 {
     font-size: 36px;
     line-height: 46px;
@@ -870,6 +873,9 @@ label {
   }
   .bordered-card {
     min-height: 440px;
+  }
+  .core-cards-area-wrapper {
+    margin-top: 40px !important;
   }
 }
 .prefered-choice {
