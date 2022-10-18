@@ -99,12 +99,34 @@
     }
 
     .home-bannar-area .bannar-area-title h1 {
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 34px;
+        line-height: 47px;
+    }
+
+    .home-bannar-area .bannar-area-title .arrow-shape {
+        position: absolute;
+        top: 81px;
+        left: -15px;
     }
 
     .home-bannar-area .bannar-area-right .arrow {
         display: none;
+    }
+
+    .home-bannar-area .bannar-area-right .arrow img {
+        width: 80px;
+    }
+
+    .home-bannar-area .bannar-area-right .star {
+        top: -19px;
+        left: 372px;
+        display: none;
+    }
+
+    .home-bannar-area .bannar-area-right .arrow {
+
+        top: -2px;
+        left: 157px;
     }
 
     .home-bannar-area .bannar-area-right .star {
@@ -120,7 +142,7 @@
     }
 
     .home-bannar-area .bannar-area-title h1 {
-        font-size: 36px;
+        font-size: 46px;
         line-height: 56px;
     }
 
@@ -130,8 +152,17 @@
 
     .home-bannar-area .bannar-area-right .star {
 
-        top: 16px;
-        left: 246px;
+        display: none;
+    }
+
+    .home-bannar-area .bannar-area-title .arrow-shape {
+        top: 99px;
+        left: 0px;
+    }
+
+    .home-bannar-area .bannar-bottom-area .hero-content::before {
+        left: -28px;
+        top: 3%;
     }
 }
 
@@ -142,16 +173,38 @@
 
     .home-bannar-area .bannar-area-title h1 {
         font-size: 46px;
-        line-height: 60px;
+        line-height: 66px;
     }
 
     .home-bannar-area .bannar-area-right .arrow {
-        display: none;
+        img {
+            width: 120px;
+        }
     }
 
     .home-bannar-area .bannar-area-right .star {
         top: 16px;
         left: 80%;
+    }
+
+    .home-bannar-area .bannar-area-title .arrow-shape {
+        top: 120px;
+        left: 0px;
+    }
+
+    .home-bannar-area .bannar-area-right .arrow {
+        top: 27px;
+        left: 27px;
+    }
+
+    .home-bannar-area .bannar-area-right .star {
+        top: 32px;
+        left: 78%;
+    }
+
+    .home-bannar-area .bannar-area-right .small-star {
+        top: -57px;
+        left: 1px;
     }
 }
 
@@ -173,5 +226,21 @@
     .home-bannar-area .bannar-area-right .star {
         top: -115px;
         left: 31%;
+    }
+
+    .home-bannar-area .bannar-area-title .arrow-shape {
+        top: 108px;
+        left: 0px;
+    }
+
+    .home-bannar-area .bannar-area-right .small-star {
+        top: -120px;
+        left: -90px;
+    }
+
+    .home-bannar-area .bannar-area-right .arrow {
+       img{
+        width: 170px;
+       }
     }
 }

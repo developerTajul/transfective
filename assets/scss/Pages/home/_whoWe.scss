@@ -41,17 +41,19 @@
         padding: 0px 60px;
         text-align: center;
         position: relative;
+
         p {
             font-weight: 500;
             font-size: 40px;
             line-height: 63px;
             color: #fff;
         }
-                .arrow-shape {
-                    position: absolute;
-                    left: 0px;
-                    top: 152px;
-                }
+
+        .arrow-shape {
+            position: absolute;
+            left: 0px;
+            top: 152px;
+        }
     }
 
     .main-area-img {
@@ -90,15 +92,24 @@
     }
 
     .main-area .main-area-subtitle p {
+        font-size: 18px;
+        line-height: 29px;
+    }
 
-        font-size: 26px;
-        line-height: 38px;
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 0px;
+        top: 98px;
+    }
 
+    .main-area .main-area-subtitle .arrow-shape {
+        img {
+            width: 70px;
+        }
     }
 
     .main-area .main-area-desc p {
         font-size: 16px;
-        line-height: 26px;
+        line-height: 30px;
     }
 }
 
@@ -125,10 +136,17 @@
     }
 
     .main-area .main-area-subtitle p {
-
         font-size: 20px;
-        line-height: 30px;
+        line-height: 36px;
+    }
 
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 0px;
+        top: 73px;
+
+        img {
+            width: 80px;
+        }
     }
 
     .main-area .main-area-desc p {
@@ -136,8 +154,9 @@
         line-height: 28px;
     }
 }
+
 @media screen and (min-width:768px) and (max-width:991px) {
- 
+
     .who-we .section-top h2::before {
         left: 3%;
     }
@@ -146,25 +165,62 @@
         right: 4%;
     }
 
-   
-    .main-area .main-area-subtitle p {
-
-        font-size: 18px;
-        line-height: 28px;
-
+    .main-area .main-area-subtitle {
+        padding: 0px 100px;
     }
+
+    .main-area .main-area-subtitle p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
 
     .main-area .main-area-desc p {
         font-size: 16px;
-        line-height: 26px;
+        line-height: 32px;
+    }
+
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 0px;
+        top: 62px;
+
+        img {
+            width: 100px;
+        }
     }
 }
+
 @media screen and (min-width:992px) and (max-width:1200px) {
     .who-we .section-top h2::before {
-            left: 4%;
+        left: 4%;
+    }
+
+    .who-we .section-top h2::after {
+        right: 4%;
+    }
+
+    .main-area .main-area-subtitle {
+        padding: 0px 100px;
+    }
+
+    .main-area .main-area-subtitle p {
+
+        font-size: 24px;
+        line-height: 40px;
+
+    }
+
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 15px;
+        top: 90px;
+
+        img {
+            width: 100px;
         }
-    
-        .who-we .section-top h2::after {
-            right: 4%;
-        }
+    }
+
+    .main-area .main-area-desc p {
+        font-size: 18px;
+        line-height: 32px;
+    }
 }
