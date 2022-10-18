@@ -7,8 +7,9 @@
             li {
                 &.active {
                     a {
-                        background: #fff;
-                        box-shadow: 14px 5px 1px 8px #000000;
+                        background: #FDFCF8;
+                        box-shadow: 4px 0px 2px -1px #000000;
+                        color: #8E0BF4;
                     }
                 }
 
@@ -19,14 +20,21 @@
                     text-decoration: none;
                     font-weight: 400;
                     font-size: 24px;
+                    line-height: 1;
                     color: #0000008f;
                     text-transform: capitalize;
                     width: 416px;
                     padding: 17px 40px;
-                    background: #ddaeef;
+                    background: #ceedf7;
                     border-radius: 10px;
                     margin: 0px 20px;
                     min-height: 126px;
+                    border: 2px solid #000E28;
+
+                    &:hover {
+                        color: #8E0BF4;
+                        background: #FDFCF8;
+                    }
 
                 }
             }

@@ -12,13 +12,15 @@
         position: relative;
 
         .arrow {
-            margin-left: 250px;
+            position: absolute;
+            top: -8px;
+            left: 68px;
         }
 
         .star {
             position: absolute;
-            top: -50px;
-            left: 60%;
+            top: -51px;
+            left: 43%;
         }
     }
 

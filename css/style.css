@@ -216,6 +216,14 @@ label {
   background-color: #F5FAFF;
 }
 
+.theme-bg-primary {
+  background: #00CCFF;
+}
+
+.theme-bg-secondary {
+  background: #F2FCFF;
+}
+
 .theme-bg-dark {
   background-color: #133460;
 }
@@ -2178,7 +2186,7 @@ label {
   border: 4px solid #000E28;
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area {
-  background: #00CCFF;
+  background: #8E0BF4;
   padding: 48px 30px;
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
@@ -2190,7 +2198,11 @@ label {
   color: rgba(0, 0, 0, 0.7);
   border: 2px solid #000E28;
   margin-bottom: 40px;
-  background: #b1eefa;
+  background: #dcb4f7;
+}
+.insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link.active {
+  background: #fdfcf8;
+  box-shadow: 2px 2px 0px 2px #000E28;
 }
 .insdustries-verticle-tabs-area .verticle-tab-content {
   padding-left: 50px;
@@ -2212,7 +2224,7 @@ label {
 @media screen and (max-width: 575px) {
   .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
     font-size: 18px;
-    line-height: 39px;
+    line-height: 19px;
     margin-bottom: 19px;
   }
 }
@@ -2234,8 +2246,9 @@ label {
   align-items: center;
 }
 .services-nav nav ul li.active a {
-  background: #fff;
-  box-shadow: 14px 5px 1px 8px #000000;
+  background: #FDFCF8;
+  box-shadow: 4px 0px 2px -1px #000000;
+  color: #8E0BF4;
 }
 .services-nav nav ul li a {
   display: flex;
@@ -2244,14 +2257,20 @@ label {
   text-decoration: none;
   font-weight: 400;
   font-size: 24px;
+  line-height: 1;
   color: rgba(0, 0, 0, 0.5607843137);
   text-transform: capitalize;
   width: 416px;
   padding: 17px 40px;
-  background: #ddaeef;
+  background: #ceedf7;
   border-radius: 10px;
   margin: 0px 20px;
   min-height: 126px;
+  border: 2px solid #000E28;
+}
+.services-nav nav ul li a:hover {
+  color: #8E0BF4;
+  background: #FDFCF8;
 }
 
 @media screen and (max-width: 575px) {
@@ -2291,12 +2310,14 @@ label {
   position: relative;
 }
 .services-content .services-content-right .arrow {
-  margin-left: 250px;
+  position: absolute;
+  top: -8px;
+  left: 68px;
 }
 .services-content .services-content-right .star {
   position: absolute;
-  top: -50px;
-  left: 60%;
+  top: -51px;
+  left: 43%;
 }
 .services-content .services-content-desc p {
   color: #727272;

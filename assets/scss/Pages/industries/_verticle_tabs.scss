@@ -4,7 +4,7 @@
 
 
         .tab-btn-area {
-            background: #00CCFF;
+            background: #8E0BF4;
             padding: 48px 30px;
 
             .nav-link {
@@ -16,7 +16,12 @@
                 color: rgba(0, 0, 0, 0.7);
                 border: 2px solid #000E28;
                 margin-bottom: 40px;
-                background: #b1eefa;
+                background: #dcb4f7;
+
+                &.active {
+                    background: #fdfcf8;
+                    box-shadow: 2px 2px 0px 2px #000E28;
+                }
             }
         }
     }
@@ -48,7 +53,7 @@
 @media screen and (max-width:575px) {
     .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
         font-size: 18px;
-        line-height: 39px;
+        line-height: 19px;
         margin-bottom: 19px;
     }
 }
