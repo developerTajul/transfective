@@ -1,4 +1,13 @@
 .services-nav {
+    .active.slick-slide.slick-current.slick-active {
+        a {
+            background: #fff;
+            color: #8E0BF4;
+            box-shadow: 3px 0px 0px 0px #000000;
+            border-bottom: 4px solid #000000;
+        }
+    }
+
     nav {
         ul {
             display: flex;
@@ -7,9 +16,10 @@
             li {
                 &.active {
                     a {
-                        background: #FDFCF8;
-                        box-shadow: 4px 0px 2px -1px #000000;
+                        background: #fff;
                         color: #8E0BF4;
+                        box-shadow: 3px 0px 0px 0px #000000;
+                        border-bottom: 4px solid #000000;
                     }
                 }
 
@@ -30,12 +40,12 @@
                     margin: 0px 20px;
                     min-height: 126px;
                     border: 2px solid #000E28;
-
                     &:hover {
+                        background: #fff;
                         color: #8E0BF4;
-                        background: #FDFCF8;
+                        box-shadow: 3px 0px 0px 0px #000000;
+                        border-bottom: 4px solid #000000;
                     }
-
                 }
             }
         }

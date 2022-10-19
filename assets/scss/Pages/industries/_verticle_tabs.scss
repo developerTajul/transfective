@@ -8,7 +8,20 @@
         .tab-btn-area {
             background: #8E0BF4;
             padding: 48px 30px;
+            padding-left: 75px;
             border-radius: 15px;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                content: "";
+                height: 85%;
+                left: 25px;
+                top: 30px;
+                width: 18px;
+                background: #FFFFFFed;
+                border-radius: 10px;
+            }
 
             .nav-link {
                 text-align: left;
@@ -24,6 +37,31 @@
                 &.active {
                     background: #fdfcf8;
                     box-shadow: 2px 2px 0px 2px #000E28;
+                    position: relative;
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        top: 0px;
+                        left: -48px;
+                        height: 170px;
+                        width: 10px;
+                        background: #B1EEFA;
+                        border-radius: 10px;
+                    }
+                }
+
+                &:last-child {
+                    &.active {
+                
+
+                        &::before {
+                          
+                            top: -100px;
+                         
+                           
+                        }
+                    }
                 }
             }
         }
@@ -35,7 +73,7 @@
         .tab-content-list {
             ul {
                 li {
-                   
+
                     padding-left: 35px;
                     position: relative;
 
