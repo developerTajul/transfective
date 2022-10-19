@@ -1,239 +1,85 @@
 .our-solutions.our-solution-style-1 {
+    .our-solutions-heading {
+        h2 {
+            font-weight: 500;
+            font-size: 52px;
+            line-height: 62px;
+        }
+    }
+
     .card-style-1 {
+        .card-style-left {
+            .card-title {
+                h3 {
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 50px;
+                    color: #000E28;
+                }
+            }
+        }
+
         .card-desc {
             p {
                 font-size: 18px;
+                line-height: 32px;
                 margin-left: 10px;
+                color: #727272;
             }
         }
 
-        .card-img {
-            position: relative;
-
-            .card-postion-img {
+        .translation-memory {
+            .three-star {
                 position: absolute;
-                top: 100%;
-                right: 0%;
-                margin-top: 105px;
+                bottom: 2px;
+                left: 23px;
             }
         }
 
-        .full-img-area {
+        .glossary-management {
             position: relative;
 
-            .left-vector-img {
+            .globe-img {
                 position: absolute;
-                left: -50px;
-                bottom: 0px;
-            }
+                bottom: -42px;
+                left: 10px;
 
-            .right-vector-img {
-                position: absolute;
-                right: 240px;
-                bottom: -50px;
-            }
-        }
-    }
+                .globe-1 {
+                    width: 180px;
+                }
 
-    .translation-memory {
-        position: relative;
-
-        .img-area {
-            position: relative;
-
-            .vector-img {
-                position: absolute;
-                top: 300px;
-                left: -40px;
-
-                .star-area {
+                .star-img {
                     position: absolute;
-                    top: 100px;
-                    left: 50px;
+                    top: 88px;
+                    left: 12px;
                 }
             }
         }
-    }
 
-    .glossary-management {
-
-        .img-area {
+        // cat tools start
+        .cat-tools-img {
             position: relative;
 
-            .vector-img-one {
+            .cat-tools-globe {
+
                 position: absolute;
                 bottom: 0px;
-                left: -150px;
-            }
+                left: 105px;
 
-            .vector-image-two {
-                position: absolute;
-                top: 50px;
-                right: -200px;
+                .globe-img {
+                    img {
+                        width: 150px;
+                    }
 
-                img {
-                    transform: rotate(-90deg);
+                    .black-star {
+                        position: absolute;
+                        bottom: 0px;
+                        left: 30px;
+                        img{
+                            width: 50px;
+                        }
+                    }
                 }
-
-            }
-
-        }
-    }
-
-    .cat-tools {
-        .img-area {
-            position: relative;
-
-            .vector-img {
-                position: absolute;
-                bottom: 47px;
-                left: -29px;
-
-                .star-area {
-                    margin-top: -100px;
-                }
-            }
-        }
-    }
-}
-
-// our solution start
-@media screen and (min-width:320px) and (max-width:575px) {
-    .our-solutions .our-solutions-heading h2 {
-        font-size: 41px;
-        line-height: 54px;
-    }
-
-    .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
-        font-size: 16px;
-        margin-left: 5px;
-    }
-
-    .our-solutions.our-solution-style-1 {
-        .left-vector-img {
-            display: none;
-        }
-
-        .right-vector-img {
-            display: none;
-        }
-    }
-
-    .our-solutions.our-solution-style-1 .translation-memory .img-area .vector-img {
-        top: 218px;
-        left: -28px;
-    }
-
-    h3 {
-        font-size: 30px;
-        line-height: 43px;
-    }
-
-    .glossary-management {
-        .vector-img-one {
-            margin-left: 40px;
-
-            img {
-                width: 150px;
-            }
-        }
-
-        .vector-image-two {
-
-            img {
-                width: 150px;
-            }
-
-
-        }
-
-
-    }
-
-    .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-image-two {
-        position: absolute;
-        top: 20px;
-        right: -120px;
-    }
-
-    .cat-tools {
-        .vector-img {
-            margin-top: 50px;
-
-            img {
-                width: 160px;
-            }
-
-            .star-area {
-                img {
-                    width: 80px;
-                }
-            }
-        }
-    }
-
-    .our-solutions.our-solution-style-1 .cat-tools .img-area .vector-img {
-        left: 0px;
-    }
-}
-
-@media screen and (min-width:576px) and (max-width:768px) {
-    .our-solutions .our-solutions-heading h2 {
-        font-size: 32px;
-        line-height: 42px;
-    }
-
-    .our-solutions.our-solution-style-1 .translation-memory .img-area {
-        margin-top: 50px;
-    }
-
-    .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .left-vector-img {
-        display: none;
-    }
-
-    .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .right-vector-img {
-        display: none;
-    }
-
-    .our-solutions.our-solution-style-1 h3 {
-        font-size: 29px;
-        line-height: 40px;
-    }
-}
-
-@media all and (min-width:768px) and (max-width:992px) {
-    .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .left-vector-img {
-        display: none;
-    }
-
-    .our-solutions.our-solution-style-1 .card-style-1 .full-img-area .right-vector-img {
-        display: none;
-    }
-
-    .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-img-one {
-        left: -106px;
-
-        img {
-            width: 150px;
-        }
-    }
-
-    .our-solutions.our-solution-style-1 .glossary-management .img-area .vector-image-two {
-        right: -85px;
-
-        img {
-            width: 100px;
-        }
-    }
-
-    .our-solutions.our-solution-style-1 .cat-tools .img-area .vector-img {
-        img{
-            width: 170px;
-        }
-        left: 0px;
-        .star-area{
-            img{
-                width: 80px;
             }
         }
     }

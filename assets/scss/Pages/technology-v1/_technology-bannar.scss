@@ -1,9 +1,12 @@
 .technology-bannar-style-1 {
-    background: $technology-v1-bg !important;
+    background: #F2FCFF !important;
     border-bottom: 4px solid #000E28;
+
+
 
     .bannar-area.bannar-area__technology .hero-contents {
         margin-left: 48px;
+        border-left: 8px solid #000E28;
     }
 
     .hero-right-area {
@@ -14,6 +17,20 @@
             top: 0px;
             right: 100px;
         }
+    }
+}
+
+.bannar-area.bannar-area__technology .hero-left-area {
+    h1 {
+        font-weight: 500;
+        font-size: 65px;
+        line-height: 91px;
+        color: #000E28;
+    }
+
+    .stretch-rope {
+        top: 98px;
+        left: 11%;
     }
 }
 

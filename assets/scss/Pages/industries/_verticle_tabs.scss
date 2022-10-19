@@ -1,11 +1,14 @@
 .insdustries-verticle-tabs-area {
+    border-radius: 20px;
+
     .tabs-area {
         border: 4px solid #000E28;
-
+        border-radius: 20px;
 
         .tab-btn-area {
             background: #8E0BF4;
             padding: 48px 30px;
+            border-radius: 15px;
 
             .nav-link {
                 text-align: left;
@@ -27,12 +30,13 @@
     }
 
     .verticle-tab-content {
-        padding-left: 50px;
+        padding: 20px;
 
         .tab-content-list {
             ul {
                 li {
-                    padding-left: 40px;
+                   
+                    padding-left: 35px;
                     position: relative;
 
                     &::before {
