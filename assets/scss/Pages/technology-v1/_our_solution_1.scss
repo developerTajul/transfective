@@ -75,12 +75,82 @@
                         position: absolute;
                         bottom: 0px;
                         left: 30px;
-                        img{
+
+                        img {
                             width: 50px;
                         }
                     }
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .our-solutions.our-solution-style-1 .our-solutions-heading h2 {
+
+        font-size: 33px;
+        line-height: 43px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .card-style-left .card-title h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 5px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img {
+        display: none;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img .globe-1 {
+        width: 160px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        bottom: 11px;
+        left: 5px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img {
+        bottom: 18px;
+        left: 10px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        bottom: 46px;
+        left: 44px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img {
+        bottom: -42px;
+        left: -29px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        bottom: 0px;
+        left: 4px;
     }
 }

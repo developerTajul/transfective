@@ -74,8 +74,8 @@
     }
 
     .content-review .content-card .content-title h5 {
-        font-size: 22px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     .content-review .content-card .content-title h5 {
@@ -108,4 +108,17 @@
         line-height: 66px;
 
     }
+
+    .content-review .content-review-right .content-review-title {
+        margin-top: 52px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    .content-review .content-review-right .content-review-title h2 {
+    
+            font-size: 34px;
+            line-height: 85px;
+
+        }
 }
