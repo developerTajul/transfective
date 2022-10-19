@@ -373,23 +373,26 @@
     }
 }
 
-.nav-button{
+.nav-button {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #fff;
     text-transform: capitalize;
     text-decoration: none;
-    background:#8E0BF4;
+    background: #8E0BF4;
     padding: 23px 42px;
     border-radius: 10px;
     border: 1px solid #000E28;
-    box-shadow: 2px 3px 0px 0px #000E28;
-    &:hover{
+    box-shadow: 2px 0px 0px 0px #000E28,
+        0px 2px 0px 0px #000E28;
+
+    &:hover {
         background: #000E28;
         color: #fff;
     }
 }
+
 // menu space
 @media all and (max-width:991px) {
     .header-area {

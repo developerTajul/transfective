@@ -79,8 +79,8 @@
                     text-decoration: none;
 
                     &:hover {
-                        background: #fff;
-                        color: #000000;
+                        background: #9c2af5;
+                   
                     }
                 }
             }
@@ -113,6 +113,9 @@
                         text-transform: capitalize;
                         margin-bottom: 16px;
                         display: block;
+                        &:hover{
+                            color: #9c2af5;
+                        }
                     }
                 }
             }

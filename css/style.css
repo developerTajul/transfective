@@ -2685,7 +2685,7 @@ html {
   padding: 23px 42px;
   border-radius: 10px;
   border: 1px solid #000E28;
-  box-shadow: 2px 3px 0px 0px #000E28;
+  box-shadow: 2px 0px 0px 0px #000E28, 0px 2px 0px 0px #000E28;
 }
 .nav-button:hover {
   background: #000E28;
@@ -2764,8 +2764,7 @@ html {
   text-decoration: none;
 }
 .footer-area .social-widget ul li a:hover {
-  background: #fff;
-  color: #000000;
+  background: #9c2af5;
 }
 .footer-area .footer-heading {
   margin-bottom: 25px;
@@ -2787,6 +2786,9 @@ html {
   text-transform: capitalize;
   margin-bottom: 16px;
   display: block;
+}
+.footer-area .footer-nav nav ul li a:hover {
+  color: #9c2af5;
 }
 
 .line {
