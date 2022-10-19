@@ -2430,6 +2430,15 @@ html {
     display: none;
   }
 }
+@media screen and (min-width: 1400px) {
+  .ecommerce-area .tab-content-single .tab-content-title {
+    padding: 0px 300px;
+  }
+  .ecommerce-area .tab-content-single .arrow {
+    top: 17%;
+    left: 27%;
+  }
+}
 .bg-gray {
   background: rgba(128, 128, 128, 0.303);
 }
