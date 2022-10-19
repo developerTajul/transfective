@@ -23,69 +23,59 @@
             position: relative;
 
             .circle-elements {
-                position: absolute;
-                z-index: 9999;
-
-            }
-        }
-
-        .hidden-text-content {
-            position: absolute;
-            z-index: 1;
-            top: 40%;
-
-            .content-area {
-                padding-top: 170px;
-                background: #fff;
-                padding-left: 15px;
-                padding-right: 15px;
+                position: relative;
+                transition: all ease-in 0.3s;
                 width: 296px;
-                border-bottom-left-radius: 20px;
-                border-bottom-right-radius: 20px;
-                border-top-left-radius: 5px;
-                border-top-right-radius: 5px;
-                border: 2px solid #000000;
-
-                text-align: center;
-            }
-        }
-
-        .card-elements {
-            width: 296px;
-            height: 296px;
-            border: 3px solid #000E28;
-            text-align: center;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 9888;
-
-            .circle-elements {
-                position: absolute;
-                z-index: 5;
-            }
-
-            .elements-title {
-                margin-top: 10px;
-
-                h4 {
-                    font-size: 44px;
-                    line-height: 66px;
-                    font-weight: 600;
-                    color: #000E28;
+                height: 296px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: 3px solid #000E28;
+                border-radius: 50%;
+                &:hover {
+                    background: #f9f3fe;
+                    .hidden-text-elements {
+                        opacity: 1;
+                        visibility: visible;
+                       // transform: translateY(0px);
+                    }
                 }
-            }
 
-            .elements-desc {
-                p {
-                    font-size: 18px;
-                    line-height: 27px;
-                    color: #6d6d6d;
+
+
+                .hidden-text-elements {
+                   
+                    opacity: 1;
+                    visibility: visible;
+                    //transform: translateY(-10px);
+                    position: absolute;
+                    top: 50%;
+                    left: -1%;
+                    width: 296px;
+                    border: 2px solid #000000;
+                    border-top: none;             
+                    border-top-left-radius: 2px;
+                    border-top-right-radius: 2px;
+                    border-bottom-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    background: #ffffff;
+
+                    .text-content {
+                        background: #ffffff;
+                        padding-top: 40px;
+                        padding-left: 25px;
+                        padding-right: 25px;
+
+                        p {
+                            font-size: 16px;
+                            line-height: 26px;
+                            color: #6d6d6d;
+                        }
+                    }
                 }
+
             }
-
-
         }
     }
 
