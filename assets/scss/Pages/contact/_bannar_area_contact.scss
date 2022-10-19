@@ -3,6 +3,7 @@
     border-top: 4px solid #000E28;
     border-bottom: 4px solid #000E28;
     margin-top: -4px;
+
     .hero-left-area {
         h1 {
             font-weight: 500;
@@ -17,6 +18,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
         .star-img {
             position: absolute;
             top: -39px;
@@ -27,8 +29,18 @@
 
 @media screen and (max-width:575px) {
     .bannar-area__contact .hero-left-area h1 {
-        font-size: 45px;
-        line-height: 60px;
+        font-size: 34px;
+        line-height: 54px;
+    }
+
+    .bannar-area__contact .hero-right-area {
+
+        display: none;
+    }
+
+    .stretch-rope.mt-xs-50.mt-30.d-flex.justify-content-end {
+        margin-top: -6px;
+
     }
 }
 
@@ -36,5 +48,19 @@
     .bannar-area__contact .hero-left-area h1 {
         font-size: 45px;
         line-height: 60px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .bannar-area__contact .hero-left-area h1 {
+        font-size: 33px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .bannar-area__contact .hero-left-area h1 {
+        font-size: 46px;
+        line-height: 65px;
     }
 }

@@ -122,3 +122,18 @@
         }
     }
 }
+
+
+@media screen and (max-width:575px) {
+    .we-assist .contact-form-area form {
+        padding-left: 0px;
+    }
+
+    .we-assist .contact-right-area .contact-heading h2 {
+
+        font-size: 26px;
+        line-height: 36px;
+   
+    }
+}
+
