@@ -525,6 +525,11 @@ label {
   font-weight: 700;
   color: #00CCFF;
 }
+.who-we .animation-wrapper #lottie svg {
+  border-top-right-radius: 72px;
+  border-bottom-right-radius: 72px;
+  border-bottom-left-radius: 72px;
+}
 
 .main-area {
   background: #8E0BF4;
@@ -558,6 +563,11 @@ label {
 }
 
 @media screen and (max-width: 575px) {
+  .animation-wrapper #lottie svg {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
   .who-we .section-top h2 {
     font-size: 35px;
     line-height: 35px;
