@@ -78,6 +78,7 @@
                 position: absolute;
                 right: -6px;
                 top: -11px;
+                z-index: 9888;
             }
         }
     }
@@ -87,8 +88,8 @@
 
         .light-circle-img {
             position: absolute;
-            left: -100px;
-            top: 164px;
+            left: 85%;
+            top: 200px;
         }
     }
 }
@@ -105,7 +106,7 @@
 
     .home-bannar-area .bannar-area-title .arrow-shape {
         position: absolute;
-        top: 81px;
+        top: 86px;
         left: -15px;
     }
 
@@ -239,8 +240,8 @@
     }
 
     .home-bannar-area .bannar-area-right .arrow {
-       img{
-        width: 170px;
-       }
+        img {
+            width: 170px;
+        }
     }
 }

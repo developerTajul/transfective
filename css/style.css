@@ -232,6 +232,10 @@ label {
   background: #8E0BF4;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media all and (min-width: 320px) and (max-width: 575px) {
   h3 {
     font-size: 29px;
@@ -370,14 +374,15 @@ label {
   position: absolute;
   right: -6px;
   top: -11px;
+  z-index: 9888;
 }
 .home-bannar-area .hero-world-image {
   position: relative;
 }
 .home-bannar-area .hero-world-image .light-circle-img {
   position: absolute;
-  left: -100px;
-  top: 164px;
+  left: 85%;
+  top: 200px;
 }
 
 @media screen and (max-width: 575px) {
@@ -390,7 +395,7 @@ label {
   }
   .home-bannar-area .bannar-area-title .arrow-shape {
     position: absolute;
-    top: 81px;
+    top: 86px;
     left: -15px;
   }
   .home-bannar-area .bannar-area-right .arrow {
@@ -563,11 +568,6 @@ label {
 }
 
 @media screen and (max-width: 575px) {
-  .animation-wrapper #lottie svg {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-  }
   .who-we .section-top h2 {
     font-size: 35px;
     line-height: 35px;

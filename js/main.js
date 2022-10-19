@@ -8,6 +8,14 @@
 
 		// slick slider
 
+		// home bannar slider
+		$('#home-bannar-slider').slick({
+			dots: false,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			arrows: false,
+		});
 		// industrial hero tab slider
 		$('#industriesTab').slick({
 			dots: false,
