@@ -41,7 +41,18 @@
 }
 
 .single-slide.slick-slide.slick-current.slick-active {
-    box-shadow: 2px 2px 1px 2px #000000;
+    box-shadow: 7px 7px 0px -1px #000000;
+
+    svg {
+        color: #8E0BF4;
+    }
+
+    &:nth-child(even) {
+      
+     border-bottom: 6px solid #000000;
+        
+    }
+
 }
 
 @media screen and (max-width:575px) {
