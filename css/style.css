@@ -2323,7 +2323,7 @@ html {
 .ecommerce-area .tab-content-single .globe-1 {
   position: absolute;
   top: 60%;
-  left: 0%;
+  left: -6%;
 }
 .ecommerce-area .tab-content-single .globe-2 {
   position: absolute;
@@ -2332,8 +2332,8 @@ html {
 }
 .ecommerce-area .tab-content-single .arrow {
   position: absolute;
-  top: 22%;
-  left: 27%;
+  top: 15%;
+  left: 22%;
 }
 .ecommerce-area .tab-content-single .star {
   position: absolute;
@@ -2341,16 +2341,16 @@ html {
   right: 12%;
 }
 .ecommerce-area .tab-content-single .tab-content-title {
-  padding: 0px 255px;
+  padding: 0px 150px;
   text-transform: capitalize;
 }
 .ecommerce-area .tab-content-single .tab-content-title h2 {
   font-weight: 500;
-  font-size: 65px;
-  line-height: 91px;
+  font-size: 59px;
+  line-height: 74px;
 }
 .ecommerce-area .tab-content-single .tab-content-desc {
-  padding: 0px 100px;
+  padding: 0px 90px;
 }
 .ecommerce-area .tab-content-single .tab-content-desc p {
   font-size: 18px;
@@ -2430,12 +2430,17 @@ html {
     display: none;
   }
 }
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .ecommerce-area .tab-content-single .tab-content-title {
+    padding: 0px 170px;
+  }
+}
 @media screen and (min-width: 1400px) {
   .ecommerce-area .tab-content-single .tab-content-title {
     padding: 0px 300px;
   }
   .ecommerce-area .tab-content-single .arrow {
-    top: 17%;
+    top: 15%;
     left: 27%;
   }
 }
