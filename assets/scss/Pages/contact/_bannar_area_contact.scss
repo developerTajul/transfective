@@ -1,12 +1,14 @@
 .bannar-area__contact {
-    background: $coral1;
-
+    background: #f2fcff;
+    border-top: 4px solid #000E28;
+    border-bottom: 4px solid #000E28;
+    margin-top: -4px;
     .hero-left-area {
         h1 {
             font-weight: 500;
             font-size: 65px;
             line-height: 91px;
-            color: $black;
+            color: #000E28;
         }
     }
 
@@ -15,15 +17,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-        .arrow-img {
-            transform: translateX(-80px);
-        }
-
         .star-img {
             position: absolute;
-            top: 0px;
-            right: 40%;
+            top: -39px;
+            right: 24%;
         }
     }
 }
@@ -34,6 +31,7 @@
         line-height: 60px;
     }
 }
+
 @media screen and (min-width:576px) and (max-width:991px) {
     .bannar-area__contact .hero-left-area h1 {
         font-size: 45px;
