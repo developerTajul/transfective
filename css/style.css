@@ -2686,7 +2686,7 @@ html {
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   .ecommerce-area .tab-content-single .tab-content-title {
-    padding: 0px 170px;
+    padding: 0px 250px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -2742,21 +2742,27 @@ html {
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown {
   position: relative;
-}
-.header-area .main-menu-area .primary-menu ul li.has-dropdown::before {
-  position: absolute;
-  top: 50px;
-  right: -2px;
-  content: "\f078";
-  font-size: 16px;
-  line-height: 20px;
-  font-family: "Font Awesome 6 Free";
-  font-weight: bold;
-  font-size: 16px;
-  transition: transform ease-in 0.5s;
-}
-.header-area .main-menu-area .primary-menu ul li.has-dropdown:hover::before {
-  transform: rotate(180deg);
+  /*
+                          &::before {
+                              position: absolute;
+                              top: 50px;
+                              right: -2px;
+                              content: "\f078";
+                              font-size: 16px;
+                              line-height: 20px;
+                              font-family: 'Font Awesome 6 Free';
+                              font-weight: bold;
+                              font-size: 16px;
+                              transition: transform ease-in 0.5s;
+                          }
+
+                          &:hover {
+                              &::before {
+                                  transform: rotate(180deg);
+
+                              }
+                          }
+  */
 }
 .header-area .main-menu-area .primary-menu ul li.has-dropdown ul {
   position: absolute;
