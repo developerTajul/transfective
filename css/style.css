@@ -1698,7 +1698,7 @@ html {
   background: transparent;
   border-radius: 10px;
   border: 1px solid #000E28;
-  box-shadow: 2px 2px 0px 1px #000E28;
+  box-shadow: 7px 7px 0px 0px #000E28, 7px 7px 0px 0px #000E28;
 }
 .we-assist .contact-form-area form button:hover {
   background: #000000;
