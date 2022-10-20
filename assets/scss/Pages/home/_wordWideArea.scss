@@ -369,3 +369,42 @@
     }
 }
 
+.small-device-world-area {
+    .circle-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        .circle-elements {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 160px;
+            width: 160px;
+            border-radius: 100%;
+            border: 2px solid #000000;
+            text-align: center;
+
+            .elements-title {
+                h4 {
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+            }
+            .elements-desc{
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .icon-area {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 60px;
+            }
+        }
+    }
+}

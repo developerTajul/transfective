@@ -29,18 +29,67 @@
 
 @media screen and (max-width:575px) {
     .bannar-area__contact .hero-left-area h1 {
-        font-size: 34px;
-        line-height: 54px;
+        font-size: 33px;
+        line-height: 46px;
     }
 
-    .bannar-area__contact .hero-right-area {
+    .bannar-area__contact .stretch-rope {
 
-        display: none;
+        svg {
+            width: 220px;
+        }
     }
 
-    .stretch-rope.mt-xs-50.mt-30.d-flex.justify-content-end {
-        margin-top: -6px;
+    .bannar-area__contact .arrow-img svg {
+        width: 70px;
+    }
 
+    .bannar-area__contact {
+        position: relative;
+        padding-bottom: 120px;
+    }
+
+    .bannar-area__contact .arrow-img {
+        position: absolute;
+        top: -23px;
+        right: 90px;
+    }
+
+    .bannar-area__contact .hero-right-area .star-img {
+        position: absolute;
+        top: -23px;
+        right: 8%;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .bannar-area__contact .stretch-rope {
+
+        svg {
+            width: 260px;
+        }
+    }
+
+    .bannar-area__contact .arrow-img svg {
+        width: 100px;
+    }
+
+    .arrow-img {
+        position: absolute;
+        top: -49px;
+        left: 56%;
+    }
+
+    .star-img {
+        position: absolute;
+        top: -70px;
+        right: 24%;
+    }
+
+    .bannar-area__contact .hero-right-area .star-img {
+        position: absolute;
+        top: -70px;
+        right: 24%;
     }
 }
 
