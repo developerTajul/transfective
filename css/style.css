@@ -1017,67 +1017,19 @@ html {
     text-align: center;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .prefered-choice .prefered-choice-title {
     padding: 0px 0px;
   }
-  .prefered-choice h2 {
-    font-size: 32px;
-    line-height: 42px;
+  .prefered-choice .single-card .icon img {
+    width: 120px;
   }
-  .prefered-choice .prefered-card-wrapper .single-card {
-    padding-top: 40px;
+  .prefered-choice .prefered-card-wrapper .single-card .icon-title h5 {
+    font-size: 22px;
+    line-height: 33px;
   }
   .prefered-choice .prefered-card-wrapper .single-card .icon-title {
-    margin-left: 0px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-  .prefered-choice .prefered-card-wrapper .single-card .left-card .icon {
-    position: unset;
-    display: flex;
-    justify-content: center;
-  }
-  .prefered-choice .prefered-card-wrapper .single-card .right-card {
-    border-left: none;
-    padding: 0px 0px;
-  }
-  .prefered-choice .prefered-card-wrapper .single-card .left-card .icon img {
-    height: 80px;
-    width: 80px;
-  }
-  .right-card-desc.pl-50 {
-    padding-left: 10px;
-  }
-  .prefered-choice .prefered-card-wrapper .single-card {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .prefered-choice .prefered-card-wrapper .single-card .icon-title h5 {
-    font-size: 24px;
-    line-height: 34px;
-  }
-  .prefered-choice .prefered-card-wrapper .single-card {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  .prefered-choice .prefered-card-wrapper .single-card .right-card .right-card-desc p {
-    font-size: 16px;
-    line-height: 26px;
-  }
-  .prefered-choice .prefered-card-wrapper .single-card {
-    border-radius: 320px;
-  }
-  .prefered-choice .prefered-card-wrapper .single-card .right-card {
-    padding-right: 18px;
-    text-align: left;
-  }
-  .prefered-choice .prefered-card-wrapper .single-card .left-card {
-    padding-top: 12px;
+    margin-left: 8px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -1092,6 +1044,10 @@ html {
     font-size: 28px;
     line-height: 38px;
   }
+}
+.prefered-choice-small h3 {
+  font-size: 26px;
+  line-height: 22px;
 }
 .prefered-choice-small .prefered-choice-title {
   margin-bottom: 50px;
