@@ -3148,5 +3148,10 @@ html {
     margin-top: 0px;
   }
 }
+@media screen and (max-width: 991px) {
+  .footer-area .subscribe-widget.pr-60 {
+    padding-right: 0px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
