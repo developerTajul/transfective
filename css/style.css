@@ -394,9 +394,7 @@ html {
     line-height: 47px;
   }
   .home-bannar-area .bannar-area-title .arrow-shape {
-    position: absolute;
-    top: 86px;
-    left: -15px;
+    display: none;
   }
   .home-bannar-area .bannar-area-right .arrow {
     display: none;
@@ -1495,40 +1493,6 @@ html {
     padding-bottom: 10px;
   }
 }
-@media screen and (max-width: 575px) {
-  .small-devices-card .world-wide-area .card-wrapper .card-elements .circle-elements {
-    width: 150px;
-    height: 150px;
-  }
-  .small-devices-card .world-wide-area .card-wrapper .card-elements .circle-elements .icon-area img {
-    width: 26px;
-  }
-  .small-devices-card .world-wide-area .card-wrapper .card-elements .circle-elements .elements-title h4 {
-    font-size: 22px;
-    line-height: 22px;
-  }
-  .small-devices-card .world-wide-area .card-wrapper .card-elements .circle-elements .elements-desc p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-  .small-devices-card .world-wide-area .card-wrapper .card-elements .circle-elements:hover {
-    box-shadow: 4px 0px 0px 0px #000000, 0px 4px 0px 0px #000000;
-  }
-  .small-devices-card .world-wide-area .card-wrapper .card-elements.active .circle-elements {
-    box-shadow: 4px 0px 0px 0px #000000, 0px 4px 0px 0px #000000;
-  }
-  .small-devices-card .world-wide-area .card-wrapper .card-elements::before {
-    width: 91%;
-  }
-  .small-devices-card .world-wide-area .card-wrapper .card-elements .slide-down-area {
-    backface-visibility: hidden;
-    width: 91%;
-  }
-  .small-devices-card .world-wide-area .card-wrapper .card-elements .slide-down-area p {
-    font-size: 14px;
-    line-height: 22px;
-  }
-}
 .success-stories {
   background: #F8F4FB;
 }
@@ -2451,7 +2415,7 @@ html {
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link.active {
   background: #fdfcf8;
-  box-shadow: 2px 2px 0px 2px #000E28;
+  box-shadow: 7px 0px 0px 0px #000E28, 7px 7px 0px 0px #000E28;
   position: relative;
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link.active::before {
@@ -2517,8 +2481,8 @@ html {
 .services-nav nav ul li.active a {
   background: #fff;
   color: #8E0BF4;
-  box-shadow: 3px 0px 0px 0px #000000;
-  border-bottom: 4px solid #000000;
+  box-shadow: 7px 0px 0px 0px #000000;
+  border-bottom: 7px solid #000000;
 }
 .services-nav nav ul li a {
   display: flex;
@@ -2537,12 +2501,6 @@ html {
   margin: 0px 20px;
   min-height: 126px;
   border: 2px solid #000E28;
-}
-.services-nav nav ul li a:hover {
-  background: #fff;
-  color: #8E0BF4;
-  box-shadow: 3px 0px 0px 0px #000000;
-  border-bottom: 4px solid #000000;
 }
 
 @media screen and (max-width: 575px) {
