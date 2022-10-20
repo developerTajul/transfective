@@ -2468,12 +2468,6 @@ html {
     font-size: 14px;
   }
 }
-.services-nav .active.slick-slide.slick-current.slick-active a {
-  background: #fff;
-  color: #8E0BF4;
-  box-shadow: 3px 0px 0px 0px #000000;
-  border-bottom: 4px solid #000000;
-}
 .services-nav nav ul {
   display: flex;
   align-items: center;
