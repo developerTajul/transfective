@@ -133,7 +133,120 @@
 
         font-size: 26px;
         line-height: 36px;
-   
+
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-title {
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+
+    .we-assist .contact-right-area .contact-heading .arrow-img {
+        display: none;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-desc {
+        margin-top: 20px;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-desc p {
+        font-size: 16px;
+        line-height: 28px;
+
+    }
+
+
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .we-assist .contact-form-area form {
+        padding-left: 0px;
+    }
+
+    .we-assist .contact-right-area .contact-heading h2 {
+        font-size: 42px;
+        line-height: 58px;
+    }
+
+    .we-assist .contact-right-area .contact-heading .arrow-img {
+        right: 55px;
+        top: 124px;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-desc p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-desc {
+        margin-top: 10px;
     }
 }
 
+@media screen and (min-width:768px) and (max-width:991px) {
+    .we-assist .contact-form-area form {
+        padding-left: 0px;
+    }
+
+    .we-assist .contact-right-area .contact-heading {
+        padding-right: 200px;
+    }
+
+    .we-assist .contact-right-area .contact-heading h2 {
+        font-size: 42px;
+        line-height: 58px;
+    }
+
+    .we-assist .contact-right-area .contact-heading .arrow-img {
+        right: 124px;
+        top: 66px;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-desc {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .we-assist .contact-form-area form {
+        padding-left: 0px;
+    }
+
+    .we-assist .contact-right-area .contact-heading h2 {
+        font-size: 34px;
+        line-height: 46px;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-title {
+        margin-bottom: 20px;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-title h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .we-assist .contact-right-area .contact-heading .arrow-img {
+        display: none;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-desc p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-title {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    .we-assist .contact-right-area .contact-heading .arrow-img {
+        right: 49px;
+        top: 250px;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-title {
+        margin-bottom: 15px;
+    }
+}
