@@ -16,6 +16,13 @@
 			slidesToShow: 1,
 			arrows: false,
 		});
+		$('#prefered-choice-slider').slick({
+			dots: false,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			arrows: false,
+		});
 		// industrial hero tab slider
 		$('#industriesTab').slick({
 			dots: false,

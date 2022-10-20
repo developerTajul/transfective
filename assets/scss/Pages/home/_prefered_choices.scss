@@ -209,124 +209,9 @@
     }
 }
 
-
-@media screen and (max-width:575px) {
-    .prefered-choice .prefered-choice-title {
-        padding: 0px 0px;
-    }
-
-    .prefered-choice h2 {
-        font-size: 23px;
-        line-height: 33px;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card {
-        border: none;
-
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .icon-title {
-        margin-left: 0px;
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .left-card {
-        border-right: none;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card {
-        margin-bottom: 0px;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .left-card .icon {
-        position: unset;
-        display: flex;
-        justify-content: center;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .right-card {
-        border-left: none;
-        padding: 0px 0px;
-        padding-top: 10px;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .left-card .icon img {
-        height: 200px;
-        width: 200px;
-    }
+@media screen and (max-width:575px) {}
 
 
-
-    .prefered-choice .prefered-card-wrapper .single-card {
-        padding-top: -3px;
-        padding-bottom: 40px;
-        text-align: center;
-    }
-}
-
-
-@media screen and (min-width:575px) and (max-width:767px) {
-    .prefered-choice .prefered-choice-title {
-        padding: 0px 0px;
-    }
-
-    .prefered-choice h2 {
-        font-size: 28px;
-        line-height: 33px;
-    }
-
-
-
-    .prefered-choice .prefered-card-wrapper .single-card {
-        border: none;
-
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card {
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .icon-title {
-        margin-left: 0px;
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .left-card {
-        border-right: none;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card {
-        margin-bottom: 0px;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .left-card .icon {
-        position: unset;
-        display: flex;
-        justify-content: center;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .right-card {
-        border-left: none;
-        padding: 0px 0px;
-        padding-top: 10px;
-    }
-
-    .prefered-choice .prefered-card-wrapper .single-card .left-card .icon img {
-        height: 200px;
-        width: 200px;
-    }
-
-
-
-    .prefered-choice .prefered-card-wrapper .single-card {
-        padding-top: -3px;
-        padding-bottom: 40px;
-        text-align: center;
-    }
-}
 
 @media screen and (min-width:768px) and (max-width:991px) {
     .prefered-choice .prefered-card-wrapper .single-card .icon-title h5 {
@@ -377,5 +262,66 @@
         font-size: 28px;
         line-height: 38px;
     }
-      
+
+}
+
+
+
+
+// prefered choice for mobile and tablet device
+.prefered-choice-small {
+    .prefered-choice-title {
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 42px;
+        }
+    }
+}
+
+.prefered-choice-slider {
+    .slide-wrapper {
+
+        .slide {
+
+            max-width: 300px;
+            margin: 0px 30px;
+
+            .icon-area {
+                display: flex;
+                justify-content: center;
+                position: relative;
+
+                .img-area {
+                    position: absolute;
+                    top: -50%;
+                }
+            }
+
+            .slider-text-content {
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+                border-top-left-radius: 320px;
+                border-top-right-radius: 320px;
+                border: 3px solid #000E28;
+                padding-top: 150px;
+                margin-top: 55px;
+                text-align: center;
+
+                h3 {
+                    text-align: center;
+                    text-transform: capitalize;
+                    margin-bottom: 20px;
+                    border-bottom: 3px solid #000E28;
+                    padding-bottom: 30px;
+                }
+
+                p {
+                    padding: 0px 20px;
+                }
+            }
+        }
+    }
 }
