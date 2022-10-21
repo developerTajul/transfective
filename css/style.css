@@ -1645,6 +1645,34 @@ html {
     min-height: 650px;
   }
 }
+.contact-area-mobile .contact-slider .slider .bordered-card {
+  width: 265px;
+  padding: 25px 30px;
+  min-height: 340px;
+}
+.contact-area-mobile .contact-slider .slider .bordered-card .card-img-top img {
+  width: 130px;
+  height: 160px;
+}
+.contact-area-mobile .contact-slider .slider .bordered-card .contact-card-body .contact-card-title h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+.contact-area-mobile .contact-slider .slider .bordered-card .contact-card-body .contact-card-list-items li {
+  font-size: 14px;
+  line-height: 22px;
+}
+.contact-area-mobile .contact-slider .slider .bordered-card .contact-card-body .contact-card-list {
+  margin-left: -5px;
+}
+.contact-area-mobile .contact-slider .slider .bordered-card .contact-card-body .contact-card-list li a {
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  color: #727272;
+  margin: 0px 5px;
+}
+
 .we-assist .contact-form-area form {
   padding-left: 40px;
 }

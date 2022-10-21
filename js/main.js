@@ -11,6 +11,24 @@
 	
 		// slick slider
 
+		// contact slider
+		$('#contact-slider-mobile-one').slick({
+			dots: false,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			arrows: false,
+			variableWidth:true
+		});
+		// contact slider
+		$('#contact-slider-mobile-two').slick({
+			dots: false,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			arrows: false,
+			variableWidth:true
+		});
 		// home bannar slider
 		$('#home-bannar-slider').slick({
 			dots: false,
