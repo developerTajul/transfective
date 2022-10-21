@@ -786,12 +786,21 @@ html {
   min-height: 417px;
   position: relative;
 }
+.bordered-card:hover .before-hover {
+  display: none;
+}
+.bordered-card:hover .after-hover {
+  display: block !important;
+}
 .bordered-card .bordered-card-top h5 {
   font-weight: 500;
   font-size: 28px;
   line-height: 33px;
   color: #000000;
   text-transform: capitalize;
+}
+.bordered-card .bordered-card-top img {
+  height: 80px;
 }
 .bordered-card .bordered-card-body p {
   font-size: 18px;
@@ -1107,7 +1116,7 @@ html {
 .partner-area .brands-slider-wrapper .brands-slider {
   border-top: 4px solid #000000;
   border-bottom: 4px solid #000000;
-  padding: 40px 0px;
+  padding: 45px 0px;
 }
 .partner-area .brands-slider-wrapper .brands-slider li a img {
   width: 140px;

@@ -53,6 +53,17 @@
     min-height: 417px;
     position: relative;
 
+// icon hover effect
+
+&:hover{
+    .before-hover{
+        display: none;
+    }
+    .after-hover{
+        display: block !important;
+    }
+}
+
     .bordered-card-top {
         h5 {
             font-weight: 500;
@@ -60,6 +71,9 @@
             line-height: 33px;
             color: #000000;
             text-transform: capitalize;
+        }
+        img{
+            height: 80px;
         }
     }
 
