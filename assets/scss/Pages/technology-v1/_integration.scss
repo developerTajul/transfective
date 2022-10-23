@@ -44,6 +44,23 @@
     .integration-area .image-area .position-img.globe {
         display: none;
     }
+
+    .integration-area {
+        .line-img {
+            img {
+                width: 200px;
+            }
+        }
+    }
+
+    .integration-area .image-area .position-img.star {
+        right: -23px;
+        top: -61px;
+
+        img {
+            width: 70px;
+        }
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -58,6 +75,11 @@
 
     .integration-area .image-area .position-img.globe {
         display: none;
+    }
+
+    .integration-area .image-area .position-img.star {
+        right: -11px;
+        top: -16px;
     }
 }
 

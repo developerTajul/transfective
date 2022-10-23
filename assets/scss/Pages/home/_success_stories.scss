@@ -24,33 +24,63 @@
 
                 .quote {
                     margin-left: 155px;
+
+                    .active-quote {
+                        display: none;
+                    }
                 }
 
                 .slide-text-area {
                     padding-top: 40px;
                 }
 
-                &:nth-child(even) {
-                    .slide-text-area {
-                        padding-bottom: 40px;
-                    }
-                }
+
             }
         }
     }
 }
 
-.single-slide.slick-slide.slick-current.slick-active {
-    box-shadow: 7px 7px 0px -1px #000000;
 
-    svg {
-        color: #8E0BF4;
+.success-stories .single-slide.slick-slide.slick-current.slick-active,
+.success-stories .single-slide.slick-slide:hover {
+
+    .quote {
+        .active-quote {
+            display: block;
+        }
+
+        .inactive-quote {
+            display: none;
+        }
     }
 
-    &:nth-child(even) {
-      
-     border-bottom: 6px solid #000000;
-        
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: 10px;
+        right: -4px;
+        height: 98%;
+        width: 7px;
+        content: "";
+        background: #000000;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    &:after {
+        position: absolute;
+        bottom: -1px;
+        left: 5px;
+        height: 7px;
+        width: 99%;
+        content: "";
+        background: #000000;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 10px;
+     
+        border-bottom-left-radius: 1000px;
     }
 
 }

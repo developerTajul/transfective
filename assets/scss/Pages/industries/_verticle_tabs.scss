@@ -36,19 +36,21 @@
                 margin-bottom: 30px;
                 background: #dcb4f7;
                 padding-left: 40px;
+
                 &.active {
                     background: #fdfcf8;
                     box-shadow: 7px 0px 0px 0px #000E28,
                         7px 7px 0px 0px #000E28;
                     position: relative;
                     color: #8E0BF4;
+
                     &::before {
                         position: absolute;
                         content: "";
                         top: 0px;
-                        left: -48px;
-                        height: 170px;
-                        width: 10px;
+                        left: -47px;
+                        height: 130px;
+                        width: 9px;
                         background: #B1EEFA;
                         border-radius: 10px;
                     }
@@ -60,7 +62,7 @@
 
                         &::before {
 
-                            top: -100px;
+                            top: -65px;
 
 
                         }
@@ -96,15 +98,43 @@
     }
 }
 
+
 @media screen and (max-width:575px) {
     .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
         font-size: 18px;
         line-height: 19px;
         margin-bottom: 19px;
+
+        &:last-child {
+            &.active {
+
+
+                &::before {
+
+                    top: -50px;
+
+
+                }
+            }
+        }
+    }
+
+    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link.active::before {
+
+        height: 80px;
+
+    }
+
+    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link:last-child.active::before {
+        top: -59px;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
+    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link:last-child.active::before {
+        top: -73px;
+    }
+
     .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
 
         font-size: 16px;

@@ -1,7 +1,9 @@
 .bg-gray {
     background: rgba(128, 128, 128, 0.303);
 }
-
+.bg-header{
+    background: #f6f1fa;
+}
 .header-area {
 
     border-bottom: 4px solid rgba(0, 0, 0, 0.122);
@@ -48,7 +50,7 @@
                         font-size: 18px;
 
                         &:hover {
-                            color: #8E0BF4;
+                            color: #00ccff;
                         }
                     }
 
@@ -105,7 +107,7 @@
                                     color: rgba(255, 255, 255, 0.609);
 
                                     &:hover {
-                                        color: #fff;
+                                        color: #00ccff;
                                     }
                                 }
 
@@ -271,7 +273,7 @@
                         padding: 10px 20px;
 
                         &:hover {
-                            color: #8E0BF4;
+                            color: #00ccff;
                         }
                     }
 

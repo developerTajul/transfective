@@ -107,6 +107,12 @@
     .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img {
         display: none;
     }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        position: absolute;
+        bottom: 0px;
+        left: -20px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {

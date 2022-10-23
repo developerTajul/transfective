@@ -1,7 +1,7 @@
 // for small devices
 .world-wide-area {
     background: #f2fcff;
-
+    min-height: 1150px;
     .section-top {
         position: relative;
 
@@ -71,9 +71,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            // background: #f9f3fe;
-            // box-shadow: 4px 0px 0px 0px #000000,
-            //     0px 4px 0px 0px #000000;
 
             .circle-content {
                 text-align: center;
@@ -248,6 +245,8 @@
     }
 }
 
+
+
 @media screen and (min-width:1200px) {
     .world-wide-area-small .circle-outer {
         width: 293px;
@@ -403,4 +402,64 @@
     .mt-140 {
         margin-top: 140px !important;
     }
+}
+
+// hover effect 
+
+.world-wide-area-small:hover {
+    .circle-outer {
+        &.active {
+            background: transparent;
+
+            .circle-textcontent {
+                height: 0;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            .circle-inner {
+
+                border-color: #000E28;
+                background: #f2fcff;
+
+                .circle-content .circle-title h4 {
+                    color: #000E28;
+                }
+            }
+
+        }
+
+    }
+}
+
+.world-wide-area-small:hover {
+
+    .circle-outer:hover {
+        &.active {
+            background: #ffff;
+
+            .circle-textcontent {
+                height: fit-content;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .circle-inner {
+                background: #ffffff;
+                border-color: #8E0BF4;
+
+
+                .circle-content .circle-title h4 {
+                    color: #8E0BF4;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+.world-wide-area {
+    min-height: 1050px;
+}
 }
