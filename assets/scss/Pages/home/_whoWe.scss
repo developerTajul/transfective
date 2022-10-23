@@ -39,9 +39,10 @@
         // border-top-right-radius: 72px;
         // border-bottom-right-radius: 72px;
         // border-bottom-left-radius: 72px;
-         position: relative;
+        position: relative;
         margin-bottom: -70px;
         margin-top: -30px;
+
         #lottie {
             padding-left: 65px;
         }
@@ -145,6 +146,31 @@
 
 
 
+@media screen and (max-width:575px) {
+    .who-we .animation-wrapper::before {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .who-we .animation-wrapper #lottie {
+        padding-left: 10px;
+    }
+
+    .who-we .animation-wrapper {
+        position: relative;
+        margin-bottom: -9px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+}
+
+
 @media screen and (min-width:575px) and (max-width:767px) {
     .who-we .section-top h2 {
 
@@ -183,6 +209,32 @@
         font-size: 16px;
         line-height: 28px;
     }
+
+    // animation area
+
+    .who-we .animation-wrapper::before {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        height: 90%;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .who-we .animation-wrapper #lottie {
+        padding-left: 20px;
+    }
+
+    .who-we .animation-wrapper {
+        position: relative;
+        margin-bottom: -29px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -218,6 +270,31 @@
             width: 100px;
         }
     }
+
+
+    // animation area
+
+    .who-we .animation-wrapper::before {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        height: 90%;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+    }
+
+    .who-we .animation-wrapper #lottie {
+        padding-left: 25px;
+    }
+
+    .who-we .animation-wrapper {
+        position: relative;
+        margin-bottom: -39px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
@@ -252,5 +329,29 @@
     .main-area .main-area-desc p {
         font-size: 18px;
         line-height: 32px;
+    }
+
+    // animation area
+
+    .who-we .animation-wrapper::before {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        height: 90%;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+    }
+
+    .who-we .animation-wrapper #lottie {
+        padding-left: 25px;
+    }
+
+    .who-we .animation-wrapper {
+        position: relative;
+        margin-bottom: -39px;
+        margin-top: 0px;
+        margin-left: 20px;
     }
 }
