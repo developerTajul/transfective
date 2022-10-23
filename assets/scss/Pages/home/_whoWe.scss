@@ -34,13 +34,32 @@
     }
 
     .animation-wrapper {
+
+        // background: #ffffff;
+        // border-top-right-radius: 72px;
+        // border-bottom-right-radius: 72px;
+        // border-bottom-left-radius: 72px;
+         position: relative;
+        margin-bottom: -70px;
+        margin-top: -30px;
         #lottie {
-            svg {
-                border-top-right-radius: 72px;
-                border-bottom-right-radius: 72px;
-                border-bottom-left-radius: 72px;
-            }
+            padding-left: 65px;
         }
+
+        &::before {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+            height: 80%;
+            content: "";
+            background: #ffff;
+            border-top-right-radius: 72px;
+            border-bottom-right-radius: 72px;
+            border-bottom-left-radius: 72px;
+
+        }
+
     }
 }
 
@@ -82,7 +101,7 @@
 }
 
 @media screen and (max-width:575px) {
-   
+
     .who-we .section-top h2 {
 
         font-size: 35px;
