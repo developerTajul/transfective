@@ -1,5 +1,28 @@
 gsap.registerPlugin(ScrollTrigger);
 
+// home bannar
+
+const homeBannar = document.querySelector(".home-bannar-area");
+gsap.to(".bannar-bottom-area .right-img .down-icon", {
+    ScrollTrigger: homeBannar,
+    duration: 2,
+    // scale: 0.6,
+    y: '70%',
+    repeat: Infinity
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
 // mouse pointer animation
 
 gsap.set(".ball", { xPercent: -50, yPercent: -50 });
@@ -28,5 +51,17 @@ gsap.ticker.add(() => {
     ySet(pos.y);
 });
 
+// horizontal animation
 
+// need project slider
 
+var swiper = new Swiper(".need-project-swiper-slider", {
+    direction: "horizontal",
+    slidesPerView: 1,
+    spaceBetween: 30,
+    mousewheel: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});

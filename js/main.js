@@ -162,4 +162,3 @@ closeBtn.addEventListener('click', function () {
 	body.classList.remove('bg-gray');
 })
 
-// animation
