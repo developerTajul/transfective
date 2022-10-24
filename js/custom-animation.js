@@ -2,19 +2,44 @@ gsap.registerPlugin(ScrollTrigger);
 
 // home bannar
 
-const homeBannar = document.querySelector(".home-bannar-area");
 gsap.to(".bannar-bottom-area .right-img .down-icon", {
-    ScrollTrigger: homeBannar,
+    ScrollTrigger: '.home-bannar-area',
     duration: 2,
     // scale: 0.6,
     y: '70%',
     repeat: Infinity
 })
 
+// icon animations
+
+var iconTl = gsap.timeline({ repeat: Infinity })
+
+// Array-based keyframes
+iconTl.to(".bannar-area-right .star img", {
+    keyframes: {
+        "0%": { x: 0, y: 0 },
+        "25%": { x: 100, y: 0, rotation: 360 },
+        "50%": { x: 100, y: 100, rotation: -360 },
+        "75%": { x: 0, y: 100, rotation: 90 },
+        "100%": { x: 0, y: 0 }
+    },
+    duration: 20
+});
 
 
+gsap.to('.bannar-area-right .arrow', {
+    y: 5,
+    duration: 2,
+    repeat: Infinity
+})
 
-
+// small star
+gsap.to('.bannar-area-right .small-star', {
+    rotation: 30,
+    y:20,
+    repeat:Infinity,
+    duration:2
+})
 
 
 
