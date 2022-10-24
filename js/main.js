@@ -18,7 +18,9 @@
 			speed: 300,
 			slidesToShow: 1,
 			arrows: false,
-			variableWidth:true
+			variableWidth: true,
+			autoplay: true,
+			autoplaySpeed: 1000,
 		});
 		// contact slider
 		$('#contact-slider-mobile-two').slick({
@@ -27,7 +29,9 @@
 			speed: 300,
 			slidesToShow: 1,
 			arrows: false,
-			variableWidth:true
+			variableWidth: true,
+			autoplay: true,
+			autoplaySpeed: 1000,
 		});
 		// home bannar slider
 		$('#home-bannar-slider').slick({
@@ -36,6 +40,8 @@
 			speed: 300,
 			slidesToShow: 1,
 			arrows: false,
+			autoplay: true,
+			autoplaySpeed: 2000
 		});
 		$('#prefered-choice-slider').slick({
 			dots: false,
@@ -43,7 +49,9 @@
 			speed: 300,
 			slidesToShow: 1,
 			arrows: false,
-			variableWidth:true,
+			variableWidth: true,
+			autoplay: true,
+			autoplaySpeed: 2000,
 		});
 		// industrial hero tab slider
 		$('#industriesTab').slick({
@@ -75,6 +83,7 @@
 			slidesToShow: 9,
 			slidesToScroll: 4,
 			arrows: false,
+			autoplay:true,
 			responsive: [
 				{
 					breakpoint: 576,
@@ -111,6 +120,7 @@
 			slidesToScroll: 1,
 			arrows: false,
 			variableWidth: true,
+			autoplay:true,
 			responsive: [
 				{
 					breakpoint: 576,

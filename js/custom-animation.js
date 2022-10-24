@@ -3,11 +3,17 @@ gsap.registerPlugin(ScrollTrigger);
 // home bannar
 
 gsap.to(".bannar-bottom-area .right-img .down-icon", {
-    ScrollTrigger: '.home-bannar-area',
+
     duration: 2,
     // scale: 0.6,
     y: '70%',
-    repeat: Infinity
+    repeat: Infinity,
+    ScrollTrigger: {
+        trigger: '.home-bannar-area',
+        // start: 'top center',
+        markers: true,
+        toggleClass: 'something'
+    },
 })
 
 // icon animations
@@ -18,8 +24,8 @@ var iconTl = gsap.timeline({ repeat: Infinity })
 iconTl.to(".bannar-area-right .star img", {
     keyframes: {
         "0%": { x: 0, y: 0 },
-        "25%": { x: 100, y: 0, rotation: 360 },
-        "50%": { x: 100, y: 100, rotation: -360 },
+        "25%": { x: 50, y: 0, rotation: 360 },
+        "50%": { x: 50, y: 100 },
         "75%": { x: 0, y: 100, rotation: 90 },
         "100%": { x: 0, y: 0 }
     },
@@ -36,13 +42,21 @@ gsap.to('.bannar-area-right .arrow', {
 // small star
 gsap.to('.bannar-area-right .small-star', {
     rotation: 30,
-    y:20,
-    repeat:Infinity,
-    duration:2
+    y: 20,
+    repeat: Infinity,
+    duration: 2
 })
 
-
-
+// arrow shape
+gsap.to(".main-area .main-area-subtitle .arrow-shape img", {
+    keyframes: {
+        "0%": { x: -50 ,y:-5,opacity:0.5},
+        "100%":{x:0,y:5,opacity:1}
+    },
+    duration:2,
+    repeat: Infinity,
+    
+})
 
 
 

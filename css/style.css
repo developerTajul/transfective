@@ -321,6 +321,10 @@ html {
   color: #6d6d6d;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .ball {
   width: 20px;
   height: 20px;
@@ -1758,6 +1762,9 @@ html {
   .success-stories .section-top .section-title h2 {
     font-size: 28px;
     line-height: 52px;
+  }
+  .success-stories .testimonial-card-area .testimonial-slider .single-slide .quote {
+    margin-left: 45px;
   }
   .success-stories .section-top .section-subtitle {
     padding: 0px 40px;

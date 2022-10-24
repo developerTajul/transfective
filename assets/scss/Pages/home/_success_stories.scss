@@ -42,8 +42,7 @@
 
 // .success-stories .single-slide.slick-slide:hover
 
-.success-stories .single-slide.slick-slide.slick-current.slick-active
- {
+.success-stories .single-slide.slick-slide.slick-current.slick-active {
 
     .quote {
         .active-quote {
@@ -80,7 +79,7 @@
         background: #000000;
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 10px;
-     
+
         border-bottom-left-radius: 1000px;
     }
 
@@ -90,6 +89,10 @@
     .success-stories .section-top .section-title h2 {
         font-size: 28px;
         line-height: 52px;
+    }
+
+    .success-stories .testimonial-card-area .testimonial-slider .single-slide .quote {
+        margin-left: 45px;
     }
 
     .success-stories .section-top .section-subtitle {
@@ -103,4 +106,5 @@
     .success-stories .testimonial-card-area .testimonial-slider .single-slide .slide-brands-area .brands img {
         width: 150px;
     }
+
 }
