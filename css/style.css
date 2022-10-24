@@ -321,6 +321,17 @@ html {
   color: #6d6d6d;
 }
 
+.ball {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
 .home-bannar-area {
   padding-top: 80px;
 }
@@ -1693,20 +1704,16 @@ html {
   padding-top: 40px;
 }
 
-.success-stories .single-slide.slick-slide.slick-current.slick-active,
-.success-stories .single-slide.slick-slide:hover {
+.success-stories .single-slide.slick-slide.slick-current.slick-active {
   position: relative;
 }
-.success-stories .single-slide.slick-slide.slick-current.slick-active .quote .active-quote,
-.success-stories .single-slide.slick-slide:hover .quote .active-quote {
+.success-stories .single-slide.slick-slide.slick-current.slick-active .quote .active-quote {
   display: block;
 }
-.success-stories .single-slide.slick-slide.slick-current.slick-active .quote .inactive-quote,
-.success-stories .single-slide.slick-slide:hover .quote .inactive-quote {
+.success-stories .single-slide.slick-slide.slick-current.slick-active .quote .inactive-quote {
   display: none;
 }
-.success-stories .single-slide.slick-slide.slick-current.slick-active::before,
-.success-stories .single-slide.slick-slide:hover::before {
+.success-stories .single-slide.slick-slide.slick-current.slick-active::before {
   position: absolute;
   top: 10px;
   right: -4px;
@@ -1718,8 +1725,7 @@ html {
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
 }
-.success-stories .single-slide.slick-slide.slick-current.slick-active:after,
-.success-stories .single-slide.slick-slide:hover:after {
+.success-stories .single-slide.slick-slide.slick-current.slick-active:after {
   position: absolute;
   bottom: -1px;
   left: 5px;

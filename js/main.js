@@ -134,10 +134,12 @@
 
 		/*** AOS */
 		AOS.init({
-			once: true,
-			offset: -300,
-			duration: 900,
+			once: false,
+			// offset: -300,
+			// duration: 900,
 		});
+
+	
 
 	});
 
