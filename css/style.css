@@ -183,19 +183,19 @@ label {
 }
 
 *::-moz-selection {
-  background: #d6b161;
+  background-color: #d6b161;
   color: #fff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #444;
+  background-color: #444;
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #444;
+  background-color: #444;
   color: #fff;
   text-shadow: none;
 }
@@ -1131,7 +1131,9 @@ html {
   }
 }
 .prefered-choice {
-  background: #ffffff;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }
 .prefered-choice .prefered-choice-title {
   padding: 0px 300px;
@@ -1329,6 +1331,11 @@ html {
   padding: 0px 20px;
 }
 
+.partner-area {
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
 .partner-area .section-top .section-title h2 {
   font-size: 52px;
   font-weight: 500;

@@ -8,7 +8,7 @@
 	jQuery(document).ready(function () {
 
 		// core value icon
-	
+
 		// slick slider
 
 		// contact slider
@@ -83,7 +83,7 @@
 			slidesToShow: 9,
 			slidesToScroll: 4,
 			arrows: false,
-			autoplay:true,
+			autoplay: true,
 			responsive: [
 				{
 					breakpoint: 576,
@@ -120,7 +120,8 @@
 			slidesToScroll: 1,
 			arrows: false,
 			variableWidth: true,
-			autoplay:true,
+			autoplay: true,
+			centerMode:true,
 			responsive: [
 				{
 					breakpoint: 576,
@@ -136,39 +137,13 @@
 						slidesToScroll: 1,
 					}
 				}
-				
-				
+
+
 			]
 		});
 
 
-		/*** AOS */
-		AOS.init({
-			once: false,
-			// offset: -300,
-			// duration: 900,
-		});
-
-	
-
 	});
 
 }(jQuery));
-
-
-// header
-
-const openMenuBtn = document.querySelector('.header-area .open-menu-btn button');
-const mobileMenu = document.querySelector('.header-area .mobile-menu-area');
-const closeBtn = document.querySelector('.header-area .close-btn button');
-const body = document.querySelector('body');
-
-openMenuBtn.addEventListener('click', function () {
-	mobileMenu.classList.add('toggle-mobile-menu');
-	body.classList.add('bg-gray');
-})
-closeBtn.addEventListener('click', function () {
-	mobileMenu.classList.remove('toggle-mobile-menu');
-	body.classList.remove('bg-gray');
-})
 
