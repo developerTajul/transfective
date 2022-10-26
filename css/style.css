@@ -415,7 +415,7 @@ html {
 .home-bannar-area .bannar-bottom-area .right-img .down-icon {
   position: absolute;
   right: -6px;
-  top: -70px;
+  top: -15px;
   z-index: 9888;
 }
 .home-bannar-area .hero-world-image {
@@ -425,6 +425,7 @@ html {
   position: absolute;
   left: 85%;
   top: 200px;
+  color: #8E0BF4;
 }
 
 @media screen and (max-width: 360px) {
@@ -2334,8 +2335,8 @@ html {
 }
 .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
   position: absolute;
-  bottom: 0px;
-  left: 105px;
+  bottom: 29px;
+  left: 9px;
 }
 .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe .globe-img img {
   width: 150px;
