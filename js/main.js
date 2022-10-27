@@ -32,7 +32,7 @@
 		$('#home-bannar-slider').slick({
 			dots: false,
 			infinite: true,
-			speed: 300,
+			speed: 1500,
 			slidesToShow: 1,
 			arrows: false,
 			autoplay: true,

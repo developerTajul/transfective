@@ -2312,7 +2312,7 @@ html {
 .our-solutions.our-solution-style-1 .card-style-1 .translation-memory .three-star {
   position: absolute;
   bottom: 2px;
-  left: 23px;
+  left: -75px;
 }
 .our-solutions.our-solution-style-1 .card-style-1 .glossary-management {
   position: relative;
@@ -2320,10 +2320,11 @@ html {
 .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img {
   position: absolute;
   bottom: -42px;
-  left: 10px;
+  left: -40px;
 }
 .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img .globe-1 {
-  width: 180px;
+  width: 150px;
+  height: 60px;
 }
 .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img .star-img {
   position: absolute;

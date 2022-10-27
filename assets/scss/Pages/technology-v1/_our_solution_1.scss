@@ -32,7 +32,7 @@
             .three-star {
                 position: absolute;
                 bottom: 2px;
-                left: 23px;
+                left: -75px;
             }
         }
 
@@ -42,10 +42,12 @@
             .globe-img {
                 position: absolute;
                 bottom: -42px;
-                left: 10px;
+                left: -40px;
 
                 .globe-1 {
-                    width: 180px;
+                    width: 150px;
+                    height:60px;
+
                 }
 
                 .star-img {
@@ -62,11 +64,11 @@
 
             .cat-tools-globe {
 
- 
-                    position: absolute;
-                    bottom: 29px;
-                    left: 9px;
-                
+
+                position: absolute;
+                bottom: 29px;
+                left: 9px;
+
 
                 .globe-img {
                     img {
