@@ -98,7 +98,6 @@ const translationMemoryCloud = gsap.timeline(
     {
         scrollTrigger: {
             trigger: '.translation-memory-cloud',
-            markers: true,
             start: 'top 90%',
             end: 'top 10%',
             scrub: true,
@@ -118,7 +117,6 @@ const glossaryManaagementTimeline = gsap.timeline(
     {
         scrollTrigger: {
             trigger: '.glossary-management-card',
-
             start: 'top 90%',
             end: 'top 10%',
             scrub: true,
