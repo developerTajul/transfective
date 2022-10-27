@@ -53,16 +53,17 @@
     min-height: 417px;
     position: relative;
 
-// icon hover effect
+    // icon hover effect
 
-&:hover{
-    .before-hover{
-        display: none;
+    &:hover {
+        .before-hover {
+            display: none;
+        }
+
+        .after-hover {
+            display: block !important;
+        }
     }
-    .after-hover{
-        display: block !important;
-    }
-}
 
     .bordered-card-top {
         h5 {
@@ -72,7 +73,8 @@
             color: #000000;
             text-transform: capitalize;
         }
-        img{
+
+        img {
             height: 80px;
         }
     }
@@ -186,9 +188,9 @@
 
 @media screen and (min-width:992px) and (max-width:1200px) {
     .bordered-card {
-      
+
         padding: 32px 10px;
-       
+
     }
 
     .core-text-content .core-text-content-title h4 {
@@ -223,5 +225,11 @@
 
     .core-cards-area-wrapper {
         margin-top: 40px !important;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .core-cards-area-wrapper {
+        margin-top: -60px !important;
     }
 }

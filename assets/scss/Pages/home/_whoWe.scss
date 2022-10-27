@@ -355,3 +355,18 @@
         margin-left: 20px;
     }
 }
+
+@media screen and (max-width:360px) {
+    .who-we .section-top h2 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+
+    .main-area .main-area-subtitle .arrow-shape img {
+        width: 60px;
+        margin-top: 20px;
+    }
+
+
+
+}

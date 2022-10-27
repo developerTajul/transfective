@@ -2,6 +2,7 @@
 .world-wide-area {
     background: #f2fcff;
     min-height: 1150px;
+
     .section-top {
         position: relative;
 
@@ -459,7 +460,33 @@
 }
 
 @media screen and (max-width:575px) {
-.world-wide-area {
-    min-height: 1050px;
+    .world-wide-area {
+        min-height: 1050px;
+    }
 }
+
+@media screen and (min-width:361px) and (max-width:575px) {
+    .world-wide-area .section-top .arrow-shape {
+        left: -3%;
+        bottom: 0px;
+
+        img {
+            height: 70px;
+        }
+    }
+}
+
+@media screen and (max-width:360px) {
+    .world-wide-area .section-top .arrow-shape {
+        left: -3%;
+        bottom: 0px;
+
+        img {
+            height: 70px;
+        }
+    }
+
+    .world-wide-area-small {
+        margin-top: 20px;
+    }
 }

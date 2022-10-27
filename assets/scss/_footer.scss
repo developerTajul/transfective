@@ -80,7 +80,7 @@
 
                     &:hover {
                         background: #9c2af5;
-                   
+
                     }
                 }
             }
@@ -113,7 +113,8 @@
                         text-transform: capitalize;
                         margin-bottom: 16px;
                         display: block;
-                        &:hover{
+
+                        &:hover {
                             color: #9c2af5;
                         }
                     }
@@ -181,7 +182,14 @@
 }
 
 @media screen and (max-width:991px) {
-    .footer-area .subscribe-widget.pr-60{
+    .footer-area .subscribe-widget.pr-60 {
         padding-right: 0px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .copyright-area p {
+
+        margin-top: 13px;
     }
 }

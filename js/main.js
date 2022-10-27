@@ -41,12 +41,13 @@
 		$('#prefered-choice-slider').slick({
 			dots: false,
 			infinite: true,
+			autoplay:true,
 			speed: 300,
 			slidesToShow: 1,
 			arrows: false,
 			variableWidth: true,
 			autoplay: true,
-			autoplaySpeed: 2000,
+			autoplaySpeed: 1000,
 		});
 		// industrial hero tab slider
 		$('#industriesTab').slick({
@@ -75,8 +76,9 @@
 			dots: false,
 			infinite: true,
 			speed: 300,
+			autoplaySpeed:300,
 			slidesToShow: 9,
-			slidesToScroll: 4,
+			slidesToScroll: 1,
 			arrows: false,
 			autoplay: true,
 			responsive: [

@@ -604,7 +604,7 @@ html {
     left: auto;
   }
   .home-bannar-area .hero-world-image .light-circle-img {
-    left: -9%;
+    left: 0%;
     top: 298px;
   }
   .home-bannar-area .hero-world-image .light-circle-img img {
@@ -1022,6 +1022,16 @@ html {
     margin-left: 20px;
   }
 }
+@media screen and (max-width: 360px) {
+  .who-we .section-top h2 {
+    font-size: 24px;
+    line-height: 10px;
+  }
+  .main-area .main-area-subtitle .arrow-shape img {
+    width: 60px;
+    margin-top: 20px;
+  }
+}
 .our-process .our-process-title h2 {
   font-weight: 500;
   font-size: 65px;
@@ -1064,6 +1074,9 @@ html {
   background: #00CCFF;
 }
 
+.need-project .full-width-animation {
+  margin-top: 20px;
+}
 .need-project .need-project-title h3 {
   font-size: 48px;
   line-height: 64px;
@@ -1246,6 +1259,11 @@ html {
   }
   .core-cards-area-wrapper {
     margin-top: 40px !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .core-cards-area-wrapper {
+    margin-top: -60px !important;
   }
 }
 .prefered-choice {
@@ -1820,6 +1838,27 @@ html {
 @media screen and (max-width: 575px) {
   .world-wide-area {
     min-height: 1050px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 575px) {
+  .world-wide-area .section-top .arrow-shape {
+    left: -3%;
+    bottom: 0px;
+  }
+  .world-wide-area .section-top .arrow-shape img {
+    height: 70px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .world-wide-area .section-top .arrow-shape {
+    left: -3%;
+    bottom: 0px;
+  }
+  .world-wide-area .section-top .arrow-shape img {
+    height: 70px;
+  }
+  .world-wide-area-small {
+    margin-top: 20px;
   }
 }
 .success-stories {
@@ -3671,6 +3710,11 @@ html {
 @media screen and (max-width: 991px) {
   .footer-area .subscribe-widget.pr-60 {
     padding-right: 0px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .copyright-area p {
+    margin-top: 13px;
   }
 }
 
