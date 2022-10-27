@@ -446,13 +446,30 @@ html {
   }
   .home-bannar-area .bannar-bottom-area .right-img .down-icon {
     position: absolute;
-    right: -30px;
-    top: 2px;
+    right: -36px;
+    top: 263px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .down-icon svg {
+    height: 50px;
   }
   .home-bannar-area .bannar-area-right .small-star {
     position: absolute;
     top: -50px;
     left: -71px;
+  }
+  .home-bannar-area .hero-world-image .light-circle-img img {
+    width: 50px;
+  }
+  .home-bannar-area .hero-world-image .light-circle-img {
+    left: 4%;
+    top: 194px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img {
+    top: 250px;
+    right: -53px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img svg {
+    width: 60px;
   }
 }
 @media screen and (min-width: 361px) and (max-width: 574px) {
@@ -475,10 +492,38 @@ html {
     right: -22px;
     top: 35px;
   }
+  .home-bannar-area .bannar-bottom-area .right-img .down-icon {
+    position: absolute;
+    right: -36px;
+    top: 263px;
+  }
+  .home-bannar-area .hero-world-image .light-circle-img {
+    position: absolute;
+    left: 0%;
+    top: 180px;
+  }
+  .home-bannar-area .hero-world-image .light-circle-img img {
+    width: 60px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img {
+    top: 250px;
+    right: -62px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img svg {
+    width: 60px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .down-icon {
+    position: absolute;
+    right: -42px;
+    top: 300px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .down-icon svg {
+    height: 50px;
+  }
   .home-bannar-area .bannar-area-right .small-star {
     position: absolute;
-    top: -136px;
-    left: -118px;
+    top: -215px;
+    left: -94px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -552,6 +597,35 @@ html {
     top: 0px;
     z-index: 9888;
   }
+  .home-bannar-area .bannar-area-right .small-star {
+    position: absolute;
+    top: -150px;
+    right: 0px;
+    left: auto;
+  }
+  .home-bannar-area .hero-world-image .light-circle-img {
+    left: -9%;
+    top: 298px;
+  }
+  .home-bannar-area .hero-world-image .light-circle-img img {
+    width: 80px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img {
+    position: absolute;
+    top: 358px;
+    right: -56px;
+    z-index: 9888;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img svg {
+    width: 70px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .down-icon {
+    right: -34px;
+    top: 370px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .down-icon svg {
+    height: 50px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .home-bannar-area {
@@ -602,6 +676,28 @@ html {
     right: -2px;
     top: 105px;
   }
+  .home-bannar-area .hero-world-image .light-circle-img {
+    left: 0%;
+    top: 350px;
+  }
+  .home-bannar-area .hero-world-image .light-circle-img img {
+    width: 100px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img {
+    top: 403px;
+    right: 0px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img svg {
+    width: 80px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img {
+    top: 403px;
+    right: 0px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .down-icon {
+    right: 47px;
+    top: 481px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .home-bannar-area {
@@ -631,6 +727,27 @@ html {
     left: -90px;
   }
   .home-bannar-area .bannar-area-right .arrow img {
+    width: 170px;
+  }
+  .home-bannar-area .hero-world-image .light-circle-img {
+    position: absolute;
+    left: 90%;
+    top: 200px;
+  }
+  .home-bannar-area .hero-world-image .light-circle-img img {
+    width: 100px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .circle-img {
+    top: 200px;
+    right: -53px;
+  }
+  .home-bannar-area .bannar-bottom-area .right-img .down-icon {
+    right: -2px;
+    top: 166px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .home-bannar-area .hero-world-image .light-circle-img img {
     width: 170px;
   }
 }
