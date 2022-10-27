@@ -353,7 +353,7 @@ html {
 }
 
 .home-bannar-area {
-  padding-top: 80px;
+  padding-top: 45px;
 }
 .home-bannar-area .bannar-area-title {
   position: relative;
@@ -451,7 +451,7 @@ html {
   }
   .home-bannar-area .bannar-area-right .small-star {
     position: absolute;
-    top: -200px;
+    top: -50px;
     left: -71px;
   }
 }
@@ -486,7 +486,7 @@ html {
     padding-top: 42px;
   }
   .home-bannar-area .bannar-area-title h1 {
-    font-size: 34px;
+    font-size: 32px;
     line-height: 47px;
   }
   .home-bannar-area .bannar-area-title .arrow-shape {
