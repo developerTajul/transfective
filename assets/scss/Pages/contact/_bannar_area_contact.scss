@@ -27,41 +27,6 @@
     }
 }
 
-@media screen and (max-width:575px) {
-    .bannar-area__contact .hero-left-area h1 {
-        font-size: 33px;
-        line-height: 46px;
-    }
-
-    .bannar-area__contact .stretch-rope {
-
-        svg {
-            width: 220px;
-        }
-    }
-
-    .bannar-area__contact .arrow-img svg {
-        width: 70px;
-    }
-
-    .bannar-area__contact {
-        position: relative;
-        padding-bottom: 120px;
-    }
-
-    .bannar-area__contact .arrow-img {
-        position: absolute;
-        top: -23px;
-        right: 90px;
-    }
-
-    .bannar-area__contact .hero-right-area .star-img {
-        position: absolute;
-        top: -23px;
-        right: 8%;
-    }
-}
-
 @media screen and (min-width:575px) and (max-width:767px) {
     .bannar-area__contact .stretch-rope {
 
@@ -112,4 +77,72 @@
         font-size: 46px;
         line-height: 65px;
     }
+}
+
+@media screen and (max-width:575px) {
+    .bannar-area__contact .hero-left-area h1 {
+        font-size: 33px;
+        line-height: 46px;
+    }
+
+    .bannar-area__contact .stretch-rope {
+
+        svg {
+            width: 220px;
+        }
+    }
+
+    .bannar-area__contact .arrow-img svg {
+        width: 70px;
+    }
+
+    .bannar-area__contact {
+        position: relative;
+        padding-bottom: 120px;
+    }
+
+    .bannar-area__contact .arrow-img {
+        position: absolute;
+        top: -23px;
+        right: 90px;
+    }
+
+    .bannar-area__contact .hero-right-area .star-img {
+        position: absolute;
+        top: -222px;
+        right: 4%;
+    }
+
+    .bannar-area__contact .hero-left-area h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .bannar-area__contact .arrow-img {
+        position: absolute;
+        top: 7px;
+        right: 0px;
+
+        img {
+            width: 80px;
+        }
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .bannar-area__contact .hero-right-area {
+           .arrow-img{
+            top: -40px;
+           }
+        }
+}
+
+@media screen and (min-width:380px) and (max-width:480px) {
+  
+        .bannar-area__contact .hero-right-area .star-img {
+            position: absolute;
+            top: -168px;
+            right: -5%;
+        }
+    
 }

@@ -46,7 +46,7 @@
                 border-radius: 10px;
                 border: 1px solid #000E28;
                 box-shadow: 7px 7px 0px 0px #000E28,
-                7px 7px 0px 0px #000E28;
+                    7px 7px 0px 0px #000E28;
 
                 &:hover {
                     background: #000000;
@@ -169,10 +169,15 @@
         line-height: 58px;
     }
 
-    .we-assist .contact-right-area .contact-heading .arrow-img {
-        right: 55px;
-        top: 124px;
-    }
+ .we-assist .contact-right-area .contact-heading .arrow-img {
+
+        top: 107px;
+        left: 59%;
+    
+     img{
+        width: 90px;
+     }
+ }
 
     .we-assist .contact-right-area .contact-card .card-item .card-content .card-desc p {
         font-size: 16px;
@@ -251,3 +256,23 @@
         margin-bottom: 15px;
     }
 }
+
+@media screen and (min-width:370px) and (max-width:420px) {
+    .bannar-area__contact .hero-right-area .star-img {
+        position: absolute;
+        top: -172px;
+        right: -7%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .we-assist .contact-right-area .contact-card .card-item .icon {
+        margin-right: 10px;
+    }
+
+    .we-assist .contact-right-area .contact-card .card-item .card-content .card-title h3 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+}
+
