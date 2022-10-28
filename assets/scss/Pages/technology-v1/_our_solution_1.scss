@@ -46,7 +46,7 @@
 
                 .globe-1 {
                     width: 150px;
-                    height:60px;
+                    height: 60px;
 
                 }
 
@@ -163,4 +163,21 @@
         bottom: 0px;
         left: 4px;
     }
+}
+
+@media screen and (max-width:360px) {
+    .our-solutions.our-solution-style-1 .card-style-1 .translation-memory .three-star {
+        position: absolute;
+        bottom: 2px;
+        left: 0px !important;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        .globe-img {
+            top: 20px;
+            left: -50px;
+        }
+    }
+
+    
 }
