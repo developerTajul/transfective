@@ -116,9 +116,22 @@
 
 @media screen and (min-width:1200px) and (max-width:1400px) {
     .content-review .content-review-right .content-review-title h2 {
-    
-            font-size: 34px;
-            line-height: 85px;
 
-        }
+        font-size: 34px;
+        line-height: 85px;
+
+    }
+}
+
+@media screen and (max-width:360px) {
+    .content-review .content-card .content-title h5 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .content-review .content-card .content-desc p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #888888;
+    }
 }

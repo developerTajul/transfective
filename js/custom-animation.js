@@ -78,7 +78,7 @@ const ourSolutionsTimeline = gsap.timeline(
             start: 'top 100%',
             end: 'top 10%',
             scrub: false,
-            toggleActions: 'resume'
+            // toggleActions: ''
         },
         defaults: { opacity: 0, duration: 1 },
         ease: 'back'
@@ -101,7 +101,7 @@ const translationMemoryCloud = gsap.timeline(
             start: 'top 90%',
             end: 'top 10%',
             scrub: false,
-            toggleActions: 'restart'
+            // toggleActions: 'restart'
         },
         defaults: { opacity: 0, duration: 1 },
         ease: 'back'
@@ -120,7 +120,7 @@ const glossaryManaagementTimeline = gsap.timeline(
             start: 'top 90%',
             end: 'top 10%',
             scrub: false,
-            toggleActions: 'restart'
+            // toggleActions: 'restart'
         },
         defaults: { opacity: 0, duration: 1 },
         ease: 'back'
@@ -137,7 +137,7 @@ const catToolsManaagementTimeline = gsap.timeline(
             start: 'top 70%',
             end: 'top 20%',
             scrub: false,
-            toggleActions: 'restart'
+            // toggleActions: 'restart'
         },
         defaults: { opacity: 0, duration: 1 },
         ease: 'back'

@@ -72,21 +72,9 @@
     }
 }
 
-@media screen and (min-width:576px) and (max-width:767px) {
-    .content-review .content-review-right .content-review-title h2 {
-        font-size: 30px !important;
-        line-height: 40px !important;
-        margin-top: 55px !important;
-    }
-}
 
-@media screen and (min-width:768px) and (max-width:991px) {
-    .content-review .content-review-right .content-review-title h2 {
-        font-size: 30px !important;
-        line-height: 50px !important;
-        margin-top: 57px !important;
-    }
-}
+
+
 
 @media screen and (min-width:992px) and (max-width:1199px) {
     .machine-area .machine-left-area .machine-heading h2 {
@@ -99,5 +87,53 @@
     .machine-area .machine-left-area .machine-desc p {
         font-size: 16px;
         line-height: 27px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .content-review .content-review-right .content-review-title h2 {
+        font-size: 30px !important;
+        line-height: 50px !important;
+        margin-top: 57px !important;
+    }
+        .machine-area::before {
+       
+            width: 100%;
+            height: 51%;
+       
+        }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .content-review .content-review-right .content-review-title h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        margin-top: 55px !important;
+    }
+
+    .machine-area::before {
+
+        height: 45%;
+
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:575px) {
+    .machine-area::before {
+        height: 60%;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:400px) {
+    .machine-area::before {
+        height: 70%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:360px) {
+    .machine-area::before {
+
+        height: 68%;
+
     }
 }
