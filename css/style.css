@@ -272,6 +272,11 @@ html {
     line-height: 47px;
   }
 }
+@media screen and (max-width: 800px) {
+  .ball {
+    display: none;
+  }
+}
 .theme-btn {
   border: none;
   background: transparent;
@@ -2967,6 +2972,9 @@ html {
   .insdustries-verticle-tabs-area .verticle-tab-content p {
     font-size: 14px;
   }
+  .insdustries-verticle-tabs-area .tab-content {
+    padding: 10px 30px;
+  }
 }
 .services-nav nav ul {
   display: flex;
@@ -3807,6 +3815,7 @@ html {
   .copyright-area p {
     font-size: 12px;
     line-height: 20px;
+    padding-top: 15px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {

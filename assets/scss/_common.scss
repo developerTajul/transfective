@@ -232,3 +232,9 @@ html {
   }
 }
 
+
+@media screen and (max-width:800px) {
+  .ball{
+    display: none;
+  }
+}
