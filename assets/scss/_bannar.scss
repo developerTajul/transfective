@@ -1,0 +1,35 @@
+.bannar-area {
+    .bannar-row {
+        position: relative;
+
+        .bannar-text-content-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translateY(-50%);
+
+            .bannar-text-content {
+                .bannar-desc {
+                    p {
+                        line-height: 19px;
+                    }
+                }
+            }
+        }
+
+        .left-stroke-img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -22%;
+        }
+
+        .right-stroke-img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 108%;
+
+        }
+    }
+}

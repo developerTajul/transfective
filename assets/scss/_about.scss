@@ -1,0 +1,72 @@
+.about-area {
+    .about-left-area {
+        .about-heading {
+            h2 {
+                font-weight: 400;
+                font-size: 38px;
+                line-height: 44px;
+                color: $white;
+            }
+        }
+
+        .about-quote-desc {
+
+            .quote-start,
+            .quote-end {
+                display: inline;
+
+                img {
+                    display: inline;
+                }
+            }
+
+            p {
+                display: inline;
+            }
+        }
+
+        .authors {
+            h5 {
+                font-family: $dancingScript;
+
+                span {
+                    &:first-child {
+                        color: $green;
+                    }
+
+                    &:last-child {
+                        color: #FAFF00;
+                    }
+                }
+            }
+
+        }
+
+        .underline-text {
+            p {
+                text-decoration: underline;
+            }
+        }
+
+        .border-left-content {
+            ul {
+                position: relative;
+
+                &::before {
+                    position: absolute;
+                    top: 5px;
+                    left: 0;
+                    height: 80%;
+                    width: 2px;
+                    background: linear-gradient(to right, #33FF00, #FAFF00);
+                    content: "";
+                }
+
+                li {
+                    color: $white;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}

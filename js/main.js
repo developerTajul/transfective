@@ -2,32 +2,13 @@
 
 	jQuery(document).ready(function () {
 
-		// core value icon
+		
 
 		// slick slider
 
-		// contact slider
-		$('#contact-slider-mobile-one').slick({
-			dots: false,
-			infinite: true,
-			speed: 300,
-			slidesToShow: 1,
-			arrows: false,
-			variableWidth: true,
-			autoplay: true,
-			autoplaySpeed: 1000,
-		});
-		// contact slider
-		$('#contact-slider-mobile-two').slick({
-			dots: false,
-			infinite: true,
-			speed: 300,
-			slidesToShow: 1,
-			arrows: false,
-			variableWidth: true,
-			autoplay: true,
-			autoplaySpeed: 1000,
-		});
+		
+		
+		
 		// home bannar slider
 		$('#home-bannar-slider').slick({
 			dots: false,
@@ -38,46 +19,18 @@
 			autoplay: true,
 			autoplaySpeed: 2000
 		});
-		$('#prefered-choice-slider').slick({
-			dots: false,
-			infinite: true,
-			autoplay:true,
-			speed: 300,
-			slidesToShow: 1,
-			arrows: false,
-			variableWidth: true,
-			autoplay: true,
-			autoplaySpeed: 1000,
-		});
-		// industrial hero tab slider
-		$('#industriesTab').slick({
-			dots: false,
-			infinite: false,
-			speed: 300,
-			slidesToShow: 3,
-			arrows: false,
-			variableWidth: true,
-
-		});
+		
+	
 
 		// services hero tab slider
 
-		$('.services-nav nav ul').slick({
-			dots: false,
-			infinite: false,
-			speed: 300,
-			slidesToShow: 3,
-			arrows: false,
-			variableWidth: true,
-
-		});
 
 		$('.brands-slider').slick({
 			dots: false,
 			infinite: true,
 			speed: 300,
-			autoplaySpeed:300,
-			slidesToShow: 9,
+			autoplaySpeed:1000,
+			slidesToShow: 5,
 			slidesToScroll: 1,
 			arrows: false,
 			autoplay: true,
@@ -113,30 +66,14 @@
 			dots: false,
 			infinite: true,
 			speed: 300,
-			slidesToShow: 3,
+			slidesToShow: 1,
 			slidesToScroll: 1,
-			arrows: false,
-			variableWidth: true,
+			arrows: true,
+			// variableWidth: true,
 			autoplay: true,
-			centerMode:true,
-			responsive: [
-				{
-					breakpoint: 576,
-					settings: {
-						slidesToShow: 1,
-						slidesToScroll: 1,
-					}
-				},
-				{
-					breakpoint: 768,
-					settings: {
-						slidesToShow: 2,
-						slidesToScroll: 1,
-					}
-				}
-
-
-			]
+			prevArrow:'.testimonial-prev-arrow',
+			nextArrow:'.testimonial-next-arrow',
+			
 		});
 
 

@@ -5,10 +5,15 @@
     text-decoration: none;
     text-transform: capitalize;
     font-size: 18px;
-    line-height: 27px;
-    border-radius: 10px;
+    line-height: 28px;
+    border-radius: 12px;
     transition: all ease-in-out 0.3s;
     text-transform: capitalize;
+    padding: 14px 32px;
+}
+.theme-btn-primary{
+    background: linear-gradient(to right,#33FF00,#FAFF00);
+    color: $black;
 }
 .theme-btn-bordered{
     border: 1px solid #000E28;
