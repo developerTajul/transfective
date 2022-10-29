@@ -1,0 +1,372 @@
+.who-we {
+
+    .section-top {
+        background-color: $dark-black;
+
+        h2 {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 65px;
+            line-height: 80px;
+            font-weight: 500;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                top: 0px;
+                left: 20%;
+                content: "\f005";
+                font-family: 'Font Awesome 6 Free';
+                font-weight: 700;
+                color: #00CCFF;
+            }
+
+            &::after {
+                position: absolute;
+                top: 0px;
+                right: 20%;
+                content: "\f005";
+                font-family: 'Font Awesome 6 Free';
+                font-weight: 700;
+                color: #00CCFF;
+            }
+        }
+    }
+
+    .animation-wrapper {
+
+        // background: #ffffff;
+        // border-top-right-radius: 72px;
+        // border-bottom-right-radius: 72px;
+        // border-bottom-left-radius: 72px;
+        position: relative;
+        margin-bottom: -70px;
+        margin-top: -30px;
+
+        #lottie {
+            padding-left: 65px;
+        }
+
+        &::before {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+            height: 80%;
+            content: "";
+            background: #ffff;
+            border-top-right-radius: 72px;
+            border-bottom-right-radius: 72px;
+            border-bottom-left-radius: 72px;
+
+        }
+
+    }
+}
+
+.main-area {
+    background: #8E0BF4;
+
+    .main-area-subtitle {
+        padding: 0px 60px;
+        text-align: center;
+        position: relative;
+
+        p {
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 63px;
+            color: #fff;
+        }
+
+        .arrow-shape {
+            position: absolute;
+            left: 0px;
+            top: 152px;
+        }
+    }
+
+    .main-area-img {
+        background: #fff;
+    }
+
+    .main-area-desc {
+        padding: 0px 20px;
+
+        p {
+            font-size: 24px;
+            line-height: 40px;
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    .who-we .section-top h2 {
+
+        font-size: 35px;
+        line-height: 35px;
+
+    }
+
+    .who-we .section-top h2::before {
+        left: 2%;
+    }
+
+    .who-we .section-top h2::after {
+        right: 3%;
+    }
+
+    .main-area .main-area-subtitle {
+        padding: 0px 0px;
+    }
+
+    .main-area .main-area-subtitle p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 0px;
+        top: 98px;
+    }
+
+    .main-area .main-area-subtitle .arrow-shape {
+        img {
+            width: 70px;
+        }
+    }
+
+    .main-area .main-area-desc p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+
+
+@media screen and (max-width:575px) {
+    .who-we .animation-wrapper::before {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .who-we .animation-wrapper #lottie {
+        padding-left: 10px;
+    }
+
+    .who-we .animation-wrapper {
+        position: relative;
+        margin-bottom: -9px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .who-we .section-top h2 {
+
+        font-size: 40px;
+        line-height: 35px;
+
+    }
+
+    .who-we .section-top h2::before {
+        left: 3%;
+    }
+
+    .who-we .section-top h2::after {
+        right: 4%;
+    }
+
+    .main-area .main-area-subtitle {
+        padding: 0px 0px;
+    }
+
+    .main-area .main-area-subtitle p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 0px;
+        top: 73px;
+
+        img {
+            width: 80px;
+        }
+    }
+
+    .main-area .main-area-desc p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    // animation area
+
+    .who-we .animation-wrapper::before {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        height: 90%;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .who-we .animation-wrapper #lottie {
+        padding-left: 20px;
+    }
+
+    .who-we .animation-wrapper {
+        position: relative;
+        margin-bottom: -29px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .who-we .section-top h2::before {
+        left: 3%;
+    }
+
+    .who-we .section-top h2::after {
+        right: 4%;
+    }
+
+    .main-area .main-area-subtitle {
+        padding: 0px 100px;
+    }
+
+    .main-area .main-area-subtitle p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+
+    .main-area .main-area-desc p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 0px;
+        top: 62px;
+
+        img {
+            width: 100px;
+        }
+    }
+
+
+    // animation area
+
+    .who-we .animation-wrapper::before {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        height: 90%;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-bottom-left-radius: 35px;
+    }
+
+    .who-we .animation-wrapper #lottie {
+        padding-left: 25px;
+    }
+
+    .who-we .animation-wrapper {
+        position: relative;
+        margin-bottom: -39px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .who-we .section-top h2::before {
+        left: 4%;
+    }
+
+    .who-we .section-top h2::after {
+        right: 4%;
+    }
+
+    .main-area .main-area-subtitle {
+        padding: 0px 100px;
+    }
+
+    .main-area .main-area-subtitle p {
+
+        font-size: 24px;
+        line-height: 40px;
+
+    }
+
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 15px;
+        top: 90px;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .main-area .main-area-desc p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    // animation area
+
+    .who-we .animation-wrapper::before {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 100%;
+        height: 90%;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+    }
+
+    .who-we .animation-wrapper #lottie {
+        padding-left: 25px;
+    }
+
+    .who-we .animation-wrapper {
+        position: relative;
+        margin-bottom: -39px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .who-we .section-top h2 {
+        font-size: 24px;
+        line-height: 10px;
+    }
+
+    .main-area .main-area-subtitle .arrow-shape img {
+        width: 60px;
+        margin-top: 20px;
+    }
+
+
+
+}

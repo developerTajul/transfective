@@ -1,0 +1,63 @@
+/***
+  Theme Name: transfective | HTML5 Template
+  Author: Spellon
+  Description: transfective | HTML5 Template
+  Version: 1.0
+*/
+
+/*** CSS Index
+-----------------------------------
+1. Theme default css
+2. Variable
+3. Mixin - Browser Support 
+4. Common - Global Style
+5. Header 
+6. Footer
+*/
+@import 'custom-font';
+@import 'variable';
+@import 'common';
+@import 'button';
+@import './sectionTop';
+
+@import './animation';
+// home page
+@import './Pages/home/bannar';
+@import './Pages/home/whoWe';
+@import './Pages/home/process';
+@import './Pages/home/coreValue';
+@import './Pages/home/prefered_choices';
+@import './Pages/home/partners';
+@import './Pages/home/wordWideArea';
+@import './Pages/home/success_stories';
+// contact page start
+@import './Pages/contact/bannar_area_contact';
+@import './Pages/contact/contact';
+@import './Pages/contact/we_assitst';
+// contact page end
+
+// technology page
+@import './pages/technology/bannar_area_technology';
+
+
+// technology page version 1
+
+@import './Pages/technology-v1/technology-bannar';
+@import './Pages/technology-v1/our_solution_1';
+@import './Pages/technology-v1/machine_area';
+@import './pages/technology-v1/content-review';
+@import './Pages/technology-v1/integration';
+
+// industries
+
+@import './Pages/industries/tabs';
+@import './Pages/industries/verticle_tabs';
+
+// services
+@import './Pages/services/services-nav';
+@import './Pages/services/services-content';
+@import './Pages/services/ecommerce';
+@import './Pages/services/accordion';
+
+@import 'header';
+@import 'footer';

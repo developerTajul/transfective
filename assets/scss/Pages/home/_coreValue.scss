@@ -1,0 +1,235 @@
+.bg-core-value {
+    background: #F8F4FB;
+}
+
+.core-value {
+    .core-value-top {
+        .core-value-title {
+            h2 {
+                font-size: 65px;
+                line-height: 78px;
+                font-weight: 500;
+                color: #000E28;
+            }
+        }
+
+        .core-value-subtitle {
+            p {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 36px;
+                color: #6D6D6D;
+            }
+        }
+    }
+}
+
+.core-text-content {
+    .core-text-content-title {
+        h4 {
+            font-weight: 500;
+            font-size: 52px;
+            line-height: 72px;
+            color: #000000;
+            text-transform: capitalize;
+        }
+    }
+
+    .core-text-content-desc {
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 36px;
+            color: #888888;
+        }
+    }
+}
+
+.bordered-card {
+    border: 3px solid #000000;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 25px;
+    min-height: 417px;
+    position: relative;
+
+    // icon hover effect
+
+    &:hover {
+        .before-hover {
+            display: none;
+        }
+
+        .after-hover {
+            display: block !important;
+        }
+    }
+
+    .bordered-card-top {
+        h5 {
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 33px;
+            color: #000000;
+            text-transform: capitalize;
+        }
+
+        img {
+            height: 80px;
+        }
+    }
+
+    .bordered-card-body {
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            color: #888888;
+        }
+
+    }
+
+    .author {
+        position: absolute;
+        bottom: 30px;
+
+        a {
+            text-decoration: none;
+            font-weight: 500;
+
+            font-size: 18px;
+            line-height: 26px;
+            text-transform: capitalize;
+            color: #000E28;
+            display: block;
+            border-bottom: 6px solid #00ccff81;
+            border-radius: 4px;
+        }
+    }
+}
+
+.top-border-card {
+    .col-6 {
+        &:nth-child(2) {
+            .bordered-card {
+                border-left: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .core-value .core-value-top .core-value-title h2 {
+        font-size: 36px;
+        line-height: 43px;
+
+    }
+
+    .core-value .core-value-top .core-value-subtitle p {
+        font-size: 22px;
+        line-height: 25px;
+
+    }
+
+    .core-text-content .core-text-content-desc p {
+
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+    .core-text-content .core-text-content-title h4 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .bordered-card {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .core-value .core-value-top .core-value-title h2 {
+        font-size: 36px;
+        line-height: 43px;
+
+    }
+
+    .core-value .core-value-top .core-value-subtitle p {
+        font-size: 22px;
+        line-height: 25px;
+
+    }
+
+    .core-text-content .core-text-content-title h4 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .bordered-card {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .core-value .core-value-top .core-value-title h2 {
+        font-size: 42px;
+        line-height: 37px;
+
+    }
+
+    .core-text-content .core-text-content-title h4 {
+
+        font-size: 24px;
+        line-height: 34px;
+
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .bordered-card {
+
+        padding: 32px 10px;
+
+    }
+
+    .core-text-content .core-text-content-title h4 {
+        font-size: 36px;
+        line-height: 46px;
+
+    }
+
+    .core-text-content .core-text-content-desc p {
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+    .bordered-card .bordered-card-body p {
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+    .bordered-card .bordered-card-top h5 {
+
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+
+    .bordered-card {
+        min-height: 440px;
+
+    }
+
+    .core-cards-area-wrapper {
+        margin-top: 40px !important;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .core-cards-area-wrapper {
+        margin-top: -60px !important;
+    }
+}

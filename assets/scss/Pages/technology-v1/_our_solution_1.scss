@@ -1,0 +1,183 @@
+.our-solutions.our-solution-style-1 {
+    .our-solutions-heading {
+        h2 {
+            font-weight: 500;
+            font-size: 52px;
+            line-height: 62px;
+        }
+    }
+
+    .card-style-1 {
+        .card-style-left {
+            .card-title {
+                h3 {
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 50px;
+                    color: #000E28;
+                }
+            }
+        }
+
+        .card-desc {
+            p {
+                font-size: 18px;
+                line-height: 32px;
+                margin-left: 10px;
+                color: #727272;
+            }
+        }
+
+        .translation-memory {
+            .three-star {
+                position: absolute;
+                bottom: 2px;
+                left: -75px;
+            }
+        }
+
+        .glossary-management {
+            position: relative;
+
+            .globe-img {
+                position: absolute;
+                bottom: -42px;
+                left: -40px;
+
+                .globe-1 {
+                    width: 150px;
+                    height: 60px;
+
+                }
+
+                .star-img {
+                    position: absolute;
+                    top: 88px;
+                    left: 12px;
+                }
+            }
+        }
+
+        // cat tools start
+        .cat-tools-img {
+            position: relative;
+
+            .cat-tools-globe {
+
+
+                position: absolute;
+                bottom: 29px;
+                left: 9px;
+
+
+                .globe-img {
+                    img {
+                        width: 150px;
+                    }
+
+                    .black-star {
+                        position: absolute;
+                        bottom: 0px;
+                        left: 30px;
+
+                        img {
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .our-solutions.our-solution-style-1 .our-solutions-heading h2 {
+
+        font-size: 33px;
+        line-height: 43px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .card-style-left .card-title h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 5px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img {
+        display: none;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        position: absolute;
+        bottom: 0px;
+        left: -20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img .globe-1 {
+        width: 160px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        bottom: 11px;
+        left: 5px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img {
+        bottom: 18px;
+        left: 10px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        bottom: 46px;
+        left: 44px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .our-solutions.our-solution-style-1 .card-style-1 .glossary-management .globe-img {
+        bottom: -42px;
+        left: -29px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .card-desc p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        bottom: 0px;
+        left: 4px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .our-solutions.our-solution-style-1 .card-style-1 .translation-memory .three-star {
+        position: absolute;
+        bottom: 2px;
+        left: 0px !important;
+    }
+
+    .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {
+        .globe-img {
+            top: 20px;
+            left: -50px;
+        }
+    }
+
+    
+}

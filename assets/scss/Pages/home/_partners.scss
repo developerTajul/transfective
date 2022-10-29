@@ -1,0 +1,54 @@
+.partner-area {
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+
+    .section-top {
+        .section-title {
+            h2 {
+                font-size: 52px;
+                font-weight: 500;
+                line-height: 62px;
+                color: #000000;
+            }
+        }
+
+        .section-subtitle {
+            p {
+                font-weight: 4000;
+                font-size: 18px;
+                line-height: 32px;
+                color: #000000;
+            }
+        }
+    }
+
+    .brands-slider-wrapper {
+        .brands-slider {
+            border-top: 4px solid #000000;
+            border-bottom: 4px solid #000000;
+            padding: 45px 0px;
+
+            li {
+                a {
+                    img {
+                        width: 140px;
+                        max-height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:575px) {
+    .partner-area .section-top .section-title h2 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .partner-area .section-top .section-subtitle p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
