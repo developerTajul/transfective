@@ -141,7 +141,7 @@ if (document.querySelector('.our-solutions') !== null) {
                 trigger: '.our-solutions',
                 start: 'top 80%',
                 end: 'top 0%',
-               
+
             },
             defaults: { opacity: 0 },
             ease: 'back'
@@ -164,7 +164,7 @@ if (document.querySelector('.translation-memory-cloud') !== null) {
                 trigger: '.translation-memory-cloud',
                 start: 'top 80%',
                 end: 'top 0%',
-               
+
             },
             defaults: { opacity: 0 },
             ease: 'back'
@@ -217,8 +217,8 @@ if (document.querySelector('.machine-area')) {
         scrollTrigger: {
             trigger: '.machine-area',
             start: 'top 80%',
-            end:'top 0%'
-            
+            end: 'top 0%'
+
         },
         defaults: { opacity: 0 },
     },
@@ -234,13 +234,13 @@ if (document.querySelector('.content-review') !== null) {
         scrollTrigger: {
             trigger: '.content-review',
             start: 'top 80%',
-            end:'top 0%'
+            end: 'top 0%'
         },
         defaults: { opacity: 0 },
     })
     contentReviewTl.from('.content-review', { opacity: 1 })
         .from('.content-review .content-review-right ', { x: 200 })
-        .from('.content-review .content-card',{x:-200})
+        .from('.content-review .content-card', { x: -200 })
 }
 // integration area
 
@@ -250,14 +250,67 @@ if (document.querySelector('.integration-area') !== null) {
             trigger: '.integration-area ',
             start: 'top 80%',
             end: 'top 0%',
-            
+
         },
         defaults: { opacity: 0 },
     })
     integrationTl.from('.integration-area', { opacity: 1 })
-        .from('.integration-area .section-title h2',{y:100})
-        .from('.integration-area .section-title .line-img',{y:100})
-        .from('.integration-area .section-desc ',{y:100})
-        .from('.integration-area .image-area ',{y:100})
-      
+        .from('.integration-area .section-title h2', { y: 100 })
+        .from('.integration-area .section-title .line-img', { y: 100 })
+        .from('.integration-area .section-desc ', { y: 100 })
+        .from('.integration-area .image-area ', { y: 100 })
+
+}
+
+// industries page
+
+if (document.querySelector('.ecommerce-area') !== null) {
+    const ecommerceTl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.ecommerce-area ',
+            start: 'top 80%',
+            end: 'top 0%',
+
+        },
+        defaults: { opacity: 0 },
+    })
+
+    ecommerceTl.from(".ecommerce-area", {})
+        .from('.ecommerce-area .tab-content-title h2', { y: 50 })
+        .from('.ecommerce-area .arrow', { y: 50 })
+        .from('.ecommerce-area .star', { y: 50 })
+        .from('.ecommerce-area .tab-title-arrow', { y: 50 })
+        .from('.ecommerce-area .tab-content-desc', { y: 50 })
+        .from('.ecommerce-area .tab-img-area', { x: -150 })
+        .from('.ecommerce-area .globe-1', {})
+        .from('.ecommerce-area .globe-2', {})
+    
+    // const ecommerceArea = document.querySelector('.ecommerce-area');
+    // ecommerceArea.onwheel = e => {
+    //     if (e.deltaY >= 100) {
+    //         globeUp();
+    //     } else {
+   
+    //         globeDown();
+    //     }
+    // }
+    // function globeUp() {
+    //     gsap.to('.ecommerce-area .globe-1',{y:-100})
+    // }
+    // function globeDown() {
+    //     gsap.to('.ecommerce-area .globe-1',{y:100})
+    // }
+}
+if (document.querySelector('.insdustries-verticle-tabs-area') !== null) {
+    const industriesVerticleTl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.insdustries-verticle-tabs-area ',
+            start: 'top 80%',
+            end: 'top 0%',
+
+        },
+        defaults: { opacity: 0 },
+    })
+    industriesVerticleTl.from(".insdustries-verticle-tabs-area", {})
+        .from('.insdustries-verticle-tabs-area .tabs-area',{x:-100})
 }
