@@ -14,19 +14,26 @@
             position: absolute;
 
             &.globe {
-                bottom: 4px;
-                left: -118px;
+                bottom: 50px;
+                left: -182px;
+
+                .star {
+                    position: absolute;
+                    top: 70px;
+                    left: 13px;
+                }
             }
 
             &.arrow {
-                bottom: 195px;
-                left: -20px;
+                bottom: 212px;
+                left: -10px;
             }
 
             &.star {
-                right: -75px;
-                top: 11px;
+                top: 0px;
+                right: 0px;
             }
+
         }
     }
 }

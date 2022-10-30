@@ -2841,6 +2841,17 @@ html {
     line-height: 85px;
   }
 }
+@media screen and (max-width: 360px) {
+  .content-review .content-card .content-title h5 {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .content-review .content-card .content-desc p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #888888;
+  }
+}
 .integration-area {
   background: "#E1E1E1";
 }
@@ -2854,16 +2865,21 @@ html {
   position: absolute;
 }
 .integration-area .image-area .position-img.globe {
-  bottom: 4px;
-  left: -118px;
+  bottom: 50px;
+  left: -182px;
+}
+.integration-area .image-area .position-img.globe .star {
+  position: absolute;
+  top: 70px;
+  left: 13px;
 }
 .integration-area .image-area .position-img.arrow {
-  bottom: 195px;
-  left: -20px;
+  bottom: 212px;
+  left: -10px;
 }
 .integration-area .image-area .position-img.star {
-  right: -75px;
-  top: 11px;
+  top: 0px;
+  right: 0px;
 }
 
 @media screen and (max-width: 575px) {
