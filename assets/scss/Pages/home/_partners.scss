@@ -22,22 +22,49 @@
             }
         }
     }
+}
 
-    .brands-slider-wrapper {
-        .brands-slider {
-            border-top: 4px solid #000000;
-            border-bottom: 4px solid #000000;
-            padding: 45px 0px;
 
-            li {
-                a {
-                    img {
-                        width: 140px;
-                        max-height: 50px;
-                    }
-                }
-            }
-        }
+
+.marquee-wrapper {
+    display: inline-block;
+    white-space: nowrap;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    padding: 20px 0px;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    transform: translate3d(0%, 0, 0);
+    animation-name: marquee;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.marquee a {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 5.4rem;
+    img{
+        max-width: 180px;
+        max-height: 90px;
+    }
+}
+
+.marquee-wrapper:hover .marquee {
+    animation-play-state: paused !important;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-100%, 0, 0);
     }
 }
 
