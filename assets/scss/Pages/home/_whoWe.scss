@@ -132,32 +132,111 @@
 
 
 
-@media screen and (max-width:575px) {
-    .who-we .animation-wrapper::before {
-        position: absolute;
-        top: 0px;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        border-bottom-left-radius: 15px;
+
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .who-we .section-top h2::before {
+        left: 4%;
     }
 
-    .who-we .animation-wrapper #lottie {
-        padding-left: 10px;
+    .who-we .section-top h2::after {
+        right: 4%;
+    }
+
+    .main-area .main-area-subtitle {
+        padding: 0px 100px;
+    }
+
+    .main-area .main-area-subtitle p {
+
+        font-size: 24px;
+        line-height: 40px;
+
+    }
+
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 15px;
+        top: 90px;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .main-area .main-area-desc p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    // animation area
+    .who-we .animation-wrapper .img-area {
+        padding: 0px 0px;
     }
 
     .who-we .animation-wrapper {
-        position: relative;
-        margin-bottom: -9px;
-        margin-top: 0px;
+        width: 100%;
         margin-left: 20px;
+        border-radius: 40px;
+        border-top-left-radius: 0px;
+        margin-top: 20px;
     }
 }
 
+@media screen and (min-width:768px) and (max-width:991px) {
 
-@media screen and (min-width:575px) and (max-width:767px) {
+    .who-we .section-top h2::before {
+        left: 3%;
+    }
+
+    .who-we .section-top h2::after {
+        right: 4%;
+    }
+
+    .main-area .main-area-subtitle {
+        padding: 0px 100px;
+    }
+
+    .main-area .main-area-subtitle p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+
+    .main-area .main-area-desc p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .main-area .main-area-subtitle .arrow-shape {
+        left: 0px;
+        top: 62px;
+
+        img {
+            width: 100px;
+        }
+    }
+
+
+    // animation area
+    .who-we .animation-wrapper .img-area {
+        padding: 0px 0px;
+    }
+
+    .who-we .animation-wrapper {
+        margin-left: 20px;
+        border-radius: 40px;
+        border-top-left-radius: 0px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
     .who-we .section-top h2 {
 
         font-size: 40px;
@@ -197,148 +276,44 @@
     }
 
     // animation area
-
-    .who-we .animation-wrapper::before {
-        position: absolute;
-        top: 5px;
-        left: 0;
-        width: 100%;
-        height: 90%;
-        border-top-right-radius: 25px;
-        border-bottom-right-radius: 25px;
-        border-bottom-left-radius: 25px;
-    }
-
-    .who-we .animation-wrapper #lottie {
-        padding-left: 20px;
+    .who-we .animation-wrapper .img-area {
+        padding: 0px 0px;
     }
 
     .who-we .animation-wrapper {
-        position: relative;
-        margin-bottom: -29px;
-        margin-top: 0px;
         margin-left: 20px;
+        border-radius: 30px;
+        border-top-left-radius: 0px;
+        margin-top: 20px;
+        width: 100%;
     }
-
 
 }
 
-@media screen and (min-width:768px) and (max-width:991px) {
-
-    .who-we .section-top h2::before {
-        left: 3%;
-    }
-
-    .who-we .section-top h2::after {
-        right: 4%;
-    }
-
-    .main-area .main-area-subtitle {
-        padding: 0px 100px;
-    }
-
-    .main-area .main-area-subtitle p {
-        font-size: 20px;
-        line-height: 36px;
-    }
-
-
-    .main-area .main-area-desc p {
-        font-size: 16px;
-        line-height: 32px;
-    }
-
-    .main-area .main-area-subtitle .arrow-shape {
-        left: 0px;
-        top: 62px;
-
-        img {
-            width: 100px;
-        }
-    }
-
-
-    // animation area
-
-    .who-we .animation-wrapper::before {
-        position: absolute;
-        top: 5px;
-        left: 0;
-        width: 100%;
-        height: 90%;
-        border-top-right-radius: 35px;
-        border-bottom-right-radius: 35px;
-        border-bottom-left-radius: 35px;
-    }
-
-    .who-we .animation-wrapper #lottie {
-        padding-left: 25px;
+@media screen and (min-width:480px) and (max-width:575px) {
+    .who-we .animation-wrapper .img-area {
+        padding: 0px 0px;
     }
 
     .who-we .animation-wrapper {
-        position: relative;
-        margin-bottom: -39px;
-        margin-top: 0px;
         margin-left: 20px;
+        border-radius: 20px;
+        border-top-left-radius: 0px;
+        margin-top: 20px;
+        width: 100%;
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1200px) {
-    .who-we .section-top h2::before {
-        left: 4%;
-    }
-
-    .who-we .section-top h2::after {
-        right: 4%;
-    }
-
-    .main-area .main-area-subtitle {
-        padding: 0px 100px;
-    }
-
-    .main-area .main-area-subtitle p {
-
-        font-size: 24px;
-        line-height: 40px;
-
-    }
-
-    .main-area .main-area-subtitle .arrow-shape {
-        left: 15px;
-        top: 90px;
-
-        img {
-            width: 100px;
-        }
-    }
-
-    .main-area .main-area-desc p {
-        font-size: 18px;
-        line-height: 32px;
-    }
-
-    // animation area
-
-    .who-we .animation-wrapper::before {
-        position: absolute;
-        top: 5px;
-        left: 0;
-        width: 100%;
-        height: 90%;
-        border-top-right-radius: 45px;
-        border-bottom-right-radius: 45px;
-        border-bottom-left-radius: 45px;
-    }
-
-    .who-we .animation-wrapper #lottie {
-        padding-left: 25px;
+@media screen and (min-width:361px) and (max-width:479px) {
+    .who-we .animation-wrapper .img-area {
+        padding: 0px 0px;
     }
 
     .who-we .animation-wrapper {
-        position: relative;
-        margin-bottom: -39px;
-        margin-top: 0px;
-        margin-left: 20px;
+        margin-left: 15px;
+        border-radius: 15px;
+        border-top-left-radius: 0px;
+        margin-top: 20px;
     }
 }
 
@@ -353,6 +328,14 @@
         margin-top: 20px;
     }
 
+    .who-we .animation-wrapper .img-area {
+        padding: 0px 0px;
+    }
 
+    .who-we .animation-wrapper {
+        margin-left: 15px;
+        border-radius: 15px;
+        border-top-left-radius: 0px;
+    }
 
 }
