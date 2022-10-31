@@ -368,7 +368,7 @@ if (document.querySelector('.we-assist') !== null) {
             trigger: '.we-assist',
             start: 'top 80%',
             end: 'top 20%',
-            markers: true
+           
         },
         defaults: { opacity: 0 },
         ease: 'none'
