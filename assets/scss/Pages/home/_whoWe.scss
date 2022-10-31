@@ -35,32 +35,18 @@
 
     .animation-wrapper {
 
-        // background: #ffffff;
-        // border-top-right-radius: 72px;
-        // border-bottom-right-radius: 72px;
-        // border-bottom-left-radius: 72px;
-        position: relative;
-        margin-bottom: -70px;
-        margin-top: -30px;
+        background: #fff;
+        width: 100%;
+        border-radius: 72px;
+        border-top-left-radius: 0px;
 
-        #lottie {
-            padding-left: 65px;
+        .img-area {
+            padding: 35px 130px;
+
+            img {
+                width: 100%;
+            }
         }
-
-        &::before {
-            position: absolute;
-            top: 50px;
-            left: 0;
-            width: 100%;
-            height: 80%;
-            content: "";
-            background: #ffff;
-            border-top-right-radius: 72px;
-            border-bottom-right-radius: 72px;
-            border-bottom-left-radius: 72px;
-
-        }
-
     }
 }
 

@@ -1,7 +1,9 @@
 
 
 // mouse pointer Animation
-window.addEventListener('load', function () {
+document.addEventListener('DOMContentLoaded', function () {
+
+
     gsap.registerPlugin(ScrollTrigger);
     gsap.set(".ball", { xPercent: -50, yPercent: -50 });
 
@@ -386,11 +388,12 @@ window.addEventListener('load', function () {
     }
 
     // home page start
-
+/*
     if (document.querySelector('.who-we') !== null) {
         const whoWeTl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.who-we',
+                start: 'top 80%'
             },
             ease: 'none',
             defaults: { opacity: 0 }
@@ -409,6 +412,7 @@ window.addEventListener('load', function () {
         const whoWeTl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.world-wide-area',
+                start: 'top 80%'
             },
             ease: 'none',
             defaults: { opacity: 0 }
@@ -426,6 +430,7 @@ window.addEventListener('load', function () {
         const ourProcessTl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.our-process',
+                start: 'top 80%'
             },
             ease: 'none',
             defaults: { opacity: 0 }
@@ -442,16 +447,17 @@ window.addEventListener('load', function () {
         const coreValueTl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.core-value',
+
             },
             ease: 'none',
             defaults: { opacity: 0 }
         }
         );
         coreValueTl.from('.core-value', { ease: 'linear' })
-            .from('.core-value .core-value-title h2',{y:50})
+            .from('.core-value .core-value-title h2', { y: 50 })
             .from('.core-value .core-value-subtitle', { y: 50 })
             .from('.core-value .core-text-content', { x: -100 })
-            .from('.core-value .bordered-card', { x: -100,stagger:0.5 })
+            .from('.core-value .bordered-card', { x: -100, stagger: 0.5 })
     }
 
     // prefered choice
@@ -459,14 +465,15 @@ window.addEventListener('load', function () {
         const preferedChoiceTl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.prefered-choice',
+                start: 'top 80%'
             },
             ease: 'none',
             defaults: { opacity: 0 }
         }
         );
         preferedChoiceTl.from('.prefered-choice', { ease: 'linear' })
-            .from('.prefered-choice .prefered-choice-title',{y:50})
-            .from('.prefered-choice .prefered-card-wrapper .single-card',{y:50,stagger:0.5})
+            .from('.prefered-choice .prefered-choice-title', { y: 50 })
+            .from('.prefered-choice .prefered-card-wrapper .single-card', { y: 50, stagger: 0.5 })
     }
 
     // partenrs area
@@ -474,6 +481,7 @@ window.addEventListener('load', function () {
         const partnerAreaTl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.partner-area',
+                start: 'top 80%'
             },
             ease: 'none',
             defaults: { opacity: 0 }
@@ -482,13 +490,14 @@ window.addEventListener('load', function () {
         partnerAreaTl.from('.partner-area', { ease: 'linear' })
             .from('.partner-area .section-title', { y: 50 })
             .from('.partner-area .section-subtitle ', { y: 50 })
-            .from('.partner-area .logoMarqueeSection', { y: 100,duration:1 })
+            .from('.partner-area .logoMarqueeSection', { y: 100, duration: 1 })
     }
     // testimonial area
     if (document.querySelector('.success-stories') !== null) {
         const partnerAreaTl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.success-stories',
+                start: 'top 80%'
             },
             ease: 'none',
             defaults: { opacity: 0 }
@@ -497,24 +506,7 @@ window.addEventListener('load', function () {
         partnerAreaTl.from('.success-stories', { ease: 'linear' })
             .from('.success-stories .section-title', { y: 50 })
             .from('.success-stories .section-subtitle ', { y: 50 })
-            .from('.success-stories .testimonial-card-area .single-slide ', { x: -100,stagger:0.5 })
+            .from('.success-stories .testimonial-card-area .single-slide ', { x: -100, stagger: 0.5 })
     }
-    // footer area
-    if (document.querySelector('.footer-area') !== null) {
-        const footerTl = gsap.timeline({
-            scrollTrigger: {
-                trigger: '.footer-area',
-            },
-            ease: 'none',
-            defaults: { opacity: 0 }
-        }
-        );
-        footerTl.from('.footer-area', { ease: 'linear' })
-            .from('.footer-area .logo-area', { scale:0.8,x:-50})
-            .from('.footer-area .subscribe-widget', { x:-50})
-            .from('.footer-area .social-widget ul li', { x: -50, stagger: 0.3 })
-            .from('.footer-area .footer-heading', { x: -50, stagger: 0.3 })
-            .from('.footer-area .footer-nav ul li ', { x: -50, stagger: 0.2 })
-            .from('.footer-area .copyright-area ', {y:50})
-    }
+*/
 })

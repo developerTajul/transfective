@@ -787,24 +787,16 @@ html {
   color: #00CCFF;
 }
 .who-we .animation-wrapper {
-  position: relative;
-  margin-bottom: -70px;
-  margin-top: -30px;
-}
-.who-we .animation-wrapper #lottie {
-  padding-left: 65px;
-}
-.who-we .animation-wrapper::before {
-  position: absolute;
-  top: 50px;
-  left: 0;
+  background: #fff;
   width: 100%;
-  height: 80%;
-  content: "";
-  background: white;
-  border-top-right-radius: 72px;
-  border-bottom-right-radius: 72px;
-  border-bottom-left-radius: 72px;
+  border-radius: 72px;
+  border-top-left-radius: 0px;
+}
+.who-we .animation-wrapper .img-area {
+  padding: 35px 130px;
+}
+.who-we .animation-wrapper .img-area img {
+  width: 100%;
 }
 
 .main-area {
