@@ -3,6 +3,7 @@ body {
   background-color: $white;
   font: 400 18px/30px $pop;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .img {

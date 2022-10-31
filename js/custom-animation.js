@@ -284,13 +284,13 @@ if (document.querySelector('.ecommerce-area') !== null) {
         .from('.ecommerce-area .tab-img-area', { x: -150 })
         .from('.ecommerce-area .globe-1', {})
         .from('.ecommerce-area .globe-2', {})
-    
+
     // const ecommerceArea = document.querySelector('.ecommerce-area');
     // ecommerceArea.onwheel = e => {
     //     if (e.deltaY >= 100) {
     //         globeUp();
     //     } else {
-   
+
     //         globeDown();
     //     }
     // }
@@ -312,7 +312,7 @@ if (document.querySelector('.insdustries-verticle-tabs-area') !== null) {
         defaults: { opacity: 0 },
     })
     industriesVerticleTl.from(".insdustries-verticle-tabs-area", {})
-        .from('.insdustries-verticle-tabs-area .tabs-area',{x:-100})
+        .from('.insdustries-verticle-tabs-area .tabs-area', { x: -100 })
 }
 if (document.querySelector('.services-content') !== null) {
     const servicesContentTl = gsap.timeline({
@@ -326,11 +326,60 @@ if (document.querySelector('.services-content') !== null) {
         defaults: { opacity: 0 },
     })
     servicesContentTl.from(".services-content", {})
-        .from('.services-content .services-content-title h2',{y:50})
-        .from('.services-content .services-title-arrow',{y:50})
-        .from('.services-content .services-content-right .arrow',{y:50})
-        .from('.services-content .services-content-right .star',{y:50})
-        .from('.services-content .services-content-img',{x:-100})
-        .from('.services-content .tab-content-right-area',{x:100})
-       
+        .from('.services-content .services-content-title h2', { y: 50 })
+        .from('.services-content .services-title-arrow', { y: 50 })
+        .from('.services-content .services-content-right .arrow', { y: 50 })
+        .from('.services-content .services-content-right .star', { y: 50 })
+        .from('.services-content .services-content-img', { x: -100 })
+        .from('.services-content .tab-content-right-area', { x: 100 })
+}
+
+// contact page
+
+if (document.querySelector('.bannar-area__contact') !== null) {
+    const bannarContactArea = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.bannar-area__contact '
+        },
+        defaults: { opacity: 0 },
+    })
+    bannarContactArea.from(".bannar-area__contact", { y: 50 })
+        .from('.bannar-area__contact .hero-left-area h1', { y: 50 })
+        .from('.bannar-area__contact .hero-left-area .stretch-rope', { y: 50 })
+        .from('.bannar-area__contact .hero-right-area .arrow-img', {})
+        .from('.bannar-area__contact .hero-right-area .star-img', {})
+}
+
+if (document.querySelector('.contact-area') !== null) {
+    const contactAreaTl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.bordered-card',
+        },
+        defaults: { opacity: 0 }
+    })
+    contactAreaTl.from(".contact-area", {})
+        .from('.contact-area .bordered-card', { x: -100, transformOrigin: 'top center', stagger: 0.5 })
+}
+// we assist
+
+if (document.querySelector('.we-assist') !== null) {
+    const weAssistTl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.we-assist',
+            start: 'top 80%',
+            end: 'top 20%',
+            markers: true
+        },
+        defaults: { opacity: 0 },
+        ease: 'none'
+    });
+    weAssistTl.from('.we-assist', { ease: 'linear' })
+        .from('.we-assist .we-assists-img-area',{x:-100})
+        .from('.we-assist .contact-right-area .contact-heading h2',{x:100})
+        .from('.we-assist .contact-right-area .arrow-img',{x:100})
+        .from('.we-assist .contact-form-area',{x:-100})
+        .from('.we-assist .contact-card .card-one',{x:100})
+        .from('.we-assist .contact-card .card-two',{x:100})
+
+
 }
