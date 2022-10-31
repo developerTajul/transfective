@@ -314,3 +314,23 @@ if (document.querySelector('.insdustries-verticle-tabs-area') !== null) {
     industriesVerticleTl.from(".insdustries-verticle-tabs-area", {})
         .from('.insdustries-verticle-tabs-area .tabs-area',{x:-100})
 }
+if (document.querySelector('.services-content') !== null) {
+    const servicesContentTl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.services-content ',
+            // start: 'top 80%',
+            // end: 'top 0%',
+            // markers:true
+
+        },
+        defaults: { opacity: 0 },
+    })
+    servicesContentTl.from(".services-content", {})
+        .from('.services-content .services-content-title h2',{y:50})
+        .from('.services-content .services-title-arrow',{y:50})
+        .from('.services-content .services-content-right .arrow',{y:50})
+        .from('.services-content .services-content-right .star',{y:50})
+        .from('.services-content .services-content-img',{x:-100})
+        .from('.services-content .tab-content-right-area',{x:100})
+       
+}
