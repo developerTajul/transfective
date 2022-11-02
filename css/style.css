@@ -3992,9 +3992,7 @@ html {
 
 .copyright-area {
   padding-top: 20px;
-  padding-bottom: 5px;
-}
-.copyright-area p {
+  padding-bottom: 20px;
   color: #fff;
   font-size: 18px;
   line-height: 27px;

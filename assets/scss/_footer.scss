@@ -102,27 +102,27 @@
     }
 
     .footer-nav {
-    
-            ul {
-                li {
-                    a {
-                        text-decoration: none;
-                        color: #fff;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 24px;
-                        color: #DDDDDD;
-                        text-transform: capitalize;
-                        margin-bottom: 16px;
-                        display: block;
 
-                        &:hover {
-                            color: #9c2af5;
-                        }
+        ul {
+            li {
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #DDDDDD;
+                    text-transform: capitalize;
+                    margin-bottom: 16px;
+                    display: block;
+
+                    &:hover {
+                        color: #9c2af5;
                     }
                 }
             }
-        
+        }
+
     }
 }
 
@@ -134,14 +134,11 @@
 
 .copyright-area {
     padding-top: 20px;
-    padding-bottom: 5px;
-
-    p {
-        color: #fff;
-        font-size: 18px;
-        line-height: 27px;
-        font-weight: 400;
-    }
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
 }
 
 
