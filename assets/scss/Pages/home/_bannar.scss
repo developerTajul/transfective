@@ -86,6 +86,7 @@
 
     .hero-world-image {
         position: relative;
+        margin-top: 45px;
 
         .light-circle-img {
             position: absolute;
@@ -93,65 +94,16 @@
             top: 200px;
             color: #8E0BF4;
         }
+
+        .home-bannar-arrow {
+            position: absolute;
+            top: 50px;
+            left: 0;
+        }
     }
 }
 
-@media screen and (max-width:360px) {
-    .home-bannar-area .bannar-area-title h1 {
-        font-size: 28px;
-        line-height: 41px;
-    }
 
-    .home-bannar-area .bannar-bottom-area .right-img .circle-img img {
-        width: 60px;
-    }
-
-    .home-bannar-area .bannar-bottom-area .right-img {
-        position: relative;
-        margin-right: 52px;
-        margin-top: -50px;
-    }
-
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon img {
-        height: 50px;
-    }
-
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon {
-        position: absolute;
-        right: -36px;
-        top: 263px;
-
-        svg {
-            height: 50px;
-        }
-    }
-
-    .home-bannar-area .bannar-area-right .small-star {
-        position: absolute;
-        top: -50px;
-        left: -71px;
-    }
-
-    .home-bannar-area .hero-world-image .light-circle-img img {
-        width: 50px;
-    }
-
-    .home-bannar-area .hero-world-image .light-circle-img {
-        left: 4%;
-        top: 194px;
-    }
-
-    .home-bannar-area .bannar-bottom-area .right-img .circle-img {
-        top: 250px;
-        right: -53px;
-
-        svg {
-            width: 60px;
-        }
-    }
-
-
-}
 
 @media screen and (min-width:361px) and (max-width:574px) {
     .home-bannar-area .bannar-bottom-area .right-img .circle-img {
@@ -162,27 +114,7 @@
         width: 80px;
     }
 
-    .home-bannar-area .bannar-bottom-area .right-img {
-        position: relative;
-        margin-right: 52px;
-        margin-top: -50px;
-    }
 
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon img {
-        height: 60px;
-    }
-
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon {
-        position: absolute;
-        right: -22px;
-        top: 35px;
-    }
-
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon {
-        position: absolute;
-        right: -36px;
-        top: 263px;
-    }
 
     .home-bannar-area .hero-world-image .light-circle-img {
         position: absolute;
@@ -194,76 +126,18 @@
         }
     }
 
-    .home-bannar-area .bannar-bottom-area .right-img .circle-img {
 
-        top: 250px;
-        right: -62px;
 
-        svg {
-            width: 60px;
-        }
-    }
-
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon {
+  
+    .home-bannar-area .hero-world-image .light-circle-img {
         position: absolute;
-        right: -42px;
-        top: 300px;
-
-        svg {
-            height: 50px;
-        }
-    }
-
-    .home-bannar-area .bannar-area-right .small-star {
-        position: absolute;
-        top: -215px;
-        left: -94px;
+        left: 0%;
+        top: 225px;
+        display: none;
     }
 
 }
 
-@media screen and (max-width:575px) {
-    .home-bannar-area {
-        padding-top: 42px;
-    }
-
-    .home-bannar-area .bannar-area-title h1 {
-        font-size: 32px;
-        line-height: 47px;
-    }
-
-    .home-bannar-area .bannar-area-title .arrow-shape {
-
-        display: none;
-    }
-
-    .home-bannar-area .bannar-area-right .arrow {
-        display: none;
-    }
-
-    .home-bannar-area .bannar-area-right .arrow img {
-        width: 80px;
-    }
-
-    .home-bannar-area .bannar-area-right .star {
-        top: -19px;
-        left: 372px;
-        display: none;
-    }
-
-    .home-bannar-area .bannar-area-right .arrow {
-
-        top: -2px;
-        left: 157px;
-    }
-
-    .home-bannar-area .bannar-area-right .star {
-
-        top: 16px;
-        left: 246px;
-    }
-
-}
 
 @media screen and (min-width:576px) and (max-width:767px) {
     .home-bannar-area {
@@ -303,20 +177,9 @@
         margin-right: 40px;
     }
 
-    .home-bannar-area .bannar-bottom-area .right-img .circle-img img {
-        width: 70px;
-    }
 
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon img {
-        height: 50px;
-    }
 
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon {
-        position: absolute;
-        right: -25px;
-        top: 0px;
-        z-index: 9888;
-    }
+
 
     .home-bannar-area .bannar-area-right .small-star {
         position: absolute;
@@ -336,25 +199,15 @@
         }
     }
 
-    .home-bannar-area .bannar-bottom-area .right-img .circle-img {
+    .home-bannar-area .hero-world-image .home-bannar-arrow {
         position: absolute;
-        top: 358px;
-        right: -56px;
-        z-index: 9888;
-
-        svg {
-            width: 70px;
+        top: -10%;
+        left: 0;
+        img{
+            width: 80px;
         }
     }
 
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon {
-        right: -34px;
-        top: 370px;
-
-        svg {
-            height: 50px;
-        }
-    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -412,14 +265,9 @@
         }
     }
 
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon img {
-        height: 50px;
-    }
 
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon {
-        right: -2px;
-        top: 105px;
-    }
+
+  
 
     .home-bannar-area .hero-world-image .light-circle-img {
         left: 0%;
@@ -443,11 +291,16 @@
         top: 403px;
         right: 0px;
     }
+ 
+   .home-bannar-area .hero-world-image .home-bannar-arrow {
+       position: absolute;
+       top: -30px;
+       left: 0;
 
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon {
-        right: 47px;
-        top: 481px;
-    }
+       img {
+           width: 80px;
+       }
+   }
 
 }
 
@@ -491,29 +344,9 @@
         }
     }
 
-    .home-bannar-area .hero-world-image .light-circle-img {
-        position: absolute;
-        left: 90%;
-        top: 200px;
 
-        img {
-            width: 100px;
-        }
-    }
 
-    .home-bannar-area .bannar-bottom-area .right-img .circle-img {
 
-        top: 200px;
-        right: -53px;
-
-    }
-
-    .home-bannar-area .bannar-bottom-area .right-img .down-icon {
-
-        right: -2px;
-        top: 166px;
-
-    }
 }
 
 @media screen and (min-width:1200px) and (max-width:1400px) {
@@ -523,4 +356,90 @@
         }
 
     }
+}
+
+@media screen and (max-width:575px) {
+    .home-bannar-area {
+        padding-top: 42px;
+    }
+
+    .home-bannar-area .bannar-area-title h1 {
+        font-size: 32px;
+        line-height: 47px;
+    }
+
+    .home-bannar-area .bannar-area-title .arrow-shape {
+
+        display: none;
+    }
+
+    .home-bannar-area .bannar-area-right .arrow {
+        display: none;
+    }
+
+    .home-bannar-area .bannar-area-right .arrow img {
+        width: 80px;
+    }
+
+    .home-bannar-area .bannar-area-right .star {
+        top: -19px;
+        left: 372px;
+        display: none;
+    }
+
+    .home-bannar-area .bannar-area-right .arrow {
+
+        top: -2px;
+        left: 157px;
+    }
+
+    .home-bannar-area .bannar-area-right .star {
+
+        top: 16px;
+        left: 246px;
+    }
+
+    .home-bannar-area .hero-world-image .home-bannar-arrow {
+        top: 90%;
+        left: 80%;
+
+        img {
+            width: 70px;
+        }
+    }
+
+    .home-bannar-area .hero-world-image .light-circle-img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .home-bannar-area .bannar-area-title h1 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .home-bannar-area .bannar-area-right .small-star {
+        position: absolute;
+        top: -210px;
+        left: -71px;
+    }
+
+    .home-bannar-area .hero-world-image .light-circle-img img {
+        width: 50px;
+    }
+
+    .home-bannar-area .hero-world-image .light-circle-img {
+        display: none;
+    }
+
+    .home-bannar-area .hero-world-image .home-bannar-arrow {
+        top: 90%;
+
+        img {
+            width: 70px;
+        }
+    }
+
 }

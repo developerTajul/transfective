@@ -75,28 +75,46 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     /* Home Bannar Area */
-    // ScrollTrigger.observe({
-    //     target: "#home-bannar-slider",         
-    //     type: "wheel,touch",    
-    //     // onUp: () => consol(),
-    //     onDown: () => {
-    //         gsap.to(window, { duration: 1, scrollTo: "#whoWe", ease: "back" });
-    //     }
-    // });
+    ScrollTrigger.observe({
+        target: "#home-bannar-slider",         
+        type: "wheel,touch",    
+        // onUp: () => consol(),
+        onDown: () => {
+            gsap.to(window, { duration: 2, scrollTo: "#whoWe", ease: "back" });
+        }
+    });
 
 
 
-    // ScrollTrigger.observe({
-    //     target: "#whoWe",
-    //     type: "wheel,touch",
-    //     onUp: () => {
-    //         gsap.to("#whoWe", { duration: 1, scrollTo: "#home-bannar-slider", ease: "back" });
-    //     },
-    //     onDown: () => {
-    //         gsap.to("#whoWe", { duration: 1, scrollTo: "#world-wide-area", ease: "back" });
-    //     }
-    // });
+    ScrollTrigger.observe({
+        target: "#whoWe",
+        type: "wheel,touch",
+        onUp: () => {
+             gsap.to(window, { duration: 2, scrollTo: "#home-bannar-slider", ease: "back" });
+            
+        },
+        onDown: () => {
+             gsap.to(window, { duration: 2, scrollTo: ".world-wide-area", ease: "back" });
+        
+        }
+    });
+    ScrollTrigger.observe({
+        target: ".world-wide-area",
+        type: "wheel,touch",
+        scrub:true,
+        onUp: () => {
+            gsap.to(window, { duration: 2, scrollTo: "#whoWe", ease: "back" });
+            
+        },
+        onDown: () => {
+            gsap.to(window, { xPercent:100,duration: 2, scrollTo: ".our-process", ease: "back" });
+        
+        }
+    });
 
+
+
+    /*
  
 
 
@@ -388,7 +406,7 @@ document.addEventListener('DOMContentLoaded', function () {
         contactAreaTl.from(".contact-area", {})
             .from('.contact-area .bordered-card', { x: -100, transformOrigin: 'top center', stagger: 0.5 })
     }
-    // we assist
+ 
 
     if (document.querySelector('.we-assist') !== null) {
         const weAssistTl = gsap.timeline({
@@ -409,7 +427,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
+*/
 
 
 })
