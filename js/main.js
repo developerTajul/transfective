@@ -41,7 +41,7 @@
 		$('#prefered-choice-slider').slick({
 			dots: false,
 			infinite: true,
-			autoplay:true,
+			autoplay: true,
 			speed: 300,
 			slidesToShow: 1,
 			arrows: false,
@@ -76,7 +76,7 @@
 			dots: false,
 			infinite: true,
 			speed: 300,
-			autoplaySpeed:300,
+			autoplaySpeed: 300,
 			slidesToShow: 9,
 			slidesToScroll: 1,
 			arrows: false,
@@ -118,9 +118,9 @@
 			arrows: true,
 			variableWidth: true,
 			autoplay: true,
-			centerMode:true,
-			prevArrow:'.testimonial-arrow .prev-arrow',
-			nextArrow:'.testimonial-arrow .next-arrow',
+			centerMode: true,
+			prevArrow: '.testimonial-arrow .prev-arrow',
+			nextArrow: '.testimonial-arrow .next-arrow',
 			responsive: [
 				{
 					breakpoint: 576,
@@ -139,6 +139,21 @@
 
 
 			]
+		});
+		// marquee slider
+		$('.marquee-slider ul').slick({
+			speed: 5000,
+			autoplay: true,
+			autoplaySpeed: 0,
+			centerMode: true,
+			cssEase: 'linear',
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			variableWidth: true,
+			infinite: true,
+			initialSlide: 1,
+			arrows: false,
+			buttons: false
 		});
 
 

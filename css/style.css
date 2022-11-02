@@ -1466,46 +1466,22 @@ html {
   color: #000000;
 }
 
-.marquee-wrapper {
-  display: inline-block;
-  white-space: nowrap;
-  border-top: 4px solid #000000;
-  border-bottom: 4px solid #000000;
-  padding: 20px 0px;
+.marquee-slider {
+  border-top: 4px solid rgb(0, 0, 0);
+  border-bottom: 4px solid rgb(0, 0, 0);
+  padding: 26px 0px;
 }
-
-.marquee {
-  display: inline-block;
-  white-space: nowrap;
-  position: relative;
-  transform: translate3d(0%, 0, 0);
-  animation-name: marquee;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+.marquee-slider ul li {
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.marquee a {
-  display: inline-block;
-  white-space: nowrap;
-  padding-right: 5.4rem;
-}
-.marquee a img {
+.marquee-slider ul li a img {
   max-width: 180px;
-  max-height: 90px;
+  max-height: 80px;
 }
 
-.marquee-wrapper:hover .marquee {
-  animation-play-state: paused !important;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translate3d(0%, 0, 0);
-  }
-  100% {
-    transform: translate3d(-100%, 0, 0);
-  }
-}
 @media screen and (max-width: 575px) {
   .partner-area .section-top .section-title h2 {
     font-size: 26px;
@@ -1514,6 +1490,13 @@ html {
   .partner-area .section-top .section-subtitle p {
     font-size: 16px;
     line-height: 26px;
+  }
+  .marquee-slider {
+    padding: 15px 0px;
+  }
+  .marquee-slider ul li a img {
+    max-width: 100px;
+    max-height: 60px;
   }
 }
 .world-wide-area {

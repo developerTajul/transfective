@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollToPlugin);
+
     gsap.set(".ball", { xPercent: -50, yPercent: -50 });
 
     const ball = document.querySelector(".ball");
@@ -73,6 +75,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     /* Home Bannar Area */
+    // ScrollTrigger.observe({
+    //     target: "#home-bannar-slider",         
+    //     type: "wheel,touch",    
+    //     // onUp: () => consol(),
+    //     onDown: () => {
+    //         gsap.to(window, { duration: 1, scrollTo: "#whoWe", ease: "back" });
+    //     }
+    // });
+
+
+
+    // ScrollTrigger.observe({
+    //     target: "#whoWe",
+    //     type: "wheel,touch",
+    //     onUp: () => {
+    //         gsap.to("#whoWe", { duration: 1, scrollTo: "#home-bannar-slider", ease: "back" });
+    //     },
+    //     onDown: () => {
+    //         gsap.to("#whoWe", { duration: 1, scrollTo: "#world-wide-area", ease: "back" });
+    //     }
+    // });
+
+ 
+
 
     if (document.querySelector('.home-bannar-area') !== null) {
         const homebanner = document.querySelector(".home-bannar-area");
@@ -128,12 +154,6 @@ document.addEventListener('DOMContentLoaded', function () {
             y: 0
         })
     }
-
-
-
-
-
-
 
 
 
@@ -387,11 +407,9 @@ document.addEventListener('DOMContentLoaded', function () {
             .from('.we-assist .contact-card .card-two', { x: 100 })
     }
 
-    // home page start
 
-  
- 
-   
-      
+
+
+
 
 })
