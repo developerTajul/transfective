@@ -3969,7 +3969,7 @@ html {
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
 }
-.footer-area .footer-nav nav ul li a {
+.footer-area .footer-nav ul li a {
   text-decoration: none;
   color: #fff;
   font-weight: 400;
@@ -3980,7 +3980,7 @@ html {
   margin-bottom: 16px;
   display: block;
 }
-.footer-area .footer-nav nav ul li a:hover {
+.footer-area .footer-nav ul li a:hover {
   color: #9c2af5;
 }
 
