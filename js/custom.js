@@ -16,6 +16,28 @@ closeBtn.addEventListener('click', function () {
     body.classList.remove('bg-gray');
 })
 
+// testimonial arrow
+
+const testimonialArrow = document.querySelector('.testimonial-arrow');
+const prevArrow = testimonialArrow.querySelector('.prev-arrow');
+const nextArrow = testimonialArrow.querySelector('.next-arrow');
+prevArrow.addEventListener('click', function () {
+    nextArrow.classList.remove('active');
+    prevArrow.classList.add('active');
+})
+nextArrow.addEventListener('click', function () {
+    nextArrow.classList.add('active');
+    prevArrow.classList.remove('active');
+})
+
+
+
+
+
+
+
+
+
 // need project slider
 var swiper = new Swiper(".need-project-swiper-slider", {
     direction: "horizontal",

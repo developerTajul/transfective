@@ -1,6 +1,51 @@
 .success-stories {
     background: #F8F4FB;
 
+    .testimonial-top-area {
+        position: relative;
+
+        .testimonial-arrow {
+            position: absolute;
+            right: 0;
+            bottom: 50px;
+
+            button {
+                background: transparent;
+                border: none;
+                position: relative;
+
+                img {
+                    position: relative;
+                    z-index: 1;
+                }
+
+                &.active {
+                    &::before {
+                        position: absolute;
+                        top: -11px;
+                        left: 18px;
+                        height: 60px;
+                        width: 60px;
+                        content: "";
+                        border-radius: 50%;
+                        background: #00ccff;
+                        border: 1px solid rgba(0, 0, 0, 1);
+                    }
+                }
+
+                &.prev-arrow {
+                    &.active {
+                        &::before {
+                            top: -11px;
+                            left: -18px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
     .testimonial-card-area {
         .testimonial-slider {
 
@@ -38,6 +83,7 @@
             }
         }
     }
+
 }
 
 // .success-stories .single-slide.slick-slide:hover
@@ -85,6 +131,27 @@
 
 }
 
+
+
+@media screen and (min-width:761px) and (max-width:991px) {
+    .success-stories .testimonial-top-area .testimonial-arrow {
+        bottom: 0px;
+    }
+
+    .testimonial-card-area.pb-75 {
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width:575px) and (max-width:760px) {
+    .success-stories .testimonial-top-area .testimonial-arrow {
+        bottom: 0px;
+    }
+
+    .testimonial-card-area.pb-75 {
+        margin-top: 40px;
+    }
+}
+
 @media screen and (max-width:575px) {
     .success-stories .section-top .section-title h2 {
         font-size: 28px;
@@ -107,4 +174,28 @@
         width: 150px;
     }
 
+
+
+    .success-stories .testimonial-top-area .testimonial-arrow {
+        right: 25px;
+        bottom: -5px;
+    }
+
+    .success-stories .testimonial-top-area .testimonial-arrow button {
+        img {
+            width: 30px;
+        }
+    }
+
+    .success-stories .testimonial-top-area .testimonial-arrow button.active::before {
+        top: 1px;
+        left: 12px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .success-stories .testimonial-top-area .testimonial-arrow button.prev-arrow.active::before {
+        top: 1px;
+        left: -9px;
+    }
 }

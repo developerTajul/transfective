@@ -115,10 +115,12 @@
 			speed: 300,
 			slidesToShow: 3,
 			slidesToScroll: 1,
-			arrows: false,
+			arrows: true,
 			variableWidth: true,
 			autoplay: true,
 			centerMode:true,
+			prevArrow:'.testimonial-arrow .prev-arrow',
+			nextArrow:'.testimonial-arrow .next-arrow',
 			responsive: [
 				{
 					breakpoint: 576,
