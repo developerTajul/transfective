@@ -26,6 +26,21 @@
 }
 
 .world-wide-area-small {
+    .col-6{
+        &:nth-child(even){
+            margin-top: 140px;
+            @media screen and (max-width:575px) {
+                margin-top: 0px;
+            }
+            @media screen and (min-width:576px) and (max-width:767px) {
+                margin-top: 20px;
+            }
+            @media screen and (min-width:768px) and (max-width:991px) {
+                margin-top: 80px;
+            }
+        }
+    }
+
 
     .circle-outer {
 

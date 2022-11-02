@@ -1445,6 +1445,24 @@ html {
   bottom: 0px;
 }
 
+.world-wide-area-small .col-6:nth-child(even) {
+  margin-top: 140px;
+}
+@media screen and (max-width: 575px) {
+  .world-wide-area-small .col-6:nth-child(even) {
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .world-wide-area-small .col-6:nth-child(even) {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .world-wide-area-small .col-6:nth-child(even) {
+    margin-top: 80px;
+  }
+}
 .world-wide-area-small .circle-outer {
   width: 146px;
   border-top-left-radius: 50%;
