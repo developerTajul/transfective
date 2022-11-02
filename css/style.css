@@ -3053,11 +3053,11 @@ html {
   padding-left: 40px;
   padding-right: 25px;
 }
-.insdustries-verticle-tabs-area .verticle-tab-content .tab-content-list ul li {
+.insdustries-verticle-tabs-area .verticle-tab-content ul li {
   padding-left: 35px;
   position: relative;
 }
-.insdustries-verticle-tabs-area .verticle-tab-content .tab-content-list ul li::before {
+.insdustries-verticle-tabs-area .verticle-tab-content ul li::before {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -3232,14 +3232,18 @@ html {
   top: -51px;
   left: 43%;
 }
-.services-content .services-content-desc p {
+.services-content .tab-content-right-area p {
   color: #727272;
+  margin-top: 20px;
 }
-.services-content .services-list ul li {
+.services-content .tab-content-right-area ul {
+  margin-top: 20px;
+}
+.services-content .tab-content-right-area ul li {
   padding-left: 40px;
   position: relative;
 }
-.services-content .services-list ul li::before {
+.services-content .tab-content-right-area ul li::before {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -3822,12 +3826,13 @@ html {
 .footer-area {
   background: #000E28;
 }
-.footer-area .subscribe-widget .widget-title h2 {
+.footer-area .subscribe-widget .widget-title h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
   color: #fff;
   text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
 }
 .footer-area .subscribe-widget .widget-desc {
   margin-top: 10px;
@@ -3891,12 +3896,13 @@ html {
 .footer-area .footer-heading {
   margin-bottom: 25px;
 }
-.footer-area .footer-heading h2 {
+.footer-area .footer-heading h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
   color: #fff;
   text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
 }
 .footer-area .footer-nav nav ul li a {
   text-decoration: none;

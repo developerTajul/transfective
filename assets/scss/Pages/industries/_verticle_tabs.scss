@@ -76,25 +76,24 @@
         padding-left: 40px;
         padding-right: 25px;
 
-        .tab-content-list {
-            ul {
-                li {
+        ul {
+            li {
 
-                    padding-left: 35px;
-                    position: relative;
+                padding-left: 35px;
+                position: relative;
 
-                    &::before {
-                        position: absolute;
-                        top: 0px;
-                        left: 0px;
-                        font-family: 'Font Awesome 6 Free';
-                        content: '\f061';
-                        font-weight: 700;
-                        color: #8E0BF4;
-                    }
+                &::before {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    font-family: 'Font Awesome 6 Free';
+                    content: '\f061';
+                    font-weight: 700;
+                    color: #8E0BF4;
                 }
             }
         }
+
     }
 }
 
@@ -151,8 +150,8 @@
         font-size: 14px;
     }
 
-    .insdustries-verticle-tabs-area .tab-content{
+    .insdustries-verticle-tabs-area .tab-content {
         padding: 10px 30px;
     }
-   
+
 }
