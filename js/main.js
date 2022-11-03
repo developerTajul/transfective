@@ -141,7 +141,7 @@
 			]
 		});
 		// marquee slider
-		$('.marquee-slider ul').slick({
+		$('.marquee-slider').slick({
 			speed: 5000,
 			autoplay: true,
 			autoplaySpeed: 0,
