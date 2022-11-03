@@ -31,6 +31,13 @@ nextArrow.addEventListener('click', function () {
 })
 
 
+// world area small
+
+const worldAreSmall = document.querySelector('.world-wide-area-small');
+const worldAreaSmallCircleOuter = worldAreSmall.querySelectorAll('.circle-outer');
+worldAreaSmallCircleOuter[1].classList.add('active');
+
+
 
 
 
