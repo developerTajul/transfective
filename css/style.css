@@ -2038,12 +2038,6 @@ html {
   min-height: 710px;
   position: relative;
 }
-.contact-area .card-style-one-wrapper .bordered-card .card-img-top {
-  height: 350px;
-}
-.contact-area .card-style-one-wrapper .bordered-card .card-img-top img {
-  height: 100%;
-}
 .contact-area .card-style-one-wrapper .bordered-card .contact-card-body .contact-card-title h4 {
   font-weight: 500;
   font-size: 28px;
