@@ -40,11 +40,6 @@ worldAreaSmallCircleOuter[1].classList.add('active');
 
 
 
-
-
-
-
-
 // need project slider
 var swiper = new Swiper(".need-project-swiper-slider", {
     direction: "horizontal",
