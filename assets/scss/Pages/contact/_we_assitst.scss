@@ -35,7 +35,7 @@
                 }
             }
 
-            button {
+            input[type=submit] {
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 27px;
@@ -47,6 +47,7 @@
                 border: 1px solid #000E28;
                 box-shadow: 7px 7px 0px 0px #000E28,
                     7px 7px 0px 0px #000E28;
+                width: fit-content;
 
                 &:hover {
                     background: #000000;
@@ -169,15 +170,15 @@
         line-height: 58px;
     }
 
- .we-assist .contact-right-area .contact-heading .arrow-img {
+    .we-assist .contact-right-area .contact-heading .arrow-img {
 
         top: 107px;
         left: 59%;
-    
-     img{
-        width: 90px;
-     }
- }
+
+        img {
+            width: 90px;
+        }
+    }
 
     .we-assist .contact-right-area .contact-card .card-item .card-content .card-desc p {
         font-size: 16px;
@@ -275,4 +276,3 @@
         line-height: 35px;
     }
 }
-

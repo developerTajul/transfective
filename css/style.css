@@ -2055,7 +2055,7 @@ html {
   position: absolute;
   left: 18px;
   width: 100%;
-  bottom: 30px;
+  bottom: 0px;
 }
 .contact-area .card-style-one-wrapper .bordered-card .contact-card-body .contact-card-list ul li a {
   text-decoration: none;
@@ -2143,7 +2143,7 @@ html {
   line-height: 27px;
   color: #979797;
 }
-.we-assist .contact-form-area form button {
+.we-assist .contact-form-area form input[type=submit] {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
@@ -2154,8 +2154,9 @@ html {
   border-radius: 10px;
   border: 1px solid #000E28;
   box-shadow: 7px 7px 0px 0px #000E28, 7px 7px 0px 0px #000E28;
+  width: fit-content;
 }
-.we-assist .contact-form-area form button:hover {
+.we-assist .contact-form-area form input[type=submit]:hover {
   background: #000000;
   color: white;
 }
