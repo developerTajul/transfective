@@ -345,36 +345,28 @@ html {
 .home-bannar-area {
   padding-top: 45px;
 }
-.home-bannar-area .bannar-area-title {
+.home-bannar-area .container {
   position: relative;
 }
 .home-bannar-area .bannar-area-title h1 {
   text-transform: capitalize;
-  font-size: 66px;
-  line-height: 86px;
-}
-.home-bannar-area .bannar-area-title .arrow-shape {
-  position: absolute;
-  top: 166px;
-  left: 0px;
+  font-size: 70px;
+  line-height: 100px;
+  font-weight: 500;
 }
 .home-bannar-area .bannar-area-right {
-  position: relative;
-}
-.home-bannar-area .bannar-area-right .arrow {
-  position: absolute;
-  top: -32px;
-  left: 27px;
+  display: flex;
+  justify-content: end;
 }
 .home-bannar-area .bannar-area-right .star {
   position: absolute;
-  top: -107px;
-  left: 182px;
+  top: 0px;
+  right: 0px;
 }
 .home-bannar-area .bannar-area-right .small-star {
   position: absolute;
-  top: -150px;
-  left: -90px;
+  top: 0px;
+  right: 0px;
 }
 .home-bannar-area .bannar-bottom-area .hero-content {
   position: relative;

@@ -1,41 +1,39 @@
 .home-bannar-area {
     padding-top: 45px;
 
+
+    .container {
+
+        position: relative;
+    }
+
+
     .bannar-area-title {
         h1 {
             text-transform: capitalize;
-            font-size: 66px;
-            line-height: 86px;
+            font-size: 70px;
+            line-height: 100px;
+            font-weight: 500;
         }
 
-        position: relative;
 
-        .arrow-shape {
-            position: absolute;
-            top: 166px;
-            left: 0px;
-        }
     }
 
     .bannar-area-right {
-        position: relative;
 
-        .arrow {
-            position: absolute;
-            top: -32px;
-            left: 27px;
-        }
+        display: flex;
+        justify-content: end;
 
         .star {
             position: absolute;
-            top: -107px;
-            left: 182px;
+            top: 0px;
+            right: 0px;
         }
 
         .small-star {
             position: absolute;
-            top: -150px;
-            left: -90px;
+            top: 0px;
+            right: 280px;
         }
 
     }
@@ -128,7 +126,7 @@
 
 
 
-  
+
     .home-bannar-area .hero-world-image .light-circle-img {
         position: absolute;
         left: 0%;
@@ -179,8 +177,6 @@
 
 
 
-
-
     .home-bannar-area .bannar-area-right .small-star {
         position: absolute;
         top: -150px;
@@ -203,7 +199,8 @@
         position: absolute;
         top: -10%;
         left: 0;
-        img{
+
+        img {
             width: 80px;
         }
     }
@@ -267,7 +264,7 @@
 
 
 
-  
+
 
     .home-bannar-area .hero-world-image .light-circle-img {
         left: 0%;
@@ -291,16 +288,16 @@
         top: 403px;
         right: 0px;
     }
- 
-   .home-bannar-area .hero-world-image .home-bannar-arrow {
-       position: absolute;
-       top: -30px;
-       left: 0;
 
-       img {
-           width: 80px;
-       }
-   }
+    .home-bannar-area .hero-world-image .home-bannar-arrow {
+        position: absolute;
+        top: -30px;
+        left: 0;
+
+        img {
+            width: 80px;
+        }
+    }
 
 }
 
@@ -368,24 +365,15 @@
         line-height: 47px;
     }
 
-    .home-bannar-area .bannar-area-title .arrow-shape {
 
-        display: none;
-    }
 
-    .home-bannar-area .bannar-area-right .arrow {
-        display: none;
-    }
+
 
     .home-bannar-area .bannar-area-right .arrow img {
         width: 80px;
     }
 
-    .home-bannar-area .bannar-area-right .star {
-        top: -19px;
-        left: 372px;
-        display: none;
-    }
+
 
     .home-bannar-area .bannar-area-right .arrow {
 
@@ -393,11 +381,6 @@
         left: 157px;
     }
 
-    .home-bannar-area .bannar-area-right .star {
-
-        top: 16px;
-        left: 246px;
-    }
 
     .home-bannar-area .hero-world-image .home-bannar-arrow {
         top: 90%;
@@ -420,11 +403,7 @@
         line-height: 41px;
     }
 
-    .home-bannar-area .bannar-area-right .small-star {
-        position: absolute;
-        top: -210px;
-        left: -71px;
-    }
+
 
     .home-bannar-area .hero-world-image .light-circle-img img {
         width: 50px;
