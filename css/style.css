@@ -2640,7 +2640,7 @@ html {
   color: #2B3240;
 }
 .machine-area .machine-right-area {
-  padding-left: 250px;
+  padding-left: 270px;
 }
 
 @media screen and (max-width: 768px) {
@@ -2712,9 +2712,12 @@ html {
     height: 70%;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 360px) {
+@media screen and (max-width: 360px) {
   .machine-area::before {
-    height: 68%;
+    height: 50%;
+  }
+  .machine-area .machine-right-area img {
+    width: 300px;
   }
 }
 .content-review {
