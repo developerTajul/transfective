@@ -348,6 +348,11 @@ html {
 .home-bannar-area .container {
   position: relative;
 }
+.home-bannar-area .container .small-star {
+  position: absolute;
+  top: -10px;
+  right: 300px;
+}
 .home-bannar-area .bannar-area-title h1 {
   text-transform: capitalize;
   font-size: 70px;
@@ -355,18 +360,15 @@ html {
   font-weight: 500;
 }
 .home-bannar-area .bannar-area-right {
+  margin-top: 30px;
   display: flex;
   justify-content: end;
+  position: relative;
 }
 .home-bannar-area .bannar-area-right .star {
   position: absolute;
-  top: 0px;
+  top: -20px;
   right: 0px;
-}
-.home-bannar-area .bannar-area-right .small-star {
-  position: absolute;
-  top: 0px;
-  right: 280px;
 }
 .home-bannar-area .bannar-bottom-area .hero-content {
   position: relative;
@@ -438,54 +440,34 @@ html {
     display: none;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .home-bannar-area .hero-world-image .light-circle-img img {
+    width: 170px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   .home-bannar-area {
     padding-top: 52px;
   }
   .home-bannar-area .bannar-area-title h1 {
     font-size: 46px;
-    line-height: 56px;
-  }
-  .home-bannar-area .bannar-area-right .arrow {
-    display: none;
-  }
-  .home-bannar-area .bannar-area-right .star {
-    display: none;
+    line-height: 60px;
   }
   .home-bannar-area .bannar-area-title .arrow-shape {
-    top: 103px;
+    top: 108px;
     left: 0px;
   }
   .home-bannar-area .bannar-area-title .arrow-shape img {
     width: 80%;
   }
-  .home-bannar-area .bannar-bottom-area .hero-content::before {
-    left: -28px;
-    top: 3%;
-  }
-  .home-bannar-area .bannar-bottom-area .right-img {
-    margin-right: 40px;
-  }
-  .home-bannar-area .bannar-area-right .small-star {
-    position: absolute;
-    top: -150px;
-    right: 0px;
-    left: auto;
-  }
   .home-bannar-area .hero-world-image .light-circle-img {
-    left: 0%;
-    top: 298px;
+    position: absolute;
+    left: 80%;
+    top: 90%;
+    color: #8E0BF4;
   }
   .home-bannar-area .hero-world-image .light-circle-img img {
-    width: 80px;
-  }
-  .home-bannar-area .hero-world-image .home-bannar-arrow {
-    position: absolute;
-    top: -10%;
-    left: 0;
-  }
-  .home-bannar-area .hero-world-image .home-bannar-arrow img {
-    width: 80px;
+    width: 100px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -515,12 +497,16 @@ html {
     left: 5px;
   }
   .home-bannar-area .bannar-area-right .star {
-    top: 0px;
-    left: 75%;
+    top: -31px;
+    left: 59%;
   }
   .home-bannar-area .bannar-area-right .small-star {
     top: -57px;
     left: 1px;
+  }
+  .home-bannar-area .container .small-star {
+    top: -10px;
+    right: 159px;
   }
   .home-bannar-area .bannar-bottom-area .right-img .circle-img {
     margin-right: 20px;
@@ -532,7 +518,7 @@ html {
   }
   .home-bannar-area .hero-world-image .light-circle-img {
     left: 0%;
-    top: 350px;
+    top: 90%;
   }
   .home-bannar-area .hero-world-image .light-circle-img img {
     width: 100px;
@@ -557,40 +543,48 @@ html {
     width: 80px;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .home-bannar-area {
     padding-top: 52px;
   }
   .home-bannar-area .bannar-area-title h1 {
     font-size: 46px;
-    line-height: 60px;
+    line-height: 56px;
   }
-  .home-bannar-area .bannar-area-right .star {
-    top: -111px;
-    left: 28%;
+  .home-bannar-area .bannar-area-title h1 .arrow-shape {
+    margin-top: 30px;
   }
-  .home-bannar-area .bannar-area-right .star {
-    top: -115px;
-    left: 31%;
+  .home-bannar-area .container .small-star {
+    right: 0px;
   }
-  .home-bannar-area .bannar-area-title .arrow-shape {
-    top: 108px;
-    left: 0px;
+  .home-bannar-area .bannar-area-right .arrow {
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+  .home-bannar-area .bannar-area-right .arrow img {
+    width: 80px;
   }
   .home-bannar-area .bannar-area-title .arrow-shape img {
     width: 80%;
   }
-  .home-bannar-area .bannar-area-right .small-star {
-    top: -120px;
-    left: -90px;
+  .home-bannar-area .bannar-area-right .star {
+    top: -4px;
+    right: 30px;
   }
-  .home-bannar-area .bannar-area-right .arrow img {
-    width: 170px;
+  .home-bannar-area .hero-world-image .light-circle-img {
+    left: 0%;
+    top: 90%;
   }
-}
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
   .home-bannar-area .hero-world-image .light-circle-img img {
-    width: 170px;
+    width: 80px;
+  }
+  .home-bannar-area .hero-world-image .home-bannar-arrow {
+    position: absolute;
+    top: -30%;
+    left: 0;
+  }
+  .home-bannar-area .hero-world-image .home-bannar-arrow img {
+    width: 80px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -601,8 +595,31 @@ html {
     font-size: 32px;
     line-height: 47px;
   }
+  .home-bannar-area .bannar-area-title .arrow-shape img {
+    width: 80%;
+  }
   .home-bannar-area .bannar-area-right .arrow img {
-    width: 80px;
+    width: 70px;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+  .home-bannar-area .hero-world-image {
+    margin-top: 0px;
+  }
+  .home-bannar-area .bannar-area-right {
+    position: relative;
+    margin-top: 22px;
+    margin-right: 0px;
+  }
+  .home-bannar-area .bannar-area-right .star {
+    position: absolute;
+    top: -15px;
+    right: 8px;
+  }
+  .home-bannar-area .container .small-star {
+    position: absolute;
+    top: -10px;
+    right: 35px;
   }
   .home-bannar-area .bannar-area-right .arrow {
     top: -2px;
@@ -610,7 +627,7 @@ html {
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow {
     top: 90%;
-    left: 80%;
+    left: 70%;
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow img {
     width: 70px;
@@ -623,9 +640,6 @@ html {
   .home-bannar-area .bannar-area-title h1 {
     font-size: 28px;
     line-height: 41px;
-  }
-  .home-bannar-area .hero-world-image .light-circle-img img {
-    width: 50px;
   }
   .home-bannar-area .hero-world-image .light-circle-img {
     display: none;
