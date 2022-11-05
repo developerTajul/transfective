@@ -3458,6 +3458,7 @@ html {
   .ecommerce-area .tab-content-single .tab-content-title {
     padding: 0px 200px;
     padding-bottom: 90px;
+    padding-top: 20px;
   }
   .ecommerce-area .tab-content-single .arrow {
     top: 14%;
