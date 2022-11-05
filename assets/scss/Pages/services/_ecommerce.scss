@@ -90,6 +90,11 @@
 
           display: none;
       }
+
+      .ecommerce-area  .tab-img-area {
+          padding: 0px 10px;
+          width: 100%;
+      }
   }
 
   @media screen and (min-width:576px) and (max-width:767px) {
@@ -174,7 +179,7 @@
       .ecommerce-area .tab-content-single .tab-content-title {
           padding: 0px 200px;
           padding-bottom: 90px;
-         padding-top: 20px;
+          padding-top: 20px;
       }
 
       .ecommerce-area .tab-content-single .arrow {
