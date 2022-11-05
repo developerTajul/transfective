@@ -2639,6 +2639,9 @@ html {
   line-height: 32px;
   color: #2B3240;
 }
+.machine-area .machine-right-area {
+  padding-left: 250px;
+}
 
 @media screen and (max-width: 768px) {
   .machine-area::before {
