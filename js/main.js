@@ -69,6 +69,7 @@
 			// slidesToShow: 3,
 			arrows: false,
 			variableWidth: true,
+			centerMode:true
 
 		});
 
