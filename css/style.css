@@ -927,6 +927,10 @@ html {
   right: 0px;
 }
 
+.full-width-animation {
+  padding-top: 40px;
+}
+
 @media screen and (max-width: 575px) {
   .our-process .our-process-title h2 {
     font-size: 35px;
