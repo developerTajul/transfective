@@ -3177,12 +3177,12 @@ html {
 .services-content .services-content-right .arrow {
   position: absolute;
   top: -8px;
-  left: 68px;
+  left: 0px;
 }
 .services-content .services-content-right .star {
   position: absolute;
-  top: -51px;
-  left: 43%;
+  top: -46px;
+  left: 100%;
 }
 .services-content .tab-content-right-area p {
   color: #727272;
