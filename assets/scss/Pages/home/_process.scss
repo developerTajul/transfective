@@ -26,9 +26,17 @@
         }
     }
 }
+
 .full-width-animation {
     padding-top: 40px;
 }
+
+.need-project {
+    p {
+        color: rgba(85, 85, 85, 1);
+    }
+}
+
 @media screen and (max-width:575px) {
     .our-process .our-process-title h2 {
         font-size: 35px;
@@ -68,7 +76,7 @@
 
 .section {
     font-size: 5rem;
- 
+
 }
 
 .section--large {
