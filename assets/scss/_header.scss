@@ -156,7 +156,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-
+        margin-right: 30px;
         .img-area {
             img {
                 width: 42px;
@@ -171,7 +171,7 @@
             cursor: pointer;
             min-height: 90px;
             line-height: 90px;
-
+     
             &::before {
                 position: absolute;
                 top: 1px;
@@ -247,6 +247,7 @@
         }
 
     }
+  
 
     .mobile-menu-area {
         position: fixed;
@@ -390,8 +391,8 @@
         0px 2px 0px 0px #000E28;
 
     &:hover {
-        background: #000E28;
-        color: #fff;
+        background: #000;
+        color:#00ccff ;
     }
 }
 

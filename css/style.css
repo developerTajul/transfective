@@ -366,7 +366,7 @@ html {
 .home-bannar-area .bannar-area-right .small-star {
   position: absolute;
   top: 0px;
-  right: 0px;
+  right: 280px;
 }
 .home-bannar-area .bannar-bottom-area .hero-content {
   position: relative;
@@ -601,27 +601,12 @@ html {
     font-size: 32px;
     line-height: 47px;
   }
-  .home-bannar-area .bannar-area-title .arrow-shape {
-    display: none;
-  }
-  .home-bannar-area .bannar-area-right .arrow {
-    display: none;
-  }
   .home-bannar-area .bannar-area-right .arrow img {
     width: 80px;
-  }
-  .home-bannar-area .bannar-area-right .star {
-    top: -19px;
-    left: 372px;
-    display: none;
   }
   .home-bannar-area .bannar-area-right .arrow {
     top: -2px;
     left: 157px;
-  }
-  .home-bannar-area .bannar-area-right .star {
-    top: 16px;
-    left: 246px;
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow {
     top: 90%;
@@ -638,11 +623,6 @@ html {
   .home-bannar-area .bannar-area-title h1 {
     font-size: 28px;
     line-height: 41px;
-  }
-  .home-bannar-area .bannar-area-right .small-star {
-    position: absolute;
-    top: -210px;
-    left: -71px;
   }
   .home-bannar-area .hero-world-image .light-circle-img img {
     width: 50px;
@@ -3585,6 +3565,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 30px;
 }
 .header-area .nav-btn-list .img-area img {
   width: 42px;
@@ -3764,8 +3745,8 @@ html {
   box-shadow: 2px 0px 0px 0px #000E28, 0px 2px 0px 0px #000E28;
 }
 .nav-button:hover {
-  background: #000E28;
-  color: #fff;
+  background: #000;
+  color: #00ccff;
 }
 
 @media all and (max-width: 991px) {
