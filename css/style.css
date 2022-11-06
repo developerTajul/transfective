@@ -3063,6 +3063,9 @@ html {
   }
 }
 @media screen and (max-width: 767px) {
+  .insdustries-verticle-tabs-area {
+    margin-top: 0px;
+  }
   .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
     font-size: 18px;
     line-height: 19px;
