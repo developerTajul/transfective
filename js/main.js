@@ -143,7 +143,7 @@
 		});
 		// marquee slider
 		$('.marquee-slider').slick({
-			speed: 5000,
+			speed: 3000,
 			autoplay: true,
 			autoplaySpeed: 0,
 			centerMode: true,
