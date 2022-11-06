@@ -75,18 +75,7 @@
                     }
                 }
 
-                &:last-child {
-                    &.active {
 
-
-                        &::before {
-
-                            top: -65px;
-
-
-                        }
-                    }
-                }
             }
         }
     }
@@ -119,48 +108,21 @@
 }
 
 
-@media screen and (max-width:575px) {
-    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
-        font-size: 18px;
-        line-height: 19px;
-        margin-bottom: 19px;
-
-        &:last-child {
-            &.active {
-
-
-                &::before {
-
-                    top: -50px;
-
-
-                }
-            }
-        }
-    }
-
-    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link.active::before {
-
-        height: 80px;
-
-    }
-
-    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link:last-child.active::before {
-        top: -59px;
-    }
-}
 
 @media screen and (min-width:768px) and (max-width:992px) {
-    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link:last-child.active::before {
-        top: -73px;
-    }
+
 
     .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
-
-        font-size: 16px;
+        text-align: left;
+        font-weight: 400;
+        font-size: 18px;
         line-height: 22px;
-        margin-bottom: 23px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
 
+    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area {
+       padding: 0px 20px;
     }
 
     .insdustries-verticle-tabs-area .verticle-tab-content {
@@ -173,6 +135,57 @@
 
     .insdustries-verticle-tabs-area .tab-content {
         padding: 10px 30px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
+        font-size: 18px;
+        line-height: 19px;
+        margin-bottom: 19px;
+    }
+
+    .insdustries-verticle-tabs-area .tabs-area::before {
+        width: 100%;
+    }
+
+    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
+        padding-left: 15px;
+    }
+
+    .insdustries-verticle-tabs-area .tabs-area .tab-btn-area {
+        padding: 30px 0px 0px 20px;
+        // padding-left: 20px;
+    }
+
+    .insdustries-verticle-tabs-area .tabs-area #v-pills-tabContent {
+        background: #fff;
+        position: relative;
+        padding-top: 20px;
+        border-bottom-left-radius: 14px;
+        border-bottom-right-radius: 15px;
+        padding-right: 10px;
+    }
+
+    .insdustries-verticle-tabs-area .tabs-area::before {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .insdustries-verticle-tabs-area .verticle-tab-content {
+        padding-left: 15px;
+        padding-right: 10px;
+        max-height: 300px;
+        overflow-y: auto;
+        padding-bottom: 20px;
+    }
+
+    .insdustries-verticle-tabs-area .tabs-area {
+        padding-bottom: 0px;
+
     }
 
 }
