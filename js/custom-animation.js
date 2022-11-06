@@ -1,7 +1,7 @@
 
 // animation
 
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+gsap.registerPlugin(ScrollTrigger);
 
 
 gsap.set(".ball", { xPercent: -50, yPercent: -50 });

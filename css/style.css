@@ -1435,20 +1435,20 @@ html {
   border-top-right-radius: 50%;
   margin-bottom: 30px;
 }
-.world-wide-area-small .circle-outer:hover, .world-wide-area-small .circle-outer.active {
+.world-wide-area-small .circle-outer.active {
   background: #ffffff;
 }
-.world-wide-area-small .circle-outer:hover .circle-textcontent, .world-wide-area-small .circle-outer.active .circle-textcontent {
+.world-wide-area-small .circle-outer.active .circle-textcontent {
   height: fit-content;
   opacity: 1;
   visibility: visible;
 }
-.world-wide-area-small .circle-outer:hover .circle-inner, .world-wide-area-small .circle-outer.active .circle-inner {
+.world-wide-area-small .circle-outer.active .circle-inner {
   box-shadow: 4px 0px 0px 0px #000000, 0px 4px 0px 0px #000000;
   border: 3px solid #8E0BF4;
   background: #f9f3fe;
 }
-.world-wide-area-small .circle-outer:hover .circle-inner .circle-content .circle-title h4, .world-wide-area-small .circle-outer.active .circle-inner .circle-content .circle-title h4 {
+.world-wide-area-small .circle-outer.active .circle-inner .circle-content .circle-title h4 {
   color: #8E0BF4;
 }
 .world-wide-area-small .circle-outer .circle-inner {

@@ -26,15 +26,18 @@
 }
 
 .world-wide-area-small {
-    .col-6{
-        &:nth-child(even){
+    .col-6 {
+        &:nth-child(even) {
             margin-top: 140px;
+
             @media screen and (max-width:575px) {
                 margin-top: 0px;
             }
+
             @media screen and (min-width:576px) and (max-width:767px) {
                 margin-top: 20px;
             }
+
             @media screen and (min-width:768px) and (max-width:991px) {
                 margin-top: 80px;
             }
@@ -44,10 +47,8 @@
 
     .circle-outer {
 
-        &:hover,
         &.active {
             background: #ffffff;
-
         }
 
         width: 146px;
@@ -55,12 +56,14 @@
         border-top-right-radius: 50%;
         margin-bottom: 30px;
 
-        &:hover,
         &.active {
+
             .circle-textcontent {
+
                 height: fit-content;
                 opacity: 1;
                 visibility: visible;
+
             }
 
             .circle-inner {
@@ -70,6 +73,7 @@
                 background: #f9f3fe;
 
                 .circle-content {
+
                     .circle-title {
                         h4 {
                             color: #8E0BF4;

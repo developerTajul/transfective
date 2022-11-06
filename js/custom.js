@@ -33,9 +33,22 @@ nextArrow.addEventListener('click', function () {
 
 // world area small
 
-const worldAreSmall = document.querySelector('.world-wide-area-small');
-const worldAreaSmallCircleOuter = worldAreSmall.querySelectorAll('.circle-outer');
+const worldAreaSmall = document.querySelector('.world-wide-area-small');
+const worldAreaSmallCircleOuter = worldAreaSmall.querySelectorAll('.circle-outer');
 worldAreaSmallCircleOuter[1].classList.add('active');
+
+const worldAreaSmallCircleInner = worldAreaSmall.querySelectorAll('.circle-inner');
+for (let i = 0; i < worldAreaSmallCircleInner.length; i++) {
+    worldAreaSmallCircleInner[i].addEventListener('mouseenter', function (e) {
+        const activeAll = worldAreaSmall.querySelectorAll('.active');
+        for (let i = 0; i < activeAll.length; i++){
+            activeAll[i].classList.remove('active');
+        }
+        if (!e.target.parentNode.classList.contains('active')) {
+            e.target.parentNode.classList.add('active')
+        }
+    })
+}
 
 // need project slider
 
