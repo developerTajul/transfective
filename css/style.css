@@ -2963,7 +2963,7 @@ html {
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area {
   background: #8E0BF4;
   padding: 48px 30px;
-  padding-left: 75px;
+  padding-left: 0px;
   border-radius: 15px;
   position: relative;
   max-height: 800px;
@@ -2978,6 +2978,7 @@ html {
   width: 18px;
   background: rgba(255, 255, 255, 0.9294117647);
   border-radius: 10px;
+  display: none;
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link {
   text-align: left;
@@ -3006,6 +3007,7 @@ html {
   width: 9px;
   background: #B1EEFA;
   border-radius: 10px;
+  display: none;
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area .nav-link:last-child.active::before {
   top: -65px;
