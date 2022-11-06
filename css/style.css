@@ -2958,6 +2958,7 @@ html {
   border: 4px solid #000E28;
   border-radius: 20px;
   background: #fff;
+  max-height: 800px;
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area {
   background: #8E0BF4;
@@ -2965,6 +2966,8 @@ html {
   padding-left: 75px;
   border-radius: 15px;
   position: relative;
+  max-height: 800px;
+  overflow-y: auto;
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area::before {
   position: absolute;
@@ -3010,6 +3013,8 @@ html {
 .insdustries-verticle-tabs-area .verticle-tab-content {
   padding-left: 40px;
   padding-right: 25px;
+  max-height: 800px;
+  overflow-y: auto;
 }
 .insdustries-verticle-tabs-area .verticle-tab-content ul li {
   padding-left: 35px;
