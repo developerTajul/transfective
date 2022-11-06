@@ -41,12 +41,11 @@ const worldAreaSmallCircleInner = worldAreaSmall.querySelectorAll('.circle-inner
 for (let i = 0; i < worldAreaSmallCircleInner.length; i++) {
     worldAreaSmallCircleInner[i].addEventListener('mouseenter', function (e) {
         const activeAll = worldAreaSmall.querySelectorAll('.active');
-        for (let i = 0; i < activeAll.length; i++){
-            activeAll[i].classList.remove('active');
+        for (let j = 0; j < activeAll.length; j++) {
+            activeAll[j].classList.remove('active');
         }
-        if (!e.target.parentNode.classList.contains('active')) {
-            e.target.parentNode.classList.add('active')
-        }
+        e.target.parentNode.classList.add('active');
+
     })
 }
 
