@@ -6,14 +6,15 @@
         border: 4px solid #000E28;
         border-radius: 20px;
         background: #fff;
-
+        max-height: 800px;
         .tab-btn-area {
             background: #8E0BF4;
             padding: 48px 30px;
             padding-left: 75px;
             border-radius: 15px;
             position: relative;
-
+            max-height: 800px;
+            overflow-y: auto;
             &::before {
                 position: absolute;
                 content: "";
@@ -75,7 +76,8 @@
     .verticle-tab-content {
         padding-left: 40px;
         padding-right: 25px;
-
+        max-height: 800px;
+        overflow-y: auto;
         ul {
             li {
 
