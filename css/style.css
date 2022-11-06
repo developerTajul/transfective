@@ -2969,8 +2969,8 @@ html {
   height: 100%;
   width: 40%;
   background: #8E0BF4;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area {
   padding: 48px 30px;
