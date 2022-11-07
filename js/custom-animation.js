@@ -31,40 +31,45 @@ gsap.ticker.add(() => {
 });
 
 // custom animation
+if (document.getElementById('#home-bannar-slider' !== null)) {
+    const lightCirlcleImg = document.querySelector('.light-circle-img img');
+    const bannarAreaRight = document.querySelector('.bannar-area-right');
 
-const lightCirlcleImg = document.querySelector('.light-circle-img img');
-const bannarAreaRight = document.querySelector('.bannar-area-right');
-
-ScrollTrigger.observe({
-    target: '.home-bannar-area',
-    type: "wheel,touch",
-    onUp: () => upTheElement(lightCirlcleImg, bannarAreaRight),
-    onDown: () => downTheELement(lightCirlcleImg, bannarAreaRight),
-})
-
-const upTheElement = (...element) => {
-
-    gsap.from(element, {
-        keyframes: {
-            "0%": { y: 0, scale: 0.99 },
-            "50%": { y: -40, delay: 1 },
-            "100%": { y: -70, scale: 1 }
-        },
-        duration: 8,
-        yoyo: true,
-        ease: 'none'
+    ScrollTrigger.observe({
+        target: '.home-bannar-area',
+        type: "wheel,touch",
+        onUp: () => upTheElement(lightCirlcleImg, bannarAreaRight),
+        onDown: () => downTheELement(lightCirlcleImg, bannarAreaRight),
     })
-}
-const downTheELement = (...element) => {
 
-    gsap.from(element, {
-        keyframes: {
-            "0%": { y: 0, scale: 0.99 },
-            "50%": { y: 0, scale: 1, delay: 1 },
-            "100%": { y: 70, scale: 1 }
-        },
-        duration: 8,
-        ease: 'none'
-    })
-}
+    const upTheElement = (...element) => {
 
+        gsap.from(element, {
+            keyframes: {
+                "0%": { y: 0, scale: 0.99 },
+                "50%": { y: -40, delay: 1 },
+                "100%": { y: -70, scale: 1 }
+            },
+            duration: 8,
+            yoyo: true,
+            ease: 'none'
+        })
+    }
+    const downTheELement = (...element) => {
+
+        gsap.from(element, {
+            keyframes: {
+                "0%": { y: 0, scale: 0.99 },
+                "50%": { y: 0, scale: 1, delay: 1 },
+                "100%": { y: 70, scale: 1 }
+            },
+            duration: 8,
+            ease: 'none'
+        })
+    }
+
+    // star image
+
+    const starImg = document.querySelector('.star-img');
+    
+}
