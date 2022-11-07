@@ -123,13 +123,13 @@ if (document.querySelector('.ecommerce-area') !== null) {
         ease: 'none',
         onDown: () => {
             gsap.to([star, globeOne, globeTwo], { y: 50, rotate: 36, yoyo: true, duration: 5 })
-            gsap.to(globeTwo, { x: 50,duration:6 })
+            gsap.to(globeTwo, { x: 50,duration:6,rotate:45 })
         },
         onUp: () => {
 
             gsap.to([star, globeOne], { y: -50, rotate: -36, yoyo: true, duration: 4 })
             gsap.to(globeTwo, {
-                x: -50, y: -60, duration: 6
+                x: -50, y: -60, duration: 6,yoyo:true,rotate:-45
             })
         }
     })
