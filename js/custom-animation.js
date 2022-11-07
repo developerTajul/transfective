@@ -31,7 +31,8 @@ gsap.ticker.add(() => {
 });
 
 // custom animation
-if (document.getElementById('#home-bannar-slider' !== null)) {
+if (document.getElementById('home-bannar-slider') !== null)
+{
     const lightCirlcleImg = document.querySelector('.light-circle-img img');
     const bannarAreaRight = document.querySelector('.bannar-area-right');
 
@@ -68,8 +69,6 @@ if (document.getElementById('#home-bannar-slider' !== null)) {
         })
     }
 
-    // star image
 
-    const starImg = document.querySelector('.star-img');
-    
+
 }
