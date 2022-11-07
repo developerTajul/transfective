@@ -60,7 +60,9 @@ var swiper = new Swiper(".need-project-swiper-slider", {
     //     el: ".swiper-pagination",
     //     clickable: true,
     // },
-    pagination:true
+    pagination: true,
+    prevEl: '<button>Prev</prev',
+    nextEl:'<button>next</button'
 });
 
 
