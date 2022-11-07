@@ -1,7 +1,7 @@
 
 // animation
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 
 gsap.set(".ball", { xPercent: -50, yPercent: -50 });
@@ -31,3 +31,28 @@ gsap.ticker.add(() => {
 });
 
 // custom animation
+
+const lightCirlcleImg = document.querySelector('.light-circle-img');
+
+ScrollTrigger.observe({
+    target: ".home-bannar-area",         
+    type: "wheel,touch",    
+    onUp: () => upAnimate(),
+    onDown: () => downEliments(),
+    toggleActions:'resume'
+})
+
+function upAnimate() {
+    // gsap.from(".light-circle-img",{y:-50,scale:0.9})
+    var tl = gsap.timeline({
+        duration: 1,
+        ease: none,
+    })
+}
+function downAnimate() {
+    gsap.from(".light-circle-img",{y:50})
+}
+
+alert("Hello world");
+
+
