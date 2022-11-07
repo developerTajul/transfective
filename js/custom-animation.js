@@ -53,6 +53,5 @@ function downAnimate() {
     gsap.from(".light-circle-img",{y:50})
 }
 
-alert("Hello world");
 
 
