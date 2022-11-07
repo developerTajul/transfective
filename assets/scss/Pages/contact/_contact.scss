@@ -6,12 +6,13 @@
         min-height: 710px;
         position: relative;
 
-        // .card-img-top {
-        //     img {
-        //         height: 100%;
-        //     }
+        .card-img-top {
+            height: 350px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
 
-        // }
+        }
 
         .contact-card-body {
             .contact-card-title {
