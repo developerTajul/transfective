@@ -31,8 +31,7 @@ gsap.ticker.add(() => {
 });
 
 // custom animation
-if (document.getElementById('home-bannar-slider') !== null)
-{
+if (document.getElementById('home-bannar-slider') !== null) {
     const lightCirlcleImg = document.querySelector('.light-circle-img img');
     const bannarAreaRight = document.querySelector('.bannar-area-right');
 
@@ -68,6 +67,48 @@ if (document.getElementById('home-bannar-slider') !== null)
             ease: 'none'
         })
     }
+
+
+    const starImg = document.querySelector('.our-process-right .star-img img');
+    starImg.classList.add('up-down');
+    const upDownTimeline = gsap.timeline(
+        {
+            repeat: -1, yoyo: true, ease: 'none'
+        }
+    );
+    upDownTimeline.from(".up-down", { y: -50, duration: 7, scale: 0.9 })
+
+
+    ScrollTrigger.observe({
+        target: '.up-down',
+        type: "wheel,touch",
+        pin: true,
+        onUp: () => {
+            gsap.from('.up-down', { rotate: 90 })
+        },
+        onDown: () => {
+            gsap.from('.up-down', { rotate: -90 })
+        },
+    })
+
+
+    ScrollTrigger.observe({
+        target: '.our-process',
+        type: "wheel,touch",
+        ease: 'none',
+        onUp: () => {
+
+            gsap.from('.up-down', {
+                y:-50
+            })
+        },
+        onDown: () => {
+            gsap.from('.up-down', {
+                y:50
+            })
+        },
+    })
+
 
 
 
