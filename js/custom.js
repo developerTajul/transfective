@@ -17,38 +17,41 @@ closeBtn.addEventListener('click', function () {
 })
 
 // testimonial arrow
+if (document.querySelector('.testimonial-arrow') !== null) {
+    const testimonialArrow = document.querySelector('.testimonial-arrow');
+    const prevArrow = testimonialArrow.querySelector('.prev-arrow');
+    const nextArrow = testimonialArrow.querySelector('.next-arrow');
+    prevArrow.addEventListener('click', function () {
+        nextArrow.classList.remove('active');
+        prevArrow.classList.add('active');
+    })
+    nextArrow.addEventListener('click', function () {
+        nextArrow.classList.add('active');
+        prevArrow.classList.remove('active');
+    })
 
-const testimonialArrow = document.querySelector('.testimonial-arrow');
-const prevArrow = testimonialArrow.querySelector('.prev-arrow');
-const nextArrow = testimonialArrow.querySelector('.next-arrow');
-prevArrow.addEventListener('click', function () {
-    nextArrow.classList.remove('active');
-    prevArrow.classList.add('active');
-})
-nextArrow.addEventListener('click', function () {
-    nextArrow.classList.add('active');
-    prevArrow.classList.remove('active');
-})
+}
 
 
 // world area small
+if (document.querySelector('.world-wide-area-small') !== null) {
 
-const worldAreaSmall = document.querySelector('.world-wide-area-small');
-const worldAreaSmallCircleOuter = worldAreaSmall.querySelectorAll('.circle-outer');
-worldAreaSmallCircleOuter[1].classList.add('active');
+    const worldAreaSmall = document.querySelector('.world-wide-area-small');
+    const worldAreaSmallCircleOuter = worldAreaSmall.querySelectorAll('.circle-outer');
+    worldAreaSmallCircleOuter[1].classList.add('active');
 
-const worldAreaSmallCircleInner = worldAreaSmall.querySelectorAll('.circle-inner');
-for (let i = 0; i < worldAreaSmallCircleInner.length; i++) {
-    worldAreaSmallCircleInner[i].addEventListener('mouseenter', function (e) {
-        const activeAll = worldAreaSmall.querySelectorAll('.active');
-        for (let j = 0; j < activeAll.length; j++) {
-            activeAll[j].classList.remove('active');
-        }
-        e.target.parentNode.classList.add('active');
+    const worldAreaSmallCircleInner = worldAreaSmall.querySelectorAll('.circle-inner');
+    for (let i = 0; i < worldAreaSmallCircleInner.length; i++) {
+        worldAreaSmallCircleInner[i].addEventListener('mouseenter', function (e) {
+            const activeAll = worldAreaSmall.querySelectorAll('.active');
+            for (let j = 0; j < activeAll.length; j++) {
+                activeAll[j].classList.remove('active');
+            }
+            e.target.parentNode.classList.add('active');
 
-    })
+        })
+    }
 }
-
 // need project slider
 
 var swiper = new Swiper(".need-project-swiper-slider", {
@@ -62,7 +65,7 @@ var swiper = new Swiper(".need-project-swiper-slider", {
     // },
     pagination: true,
     prevEl: '<button>Prev</prev',
-    nextEl:'<button>next</button'
+    nextEl: '<button>next</button'
 });
 
 

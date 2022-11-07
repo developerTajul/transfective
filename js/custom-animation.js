@@ -99,17 +99,37 @@ if (document.getElementById('home-bannar-slider') !== null) {
         onUp: () => {
 
             gsap.from('.up-down', {
-                y:-50
+                y: -50
             })
         },
         onDown: () => {
             gsap.from('.up-down', {
-                y:50
+                y: 50
             })
         },
     })
+}
 
 
+// ecommerce area
 
+if (document.querySelector('.ecommerce-area') !== null) {
+    const star = document.querySelector('.ecommerce-area .star img');
+    const globeOne = document.querySelector('.ecommerce-area .globe-1  img');
+    const globeTwo = document.querySelector('.ecommerce-area .globe-2  img');
+    ScrollTrigger.observe({
+        target: '.ecommerce-area',
+        type: "wheel,touch",
+        ease: 'none',
+        onDown: () => {
+            gsap.to([star, globeOne, globeTwo], { y: 50, rotate: 36, yoyo: true, duration: 5 })
+            gsap.to(globeTwo, { x: 50,duration:5 })
+        },
+        onUp: () => {
+
+            gsap.to([star, globeOne], { y: -50, rotate: -36, yoyo: true, duration: 4 })
+            gsap.to(globeTwo,{x:-50,duration:4})
+        }
+    })
 
 }
