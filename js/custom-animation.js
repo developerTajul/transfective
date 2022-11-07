@@ -32,28 +32,39 @@ gsap.ticker.add(() => {
 
 // custom animation
 
-// const lightCirlcleImg = document.querySelector('.light-circle-img');
+const lightCirlcleImg = document.querySelector('.light-circle-img img');
+const bannarAreaRight = document.querySelector('.bannar-area-right');
 
-// ScrollTrigger.observe({
-//     target: ".home-bannar-area",         
-//     type: "wheel,touch",    
-//     onUp: () => upAnimate(),
-//     onDown: () => downAnimate(),
-//     toggleActions:'resume'
-// })
+ScrollTrigger.observe({
+    target: '.home-bannar-area',
+    type: "wheel,touch",
+    onUp: () => upTheElement(lightCirlcleImg, bannarAreaRight),
+    onDown: () => downTheELement(lightCirlcleImg, bannarAreaRight),
+})
 
-// function upAnimate() {
-//     // gsap.from(".light-circle-img",{y:-50,scale:0.9})
-//     var tl = gsap.timeline({
-//         duration: 1,
-//         ease: none,
-//     })
-// }
-// function downAnimate() {
-//     gsap.from(".light-circle-img",{y:50})
-// }
+const upTheElement = (...element) => {
 
-alert("Hello world");
+    gsap.from(element, {
+        keyframes: {
+            "0%": { y: 0, scale: 0.99 },
+            "50%": { y: -40, delay: 1 },
+            "100%": { y: -70, scale: 1 }
+        },
+        duration: 8,
+        yoyo: true,
+        ease: 'none'
+    })
+}
+const downTheELement = (...element) => {
 
-
+    gsap.from(element, {
+        keyframes: {
+            "0%": { y: 0, scale: 0.99 },
+            "50%": { y: 0, scale: 1, delay: 1 },
+            "100%": { y: 70, scale: 1 }
+        },
+        duration: 8,
+        ease: 'none'
+    })
+}
 
