@@ -38,7 +38,7 @@ ScrollTrigger.observe({
     target: ".home-bannar-area",         
     type: "wheel,touch",    
     onUp: () => upAnimate(),
-    onDown: () => downEliments(),
+    onDown: () => downAnimate(),
     toggleActions:'resume'
 })
 
