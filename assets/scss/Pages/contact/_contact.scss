@@ -1,5 +1,10 @@
 .contact-area {
+    .stretch-rope.mt-xs-10.mt-30.d-flex.justify-content-md-end {
+        display: none !important;
+    }
+
     margin-top: 50px;
+
     .card-style-one-wrapper .bordered-card {
         border: 3px solid $black;
         padding: 16px 20px;
@@ -8,9 +13,9 @@
 
         .card-img-top {
             height: 350px;
-           display: flex;
-           justify-content: center;
-           align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
         }
 
@@ -90,12 +95,14 @@
                 width: 265px;
                 padding: 25px 30px;
                 min-height: 340px;
+
                 .card-img-top {
                     img {
                         width: 130px;
                         height: 160px;
                     }
                 }
+
                 .contact-card-body {
                     .contact-card-title {
                         h4 {
@@ -110,10 +117,12 @@
                             line-height: 22px;
                         }
                     }
-                    .contact-card-list{
+
+                    .contact-card-list {
                         margin-left: -5px;
-                        li{
-                            a{
+
+                        li {
+                            a {
                                 font-size: 14px;
                                 display: inline-block;
                                 text-decoration: none;
