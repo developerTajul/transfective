@@ -3095,6 +3095,9 @@ html {
   .insdustries-verticle-tabs-area .tabs-area {
     padding-bottom: 0px;
   }
+  .insdustries-verticle-tabs-area .verticle-tab-content {
+    padding-top: 0px;
+  }
 }
 .services-nav nav ul {
   display: flex;
