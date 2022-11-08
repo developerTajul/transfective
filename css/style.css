@@ -389,6 +389,9 @@ html {
   top: 50%;
   left: 0;
 }
+.home-bannar-area .light-circle-img {
+  display: none;
+}
 
 @media screen and (min-width: 361px) and (max-width: 574px) {
   .home-bannar-area .bannar-bottom-area .right-img .circle-img {
