@@ -169,7 +169,8 @@ if (servicesPageContent) {
         type: "wheel,touch",
         ease: 'none',
         wheelSpeed: 1,
-        togglActions:'resume',
+        togglActions: 'resume',
+        scrub:1,
         onDown: () => {
             gsap.to(star, {
                 y: 50

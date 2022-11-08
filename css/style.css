@@ -650,6 +650,9 @@ html {
   .home-bannar-area .hero-world-image .home-bannar-arrow img {
     width: 70px;
   }
+  .d-flex.justify-content-center.world-img img.img-fluid {
+    width: 100%;
+  }
 }
 .who-we .section-top {
   background-color: #000E28;
