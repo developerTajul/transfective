@@ -651,7 +651,7 @@ html {
     width: 70px;
   }
   .d-flex.justify-content-center.world-img img.img-fluid {
-    width: 100%;
+    width: 100% !important;
   }
 }
 .who-we .section-top {
