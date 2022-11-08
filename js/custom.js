@@ -53,19 +53,13 @@ if (document.querySelector('.world-wide-area-small') !== null) {
     }
 }
 // need project slider
-
+/*
 var swiper = new Swiper(".need-project-swiper-slider", {
     direction: "horizontal",
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 0,
     mousewheel: true,
-    // pagination: {
-    //     el: ".swiper-pagination",
-    //     clickable: true,
-    // },
-    pagination: true,
-    prevEl: '<button>Prev</prev',
-    nextEl: '<button>next</button'
 });
+*/
 
 
