@@ -641,6 +641,14 @@ html {
     font-size: 28px;
     line-height: 41px;
   }
+  .home-bannar-area .container .small-star {
+    position: absolute;
+    top: -23px;
+    right: 35px;
+  }
+  .home-bannar-area .container .small-star img {
+    width: 20px;
+  }
   .home-bannar-area .hero-world-image .light-circle-img {
     display: none;
   }
@@ -2986,8 +2994,9 @@ html {
   padding-left: 40px;
   border-radius: 15px;
   position: relative;
-  max-height: 800px;
+  max-height: 550px;
   overflow-y: auto;
+  scrollbar-width: thin;
 }
 .insdustries-verticle-tabs-area .tabs-area .tab-btn-area::before {
   position: absolute;
@@ -3035,6 +3044,7 @@ html {
   padding-top: 30px;
   max-height: 800px;
   overflow-y: auto;
+  scrollbar-width: thin;
 }
 .insdustries-verticle-tabs-area .verticle-tab-content ul li {
   padding-left: 35px;
