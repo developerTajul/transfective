@@ -96,7 +96,11 @@
         left: -7px;
     }
 
-    
+    .services-content .services-content-img img {
+        width: 100%;
+    }
+
+
 }
 
 @media screen and (min-width:575px) and (max-width:767px) {
@@ -168,5 +172,5 @@
         }
     }
 
-    
+
 }
