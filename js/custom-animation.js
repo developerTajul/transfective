@@ -123,13 +123,68 @@ if (document.querySelector('.ecommerce-area') !== null) {
         ease: 'none',
         onDown: () => {
             gsap.to([star, globeOne, globeTwo], { y: 50, rotate: 36, yoyo: true, duration: 5 })
-            gsap.to(globeTwo, { x: 50,duration:6,rotate:45 })
+            gsap.to(globeTwo, { x: 50, duration: 6, rotate: 45 })
         },
         onUp: () => {
 
             gsap.to([star, globeOne], { y: -50, rotate: -36, yoyo: true, duration: 4 })
             gsap.to(globeTwo, {
-                x: -50, y: -60, duration: 6,yoyo:true,rotate:-45
+                x: -50, y: -60, duration: 6, yoyo: true, rotate: -45
+            })
+        }
+    })
+
+}
+
+const servicesPageContent = document.querySelector('.services-content');
+if (servicesPageContent) {
+    const arrow = servicesPageContent.querySelector('.arrow img');
+    const star = servicesPageContent.querySelector('.star img');
+    const globeOne = servicesPageContent.querySelector('.globe-1');
+    const servicesPageTimeLine = gsap.timeline(
+        {
+            scrollTrigger: {
+                trigger: [arrow, globeOne],
+            },
+
+            defaults: { opacity: 0 }
+        })
+
+    servicesPageTimeLine.from(arrow, { scale: 0.8 })
+        .from(star, { scale: 0.9 })
+
+    gsap.from(globeOne, {
+        scrollTrigger: globeOne,
+        x: -150,
+        duration: 1,
+        scale: 0.6
+    })
+
+
+
+    // mouse down and up animation
+
+    ScrollTrigger.observe({
+        target: '.ecommerce-area',
+        type: "wheel,touch",
+        ease: 'none',
+        wheelSpeed: 1,
+        togglActions:'resume',
+        onDown: () => {
+            gsap.to(star, {
+                y: 50
+            });
+            gsap.to(globeOne, {
+                y: -100
+            })
+
+        },
+        onUp: () => {
+            gsap.to(star, {
+                y: -100, yoyo: true,duration:10
+            })
+            gsap.to(globeOne, {
+                y: 100,yoyo:true,duration:10
             })
         }
     })
