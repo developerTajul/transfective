@@ -2885,6 +2885,10 @@ html {
     top: 11px;
   }
 }
+.line-img.mt-xs-20 {
+  display: none;
+}
+
 .nav-tabs-area .nav-tabs {
   border-bottom: none;
 }
