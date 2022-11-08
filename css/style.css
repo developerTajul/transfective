@@ -408,7 +408,6 @@ html {
   z-index: 9888;
 }
 .home-bannar-area .hero-world-image {
-  position: relative;
   margin-top: 45px;
 }
 .home-bannar-area .hero-world-image .light-circle-img {
@@ -419,7 +418,7 @@ html {
 }
 .home-bannar-area .hero-world-image .home-bannar-arrow {
   position: absolute;
-  top: 50px;
+  top: 60%;
   left: 0;
 }
 
