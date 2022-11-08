@@ -40,49 +40,7 @@
 
     }
 
-    .bannar-bottom-area {
-
-
-        .hero-content {
-            // border-left: 5px solid #8E0BF4;
-            position: relative;
-
-            &::before {
-                position: absolute;
-                content: "";
-                height: 90%;
-                width: 12px;
-                background: #000E28;
-                left: -28px;
-                top: 7%;
-            }
-
-            padding-left: 10px;
-
-            p {
-                font-size: 18px;
-                line-height: 32px;
-            }
-        }
-
-        .right-img {
-            position: relative;
-
-            .circle-img {
-                position: absolute;
-                top: 17px;
-                right: -53px;
-                z-index: 9888;
-            }
-
-            .down-icon {
-                position: absolute;
-                right: -6px;
-                top: -15px;
-                z-index: 9888;
-            }
-        }
-    }
+    
 
     .hero-world-image {
   
@@ -91,13 +49,13 @@
         .light-circle-img {
             position: absolute;
             left: 85%;
-            top: 200px;
-            color: #8E0BF4;
+            top: 70%;
+         
         }
 
         .home-bannar-arrow {
             position: absolute;
-            top: 60%;
+            top: 50%;
             left: 0;
         }
     }
@@ -257,14 +215,7 @@
         }
     }
 
-    .home-bannar-area .bannar-bottom-area .right-img .circle-img {
-        top: 403px;
-        right: 0px;
 
-        svg {
-            width: 80px;
-        }
-    }
 
     .home-bannar-area .bannar-bottom-area .right-img .circle-img {
         top: 403px;

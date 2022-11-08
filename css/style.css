@@ -375,50 +375,17 @@ html {
   top: -20px;
   right: 0px;
 }
-.home-bannar-area .bannar-bottom-area .hero-content {
-  position: relative;
-  padding-left: 10px;
-}
-.home-bannar-area .bannar-bottom-area .hero-content::before {
-  position: absolute;
-  content: "";
-  height: 90%;
-  width: 12px;
-  background: #000E28;
-  left: -28px;
-  top: 7%;
-}
-.home-bannar-area .bannar-bottom-area .hero-content p {
-  font-size: 18px;
-  line-height: 32px;
-}
-.home-bannar-area .bannar-bottom-area .right-img {
-  position: relative;
-}
-.home-bannar-area .bannar-bottom-area .right-img .circle-img {
-  position: absolute;
-  top: 17px;
-  right: -53px;
-  z-index: 9888;
-}
-.home-bannar-area .bannar-bottom-area .right-img .down-icon {
-  position: absolute;
-  right: -6px;
-  top: -15px;
-  z-index: 9888;
-}
 .home-bannar-area .hero-world-image {
   margin-top: 45px;
 }
 .home-bannar-area .hero-world-image .light-circle-img {
   position: absolute;
   left: 85%;
-  top: 200px;
-  color: #8E0BF4;
+  top: 70%;
 }
 .home-bannar-area .hero-world-image .home-bannar-arrow {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 0;
 }
 
@@ -526,13 +493,6 @@ html {
   }
   .home-bannar-area .hero-world-image .light-circle-img img {
     width: 100px;
-  }
-  .home-bannar-area .bannar-bottom-area .right-img .circle-img {
-    top: 403px;
-    right: 0px;
-  }
-  .home-bannar-area .bannar-bottom-area .right-img .circle-img svg {
-    width: 80px;
   }
   .home-bannar-area .bannar-bottom-area .right-img .circle-img {
     top: 403px;
