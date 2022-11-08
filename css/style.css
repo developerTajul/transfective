@@ -278,6 +278,11 @@ html {
     display: none;
   }
 }
+.elementor img {
+  height: auto;
+  max-width: unset !important;
+}
+
 .theme-btn {
   border: none;
   background: transparent;

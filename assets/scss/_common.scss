@@ -239,3 +239,11 @@ html {
     display: none;
   }
 }
+
+// for elementor
+
+.elementor img {
+  height: auto;
+   max-width: unset !important
+ 
+}
