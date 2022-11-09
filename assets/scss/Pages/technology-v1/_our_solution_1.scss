@@ -89,11 +89,7 @@
         }
     }
 
-    img{
-        &.img-fluid{
-            width: 100%;
-        }
-    }
+    
 }
 
 @media screen and (max-width:575px) {
@@ -176,6 +172,7 @@
         position: absolute;
         bottom: 2px;
         left: 0px !important;
+       
     }
 
     .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe {

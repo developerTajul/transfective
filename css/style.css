@@ -2504,9 +2504,6 @@ html {
 .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe .globe-img .black-star img {
   width: 50px;
 }
-.our-solutions.our-solution-style-1 img.img-fluid {
-  width: 100%;
-}
 
 @media screen and (max-width: 575px) {
   .our-solutions.our-solution-style-1 .our-solutions-heading h2 {
@@ -2693,7 +2690,7 @@ html {
     width: 300px;
   }
   .card-img img {
-    width: 300px !important;
+    width: 100%;
   }
 }
 .content-review {
