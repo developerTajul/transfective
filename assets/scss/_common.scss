@@ -4,6 +4,8 @@ body {
   font: 400 18px/30px $pop;
   overflow-x: hidden;
   overflow-y: scroll;
+  overscroll-behavior: none;
+
 }
 
 .img {
@@ -235,7 +237,7 @@ html {
 
 
 @media screen and (max-width:800px) {
-  .ball{
+  .ball {
     display: none;
   }
 }
@@ -244,6 +246,5 @@ html {
 
 .elementor img {
   height: auto;
-   max-width: unset !important
- 
+  max-width: unset !important
 }

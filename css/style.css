@@ -54,6 +54,7 @@ body {
   font: 400 18px/30px "Poppins", sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
+  overscroll-behavior: none;
 }
 
 .img {
@@ -939,23 +940,22 @@ html {
   background: #00CCFF;
 }
 
-.section {
-  font-size: 5rem;
+.horizontal-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.section--large {
-  width: 100vw;
-  background-color: #8d3dae;
-  color: white;
+#horizontalSlider {
+  overscroll-behavior: none;
+  width: 300%;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.section--small {
-  width: 46rem;
-}
-
-.section--dark {
-  color: white;
-  background-color: black;
+.panel {
+  width: 100%;
+  height: 100vh;
 }
 
 .bg-core-value {
@@ -2314,13 +2314,12 @@ html {
   position: relative;
 }
 .bannar-area__technology .hero-left-area .stretch-rope {
-  position: absolute;
-  top: 98px;
-  left: 38%;
+  display: none;
 }
 .bannar-area__technology .hero-contents {
   padding-left: 20px;
   position: relative;
+  margin-top: -10px;
 }
 .bannar-area__technology .hero-contents p {
   color: #727272 !important;

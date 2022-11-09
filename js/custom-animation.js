@@ -108,6 +108,8 @@ if (document.getElementById('home-bannar-slider') !== null) {
             })
         },
     })
+
+
 }
 
 
@@ -159,35 +161,29 @@ if (servicesPageContent) {
         duration: 1,
         scale: 0.6
     })
-
-
-
-    // mouse down and up animation
-
-    ScrollTrigger.observe({
-        target: '.ecommerce-area',
-        type: "wheel,touch",
-        ease: 'none',
-        wheelSpeed: 1,
-        togglActions: 'resume',
-        scrub:1,
-        onDown: () => {
-            gsap.to(star, {
-                y: 50
-            });
-            gsap.to(globeOne, {
-                y: -100
-            })
-
-        },
-        onUp: () => {
-            gsap.to(star, {
-                y: -100, yoyo: true,duration:10
-            })
-            gsap.to(globeOne, {
-                y: 100,yoyo:true,duration:10
-            })
-        }
-    })
-
 }
+
+
+if (document.querySelector('.panel') !== null) {
+    let sections = gsap.utils.toArray(".panel");
+
+    gsap.to(sections, {
+        xPercent: -100 * (sections.length - 1),
+        ease: "none",
+        scrollTrigger: {
+            trigger: ".horizontal-container",
+            pin: true,
+            scrub: 1,
+            // start:'top center',
+            snap: 1 / (sections.length - 1),
+            // base vertical scrolling on how wide the container is so it feels more natural.
+            end: "+=3500",
+            markers: true,
+
+        }
+    });
+
+    ScrollTrigger.refresh();
+}
+
+
