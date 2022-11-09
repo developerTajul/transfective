@@ -133,15 +133,24 @@
     .machine-area::before {
         height: 70%;
     }
+
+    .machine-area .machine-right-area {
+        padding-left: 0px;
+    }
 }
 
-@media screen  and (max-width:360px) {
+@media screen and (max-width:360px) {
     .machine-area::before {
         height: 50%;
     }
-    .machine-area .machine-right-area{
-        img{
+
+    .machine-area .machine-right-area {
+        img {
             width: 300px;
         }
+    }
+
+    .machine-area .machine-right-area {
+        padding-left: 0px;
     }
 }
