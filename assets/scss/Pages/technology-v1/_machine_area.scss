@@ -127,6 +127,24 @@
     .machine-area::before {
         height: 60%;
     }
+
+    .machine-area .machine-right-area {
+        padding-left: 0px;
+
+        img {
+            width: 350px;
+        }
+    }
+
+    .machine-area::before {
+        height: 70%;
+    }
+
+
+    .card-img img {
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 @media screen and (min-width:361px) and (max-width:400px) {
