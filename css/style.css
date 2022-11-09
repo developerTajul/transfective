@@ -2927,6 +2927,9 @@ html {
   background: #f2fcff;
   border-radius: 20px;
 }
+.insdustries-verticle-tabs-area #v-pills-tab {
+  padding-top: 20px;
+}
 .insdustries-verticle-tabs-area .tabs-area {
   border: 4px solid #000E28;
   border-radius: 20px;
