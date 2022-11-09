@@ -128,22 +128,8 @@
         height: 60%;
     }
 
-    .machine-area .machine-right-area {
-        padding-left: 0px;
-
-        img {
-            width: 350px;
-        }
-    }
-
-    .machine-area::before {
-        height: 70%;
-    }
-
-
-    .card-img img {
-        width: 100%;
-        object-fit: cover;
+    .machine-area .elementor img {
+        max-width: unset !important;
     }
 }
 
@@ -162,9 +148,7 @@
         }
     }
 
-    .machine-area::before {
-        height: 70%;
-    }
+
 
 
     .card-img img {

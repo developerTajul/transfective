@@ -1888,6 +1888,10 @@ html {
   right: 24%;
 }
 
+.stretch-rope.mt-xs-10.mt-30.d-flex.justify-content-md-end {
+  display: none !important;
+}
+
 @media screen and (min-width: 575px) and (max-width: 767px) {
   .bannar-area__contact .stretch-rope svg {
     width: 260px;
@@ -1951,7 +1955,7 @@ html {
   }
   .bannar-area__contact .hero-right-area .star-img {
     position: absolute;
-    top: -222px;
+    top: -10px;
     right: 4%;
   }
   .bannar-area__contact .hero-left-area h1 {
@@ -1960,8 +1964,8 @@ html {
   }
   .bannar-area__contact .arrow-img {
     position: absolute;
-    top: 7px;
-    right: 0px;
+    top: -20px;
+    right: 78px;
   }
   .bannar-area__contact .arrow-img img {
     width: 80px;
@@ -2186,6 +2190,9 @@ html {
   .we-assist .contact-right-area .contact-card .card-item .card-content .card-desc p {
     font-size: 16px;
     line-height: 28px;
+  }
+  .we-assists-img-area img {
+    max-width: 100% !important;
   }
 }
 @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -2670,18 +2677,8 @@ html {
   .machine-area::before {
     height: 60%;
   }
-  .machine-area .machine-right-area {
-    padding-left: 0px;
-  }
-  .machine-area .machine-right-area img {
-    width: 350px;
-  }
-  .machine-area::before {
-    height: 70%;
-  }
-  .card-img img {
-    width: 100%;
-    object-fit: cover;
+  .machine-area .elementor img {
+    max-width: unset !important;
   }
 }
 @media screen and (min-width: 361px) and (max-width: 400px) {
@@ -2693,9 +2690,6 @@ html {
   }
   .machine-area .machine-right-area img {
     width: 350px;
-  }
-  .machine-area::before {
-    height: 70%;
   }
   .card-img img {
     width: 100%;
