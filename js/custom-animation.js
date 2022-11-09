@@ -31,6 +31,7 @@ gsap.ticker.add(() => {
 });
 
 // custom animation
+
 if (document.getElementById('home-bannar-slider') !== null) {
     const lightCirlcleImg = document.querySelector('.light-circle-img img');
     const bannarAreaRight = document.querySelector('.bannar-area-right');
@@ -140,6 +141,7 @@ if (document.querySelector('.ecommerce-area') !== null) {
 
 const servicesPageContent = document.querySelector('.services-content');
 if (servicesPageContent) {
+
     const arrow = servicesPageContent.querySelector('.arrow img');
     const star = servicesPageContent.querySelector('.star img');
     const globeOne = servicesPageContent.querySelector('.globe-1');
@@ -161,29 +163,26 @@ if (servicesPageContent) {
         duration: 1,
         scale: 0.6
     })
-}
 
-
-if (document.querySelector('.panel') !== null) {
-    let sections = gsap.utils.toArray(".panel");
-
-    gsap.to(sections, {
-        xPercent: -100 * (sections.length - 1),
-        ease: "none",
-        scrollTrigger: {
-            trigger: ".horizontal-container",
-            pin: true,
-            scrub: 1,
-            // start:'top center',
-            snap: 1 / (sections.length - 1),
-            // base vertical scrolling on how wide the container is so it feels more natural.
-            end: "+=3500",
-            markers: true,
-
+    servicesPageContent.addEventListener('mousemove', function (e) {
+        const moveX = e.movementX;
+        const moveY = e.movementY;
+        
+    })
+    ScrollTrigger.observe({
+        target: servicesPageContent,
+        type: "wheel,touch",
+        ease: 'none',
+        onDown: (e) => {
+            console.log(e);
+        },
+        onUp: (e) => {
+            console.log(e.scrollY);
         }
-    });
-
-    ScrollTrigger.refresh();
+    })
+  
 }
+
+
 
 

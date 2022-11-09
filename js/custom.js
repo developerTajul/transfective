@@ -59,6 +59,10 @@ var swiper = new Swiper(".need-project-swiper-slider", {
     slidesPerView: 1,
     spaceBetween: 0,
     mousewheel: true,
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+    },
 });
 
 
