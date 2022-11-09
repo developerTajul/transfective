@@ -130,12 +130,28 @@
 }
 
 @media screen and (min-width:361px) and (max-width:400px) {
-    .machine-area::before {
-        height: 70%;
+
+
+    .machine-area .machine-right-area {
+        padding-left: 0px;
     }
 
     .machine-area .machine-right-area {
         padding-left: 0px;
+
+        img {
+            width: 350px;
+        }
+    }
+
+    .machine-area::before {
+        height: 70%;
+    }
+
+
+    .card-img img {
+        width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -152,6 +168,9 @@
         }
     }
 
+    .machine-area::before {
+        height: 68%;
+    }
 
 
     .card-img img {
