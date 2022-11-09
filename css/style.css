@@ -940,24 +940,6 @@ html {
   background: #00CCFF;
 }
 
-.horizontal-container {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-#horizontalSlider {
-  overscroll-behavior: none;
-  width: 300%;
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.panel {
-  width: 100%;
-  height: 100vh;
-}
-
 .bg-core-value {
   background: #F8F4FB;
 }
@@ -1780,6 +1762,9 @@ html {
 .success-stories .testimonial-top-area .testimonial-arrow button.prev-arrow.active::before {
   top: -11px;
   left: -18px;
+}
+.success-stories .testimonial-card-area {
+  margin-top: 20px;
 }
 .success-stories .testimonial-card-area .testimonial-slider .single-slide {
   background: white;
