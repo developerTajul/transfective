@@ -3242,7 +3242,7 @@ html {
     width: 100%;
   }
   .tab-content-right-area {
-    margin-top: -45px;
+    margin-top: -25px;
   }
 }
 @media screen and (min-width: 575px) and (max-width: 767px) {
