@@ -159,25 +159,22 @@ if (servicesPageContent) {
 
     gsap.from(globeOne, {
         scrollTrigger: globeOne,
-        x: -150,
         duration: 1,
-        scale: 0.6
+        scale: 0.8
     })
 
-    servicesPageContent.addEventListener('mousemove', function (e) {
-        const moveX = e.movementX;
-        const moveY = e.movementY;
-        
-    })
+    
     ScrollTrigger.observe({
         target: servicesPageContent,
         type: "wheel,touch",
         ease: 'none',
         onDown: (e) => {
-            console.log(e);
+            const y = e.deltaY *0.5;
+            gsap.to([globeOne,star],{y:y,duration:10,yoyo:true,rotate:36,stagger:0.5})
         },
         onUp: (e) => {
-            console.log(e.scrollY);
+            const y = e.deltaY * 0.5;
+            gsap.to([globeOne,star],{y:y,duration:10,yoyo:true,rotate:-36})
         }
     })
   
