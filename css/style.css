@@ -3217,7 +3217,6 @@ html {
 }
 .services-content .tab-content-right-area {
   position: relative;
-  margin-top: -45px;
 }
 .services-content .tab-content-right-area .globe-img {
   position: absolute;
@@ -3241,6 +3240,9 @@ html {
   }
   .services-content .services-content-img img {
     width: 100%;
+  }
+  .tab-content-right-area {
+    margin-top: -45px;
   }
 }
 @media screen and (min-width: 575px) and (max-width: 767px) {
