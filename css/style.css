@@ -3042,6 +3042,9 @@ html {
   }
 }
 @media screen and (max-width: 767px) {
+  .insdustries-verticle-tabs-area #v-pills-tab {
+    padding-top: 0px;
+  }
   .insdustries-verticle-tabs-area {
     margin-top: 0px;
   }
