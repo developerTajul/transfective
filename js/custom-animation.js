@@ -33,83 +33,24 @@ gsap.ticker.add(() => {
 // custom animation
 
 if (document.getElementById('home-bannar-slider') !== null) {
-    const lightCirlcleImg = document.querySelector('.light-circle-img img');
-    const bannarAreaRight = document.querySelector('.bannar-area-right');
+    const homeBannarSlider = document.getElementById('home-bannar-slider');
+    const smallStar = document.querySelector('.home-bannar-area .container .small-star');
+    const bigStar = document.querySelector('.home-bannar-area .bannar-area-right .star');
+    const bannarRight = document.querySelector('.home-bannar-area .bannar-area-right');
 
     ScrollTrigger.observe({
-        target: '.home-bannar-area',
-        type: "wheel,touch",
-        onUp: () => upTheElement(lightCirlcleImg, bannarAreaRight),
-        onDown: () => downTheELement(lightCirlcleImg, bannarAreaRight),
-    })
-
-    const upTheElement = (...element) => {
-
-        gsap.from(element, {
-            keyframes: {
-                "0%": { y: 0, scale: 0.99 },
-                "50%": { y: -40, delay: 1 },
-                "100%": { y: -70, scale: 1 }
-            },
-            duration: 8,
-            yoyo: true,
-            ease: 'none'
-        })
-    }
-    const downTheELement = (...element) => {
-
-        gsap.from(element, {
-            keyframes: {
-                "0%": { y: 0, scale: 0.99 },
-                "50%": { y: 0, scale: 1, delay: 1 },
-                "100%": { y: 70, scale: 1 }
-            },
-            duration: 8,
-            ease: 'none'
-        })
-    }
-
-
-    const starImg = document.querySelector('.our-process-right .star-img img');
-    starImg.classList.add('up-down');
-    const upDownTimeline = gsap.timeline(
-        {
-            repeat: -1, yoyo: true, ease: 'none'
-        }
-    );
-    upDownTimeline.from(".up-down", { y: -50, duration: 7, scale: 0.9 })
-
-
-    ScrollTrigger.observe({
-        target: '.up-down',
-        type: "wheel,touch",
-        pin: true,
-        onUp: () => {
-            gsap.from('.up-down', { rotate: 90 })
-        },
-        onDown: () => {
-            gsap.from('.up-down', { rotate: -90 })
-        },
-    })
-
-
-    ScrollTrigger.observe({
-        target: '.our-process',
+        target: homeBannarSlider,
         type: "wheel,touch",
         ease: 'none',
-        onUp: () => {
-
-            gsap.from('.up-down', {
-                y: -50
-            })
-        },
         onDown: () => {
-            gsap.from('.up-down', {
-                y: 50
-            })
+            gsap.to(smallStar, { x: -100, y: 100, yoyo: true, duration: 20, rotate: -36 })
+            gsap.to(bigStar, { x: 100, y: 100, yoyo: true, duration: 20, rotate: 36 })
         },
+        onUp: () => {
+            gsap.to(smallStar, { x: 100, y: -100, yoyo: true, duration: 20, rotate: 36 })
+            gsap.to(bigStar, { x: -100, y: -100, yoyo: true, duration: 20, rotate: -96 })
+        }
     })
-
 
 }
 
@@ -163,22 +104,87 @@ if (servicesPageContent) {
         scale: 0.8
     })
 
-    
+
     ScrollTrigger.observe({
         target: servicesPageContent,
         type: "wheel,touch",
         ease: 'none',
         onDown: (e) => {
-            const y = e.deltaY *0.5;
-            gsap.to([globeOne,star],{y:y,duration:10,yoyo:true,rotate:36,stagger:0.5})
+            const y = e.deltaY * 0.5;
+            gsap.to([globeOne, star], { y: y, duration: 10, yoyo: true, rotate: 36, stagger: 0.5 })
         },
         onUp: (e) => {
             const y = e.deltaY * 0.5;
-            gsap.to([globeOne,star],{y:y,duration:10,yoyo:true,rotate:-36})
+            gsap.to([globeOne, star], { y: y, duration: 10, yoyo: true, rotate: -36 })
         }
     })
-  
+
+
+
 }
+
+
+// out process area
+
+const ourProcess = document.querySelector('.our-process');
+if (ourProcess) {
+    const starImg = ourProcess.querySelector('.star-img');
+    ScrollTrigger.observe({
+        target: ourProcess,
+        type: "wheel,touch",
+        ease: 'back',
+        onDown: (e) => {
+            gsap.to(starImg, { scale: 0.7, duration: 2 })
+        },
+        onUp: (e) => {
+            gsap.to(starImg, { scale: 1.1, duration: 2 })
+        }
+    })
+}
+
+// technology page
+
+const ourSolutions = document.querySelector('.our-solutions');
+if (ourSolutions) {
+    const globeOneImage = document.querySelector('.hero-contents-image');
+    const starImg = document.querySelector('.star-img');
+    const threeStar = document.querySelector('.three-star img');
+    const globeImg = document.querySelector('.globe-img');
+    const catToolsGlobeImg = document.querySelector('.cat-tools-globe img');
+    const blackStar = document.querySelector('.black-star img');
+
+    ScrollTrigger.observe({
+        target: ourSolutions,
+        type: "wheel,touch",
+        ease: 'back',
+        onDown: () => {
+            gsap.to(globeOneImage, {
+               scale:1.1,rotate:-360,duration:10,repeat:-1,opacity:0.5,transformOrigin:'center',x:-100,yoyo:true
+            })
+            gsap.to(starImg, {
+                y:30,xPercent:100,duration:10,rotate:45,repeat:-1,yoyo:true,ease:'none'
+            })
+            gsap.to(threeStar,{scale:0.8,duration:2})
+            gsap.to(globeImg, { scale: 0.5, duration: 4 })
+            gsap.to(catToolsGlobeImg, { scale: 0.8, skewX: 10, duration: 2 })
+            gsap.to(blackStar,{rotate:360,duration:10})
+
+        },
+        onUp: () => {
+            gsap.to(globeOneImage, {
+                scale: 1.1, rotate: 360, duration: 10, repeat: -1, opacity: 1, transformOrigin: 'center',yoyo:true
+            })
+            gsap.to(starImg, {
+                y:100,duration:10
+            })
+            gsap.to(threeStar, { scale: 1.1, duration: 2 })
+            gsap.to(globeImg, { scale: 0.9, duration: 4 })
+            gsap.to(catToolsGlobeImg, { scale: 0.9, skewX: -10, duration: 2 })
+            gsap.to(blackStar, { rotate: -360, duration: 10 })
+        }
+    })
+}
+
 
 
 
