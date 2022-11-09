@@ -3366,6 +3366,9 @@ html {
     padding: 0px 10px;
     width: 100%;
   }
+  .ecommerce-area .tab-content-single .tab-content-desc {
+    margin-top: 25px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .ecommerce-area .tab-content-single .tab-content-title {
