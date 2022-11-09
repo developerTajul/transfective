@@ -3217,6 +3217,7 @@ html {
 }
 .services-content .tab-content-right-area {
   position: relative;
+  margin-top: -45px;
 }
 .services-content .tab-content-right-area .globe-img {
   position: absolute;
