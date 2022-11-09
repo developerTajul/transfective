@@ -929,6 +929,10 @@ html {
   background: #00CCFF;
 }
 
+#need-project-slider-container .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  display: none;
+}
+
 .bg-core-value {
   background: #F8F4FB;
 }
