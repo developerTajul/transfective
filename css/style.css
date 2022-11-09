@@ -927,8 +927,6 @@ html {
 }
 .bg-need-project {
   background: #00CCFF;
-  border-top: 4px solid rgb(0, 14, 40);
-  border-bottom: 4px solid rgb(0, 14, 40);
 }
 
 #need-project-slider-container .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
