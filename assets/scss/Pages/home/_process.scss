@@ -71,6 +71,8 @@
 
 .bg-need-project {
     background: #00CCFF;
+    border-top: 4px solid rgba(0, 14, 40, 1);
+    border-bottom: 4px solid rgba(0, 14, 40, 1);
 }
 #need-project-slider-container .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     display: none;
