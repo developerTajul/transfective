@@ -279,11 +279,6 @@ html {
     display: none;
   }
 }
-.elementor img {
-  height: auto;
-  max-width: unset !important;
-}
-
 .theme-btn {
   border: none;
   background: transparent;
@@ -2509,6 +2504,9 @@ html {
 .our-solutions.our-solution-style-1 .card-style-1 .cat-tools-img .cat-tools-globe .globe-img .black-star img {
   width: 50px;
 }
+.our-solutions.our-solution-style-1 img.img-fluid {
+  width: 100%;
+}
 
 @media screen and (max-width: 575px) {
   .our-solutions.our-solution-style-1 .our-solutions-heading h2 {
@@ -2680,13 +2678,22 @@ html {
   .machine-area::before {
     height: 70%;
   }
+  .machine-area .machine-right-area {
+    padding-left: 0px;
+  }
 }
 @media screen and (max-width: 360px) {
   .machine-area::before {
     height: 50%;
   }
+  .machine-area .machine-right-area {
+    padding-left: 0px;
+  }
   .machine-area .machine-right-area img {
     width: 300px;
+  }
+  .card-img img {
+    width: 300px !important;
   }
 }
 .content-review {
@@ -2831,8 +2838,8 @@ html {
     width: 200px;
   }
   .integration-area .image-area .position-img.star {
-    right: -23px;
-    top: -61px;
+    right: 0px;
+    top: -40px;
   }
   .integration-area .image-area .position-img.star img {
     width: 70px;
