@@ -387,7 +387,7 @@ html {
 }
 .home-bannar-area .hero-world-image .home-bannar-arrow {
   position: absolute;
-  top: 50%;
+  bottom: 30%;
   left: 0;
 }
 .home-bannar-area .light-circle-img {
@@ -505,8 +505,8 @@ html {
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow {
     position: absolute;
-    top: -30px;
     left: 0;
+    bottom: 0%;
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow img {
     width: 80px;
@@ -549,8 +549,8 @@ html {
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow {
     position: absolute;
-    top: -30%;
     left: 0;
+    bottom: -6%;
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow img {
     width: 80px;
@@ -595,8 +595,8 @@ html {
     left: 157px;
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow {
-    top: 90%;
-    left: 70%;
+    bottom: 0%;
+    left: 0%;
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow img {
     width: 70px;
@@ -623,12 +623,6 @@ html {
   }
   .home-bannar-area .hero-world-image .light-circle-img {
     display: none;
-  }
-  .home-bannar-area .hero-world-image .home-bannar-arrow {
-    top: 90%;
-  }
-  .home-bannar-area .hero-world-image .home-bannar-arrow img {
-    width: 70px;
   }
   .d-flex.justify-content-center.world-img img.img-fluid {
     width: 100% !important;

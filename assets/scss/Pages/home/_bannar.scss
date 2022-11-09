@@ -55,7 +55,7 @@
 
         .home-bannar-arrow {
             position: absolute;
-            top: 50%;
+            bottom: 30%;
             left: 0;
         }
     }
@@ -228,9 +228,8 @@
 
     .home-bannar-area .hero-world-image .home-bannar-arrow {
         position: absolute;
-        top: -30px;
         left: 0;
-
+        bottom: 0%;
         img {
             width: 80px;
         }
@@ -287,9 +286,8 @@
 
     .home-bannar-area .hero-world-image .home-bannar-arrow {
         position: absolute;
-        top: -30%;
         left: 0;
-
+        bottom: -6%;
         img {
             width: 80px;
         }
@@ -345,15 +343,15 @@
         left: 157px;
     }
 
-
     .home-bannar-area .hero-world-image .home-bannar-arrow {
-        top: 90%;
-        left: 70%;
 
+        bottom: 0%;
+        left: 0%;
         img {
             width: 70px;
         }
     }
+
 
     .home-bannar-area .hero-world-image .light-circle-img {
         display: none;
@@ -374,13 +372,12 @@
         line-height: 41px;
     }
 
+
     .home-bannar-area .container .small-star {
         position: absolute;
         top: -23px;
         right: 35px;
-    }
 
-    .home-bannar-area .container .small-star {
         img {
             width: 20px;
         }
@@ -390,13 +387,7 @@
         display: none;
     }
 
-    .home-bannar-area .hero-world-image .home-bannar-arrow {
-        top: 90%;
 
-        img {
-            width: 70px;
-        }
-    }
 
     .d-flex.justify-content-center.world-img {
 
