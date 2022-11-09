@@ -146,15 +146,17 @@
 
     .machine-area .machine-right-area {
         padding-left: 0px;
+
         img {
             width: 300px;
         }
     }
 
-   
+
 
     .card-img img {
         width: 100%;
+        object-fit: cover;
     }
 
 }
