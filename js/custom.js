@@ -55,7 +55,7 @@ if (document.querySelector('.world-wide-area-small') !== null) {
 // need project slider
 // 
 var swiper = new Swiper(".need-project-swiper-slider", {
-  
+    mousewheel: true,
     pagination: {
         el: ".swiper-pagination",
         dynamicBullets: true,
