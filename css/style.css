@@ -2834,6 +2834,9 @@ html {
   bottom: 50px;
   left: -182px;
 }
+.integration-area .image-area .position-img.globe img {
+  transform: rotate(180deg);
+}
 .integration-area .image-area .position-img.globe .star {
   position: absolute;
   top: 70px;

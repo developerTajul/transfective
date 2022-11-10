@@ -17,6 +17,12 @@
                 bottom: 50px;
                 left: -182px;
 
+                img {
+
+                    transform: rotate(180deg);
+
+                }
+
                 .star {
                     position: absolute;
                     top: 70px;
@@ -61,7 +67,7 @@
     }
 
     .integration-area .image-area .position-img.star {
-  
+
         right: 0px;
         top: -40px;
 
