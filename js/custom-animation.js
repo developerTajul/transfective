@@ -215,6 +215,35 @@ if (integrationArea) {
     })
 
 
+  
+
 }
 
+const swiperSlides = document.querySelectorAll('.need-project-swiper-slider .swiper-wrapper .swiper-slide');
+if (swiperSlides) {
+    const totalSlides = swiperSlides.length;
+    let lastSlide = swiperSlides[totalSlides - 1];
+    let firstSlide = swiperSlides[0];
+    ScrollTrigger.observe({
+        target: lastSlide,
+        type: 'wheel,touch',
+        ease: 'none',
+        onDown: () => {
+            gsap.to(window, { duration: 2, scrollTo: ".core-value" });
+
+        },
+      
+    });
+    ScrollTrigger.observe({
+        target: firstSlide,
+        type: 'wheel,touch',
+        ease: 'none',
+        onUp: () => {
+            gsap.to(window, { duration: 2, scrollTo: ".world-wide-area" });
+
+        },
+      
+    });
+
+}
 

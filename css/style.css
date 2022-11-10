@@ -910,6 +910,9 @@ html {
   padding-top: 40px;
 }
 
+.need-project {
+  padding-bottom: 0px;
+}
 .need-project p {
   color: rgb(85, 85, 85);
 }

@@ -67,8 +67,8 @@ if (needProject) {
           
         },
         // freeMode: {
-        //     enabled: true,
-        //     sticky: false,
+        //     enabled: false,
+        //     sticky: true,
         //     momentumBounce: false,
         // },
         pagination: {
@@ -77,6 +77,8 @@ if (needProject) {
             clickable: true,
         },
     });
+
+
 
 }
 
