@@ -2706,6 +2706,9 @@ html {
   .machine-area .machine-right-area img {
     width: 350px;
   }
+  .machine-area::before {
+    height: 66%;
+  }
   .card-img img {
     width: 100%;
     object-fit: cover;

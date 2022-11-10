@@ -149,7 +149,9 @@
     }
 
 
-
+    .machine-area::before {
+        height: 66%;
+    }
 
     .card-img img {
         width: 100%;
