@@ -622,6 +622,10 @@ html {
   .d-flex.justify-content-center.world-img img.img-fluid {
     width: 100% !important;
   }
+  .home-bannar-area .hero-world-image .home-bannar-arrow {
+    position: absolute;
+    top: 40%;
+  }
 }
 .who-we .section-top {
   background-color: #000E28;
@@ -2347,6 +2351,7 @@ html {
 .bannar-area.bannar-area__technology .hero-left-area .stretch-rope {
   top: 98px;
   left: 11%;
+  display: none !important;
 }
 
 .bannar-area.bannar-area__technology .hero-right-area {

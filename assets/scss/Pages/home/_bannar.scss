@@ -230,6 +230,7 @@
         position: absolute;
         left: 0;
         bottom: 0%;
+
         img {
             width: 80px;
         }
@@ -288,6 +289,7 @@
         position: absolute;
         left: 0;
         bottom: -6%;
+
         img {
             width: 80px;
         }
@@ -347,6 +349,7 @@
 
         bottom: 0%;
         left: 0%;
+
         img {
             width: 70px;
         }
@@ -394,6 +397,11 @@
         img.img-fluid {
             width: 100% !important;
         }
+    }
+
+    .home-bannar-area .hero-world-image .home-bannar-arrow {
+        position: absolute;
+        top: 40%;
     }
 
 }
