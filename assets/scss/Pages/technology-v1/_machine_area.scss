@@ -127,9 +127,13 @@
     .machine-area .machine-right-area {
         padding-left: 0px;
     }
-    .machine-area .machine-right-area img {
-       width: 100% !important;
-    }
+   .machine-area .machine-right-area {
+       padding-left: 0px;
+
+       img {
+           width: 400px;
+       }
+   }
 
     .machine-area::before {
         height: 50%;
