@@ -30,6 +30,7 @@ gsap.ticker.add(() => {
     ySet(pos.y);
 });
 
+
 // custom animation
 
 if (document.getElementById('home-bannar-slider') !== null) {
@@ -159,23 +160,23 @@ if (ourSolutions) {
         ease: 'back',
         onDown: () => {
             gsap.to(globeOneImage, {
-               scale:1.1,rotate:-360,duration:10,repeat:-1,opacity:0.5,transformOrigin:'center',x:-100,yoyo:true
+                scale: 1.1, rotate: -360, duration: 10, repeat: -1, opacity: 0.5, transformOrigin: 'center', x: -100, yoyo: true
             })
             gsap.to(starImg, {
-                y:30,xPercent:100,duration:10,rotate:45,repeat:-1,yoyo:true,ease:'none'
+                y: 30, xPercent: 100, duration: 10, rotate: 45, repeat: -1, yoyo: true, ease: 'none'
             })
-            gsap.to(threeStar,{scale:0.8,duration:2})
+            gsap.to(threeStar, { scale: 0.8, duration: 2 })
             gsap.to(globeImg, { scale: 0.5, duration: 4 })
             gsap.to(catToolsGlobeImg, { scale: 0.8, skewX: 10, duration: 2 })
-            gsap.to(blackStar,{rotate:360,duration:10})
+            gsap.to(blackStar, { rotate: 360, duration: 10 })
 
         },
         onUp: () => {
             gsap.to(globeOneImage, {
-                scale: 1.1, rotate: 360, duration: 10, repeat: -1, opacity: 1, transformOrigin: 'center',yoyo:true
+                scale: 1.1, rotate: 360, duration: 10, repeat: -1, opacity: 1, transformOrigin: 'center', yoyo: true
             })
             gsap.to(starImg, {
-                y:100,duration:10
+                y: 100, duration: 10
             })
             gsap.to(threeStar, { scale: 1.1, duration: 2 })
             gsap.to(globeImg, { scale: 0.9, duration: 4 })
@@ -186,6 +187,34 @@ if (ourSolutions) {
 }
 
 
+// integration
 
+const integrationArea = document.querySelector('.integration-area');
+if (integrationArea) {
+    const globe = integrationArea.querySelector('.globe');
+    const globeStar = integrationArea.querySelector('.globe .star');
+    const star = integrationArea.querySelector('.position-img.star img');
+
+    const starTl = gsap.timeline().pause();
+    starTl.to(star, { y: 100, duration: 10, x: 20, yoyo: true, rotate: 45, repeat: -1, opacity: 0.6 })
+    const globeTl = gsap.timeline().pause();
+    globeTl.to(globe, { x: -20, y: -120, duration: 10, rotate: -45, scale: 0.8, ease: 'none', yoyo: true });
+
+    ScrollTrigger.observe({
+        target: integrationArea,
+        type: 'wheel,touch',
+        ease: 'none',
+        onDown: () => {
+            starTl.play();
+            globeTl.play();
+        },
+        onUp: () => {
+            starTl.reverse();
+            globeTl.reverse();
+        }
+    })
+
+
+}
 
 
