@@ -124,6 +124,10 @@
 }
 
 @media screen and (min-width:401px) and (max-width:575px) {
+    .machine-area .machine-right-area {
+        padding-left: 0px;
+    }
+
     .machine-area::before {
         height: 60%;
     }
