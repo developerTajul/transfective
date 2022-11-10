@@ -626,6 +626,9 @@ html {
     position: absolute;
     top: 40%;
   }
+  .home-bannar-area .hero-world-image {
+    margin-top: 40px;
+  }
 }
 .who-we .section-top {
   background-color: #000E28;
@@ -3319,7 +3322,7 @@ html {
   }
   .services-content .services-content-img .globe-1 {
     bottom: 37%;
-    left: -40px;
+    left: -120px;
   }
   .services-content .tab-content-right-area .globe-img {
     bottom: 15%;
