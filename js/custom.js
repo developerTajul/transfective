@@ -54,6 +54,7 @@ if (document.querySelector('.world-wide-area-small') !== null) {
 }
 // need project slider
 
+
 const needProject = document.querySelector('.need-project');
 if (needProject) {
     needProject.classList.remove('bg-need-project');
@@ -78,24 +79,7 @@ if (needProject) {
 
 }
 
-// const swiper = new Swiper('.swiper-container', {
-//     slideToClickedSlide: true,
-//     slidePerView: "auto",
-//     freeMode: {
-//         enabled: true,
-//         sticky: false,
-//         momentumBounce: false,
-//     },
-//     scrollbar: {
-//         el: '.swiper-scrollbar',
-//         draggable: true,
-//         dragSize: 100,
-//     },
-//     mousewheel: {
-//         enabled: true,
-//         sensitivity: 5.5,
-//     },
-// });
+
 
 
 

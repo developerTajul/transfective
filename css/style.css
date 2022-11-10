@@ -939,6 +939,9 @@ html {
   padding-top: 30px;
   padding-bottom: 50px;
 }
+.bg-need-project .swiper-slide {
+  min-height: 600px;
+}
 
 #need-project-slider-container .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
   display: none;

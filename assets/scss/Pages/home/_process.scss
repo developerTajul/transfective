@@ -75,6 +75,9 @@
     border-bottom: 4px solid rgba(0, 14, 40, 1);
     padding-top: 30px;
     padding-bottom: 50px;
+    .swiper-slide{
+        min-height: 600px;
+    }
 }
 #need-project-slider-container .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     display: none;
