@@ -58,7 +58,17 @@ const needProject = document.querySelector('.need-project');
 if (needProject) {
     needProject.classList.remove('bg-need-project');
     var swiper = new Swiper(".need-project-swiper-slider", {
-        mousewheel:true,
+        slideToClickedSlide: true,
+        slidePerView: "auto",
+        mousewheel: {
+            enabled: true,
+            sensitivity: 5.5,
+        },
+        freeMode: {
+            enabled: true,
+            sticky: false,
+            momentumBounce: false,
+        },
         pagination: {
             el: ".swiper-pagination",
             dynamicBullets: true,
@@ -67,6 +77,25 @@ if (needProject) {
     });
 
 }
+
+// const swiper = new Swiper('.swiper-container', {
+//     slideToClickedSlide: true,
+//     slidePerView: "auto",
+//     freeMode: {
+//         enabled: true,
+//         sticky: false,
+//         momentumBounce: false,
+//     },
+//     scrollbar: {
+//         el: '.swiper-scrollbar',
+//         draggable: true,
+//         dragSize: 100,
+//     },
+//     mousewheel: {
+//         enabled: true,
+//         sensitivity: 5.5,
+//     },
+// });
 
 
 
