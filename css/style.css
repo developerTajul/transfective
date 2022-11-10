@@ -3044,7 +3044,7 @@ html {
   padding-left: 40px;
   padding-right: 25px;
   padding-top: 30px;
-  max-height: 800px;
+  max-height: 450px;
   overflow-y: auto;
   scrollbar-width: thin;
 }
