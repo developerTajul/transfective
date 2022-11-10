@@ -2692,11 +2692,11 @@ html {
   .machine-area .machine-right-area {
     padding-left: 0px;
   }
-  .machine-area::before {
-    height: 60%;
+  .machine-area .machine-right-area img {
+    width: 100% !important;
   }
-  .machine-area .elementor img {
-    max-width: unset !important;
+  .machine-area::before {
+    height: 50%;
   }
 }
 @media screen and (min-width: 361px) and (max-width: 400px) {

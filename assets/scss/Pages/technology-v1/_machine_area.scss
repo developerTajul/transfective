@@ -127,14 +127,15 @@
     .machine-area .machine-right-area {
         padding-left: 0px;
     }
+    .machine-area .machine-right-area img {
+       width: 100% !important;
+    }
 
     .machine-area::before {
-        height: 60%;
+        height: 50%;
     }
 
-    .machine-area .elementor img {
-        max-width: unset !important;
-    }
+   
 }
 
 @media screen and (min-width:361px) and (max-width:400px) {
