@@ -60,16 +60,17 @@ if (needProject) {
     needProject.classList.remove('bg-need-project');
     var swiper = new Swiper(".need-project-swiper-slider", {
         slideToClickedSlide: true,
-        slidePerView: "auto",
+        slidePerView: 1,
         mousewheel: {
             enabled: true,
-            sensitivity: 5.5,
+            sensitivity: 4,
+          
         },
-        freeMode: {
-            enabled: true,
-            sticky: false,
-            momentumBounce: false,
-        },
+        // freeMode: {
+        //     enabled: true,
+        //     sticky: false,
+        //     momentumBounce: false,
+        // },
         pagination: {
             el: ".swiper-pagination",
             dynamicBullets: true,

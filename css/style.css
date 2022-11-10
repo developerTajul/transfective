@@ -940,7 +940,7 @@ html {
   padding-bottom: 50px;
 }
 .bg-need-project .swiper-slide {
-  min-height: 600px;
+  min-height: 600px !important;
 }
 
 #need-project-slider-container .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
