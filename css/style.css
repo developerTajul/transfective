@@ -3130,8 +3130,7 @@ html {
 .services-nav nav ul li.active a {
   background: #fff;
   color: #8E0BF4;
-  box-shadow: 7px 0px 0px 0px #000000;
-  border-bottom: 7px solid #000000;
+  box-shadow: 7px 7px 0px 0px #000000;
 }
 .services-nav nav ul li a {
   display: flex;
@@ -3150,6 +3149,7 @@ html {
   margin: 0px 20px;
   min-height: 126px;
   border: 2px solid #000E28;
+  margin-bottom: 7px;
 }
 
 @media screen and (max-width: 575px) {
