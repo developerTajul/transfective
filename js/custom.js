@@ -54,19 +54,20 @@ if (document.querySelector('.world-wide-area-small') !== null) {
 }
 // need project slider
 
-const needProject = document.querySelector('.need-project');
-if (needProject) {
-    needProject.classList.remove('bg-need-project');
-    var swiper = new Swiper(".need-project-swiper-slider", {
-        mousewheel:true,
-        pagination: {
-            el: ".swiper-pagination",
-            dynamicBullets: true,
-            clickable: true,
-        },
-    });
+// const needProject = document.querySelector('.need-project');
+// if (needProject) {
+//     needProject.classList.remove('bg-need-project');
+//     var swiper = new Swiper(".need-project-swiper-slider", {
+//         mousewheel:true,
+//         pagination: {
+//             el: ".swiper-pagination",
+//             dynamicBullets: true,
+//             clickable: true,
+//         },
+//     });
 
-}
+// }
+
 
 
 
