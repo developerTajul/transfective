@@ -332,12 +332,18 @@
         position: absolute;
         top: -15px;
         right: 8px;
+        img{
+            width: 20px;
+        }
     }
 
     .home-bannar-area .container .small-star {
         position: absolute;
         top: -26px;
         right: 25px;
+        img{
+            width: 14px;
+        }
     }
 
     .home-bannar-area .bannar-area-right .arrow {

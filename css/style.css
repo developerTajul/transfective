@@ -580,10 +580,16 @@ html {
     top: -15px;
     right: 8px;
   }
+  .home-bannar-area .bannar-area-right .star img {
+    width: 20px;
+  }
   .home-bannar-area .container .small-star {
     position: absolute;
     top: -26px;
     right: 25px;
+  }
+  .home-bannar-area .container .small-star img {
+    width: 14px;
   }
   .home-bannar-area .bannar-area-right .arrow {
     top: -2px;
@@ -1031,6 +1037,11 @@ html {
   border-left: none;
 }
 
+@media screen and (min-width: 370px) and (max-width: 574px) {
+  .core-text-content.pr-xs-0.pr-sm-10.pr-35 {
+    margin-top: -60px;
+  }
+}
 @media screen and (max-width: 575px) {
   .core-value .core-value-top .core-value-title h2 {
     font-size: 36px;
@@ -1837,7 +1848,7 @@ html {
     margin-left: 45px;
   }
   .success-stories .section-top .section-subtitle {
-    padding: 0px 40px;
+    padding: 0px 0px;
   }
   .success-stories .testimonial-card-area .testimonial-slider .single-slide {
     width: 300px;
