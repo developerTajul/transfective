@@ -2463,6 +2463,9 @@ html {
   .bannar-area.bannar-area__technology .hero-right-area .star-img {
     top: -98px;
   }
+  .bannar-area.bannar-area__technology .hero-right-area .star-img img {
+    width: 20px;
+  }
   .our-solutions.our-solution-style-1 .card-style-1 .translation-memory .three-star img {
     width: 140px;
   }
