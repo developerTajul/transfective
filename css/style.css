@@ -590,7 +590,7 @@ html {
     left: 157px;
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow {
-    bottom: 0%;
+    bottom: 40%;
     left: 0%;
   }
   .home-bannar-area .hero-world-image .home-bannar-arrow img {
@@ -3940,7 +3940,7 @@ html {
 }
 @media screen and (max-width: 360px) {
   .copyright-area p {
-    margin-top: 13px;
+    margin-top: 0px;
   }
 }
 
