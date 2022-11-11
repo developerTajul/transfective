@@ -220,7 +220,7 @@ if (integrationArea) {
 }
 
 const swiperSlides = document.querySelectorAll('.need-project-swiper-slider .swiper-wrapper .swiper-slide');
-if (swiperSlides) {
+if (swiperSlides.length > 0) {
     const totalSlides = swiperSlides.length;
     let lastSlide = swiperSlides[totalSlides - 1];
     let firstSlide = swiperSlides[0];
