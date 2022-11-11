@@ -133,7 +133,7 @@
 }
 
 .copyright-area {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     color: #fff;
     font-size: 18px;
@@ -178,6 +178,11 @@
 @media screen and (min-width:768px) and (max-width:992px) {
     .footer-area .footer-heading {
         margin-top: 0px;
+    }
+
+    .copyright-area {
+
+        padding-bottom: 0px;
     }
 }
 
