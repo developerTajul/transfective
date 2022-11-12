@@ -33,11 +33,14 @@
         }
     }
 
-    .machine-right-area {
-        padding-left: 270px;
-    }
+    
 }
 
+@media screen and (min-width:1400px) {
+    .machine-right-area{
+        padding-left: 70px;
+    }
+}
 @media screen and (max-width:768px) {
     .machine-area::before {
         width: 100%;
@@ -80,6 +83,7 @@
 
 
 
+
 @media screen and (min-width:992px) and (max-width:1199px) {
     .machine-area .machine-left-area .machine-heading h2 {
 
@@ -92,6 +96,8 @@
         font-size: 16px;
         line-height: 27px;
     }
+
+   
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -102,12 +108,18 @@
     }
 
     .machine-area::before {
-
         width: 100%;
         height: 51%;
-
     }
+
+    .machine-area .machine-right-area {
+    
+        margin-top: 25px;
+    }
+
 }
+
+
 
 @media screen and (min-width:576px) and (max-width:767px) {
     .content-review .content-review-right .content-review-title h2 {
@@ -116,10 +128,14 @@
         margin-top: 55px !important;
     }
 
+    .machine-area .machine-right-area {
+        padding-left: 0px;
+        margin-top: 25px;
+    }
+
     .machine-area::before {
 
-        height: 45%;
-
+        height: 46%;
     }
 }
 
@@ -127,19 +143,26 @@
     .machine-area .machine-right-area {
         padding-left: 0px;
     }
-   .machine-area .machine-right-area {
-       padding-left: 0px;
 
-       img {
-           width: 400px;
-       }
-   }
+    .machine-area .machine-right-area {
+        padding-left: 0px;
+
+        img {
+            width: 400px;
+        }
+    }
 
     .machine-area::before {
         height: 50%;
     }
 
-   
+
+}
+
+@media screen and (min-width:400px) and (max-width:500px) {
+    .machine-area::before {
+        height: 60%;
+    }
 }
 
 @media screen and (min-width:361px) and (max-width:400px) {
@@ -174,7 +197,7 @@
     }
 
     .machine-area .machine-right-area {
-        padding-left: 0px;
+      
 
         img {
             width: 300px;
