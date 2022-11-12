@@ -927,6 +927,9 @@ html {
 .need-project .need-project-title.mt-10 {
   margin-top: 70px;
 }
+.need-project .need-project-title.mt-10 h3 {
+  text-transform: capitalize;
+}
 
 @media screen and (max-width: 575px) {
   .our-process .our-process-title h2 {
@@ -967,6 +970,9 @@ html {
   background: #F8F4FB;
 }
 
+.core-value {
+  margin-top: -20px;
+}
 .core-value .core-value-top .core-value-title h2 {
   font-size: 65px;
   line-height: 78px;
