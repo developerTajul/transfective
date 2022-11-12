@@ -956,6 +956,18 @@ html {
   .our-process-right img {
     width: 200px;
   }
+  .our-process .our-process-right .star-img img {
+    width: 100px;
+  }
+  .need-project-left .icon-area img {
+    width: 140px;
+  }
+  .need-project .need-project-title.mt-10 {
+    margin-top: 20px;
+  }
+  .need-project .need-project-title.mt-10 h3 {
+    line-height: 50px;
+  }
 }
 @media screen and (max-width: 575px) {
   .our-process .our-process-title h2 {
