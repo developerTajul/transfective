@@ -18,7 +18,7 @@
             p {
                 font-size: 18px;
                 line-height: 32px;
-                color: #888888;
+                color: rgba(43, 50, 64, 1);
             }
         }
 
@@ -50,20 +50,25 @@
 }
 
 .content-review-cards {
-    .content-card-one {
-        background: $content-review-card-one;
+    .content-card {
+        &.content-card-one {
+            background: $content-review-card-one;
 
-        .content-title {
-            color: $black;
-        }
+            .content-title {
+                color: $black;
+            }
 
-        .content-desc {
-            p {
-                color: $textcolor;
+            .content-desc {
+                p {
+                    color: rgba(136, 136, 136, 1);
+                }
             }
         }
     }
+
 }
+
+
 
 @media screen and (max-width:575px) {
     .content-review .content-review-right .content-review-title h2 {

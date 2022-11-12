@@ -2797,7 +2797,7 @@ html {
 .content-review .content-card .content-desc p {
   font-size: 18px;
   line-height: 32px;
-  color: #888888;
+  color: rgb(43, 50, 64);
 }
 .content-review .content-review-right .content-review-title {
   margin-top: -30px;
@@ -2814,14 +2814,14 @@ html {
   color: #2B3240;
 }
 
-.content-review-cards .content-card-one {
+.content-review-cards .content-card.content-card-one {
   background: #E1F3F2;
 }
-.content-review-cards .content-card-one .content-title {
+.content-review-cards .content-card.content-card-one .content-title {
   color: #000;
 }
-.content-review-cards .content-card-one .content-desc p {
-  color: #888888;
+.content-review-cards .content-card.content-card-one .content-desc p {
+  color: rgb(136, 136, 136);
 }
 
 @media screen and (max-width: 575px) {
