@@ -32,16 +32,8 @@
 }
 
 @media screen and (min-width:575px) and (max-width:767px) {
-    .bannar-area__contact .stretch-rope {
 
-        svg {
-            width: 260px;
-        }
-    }
 
-    .bannar-area__contact .arrow-img svg {
-        width: 100px;
-    }
 
     .arrow-img {
         position: absolute;
@@ -83,38 +75,39 @@
     }
 }
 
+@media screen and (min-width:576px) and (max-width:768px) {
+    .bannar-area__contact .hero-right-area .star-img {
+        position: absolute;
+        top: -16px;
+        right: 15%;
+        img {
+            width: 30px;
+        }
+    }
+
+    .bannar-area__contact .arrow-img {
+
+        position: absolute;
+        top: 0px;
+        left: 70%;
+
+
+        img {
+            width: 80px;
+        }
+    }
+}
+
 @media screen and (max-width:575px) {
     .bannar-area__contact .hero-left-area h1 {
         font-size: 33px;
         line-height: 46px;
     }
 
-    .bannar-area__contact .stretch-rope {
-
-        svg {
-            width: 220px;
-        }
-    }
-
-    .bannar-area__contact .arrow-img svg {
-        width: 70px;
-    }
 
     .bannar-area__contact {
         position: relative;
         padding-bottom: 120px;
-    }
-
-    .bannar-area__contact .arrow-img {
-        position: absolute;
-        top: -23px;
-        right: 90px;
-    }
-
-    .bannar-area__contact .hero-right-area .star-img {
-        position: absolute;
-        top: -10px;
-        right: 4%;
     }
 
 
@@ -123,32 +116,23 @@
         line-height: 50px;
     }
 
+    .bannar-area__contact .hero-right-area .star-img {
+        position: absolute;
+        top: -18px;
+        right: 30px;
+
+        img {
+            width: 20px;
+        }
+    }
 
     .bannar-area__contact .arrow-img {
         position: absolute;
-        top: -20px;
-        right: 78px;
+        top: 0px;
+        right: 30px;
 
         img {
-            width: 80px;
+            width: 60px;
         }
     }
-}
-
-@media screen and (min-width:576px) and (max-width:768px) {
-    .bannar-area__contact .hero-right-area {
-        .arrow-img {
-            top: -40px;
-        }
-    }
-}
-
-@media screen and (min-width:380px) and (max-width:480px) {
-
-    .bannar-area__contact .hero-right-area .star-img {
-        position: absolute;
-        top: -168px;
-        right: -5%;
-    }
-
 }
