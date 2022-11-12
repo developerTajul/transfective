@@ -931,24 +931,6 @@ html {
   text-transform: capitalize;
 }
 
-@media screen and (max-width: 575px) {
-  .our-process .our-process-title h2 {
-    font-size: 35px;
-    line-height: 40px;
-  }
-  .our-process-right img {
-    width: 147px;
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .our-process .our-process-title h2 {
-    font-size: 35px;
-    line-height: 40px;
-  }
-  .our-process-right img {
-    width: 200px;
-  }
-}
 .bg-need-project {
   padding-top: 30px;
   padding-bottom: 50px;
@@ -966,6 +948,40 @@ html {
   display: none;
 }
 
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .our-process .our-process-title h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .our-process-right img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .our-process .our-process-title h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .our-process-right img {
+    width: 147px;
+  }
+  .our-process .our-process-subtitle p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .our-process .our-process-right .star-img img {
+    width: 70px;
+  }
+  .need-project-left .icon-area img {
+    width: 100px;
+  }
+  .need-project .need-project-title.mt-10 {
+    margin-top: 30px;
+  }
+  .need-project .need-project-title.mt-10 h3 {
+    line-height: 40px;
+  }
+}
 .bg-core-value {
   background: #F8F4FB;
 }

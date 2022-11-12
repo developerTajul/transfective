@@ -72,6 +72,7 @@ if (needProject) {
         //     sticky: true,
         //     momentumBounce: false,
         // },
+        parallax: true,
         pagination: {
             el: ".swiper-pagination",
             dynamicBullets: true,
