@@ -910,6 +910,8 @@ html {
 .our-process .our-process-right .star-img {
   position: absolute;
   right: 0px;
+  top: 15px;
+  z-index: 9;
 }
 
 .full-width-animation {
@@ -951,6 +953,10 @@ html {
   background: #00CCFF;
   border-top: 4px solid rgb(0, 14, 40);
   border-bottom: 4px solid rgb(0, 14, 40);
+}
+
+.need-project.pt-xs-50.pb-xs-50.pb-50 {
+  margin-top: -45px;
 }
 
 #need-project-slider-container .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
