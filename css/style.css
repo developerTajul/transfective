@@ -945,14 +945,12 @@ html {
   }
 }
 .bg-need-project {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  min-height: 620px !important;
   background: #00CCFF;
   border-top: 4px solid rgb(0, 14, 40);
   border-bottom: 4px solid rgb(0, 14, 40);
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-.bg-need-project .swiper-slide {
-  min-height: 600px !important;
 }
 
 #need-project-slider-container .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
