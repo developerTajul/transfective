@@ -38,19 +38,21 @@ if (document.getElementById('home-bannar-slider') !== null) {
     const homeBannarSlider = document.getElementById('home-bannar-slider');
     const smallStar = document.querySelector('.home-bannar-area .container .small-star');
     const bigStar = document.querySelector('.home-bannar-area .bannar-area-right .star');
-
+   
 
     ScrollTrigger.observe({
-        target: homeBannarSlider,
+        target: '.hero-world-image',
         type: "wheel,touch",
         ease: 'none',
         onDown: () => {
-            gsap.to(smallStar, { x: -10, y: 100, yoyo: true, duration: 20, rotate: -36 })
-            gsap.to(bigStar, { x: 10, y: 100, yoyo: true, duration: 20, rotate: 36 })
+            // gsap.to(smallStar, { x: -10, y: 100, yoyo: true, duration: 20, rotate: -36 })
+            // gsap.to(bigStar, { x: 10, y: 100, yoyo: true, duration: 20, rotate: 36 })
+            alert('Down')
         },
         onUp: () => {
-            gsap.to(smallStar, { x: 10, y: -100, yoyo: true, duration: 20, rotate: 36 })
-            gsap.to(bigStar, { x: -10, y: -100, yoyo: true, duration: 20, rotate: -96 })
+            // gsap.to(smallStar, { x: 10, y: -100, yoyo: true, duration: 20, rotate: 36 })
+            // gsap.to(bigStar, { x: -10, y: -100, yoyo: true, duration: 20, rotate: -96 })
+            alert('Up')
         }
     })
   
