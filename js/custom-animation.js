@@ -263,11 +263,3 @@ if (swiperSlides.length > 0) {
 }
 
 
-// core values
-
-gsap.timeline({
-    scrollTrigger: {
-        trigger:'.core-value'
-    }
-});
-

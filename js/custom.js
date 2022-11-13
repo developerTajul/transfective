@@ -1,5 +1,6 @@
 
 
+
 // header
 
 const openMenuBtn = document.querySelector('.header-area .open-menu-btn button');
@@ -61,11 +62,11 @@ if (needProject) {
     var swiper = new Swiper(".need-project-swiper-slider", {
         slideToClickedSlide: true,
         slidePerView: 1,
-        autoplay:true,
+        autoplay: true,
         mousewheel: {
             enabled: true,
             sensitivity: 4,
-          
+
         },
         // freeMode: {
         //     enabled: false,
@@ -79,13 +80,11 @@ if (needProject) {
             clickable: true,
         },
     });
-
-
-
 }
 
 
-
-
+AOS.init({
+    once:true
+});
 
 
