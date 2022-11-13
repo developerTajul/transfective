@@ -68,11 +68,6 @@ if (needProject) {
             sensitivity: 4,
 
         },
-        // freeMode: {
-        //     enabled: false,
-        //     sticky: true,
-        //     momentumBounce: false,
-        // },
         parallax: true,
         pagination: {
             el: ".swiper-pagination",
@@ -84,4 +79,3 @@ if (needProject) {
 
 
 
-AOS.init();

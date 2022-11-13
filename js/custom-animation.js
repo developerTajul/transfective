@@ -35,13 +35,6 @@ gsap.ticker.add(() => {
 
 // custom animation
 
-if (document.getElementById('home-bannar-slider') !== null) {
-
-    const homeBannarSlider = document.getElementById('home-bannar-slider');
-
-
-
-}
 
 
 const partnerArea = document.querySelector('.partner-area');
@@ -264,3 +257,14 @@ if (swiperSlides.length > 0) {
 
 
 
+const whoWeTl = gsap.timeline(
+    {
+        scrollTrigger: {
+            trigger: '.who-we',
+            markers:true,
+        },
+        defaults: { opacity: 0 }
+    }
+);
+whoWeTl.from(".who-we", {})
+.from('.who-we .section-title h2',{y:50})
