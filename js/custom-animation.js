@@ -38,49 +38,34 @@ gsap.ticker.add(() => {
 if (document.getElementById('home-bannar-slider') !== null) {
 
     const homeBannarSlider = document.getElementById('home-bannar-slider');
-    const smallStar = document.querySelector('.home-bannar-area .container .small-star');
-    const bigStar = document.querySelector('.home-bannar-area .bannar-area-right .star');
 
 
-    // ScrollTrigger.observe({
-    //     target: '.hero-world-image',
-    //     type: "wheel,touch",
-    //     ease: 'none',
-    //     onDown: () => {
-    //         // gsap.to(smallStar, { x: -10, y: 100, yoyo: true, duration: 20, rotate: -36 })
-    //         // gsap.to(bigStar, { x: 10, y: 100, yoyo: true, duration: 20, rotate: 36 })
-    //         alert('Down')
-    //     },
-    //     onUp: () => {
-    //         // gsap.to(smallStar, { x: 10, y: -100, yoyo: true, duration: 20, rotate: 36 })
-    //         // gsap.to(bigStar, { x: -10, y: -100, yoyo: true, duration: 20, rotate: -96 })
-    //         alert('Up')
-    //     }
-    // })
 
 }
 
 
 const partnerArea = document.querySelector('.partner-area');
-const mapImg = partnerArea.querySelector('.map-img img');
 
-ScrollTrigger.observe({
-    target: partnerArea,
-    type: "wheel,touch",
-    ease: 'linear',
-    onDown: () => {
-       
-        gsap.to(mapImg, {
-            y:-45,duration:8,skewX:2
-        })
-    },
-    onUp: () => {
-        gsap.to(mapImg, {
-            y: 45, duration: 8,skewX:-2
-        })
-    }
-})
+if (partnerArea !== null) {
+    const mapImg = partnerArea.querySelector('.map-img img');
 
+    ScrollTrigger.observe({
+        target: partnerArea,
+        type: "wheel,touch",
+        ease: 'linear',
+        onDown: () => {
+
+            gsap.to(mapImg, {
+                y: -45, duration: 8, skewX: 2
+            })
+        },
+        onUp: () => {
+            gsap.to(mapImg, {
+                y: 45, duration: 8, skewX: -2
+            })
+        }
+    })
+}
 
 
 
@@ -278,5 +263,11 @@ if (swiperSlides.length > 0) {
 }
 
 
+// core values
 
+gsap.timeline({
+    scrollTrigger: {
+        trigger:'.core-value'
+    }
+});
 
