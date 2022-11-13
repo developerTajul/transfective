@@ -96,7 +96,8 @@ $topenter: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    backface-visibility: hidden;
+    z-index: 988;
     &.loaded {
         visibility: hidden;
         transition: all .3s 1s ease-out;
