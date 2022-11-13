@@ -4,7 +4,9 @@
 
 		// core value icon
 
-		// slick slider
+	
+
+		
 
 		// contact slider
 		$('#contact-slider-mobile-one').slick({

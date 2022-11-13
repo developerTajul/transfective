@@ -256,15 +256,3 @@ if (swiperSlides.length > 0) {
 }
 
 
-
-const whoWeTl = gsap.timeline(
-    {
-        scrollTrigger: {
-            trigger: '.who-we',
-            markers:true,
-        },
-        defaults: { opacity: 0 }
-    }
-);
-whoWeTl.from(".who-we", {})
-.from('.who-we .section-title h2',{y:50})
