@@ -1,8 +1,10 @@
 
+
+
 // animation
 
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollToPlugin);
 
 gsap.set(".ball", { xPercent: -50, yPercent: -50 });
 
@@ -38,31 +40,49 @@ if (document.getElementById('home-bannar-slider') !== null) {
     const homeBannarSlider = document.getElementById('home-bannar-slider');
     const smallStar = document.querySelector('.home-bannar-area .container .small-star');
     const bigStar = document.querySelector('.home-bannar-area .bannar-area-right .star');
-   
-
-    ScrollTrigger.observe({
-        target: '.hero-world-image',
-        type: "wheel,touch",
-        ease: 'none',
-        onDown: () => {
-            // gsap.to(smallStar, { x: -10, y: 100, yoyo: true, duration: 20, rotate: -36 })
-            // gsap.to(bigStar, { x: 10, y: 100, yoyo: true, duration: 20, rotate: 36 })
-            alert('Down')
-        },
-        onUp: () => {
-            // gsap.to(smallStar, { x: 10, y: -100, yoyo: true, duration: 20, rotate: 36 })
-            // gsap.to(bigStar, { x: -10, y: -100, yoyo: true, duration: 20, rotate: -96 })
-            alert('Up')
-        }
-    })
-  
 
 
-   
-    
-    
+    // ScrollTrigger.observe({
+    //     target: '.hero-world-image',
+    //     type: "wheel,touch",
+    //     ease: 'none',
+    //     onDown: () => {
+    //         // gsap.to(smallStar, { x: -10, y: 100, yoyo: true, duration: 20, rotate: -36 })
+    //         // gsap.to(bigStar, { x: 10, y: 100, yoyo: true, duration: 20, rotate: 36 })
+    //         alert('Down')
+    //     },
+    //     onUp: () => {
+    //         // gsap.to(smallStar, { x: 10, y: -100, yoyo: true, duration: 20, rotate: 36 })
+    //         // gsap.to(bigStar, { x: -10, y: -100, yoyo: true, duration: 20, rotate: -96 })
+    //         alert('Up')
+    //     }
+    // })
 
 }
+
+
+const partnerArea = document.querySelector('.partner-area');
+const mapImg = partnerArea.querySelector('.map-img img');
+
+ScrollTrigger.observe({
+    target: partnerArea,
+    type: "wheel,touch",
+    ease: 'linear',
+    onDown: () => {
+       
+        gsap.to(mapImg, {
+            y:-50,duration:8,scale:1.1
+        })
+    },
+    onUp: () => {
+        gsap.to(mapImg, {
+            y: 50, duration: 8, scale: 1
+        })
+    }
+})
+
+
+
 
 
 // ecommerce area
@@ -192,6 +212,7 @@ if (ourSolutions) {
             gsap.to(catToolsGlobeImg, { scale: 0.9, skewX: -10, duration: 2 })
             gsap.to(blackStar, { rotate: -360, duration: 10 })
         }
+
     })
 }
 
@@ -255,7 +276,6 @@ if (swiperSlides.length > 0) {
     });
 
 }
-
 
 
 

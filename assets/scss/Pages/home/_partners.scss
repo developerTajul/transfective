@@ -3,6 +3,19 @@
     background-size: contain !important;
     background-position: center !important;
 
+    .container {
+        position: relative;
+
+        .map-img {
+            position: absolute;
+            top: -50px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
     .section-top {
         .section-title {
             h2 {
