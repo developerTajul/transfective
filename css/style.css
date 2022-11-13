@@ -930,6 +930,13 @@ html {
 .need-project .need-project-title.mt-10 h3 {
   text-transform: capitalize;
 }
+.need-project .need-project-right {
+  background: #fff;
+  padding: 20px 40px;
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+  width: fit-content;
+}
 
 .bg-need-project {
   padding-top: 30px;

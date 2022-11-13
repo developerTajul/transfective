@@ -34,10 +34,11 @@ gsap.ticker.add(() => {
 // custom animation
 
 if (document.getElementById('home-bannar-slider') !== null) {
+
     const homeBannarSlider = document.getElementById('home-bannar-slider');
     const smallStar = document.querySelector('.home-bannar-area .container .small-star');
     const bigStar = document.querySelector('.home-bannar-area .bannar-area-right .star');
- 
+
 
     ScrollTrigger.observe({
         target: homeBannarSlider,
@@ -52,6 +53,12 @@ if (document.getElementById('home-bannar-slider') !== null) {
             gsap.to(bigStar, { x: -10, y: -100, yoyo: true, duration: 20, rotate: -96 })
         }
     })
+  
+
+
+   
+    
+    
 
 }
 
@@ -134,10 +141,10 @@ if (ourProcess) {
         target: ourProcess,
         type: "wheel,touch",
         ease: 'back',
-        onDown: (e) => {
+        onDown: () => {
             gsap.to(starImg, { scale: 0.7, duration: 2 })
         },
-        onUp: (e) => {
+        onUp: () => {
             gsap.to(starImg, { scale: 1.1, duration: 2 })
         }
     })
@@ -215,7 +222,7 @@ if (integrationArea) {
     })
 
 
-  
+
 
 }
 
@@ -232,7 +239,7 @@ if (swiperSlides.length > 0) {
             gsap.to(window, { duration: 2, scrollTo: ".core-value" });
 
         },
-      
+
     });
     ScrollTrigger.observe({
         target: firstSlide,
@@ -242,8 +249,12 @@ if (swiperSlides.length > 0) {
             gsap.to(window, { duration: 2, scrollTo: ".world-wide-area" });
 
         },
-      
+
     });
 
 }
+
+
+
+
 
