@@ -83,8 +83,5 @@ if (needProject) {
 }
 
 
-AOS.init({
-    once:true
-});
 
-
+AOS.init();
