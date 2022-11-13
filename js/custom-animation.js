@@ -71,12 +71,12 @@ ScrollTrigger.observe({
     onDown: () => {
        
         gsap.to(mapImg, {
-            y:-50,duration:8,scale:1.1
+            y:-45,duration:8,skewX:2
         })
     },
     onUp: () => {
         gsap.to(mapImg, {
-            y: 50, duration: 8, scale: 1
+            y: 45, duration: 8,skewX:-2
         })
     }
 })
