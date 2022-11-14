@@ -1827,20 +1827,20 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @-webkit-keyframes lightSpeedIn {
   0% {
-    -webkit-transform: translateX(100%) skewX(-30deg);
-    transform: translateX(100%) skewX(-30deg);
+    -webkit-transform: translateX(100%) skewX(-20deg);
+    transform: translateX(100%) skewX(-20deg);
     opacity: 0;
   }
 
   60% {
-    -webkit-transform: translateX(-20%) skewX(30deg);
-    transform: translateX(-20%) skewX(30deg);
+    -webkit-transform: translateX(-20%) skewX(20deg);
+    transform: translateX(-20%) skewX(20deg);
     opacity: 1;
   }
 
   80% {
-    -webkit-transform: translateX(0%) skewX(-15deg);
-    transform: translateX(0%) skewX(-15deg);
+    -webkit-transform: translateX(0%) skewX(-10deg);
+    transform: translateX(0%) skewX(-10deg);
     opacity: 1;
   }
 
