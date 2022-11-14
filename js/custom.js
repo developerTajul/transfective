@@ -62,7 +62,13 @@ if (needProject) {
     var swiper = new Swiper(".need-project-swiper-slider", {
         slideToClickedSlide: true,
         slidePerView: 1,
-        autoplay: true,
+
+        autoplay: {
+            delay: 3000,
+            pauseOnMouseEnter: true,
+         
+        },
+
         mousewheel: {
             enabled: true,
             sensitivity: 4,
