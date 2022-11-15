@@ -1710,6 +1710,12 @@ html {
   color: #6D6D6D;
 }
 
+@media screen and (min-width: 370px) and (max-width: 400px) {
+  .world-wide-area .section-top .arrow-shape {
+    left: -18%;
+    bottom: 0px;
+  }
+}
 @media screen and (min-width: 575px) and (max-width: 768px) {
   .world-wide-area-small .circle-outer {
     width: 200px;
@@ -3389,6 +3395,9 @@ html {
 .services-nav nav ul {
   display: flex;
   align-items: center;
+}
+.services-nav nav ul li.active {
+  order: 2;
 }
 .services-nav nav ul li.active a {
   background: #fff;

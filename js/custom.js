@@ -1,4 +1,6 @@
+// const servicesNav = document.querySelectorAll('.services-nav nav ul li');
 
+// console.log(servicesNav)
 
 
 // header
