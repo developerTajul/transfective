@@ -1040,7 +1040,6 @@ html {
   }
   .main-area .main-area-subtitle .arrow-shape img {
     width: 60px;
-    margin-top: 20px;
   }
   .who-we .animation-wrapper .img-area {
     padding: 0px 0px;
@@ -1975,11 +1974,12 @@ html {
 }
 @media screen and (max-width: 360px) {
   .world-wide-area .section-top .arrow-shape {
-    left: -10%;
-    bottom: 0px;
+    left: 0%;
+    bottom: unset;
+    transform: rotate(-68deg);
   }
   .world-wide-area .section-top .arrow-shape img {
-    height: 70px;
+    height: 50px;
   }
   .world-wide-area-small {
     margin-top: 20px;
