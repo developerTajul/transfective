@@ -155,7 +155,7 @@
 
 }
 
-@media screen and (min-width:370px) and (max-width:400px) {
+@media screen and (min-width:370px) and (max-width:450px) {
     .world-wide-area .section-top .arrow-shape {
         left: -18%;
         bottom: 0px;
@@ -493,18 +493,19 @@
 
 @media screen and (min-width:361px) and (max-width:575px) {
     .world-wide-area .section-top .arrow-shape {
-        left: -3%;
+    left: -15%;
         bottom: 0px;
 
         img {
             height: 70px;
         }
     }
+       
 }
 
 @media screen and (max-width:360px) {
     .world-wide-area .section-top .arrow-shape {
-        left: -3%;
+        left: -10%;
         bottom: 0px;
 
         img {
