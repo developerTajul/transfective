@@ -36,7 +36,9 @@
 
                 li {
                     position: relative;
-
+                    &:last-child{
+                        display: none;
+                    }
                     a {
                         text-decoration: none;
                         display: inline-flex;
@@ -264,6 +266,8 @@
                 display: block;
 
                 li {
+                    
+                    
                     a {
                         min-height: fit-content;
                         padding: 8px 0px;

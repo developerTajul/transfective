@@ -3780,6 +3780,9 @@ html {
   position: relative;
   /* HAS DROPDOWN MENU */
 }
+.header-area .main-menu-area .primary-menu ul li:last-child {
+  display: none;
+}
 .header-area .main-menu-area .primary-menu ul li a {
   text-decoration: none;
   display: inline-flex;
