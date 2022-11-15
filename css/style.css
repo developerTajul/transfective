@@ -495,7 +495,7 @@ html {
 .home-bannar-area {
   padding-top: 45px;
   position: relative;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 .home-bannar-area .container {
   position: relative;
@@ -764,6 +764,9 @@ html {
     font-size: 28px;
     line-height: 41px;
   }
+  .home-bannar-area .hero-world-image .home-bannar-arrow {
+    bottom: 45%;
+  }
   .home-bannar-area .container .small-star {
     position: absolute;
     top: -23px;
@@ -783,6 +786,12 @@ html {
     top: 40%;
   }
   .home-bannar-area .hero-world-image {
+    margin-top: 40px;
+  }
+  .home-bannar-area {
+    padding-bottom: 40px;
+  }
+  .d-flex.justify-content-center.world-img {
     margin-top: 40px;
   }
 }
