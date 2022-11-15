@@ -88,14 +88,11 @@
 }
 
 @media screen and (max-width:575px) {
-
-    .who-we .section-top h2 {
-
-        font-size: 35px;
-        line-height: 35px;
-
+   .who-we .section-top h2 {
+        font-size: 28px;
+        line-height: 38px;
     }
-
+  
     .who-we .section-top h2::before {
         left: 2%;
     }
