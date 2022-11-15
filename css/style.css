@@ -1605,7 +1605,7 @@ html {
 }
 .world-wide-area {
   background: #f2fcff;
-  min-height: 1150px;
+  min-height: 1070px;
 }
 .world-wide-area .section-top {
   position: relative;
@@ -1960,13 +1960,13 @@ html {
 
 @media screen and (max-width: 575px) {
   .world-wide-area {
-    min-height: 1050px;
+    min-height: 800px;
   }
 }
 @media screen and (min-width: 361px) and (max-width: 575px) {
   .world-wide-area .section-top .arrow-shape {
-    left: -15%;
-    bottom: 0px;
+    left: 0%;
+    bottom: -90px;
   }
   .world-wide-area .section-top .arrow-shape img {
     height: 70px;
