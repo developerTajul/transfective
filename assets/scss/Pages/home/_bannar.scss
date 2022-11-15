@@ -1,6 +1,7 @@
 .home-bannar-area {
     padding-top: 45px;
     position: relative;
+    padding-bottom: 30px;
 
     .container {
 
@@ -332,7 +333,8 @@
         position: absolute;
         top: -15px;
         right: 8px;
-        img{
+
+        img {
             width: 20px;
         }
     }
@@ -341,7 +343,8 @@
         position: absolute;
         top: -26px;
         right: 25px;
-        img{
+
+        img {
             width: 14px;
         }
     }
@@ -409,8 +412,9 @@
         position: absolute;
         top: 40%;
     }
-        .home-bannar-area .hero-world-image{
-            margin-top: 40px;
-        }
+
+    .home-bannar-area .hero-world-image {
+        margin-top: 40px;
+    }
 
 }
